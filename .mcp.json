@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "aquasafarijetskirental-elementor": {
+      "type": "http",
+      "url": "https://jetskiadventureclearwater.com/wp-json/elementor/mcp/",
+      "headers": {
+        "Authorization": "Basic ${WP_ELEMENTOR_MCP_AUTH}"
+      }
+    }
+  }
+}

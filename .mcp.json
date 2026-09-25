@@ -6,6 +6,13 @@
       "headers": {
         "Authorization": "Basic ${WP_ELEMENTOR_MCP_AUTH}"
       }
+    },
+    "axiomsystems-elementor": {
+      "type": "http",
+      "url": "https://axiomsystems.systems/wp-json/elementor/mcp/",
+      "headers": {
+        "Authorization": "Basic ${AXIOM_ELEMENTOR_MCP_AUTH}"
+      }
     }
   }
 }

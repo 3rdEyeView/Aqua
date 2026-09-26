@@ -1,0 +1,19 @@
+# Secrets and local environment files — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials*.json
+
+# Claude Code local/user-scoped config (may hold credentials)
+.claude.json
+.claude/settings.local.json
+.mcp.local.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

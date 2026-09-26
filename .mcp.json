@@ -1,10 +1,10 @@
 {
   "mcpServers": {
-    "aquasafarijetskirental-elementor": {
+    "xtreme-jetski-watersports-elementor": {
       "type": "http",
-      "url": "https://jetskiadventureclearwater.com/wp-json/elementor/mcp/",
+      "url": "https://xtremestpete.com/wp-json/elementor/mcp/",
       "headers": {
-        "Authorization": "Basic ${WP_ELEMENTOR_MCP_AUTH}"
+        "Authorization": "Basic ${XTREME_WP_BASIC_AUTH}"
       }
     }
   }

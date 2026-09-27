@@ -8,6 +8,9 @@
 .xj-on-dark-muted { color:rgba(255,255,255,0.78); }
 .xj-bg-navy { background-color:var(--xj-navy); }
 .xj-bg-sand { background-color:var(--xj-sand); }
+.xj-split { display:flex; flex-direction:row; align-items:center; gap:80px; @media(--tablet){gap:48px;} @media(--mobile){flex-direction:column; gap:36px;} }
+.xj-cardrow { display:flex; flex-direction:row; flex-wrap:wrap; gap:24px; padding:0px; width:100%; align-items:stretch; }
+.xj-col { display:flex; flex-direction:column; gap:22px; flex:1 1 0px; padding:0px; align-items:flex-start; @media(--mobile){width:100%;} }
 .xj-section { width:100%; display:flex; flex-direction:column; align-items:center; padding-block-start:120px; padding-block-end:120px; padding-inline-start:0px; padding-inline-end:0px; @media(--tablet){padding-block-start:88px; padding-block-end:88px;} @media(--mobile){padding-block-start:64px; padding-block-end:64px;} }
 .xj-wrap { width:100%; max-width:1200px; margin-inline-start:auto; margin-inline-end:auto; padding-inline-start:28px; padding-inline-end:28px; display:flex; flex-direction:column; @media(--mobile){padding-inline-start:20px; padding-inline-end:20px;} }
 .xj-eyebrow { font-family:var(--xj-font-body); font-size:13px; font-weight:800; letter-spacing:0.2em; text-transform:uppercase; line-height:1.3; color:var(--xj-orange); margin:0px; }
@@ -22,3 +25,15 @@
 .xj-photo { width:100%; height:100%; object-fit:cover; display:block; }
 .xj-stack { display:flex; flex-direction:column; gap:20px; }
 .xj-row { display:flex; flex-direction:row; flex-wrap:wrap; align-items:center; gap:14px; @media(--mobile){flex-direction:column; align-items:stretch;} }
+.xj-tag { font-family:var(--xj-font-body); font-size:12px; font-weight:800; letter-spacing:0.16em; text-transform:uppercase; line-height:1.3; color:var(--xj-gulf); margin:0px; }
+.xj-price { font-family:var(--xj-font-display); font-size:46px; font-weight:800; line-height:1; color:var(--xj-ink); margin:0px; }
+.xj-pill { font-family:var(--xj-font-body); font-size:13px; font-weight:800; color:var(--xj-navy); background-color:var(--xj-sand); padding-block-start:10px; padding-block-end:10px; padding-inline-start:16px; padding-inline-end:16px; border-radius:999px; margin:0px; }
+.xj-panel { display:flex; flex-direction:column; gap:12px; padding:30px; background-color:#FFFFFF; border-radius:18px; flex:1 1 240px; }
+.xj-hero-inner { width:100%; display:flex; flex-direction:column; justify-content:flex-end; background-color:var(--xj-navy); background-size:cover; min-height:620px; padding-block-start:120px; padding-block-end:64px; @media(--mobile){min-height:560px; padding-block-start:96px; padding-block-end:32px;} }
+.xj-acc { flex:1 1 0px; min-width:0px; border-style:solid; border-color:rgba(4,41,58,0.14); border-width:1px 0px 0px 0px; @media(--tablet){width:100%;} }
+.xj-acc-item { border-style:solid; border-color:rgba(4,41,58,0.14); border-width:0px 0px 1px 0px; }
+.xj-acc-hd { padding-block-start:24px; padding-block-end:24px; padding-inline-start:0px; padding-inline-end:0px; gap:20px; cursor:pointer; }
+.xj-acc-q { font-family:var(--xj-font-body); font-size:19px; font-weight:800; line-height:1.35; color:var(--xj-ink); margin:0px; @media(--mobile){font-size:17px;} }
+.xj-acc-ic { width:28px; height:28px; justify-content:center; }
+.xj-acc-i { font-family:var(--xj-font-body); font-size:22px; font-weight:800; line-height:1; color:var(--xj-orange); margin:0px; }
+.xj-acc-ct { padding-block-start:0px; padding-block-end:24px; padding-inline-start:0px; padding-inline-end:0px; max-width:680px; }

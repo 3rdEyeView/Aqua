@@ -1,39 +1,40 @@
-/* Xtreme Jetski Watersports — V4 global classes (source of truth for elementor/manage-classes).
+/* NOTE: Elementor does not print V4 variables on this site's front end, so classes use literal values.
+   Xtreme Jetski Watersports — V4 global classes (source of truth for elementor/manage-classes).
    Syntax matches Elementor's class CSS: @media(--tablet|--mobile) and &:hover nesting.
    Order here == priority order in the kit (earlier wins). Parser limits discovered 2026-09-27:
    dropped: row-gap, text-shadow, filter, svh/dvh units, multi-value gap, border shorthands, nested child selectors. */
-.xj-btn-ghost { background-color:transparent; color:#FFFFFF; border-style:solid; border-width:2px; border-color:rgba(255,255,255,0.75); &:hover{background-color:#FFFFFF; color:var(--xj-ink);} }
-.xj-btn-dark { background-color:transparent; color:var(--xj-ink); border-style:solid; border-width:2px; border-color:var(--xj-ink); &:hover{background-color:var(--xj-ink); color:#FFFFFF;} }
+.xj-btn-ghost { background-color:transparent; color:#FFFFFF; border-style:solid; border-width:2px; border-color:rgba(255,255,255,0.75); &:hover{background-color:#FFFFFF; color:#0B1F29;} }
+.xj-btn-dark { background-color:transparent; color:#0B1F29; border-style:solid; border-width:2px; border-color:#0B1F29; &:hover{background-color:#0B1F29; color:#FFFFFF;} }
 .xj-on-dark { color:#FFFFFF; }
 .xj-on-dark-muted { color:rgba(255,255,255,0.78); }
-.xj-bg-navy { background-color:var(--xj-navy); }
-.xj-bg-sand { background-color:var(--xj-sand); }
+.xj-bg-navy { background-color:#04293A; }
+.xj-bg-sand { background-color:#F7F2EA; }
 .xj-split { display:flex; flex-direction:row; align-items:center; gap:80px; @media(--tablet){gap:48px;} @media(--mobile){flex-direction:column; gap:36px;} }
 .xj-cardrow { display:flex; flex-direction:row; flex-wrap:wrap; gap:24px; padding:0px; width:100%; align-items:stretch; }
 .xj-col { display:flex; flex-direction:column; gap:22px; flex:1 1 0px; padding:0px; align-items:flex-start; @media(--mobile){width:100%;} }
 .xj-section { width:100%; display:flex; flex-direction:column; align-items:center; padding-block-start:120px; padding-block-end:120px; padding-inline-start:0px; padding-inline-end:0px; @media(--tablet){padding-block-start:88px; padding-block-end:88px;} @media(--mobile){padding-block-start:64px; padding-block-end:64px;} }
 .xj-wrap { width:100%; max-width:1200px; margin-inline-start:auto; margin-inline-end:auto; padding-inline-start:28px; padding-inline-end:28px; display:flex; flex-direction:column; @media(--mobile){padding-inline-start:20px; padding-inline-end:20px;} }
-.xj-eyebrow { font-family:var(--xj-font-body); font-size:13px; font-weight:800; letter-spacing:0.2em; text-transform:uppercase; line-height:1.3; color:var(--xj-orange); margin:0px; }
-.xj-display { font-family:var(--xj-font-display); font-weight:800; text-transform:uppercase; font-size:112px; line-height:0.88; letter-spacing:-0.01em; color:#FFFFFF; margin:0px; @media(--tablet){font-size:80px;} @media(--mobile){font-size:56px; line-height:0.92;} }
-.xj-h2 { font-family:var(--xj-font-display); font-weight:800; text-transform:uppercase; font-size:68px; line-height:0.92; letter-spacing:-0.005em; color:var(--xj-ink); margin:0px; @media(--tablet){font-size:54px;} @media(--mobile){font-size:42px;} }
-.xj-h3 { font-family:var(--xj-font-display); font-weight:700; text-transform:uppercase; font-size:32px; line-height:1; letter-spacing:0.005em; color:var(--xj-ink); margin:0px; @media(--mobile){font-size:27px;} }
-.xj-lead { font-family:var(--xj-font-body); font-size:20px; line-height:1.6; font-weight:500; color:var(--xj-slate); margin:0px; max-width:640px; @media(--mobile){font-size:17px;} }
-.xj-body { font-family:var(--xj-font-body); font-size:17px; line-height:1.7; font-weight:400; color:var(--xj-slate); margin:0px; @media(--mobile){font-size:16px;} }
-.xj-small { font-family:var(--xj-font-body); font-size:14px; line-height:1.5; font-weight:600; color:var(--xj-slate); margin:0px; }
-.xj-btn { font-family:var(--xj-font-body); font-size:16px; font-weight:800; letter-spacing:0.04em; text-transform:uppercase; line-height:1; text-align:center; color:#FFFFFF; background-color:var(--xj-orange); padding-block-start:20px; padding-block-end:20px; padding-inline-start:34px; padding-inline-end:34px; border-radius:10px; border-width:0px; display:inline-block; transition:background-color 0.15s ease, transform 0.15s ease; &:hover{background-color:var(--xj-orange-deep); transform:translateY(-2px);} @media(--mobile){padding-inline-start:24px; padding-inline-end:24px; width:100%;} }
+.xj-eyebrow { font-family:Manrope, sans-serif; font-size:13px; font-weight:800; letter-spacing:0.2em; text-transform:uppercase; line-height:1.3; color:#FF6123; margin:0px; }
+.xj-display { font-family:"Barlow Condensed", sans-serif; font-weight:800; text-transform:uppercase; font-size:112px; line-height:0.88; letter-spacing:-0.01em; color:#FFFFFF; margin:0px; @media(--tablet){font-size:80px;} @media(--mobile){font-size:56px; line-height:0.92;} }
+.xj-h2 { font-family:"Barlow Condensed", sans-serif; font-weight:800; text-transform:uppercase; font-size:68px; line-height:0.92; letter-spacing:-0.005em; color:#0B1F29; margin:0px; @media(--tablet){font-size:54px;} @media(--mobile){font-size:42px;} }
+.xj-h3 { font-family:"Barlow Condensed", sans-serif; font-weight:700; text-transform:uppercase; font-size:32px; line-height:1; letter-spacing:0.005em; color:#0B1F29; margin:0px; @media(--mobile){font-size:27px;} }
+.xj-lead { font-family:Manrope, sans-serif; font-size:20px; line-height:1.6; font-weight:500; color:#51646D; margin:0px; max-width:640px; @media(--mobile){font-size:17px;} }
+.xj-body { font-family:Manrope, sans-serif; font-size:17px; line-height:1.7; font-weight:400; color:#51646D; margin:0px; @media(--mobile){font-size:16px;} }
+.xj-small { font-family:Manrope, sans-serif; font-size:14px; line-height:1.5; font-weight:600; color:#51646D; margin:0px; }
+.xj-btn { font-family:Manrope, sans-serif; font-size:16px; font-weight:800; letter-spacing:0.04em; text-transform:uppercase; line-height:1; text-align:center; color:#FFFFFF; background-color:#FF6123; padding-block-start:20px; padding-block-end:20px; padding-inline-start:34px; padding-inline-end:34px; border-radius:10px; border-width:0px; display:inline-block; transition:background-color 0.15s ease, transform 0.15s ease; &:hover{background-color:#E2470C; transform:translateY(-2px);} @media(--mobile){padding-inline-start:24px; padding-inline-end:24px; width:100%;} }
 .xj-card { padding:0px; background-color:#FFFFFF; border-radius:18px; overflow:hidden; display:flex; flex-direction:column; box-shadow:0 1px 2px rgba(4,41,58,0.06), 0 12px 32px rgba(4,41,58,0.08); transition:transform 0.2s ease, box-shadow 0.2s ease; &:hover{transform:translateY(-4px); box-shadow:0 1px 2px rgba(4,41,58,0.06), 0 22px 48px rgba(4,41,58,0.14);} }
 .xj-photo { width:100%; height:100%; object-fit:cover; display:block; }
 .xj-stack { display:flex; flex-direction:column; gap:20px; }
 .xj-row { display:flex; flex-direction:row; flex-wrap:wrap; align-items:center; gap:14px; @media(--mobile){flex-direction:column; align-items:stretch;} }
-.xj-tag { font-family:var(--xj-font-body); font-size:12px; font-weight:800; letter-spacing:0.16em; text-transform:uppercase; line-height:1.3; color:var(--xj-gulf); margin:0px; }
-.xj-price { font-family:var(--xj-font-display); font-size:46px; font-weight:800; line-height:1; color:var(--xj-ink); margin:0px; }
-.xj-pill { font-family:var(--xj-font-body); font-size:13px; font-weight:800; color:var(--xj-navy); background-color:var(--xj-sand); padding-block-start:10px; padding-block-end:10px; padding-inline-start:16px; padding-inline-end:16px; border-radius:999px; margin:0px; }
+.xj-tag { font-family:Manrope, sans-serif; font-size:12px; font-weight:800; letter-spacing:0.16em; text-transform:uppercase; line-height:1.3; color:#13B5BF; margin:0px; }
+.xj-price { font-family:"Barlow Condensed", sans-serif; font-size:46px; font-weight:800; line-height:1; color:#0B1F29; margin:0px; }
+.xj-pill { font-family:Manrope, sans-serif; font-size:13px; font-weight:800; color:#04293A; background-color:#F7F2EA; padding-block-start:10px; padding-block-end:10px; padding-inline-start:16px; padding-inline-end:16px; border-radius:999px; margin:0px; }
 .xj-panel { display:flex; flex-direction:column; gap:12px; padding:30px; background-color:#FFFFFF; border-radius:18px; flex:1 1 240px; }
-.xj-hero-inner { width:100%; display:flex; flex-direction:column; justify-content:flex-end; background-color:var(--xj-navy); background-size:cover; min-height:620px; padding-block-start:120px; padding-block-end:64px; @media(--mobile){min-height:560px; padding-block-start:96px; padding-block-end:32px;} }
+.xj-hero-inner { width:100%; display:flex; flex-direction:column; justify-content:flex-end; background-color:#04293A; background-size:cover; min-height:620px; padding-block-start:120px; padding-block-end:64px; @media(--mobile){min-height:560px; padding-block-start:96px; padding-block-end:32px;} }
 .xj-acc { flex:1 1 0px; min-width:0px; border-style:solid; border-color:rgba(4,41,58,0.14); border-width:1px 0px 0px 0px; @media(--tablet){width:100%;} }
 .xj-acc-item { border-style:solid; border-color:rgba(4,41,58,0.14); border-width:0px 0px 1px 0px; }
 .xj-acc-hd { padding-block-start:24px; padding-block-end:24px; padding-inline-start:0px; padding-inline-end:0px; gap:20px; cursor:pointer; }
-.xj-acc-q { font-family:var(--xj-font-body); font-size:19px; font-weight:800; line-height:1.35; color:var(--xj-ink); margin:0px; @media(--mobile){font-size:17px;} }
+.xj-acc-q { font-family:Manrope, sans-serif; font-size:19px; font-weight:800; line-height:1.35; color:#0B1F29; margin:0px; @media(--mobile){font-size:17px;} }
 .xj-acc-ic { width:28px; height:28px; justify-content:center; }
-.xj-acc-i { font-family:var(--xj-font-body); font-size:22px; font-weight:800; line-height:1; color:var(--xj-orange); margin:0px; }
+.xj-acc-i { font-family:Manrope, sans-serif; font-size:22px; font-weight:800; line-height:1; color:#FF6123; margin:0px; }
 .xj-acc-ct { padding-block-start:0px; padding-block-end:24px; padding-inline-start:0px; padding-inline-end:0px; max-width:680px; }

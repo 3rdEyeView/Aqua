@@ -39,3 +39,26 @@ still 301s to `/`; page 9 is a draft now).
 - GTM trigger configuration (googletagmanager.com blocked by this environment's network policy).
 - takemyboattest.com link target (blocked by network policy; link unchanged).
 - Kinsta CDN cache purge — no access; worked around for the homepage.
+
+## Mobile menu fix (2026-09-27)
+Problem: the open mobile menu let the hero show through. The header row (`a321ab5`) had z-index 2,
+so the page content painted over the fixed menu panel, and the panel was peach with forced-white links.
+The hamburger was also near-black on the navy header.
+
+Fix, in header template 27 only: a style-only HTML widget (`7e5a1c9`, `<style id="xj-mobile-nav-fix">`,
+source `design/mobile-nav.css`) added next to the existing Turnstile widget. It's served inline
+because `post-27.css` is edge-cached with no version string. It applies at mobile widths only (≤767px):
+- The header row sits above page content and the orange banner.
+- The panel is opaque navy `#04293A`, scrolls if needed, and respects iPhone safe areas.
+- Links are white (orange on tap), and the hamburger and close icons are white.
+
+Menu items, links, desktop nav, WaveRez and tracking are unchanged.
+Backup: `docs/backup/jtc-27-before-navfix.json`. To undo, remove widget `7e5a1c9` from the header.
+
+Verified live (`docs/rebuild/live/mobile-nav/`):
+- 8 rebuilt pages × 360/375/390/414/430: the panel is navy and all 8 links are visible, none covered.
+- The close button works, and each menu link goes to the right URL. "Boating License" opens in a new tab, as before.
+- Desktop at 1024 and 1440 shows the same 8-link nav with no hamburger. Header height is unchanged.
+- The WaveRez booking button opens the lightframe in place on all 8 pages.
+- iPhone Safari: tested with the iPhone Safari user agent and a mobile viewport in Chromium. WebKit isn't
+  installed in this environment, so real Safari was not run.

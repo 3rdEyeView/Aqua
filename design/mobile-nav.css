@@ -1,0 +1,11 @@
+/* Mobile menu fix (header template 27, HTML widget). Served inline because post-27.css is edge-cached. */
+.elementor-element-7e5a1c9{position:absolute!important;width:0;height:0;overflow:hidden}
+@media (max-width:767px){
+  .elementor-27 .elementor-element-a321ab5{z-index:100000!important}
+  .aw-primary-menu .jet-nav__mobile-trigger{color:#FFFFFF!important}
+  .aw-primary-menu .jet-nav-wrap.jet-mobile-menu-active .jet-nav{background-color:#04293A!important;z-index:100000;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding-top:calc(100px + env(safe-area-inset-top,0px))!important;padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))!important}
+  .aw-primary-menu .jet-nav-wrap.jet-mobile-menu-active .jet-nav > .menu-item > .menu-item-link-top{background-color:#04293A!important;color:#FFFFFF!important}
+  .aw-primary-menu .jet-nav-wrap.jet-mobile-menu-active .jet-nav > .menu-item > .menu-item-link-top:hover,
+  .aw-primary-menu .jet-nav-wrap.jet-mobile-menu-active .jet-nav > .menu-item > .menu-item-link-top:focus{color:#FF6123!important}
+  .aw-primary-menu .jet-nav__mobile-close-btn{color:#FFFFFF!important}
+}

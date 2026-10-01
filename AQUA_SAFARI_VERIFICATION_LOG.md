@@ -21,7 +21,6 @@ Site state: all 7 pages live; no changes made during this pass unless listed und
 ## Verification status: COMPLETE — no launch-critical defects. No changes made during this pass.
 
 ## Open business decisions (not defects — conflicting sources, deliberately not "fixed")
-- Homepage FAQ says operators can be 14 with a parent present; WaveRez booking terms say operators must be 18+ with a valid driver's license (interior pages use 18+).
 - Homepage says "up to 2 riders" (5×); WaveRez terms say up to 3 riders if combined weight < 360 lbs (interior pages say "two can share, under 360 lbs").
 - Cancellation refund: WaveRez tours vary between "full refund" and "refund less fees" (FAQ says fees may apply on some tours).
 - Confirm photo SeanS4 is Sean; confirm departure address may be public; WaveRez "Weeki Wachee" listing has a wrong description.
@@ -32,3 +31,10 @@ None.
 ## Notes for resuming
 - Test scripts live in the session scratchpad (not persistent). QA must be paced (~15–20 s between page loads) or WordPress.com returns 429.
 - Rollback drafts: page IDs 12, 16, 15, 14, 13, 11 (slugs `*-old`). Do not delete.
+
+## Owner-confirmed updates (2026-10-01)
+- Operator age RESOLVED by owner: operators 18+ (valid driver's license), or 14–17 with an adult/guardian riding as passenger. Applied to homepage FAQ, Three Rooker + Anclote "Operators" cards, Clearwater FAQ, FAQ page.
+- Added "Coast Guard authorized to operate as a guide" to the guide sections (homepage "Meet your guide", About "Sean Spencer").
+- Added water-shoes tip (Amazon or nearby stores) to Three Rooker + Anclote "Know before you go" and FAQ "What to bring".
+- Note: WaveRez listings still say "18+ with a valid driver's license to operate" — update them in WaveRez to match the new policy.
+- Note: after Elementor edits, run a document save (e.g. page settings save) to clear the render cache, or changes may not show publicly.

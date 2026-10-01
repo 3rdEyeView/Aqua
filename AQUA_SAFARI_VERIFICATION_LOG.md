@@ -38,3 +38,4 @@ None.
 - Added water-shoes tip (Amazon or nearby stores) to Three Rooker + Anclote "Know before you go" and FAQ "What to bring".
 - Note: WaveRez listings still say "18+ with a valid driver's license to operate" — update them in WaveRez to match the new policy.
 - Note: after Elementor edits, run a document save (e.g. page settings save) to clear the render cache, or changes may not show publicly.
+- Departure address standardized (owner request) to "Anclote Boat Ramp, 1119 Baillies Bluff Road, Holiday, FL 34691" on all 7 pages: footer contact line (every page), homepage "Meet your guide" step + FAQ answer (FAQPage schema updated automatically), Three Rooker/Anclote/Tarpon Springs departure cards, Clearwater + Tarpon Springs + FAQ page answers. Previous wording: "Anclote River Park boat ramp, 1119 Baillies Bluff Rd" / "Anclote launch area · Tarpon Springs, FL". Verified live: 0 old-address strings, Canvas, 1 H1, WaveRez script present, no overflow at 360px.

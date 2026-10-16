@@ -1,0 +1,20 @@
+curl: (56) CONNECT tunnel failed, response 403
+home desktop status=200 overflow=0 h1=["JET SKI THE GULF.\nLAND ON AN ISLAND."] fonts=true/true broken=0 tel=tel:+18135384802,tel:8135384802 wr=6 lightframe=n/a
+curl: (56) CONNECT tunnel failed, response 403
+home mobile status=200 overflow=0 h1=["JET SKI THE GULF.\nLAND ON AN ISLAND."] fonts=true/true broken=0 tel=tel:+18135384802,tel:8135384802 wr=6 lightframe=["https://reservations.waverez.com/lightframe1273279"] stayed=true
+curl: (56) CONNECT tunnel failed, response 403
+egmont-key-st-petersburg-jet-ski-tours desktop status=200 overflow=0 h1=["EGMONT KEY & ST. PETERSBURG JET SKI TOURS"] fonts=true/true broken=0 tel=tel:+18135384802,tel:8135384802 wr=6 lightframe=n/a
+curl: (56) CONNECT tunnel failed, response 403
+egmont-key-st-petersburg-jet-ski-tours mobile status=200 overflow=0 h1=["EGMONT KEY & ST. PETERSBURG JET SKI TOURS"] fonts=true/true broken=0 tel=tel:+18135384802,tel:8135384802 wr=6 lightframe=["https://reservations.waverez.com/lightframe1273279"] stayed=true
+curl: (56) CONNECT tunnel failed, response 403
+6161-2 desktop status=200 overflow=0 h1=["FORT DE SOTO JET SKI TOURS"] fonts=true/true broken=0 tel=tel:+18135384802,tel:8135384802 wr=2 lightframe=n/a
+curl: (56) CONNECT tunnel failed, response 403
+6161-2 mobile status=200 overflow=0 h1=["FORT DE SOTO JET SKI TOURS"] fonts=true/true broken=0 tel=tel:+18135384802,tel:8135384802 wr=2 lightframe=["https://reservations.waverez.com/lightframe1273279"] stayed=true
+curl: (56) CONNECT tunnel failed, response 403
+about-us desktop status=200 overflow=0 h1=["ABOUT XTREME JETSKI WATERSPORTS"] fonts=true/true broken=0 tel=tel:+18135384802,tel:8135384802 wr=2 lightframe=n/a
+curl: (56) CONNECT tunnel failed, response 403
+about-us mobile status=200 overflow=0 h1=["ABOUT XTREME JETSKI WATERSPORTS"] fonts=true/true broken=0 tel=tel:+18135384802,tel:8135384802 wr=2 lightframe=["https://reservations.waverez.com/lightframe1273279"] stayed=true
+curl: (56) CONNECT tunnel failed, response 403
+jet-ski-rentals-st-petersburg desktop status=200 overflow=0 h1=["CHECK AVAILABILITY & BOOK YOUR JET SKI IN ST. PETERSBURG"] fonts=true/true broken=0 tel=tel:+18135384802,tel:8135384802 wr=2 lightframe=n/a
+curl: (56) CONNECT tunnel failed, response 403
+jet-ski-rentals-st-petersburg mobile status=200 overflow=0 h1=["CHECK AVAILABILITY & BOOK YOUR JET SKI IN ST. PETERSBURG"] fonts=true/true broken=0 tel=tel:+18135384802,tel:8135384802 wr=2 lightframe=["https://reservations.waverez.com/lightframe1273279"] stayed=true

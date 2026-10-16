@@ -1,0 +1,156 @@
+{
+ "id": 2002,
+ "slug": "my-account",
+ "status": "publish",
+ "link": "https://xtremestpete.com/my-account/",
+ "modified_gmt": "2026-02-13T04:09:35",
+ "template": "",
+ "title": {
+  "raw": "My account",
+  "rendered": "My account"
+ },
+ "content": {
+  "raw": "<!-- wp:shortcode -->[woocommerce_my_account]<!-- /wp:shortcode -->",
+  "rendered": "<div class=\"woocommerce\"></div>\n",
+  "protected": false,
+  "block_version": 1
+ },
+ "excerpt": {
+  "raw": "",
+  "rendered": "",
+  "protected": false
+ },
+ "meta": {
+  "footnotes": "",
+  "_elementor_edit_mode": "",
+  "_elementor_template_type": "",
+  "_elementor_data": "",
+  "_elementor_page_settings": null
+ },
+ "parent": 0,
+ "menu_order": 0,
+ "latest_revisions": [],
+ "yoast_head_json": {
+  "title": "My account - Xtreme Jetski Watersports My account | Jet Ski Rentals in St. Petersburg, FL",
+  "description": "Book top-rated jet ski rentals and guided tours in St. Petersburg, FL. No hidden fees. Brand new skis. Easy booking.",
+  "robots": {
+   "index": "index",
+   "follow": "follow",
+   "max-snippet": "max-snippet:-1",
+   "max-image-preview": "max-image-preview:large",
+   "max-video-preview": "max-video-preview:-1"
+  },
+  "canonical": "https://xtremestpete.com/my-account/",
+  "og_locale": "en_US",
+  "og_type": "article",
+  "og_title": "My account - Xtreme Jetski Watersports My account | Jet Ski Rentals in St. Petersburg, FL",
+  "og_description": "Book top-rated jet ski rentals and guided tours in St. Petersburg, FL. No hidden fees. Brand new skis. Easy booking.",
+  "og_url": "https://xtremestpete.com/my-account/",
+  "og_site_name": "Xtreme Jetski Watersports",
+  "article_publisher": "https://www.facebook.com/p/Xtreme-Jetski-Watersports-100091345715641/",
+  "og_image": [
+   {
+    "width": 1024,
+    "height": 1024,
+    "url": "https://xtremestpete.com/wp-content/uploads/2025/05/JetSkiRentalLogo.png",
+    "type": "image/png"
+   }
+  ],
+  "twitter_card": "summary_large_image",
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "WebPage",
+     "@id": "https://xtremestpete.com/my-account/",
+     "url": "https://xtremestpete.com/my-account/",
+     "name": "My account - Xtreme Jetski Watersports My account | Jet Ski Rentals in St. Petersburg, FL",
+     "isPartOf": {
+      "@id": "https://xtremestpete.com/#website"
+     },
+     "datePublished": "2026-02-13T04:09:35+00:00",
+     "description": "Book top-rated jet ski rentals and guided tours in St. Petersburg, FL. No hidden fees. Brand new skis. Easy booking.",
+     "breadcrumb": {
+      "@id": "https://xtremestpete.com/my-account/#breadcrumb"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": [
+      {
+       "@type": "ReadAction",
+       "target": [
+        "https://xtremestpete.com/my-account/"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://xtremestpete.com/my-account/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://xtremestpete.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "My account"
+      }
+     ]
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://xtremestpete.com/#website",
+     "url": "https://xtremestpete.com/",
+     "name": "Xtreme Jetski Watersports",
+     "description": "Jet Ski Rental",
+     "publisher": {
+      "@id": "https://xtremestpete.com/#organization"
+     },
+     "potentialAction": [
+      {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://xtremestpete.com/?s={search_term_string}"
+       },
+       "query-input": {
+        "@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueName": "search_term_string"
+       }
+      }
+     ],
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://xtremestpete.com/#organization",
+     "name": "Xtreme Jetski Watersports",
+     "url": "https://xtremestpete.com/",
+     "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://xtremestpete.com/#/schema/logo/image/",
+      "url": "https://xtremestpete.com/wp-content/uploads/2025/05/JetSkiRentalLogo.png",
+      "contentUrl": "https://xtremestpete.com/wp-content/uploads/2025/05/JetSkiRentalLogo.png",
+      "width": 1024,
+      "height": 1024,
+      "caption": "Xtreme Jetski Watersports"
+     },
+     "image": {
+      "@id": "https://xtremestpete.com/#/schema/logo/image/"
+     },
+     "sameAs": [
+      "https://www.facebook.com/p/Xtreme-Jetski-Watersports-100091345715641/",
+      "https://www.tiktok.com/@xtremejetskiwatersports",
+      "https://www.youtube.com/channel/UCrbwYKO60uSz9f5DBzrY39Q",
+      "https://www.tripadvisor.com/Attraction_Review-g34607-d33111671-Reviews-Xtreme_Jet_Ski_Watersports-St_Petersburg_Florida.html"
+     ]
+    }
+   ]
+  }
+ }
+}

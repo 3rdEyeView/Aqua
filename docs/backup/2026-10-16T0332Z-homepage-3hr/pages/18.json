@@ -1,0 +1,161 @@
+{
+ "id": 18,
+ "slug": "terms-and-conditions",
+ "status": "publish",
+ "link": "https://xtremestpete.com/terms-and-conditions/",
+ "modified_gmt": "2026-02-16T01:00:09",
+ "template": "",
+ "title": {
+  "raw": "Terms and Conditions",
+  "rendered": "Terms and Conditions"
+ },
+ "content": {
+  "raw": "<h1>Terms and Conditions.</h1>\t\t\t\t\n\t\t<p>Welcome to Xtreme Jetski Watersports! Before using our services, we require you to carefully read and agree to our terms and conditions:</p><ol data-rte-list=\"default\"><li><p>Safety is our top priority. Xtreme Jetski Watersports reserves the right to cancel any reservation or refuse service to any person who is deemed unsafe or intoxicated.</p></li><li><p>All participants must be at least 18 years of age or have written consent from a parent or legal guardian.</p></li><li><p>All participants must be able to swim and wear a life jacket at all times during the activity.</p></li><li><p>All participants must complete a safety briefing before starting any activity.</p></li><li><p>Xtreme Jetski Watersports is not liable for any injuries or damages that occur during the activity. Participants assume all risks and are required to sign a liability waiver before participating.</p></li><li><p>Cancellations and refunds: Participants must provide at least 72 hours' notice for cancellations or rescheduling. No-shows or cancellations made less than 72 hours in advance will not be refunded.</p></li><li><p>Weather conditions: Xtreme Jetski Watersports reserves the right to cancel or reschedule any activity due to weather conditions or safety concerns.</p></li><li><p>Participants must follow all instructions and safety guidelines given by Xtreme Jetski Watersports staff.</p></li><li><p>Participants may not bring any outside equipment or gear unless approved by Xtreme Jetski Watersports staff.</p></li><li><p>Participants are responsible for any damages caused to the equipment during the activity.</p></li><li><p>Participants must not engage in any reckless or dangerous behavior during the activity.</p></li><li><p>Xtreme Jetski Watersports reserves the right to modify or update these terms and conditions at any time without notice.</p></li></ol><p>By using our services, you agree to these terms and conditions. If you have any questions or concerns, please contact us before participating.</p>",
+  "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"18\" class=\"elementor elementor-18\">\n\t\t\t\t<div class=\"elementor-element elementor-element-80b2ee0 e-flex e-con-boxed e-con e-parent\" data-id=\"80b2ee0\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-e23a5c8 elementor-widget elementor-widget-heading\" data-id=\"e23a5c8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h1 class=\"elementor-heading-title elementor-size-default\">Terms and Conditions.</h1>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-a816df5 e-flex e-con-boxed e-con e-parent\" data-id=\"a816df5\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;gradient&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-3e742ec elementor-widget elementor-widget-text-editor\" data-id=\"3e742ec\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p class=\"\">Welcome to Xtreme Jetski Watersports! Before using our services, we require you to carefully read and agree to our terms and conditions:</p><ol data-rte-list=\"default\"><li><p class=\"\">Safety is our top priority. Xtreme Jetski Watersports reserves the right to cancel any reservation or refuse service to any person who is deemed unsafe or intoxicated.</p></li><li><p class=\"\">All participants must be at least 18 years of age or have written consent from a parent or legal guardian.</p></li><li><p class=\"\">All participants must be able to swim and wear a life jacket at all times during the activity.</p></li><li><p class=\"\">All participants must complete a safety briefing before starting any activity.</p></li><li><p class=\"\">Xtreme Jetski Watersports is not liable for any injuries or damages that occur during the activity. Participants assume all risks and are required to sign a liability waiver before participating.</p></li><li><p class=\"\">Cancellations and refunds: Participants must provide at least 72 hours&#8217; notice for cancellations or rescheduling. No-shows or cancellations made less than 72 hours in advance will not be refunded.</p></li><li><p class=\"\">Weather conditions: Xtreme Jetski Watersports reserves the right to cancel or reschedule any activity due to weather conditions or safety concerns.</p></li><li><p class=\"\">Participants must follow all instructions and safety guidelines given by Xtreme Jetski Watersports staff.</p></li><li><p class=\"\">Participants may not bring any outside equipment or gear unless approved by Xtreme Jetski Watersports staff.</p></li><li><p class=\"\">Participants are responsible for any damages caused to the equipment during the activity.</p></li><li><p class=\"\">Participants must not engage in any reckless or dangerous behavior during the activity.</p></li><li><p class=\"\">Xtreme Jetski Watersports reserves the right to modify or update these terms and conditions at any time without notice.</p></li></ol><p class=\"\">By using our services, you agree to these terms and conditions. If you have any questions or concerns, please contact us before participating.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+  "protected": false,
+  "block_version": 0
+ },
+ "excerpt": {
+  "raw": "",
+  "rendered": "<p>Terms and Conditions. Welcome to Xtreme Jetski Watersports! Before using our services, we require you to carefully read and agree to our terms and conditions: Safety is our top priority. Xtreme Jetski Watersports reserves the right to cancel any reservation or refuse service to any person who is deemed unsafe or intoxicated. All participants must [&hellip;]</p>\n",
+  "protected": false
+ },
+ "meta": {
+  "footnotes": "",
+  "_elementor_edit_mode": "builder",
+  "_elementor_template_type": "wp-page",
+  "_elementor_data": "[{\"id\":\"80b2ee0\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"row\",\"min_height\":{\"unit\":\"vh\",\"size\":100,\"sizes\":[]},\"min_height_tablet\":{\"unit\":\"vh\",\"size\":55,\"sizes\":[]},\"min_height_mobile\":{\"unit\":\"vh\",\"size\":65,\"sizes\":[]},\"flex_direction_tablet\":\"row\",\"flex_justify_content\":\"center\",\"flex_align_items\":\"center\",\"flex_gap\":{\"column\":\"\",\"row\":\"\",\"isLinked\":true,\"unit\":\"px\",\"size\":null},\"flex_gap_tablet\":{\"column\":\"20\",\"row\":\"20\",\"isLinked\":true,\"unit\":\"px\",\"size\":20},\"flex_gap_mobile\":{\"column\":\"\",\"row\":\"\",\"isLinked\":true,\"unit\":\"px\",\"size\":null},\"background_background\":\"classic\",\"background_color_stop\":{\"unit\":\"%\",\"size\":55,\"sizes\":[]},\"background_color_b\":\"#F8A787\",\"background_color_b_stop\":{\"unit\":\"%\",\"size\":86,\"sizes\":[]},\"background_gradient_angle\":{\"unit\":\"deg\",\"size\":360,\"sizes\":[]},\"background_image\":{\"url\":\"https:\\/\\/xtremestpete.com\\/wp-content\\/uploads\\/2025\\/12\\/PassageGroup-scaled.jpg\",\"id\":624,\"size\":\"\",\"alt\":\"\",\"source\":\"library\"},\"background_position\":\"center center\",\"background_repeat\":\"no-repeat\",\"background_size\":\"cover\",\"background_overlay_background\":\"classic\",\"background_overlay_opacity\":{\"unit\":\"px\",\"size\":0.2,\"sizes\":[]},\"margin\":{\"unit\":\"px\",\"top\":\"-230\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"padding\":{\"unit\":\"px\",\"top\":\"300\",\"right\":\"15\",\"bottom\":\"150\",\"left\":\"15\",\"isLinked\":false},\"padding_tablet\":{\"unit\":\"px\",\"top\":\"220\",\"right\":\"15\",\"bottom\":\"100\",\"left\":\"15\",\"isLinked\":false},\"__globals__\":{\"background_color_b\":\"\",\"background_color\":\"\",\"background_overlay_color\":\"globals\\/colors?id=secondary\"}},\"elements\":[{\"id\":\"e23a5c8\",\"elType\":\"widget\",\"settings\":{\"title\":\"Terms and Conditions.\",\"header_size\":\"h1\",\"typography_typography\":\"custom\",\"typography_font_size\":{\"unit\":\"px\",\"size\":40,\"sizes\":[]},\"typography_font_size_tablet\":{\"unit\":\"px\",\"size\":35,\"sizes\":[]},\"typography_font_size_mobile\":{\"unit\":\"px\",\"size\":30,\"sizes\":[]},\"typography_font_weight\":\"500\",\"__globals__\":{\"title_color\":\"\"},\"title_color\":\"#FF9600\"},\"elements\":[],\"widgetType\":\"heading\"}],\"isInner\":false},{\"id\":\"a816df5\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"row\",\"boxed_width\":{\"unit\":\"px\",\"size\":800,\"sizes\":[]},\"boxed_width_tablet\":{\"unit\":\"%\",\"size\":95,\"sizes\":[]},\"boxed_width_mobile\":{\"unit\":\"%\",\"size\":\"\",\"sizes\":[]},\"flex_gap\":{\"column\":\"70\",\"row\":\"20\",\"isLinked\":false,\"unit\":\"px\",\"size\":70},\"flex_gap_tablet\":{\"column\":\"20\",\"row\":\"20\",\"isLinked\":true,\"unit\":\"px\",\"size\":20},\"flex_gap_mobile\":{\"column\":\"\",\"row\":\"\",\"isLinked\":true,\"unit\":\"px\",\"size\":null},\"background_background\":\"gradient\",\"background_color_stop\":{\"unit\":\"%\",\"size\":16,\"sizes\":[]},\"background_color_b\":\"#236DFF9E\",\"background_color_b_stop\":{\"unit\":\"%\",\"size\":70,\"sizes\":[]},\"background_gradient_type\":\"radial\",\"background_gradient_position\":\"bottom left\",\"padding\":{\"unit\":\"px\",\"top\":\"70\",\"right\":\"15\",\"bottom\":\"100\",\"left\":\"15\",\"isLinked\":false},\"padding_tablet\":{\"unit\":\"px\",\"top\":\"60\",\"right\":\"15\",\"bottom\":\"80\",\"left\":\"15\",\"isLinked\":false},\"padding_mobile\":{\"unit\":\"px\",\"top\":\"40\",\"right\":\"15\",\"bottom\":\"60\",\"left\":\"15\",\"isLinked\":false},\"__globals__\":{\"background_color_b\":\"\",\"background_color\":\"globals\\/colors?id=primary\"},\"background_color\":\"#FF6123\"},\"elements\":[{\"id\":\"3e742ec\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p class=\\\"\\\">Welcome to Xtreme Jetski Watersports! Before using our services, we require you to carefully read and agree to our terms and conditions:<\\/p><ol data-rte-list=\\\"default\\\"><li><p class=\\\"\\\">Safety is our top priority. Xtreme Jetski Watersports reserves the right to cancel any reservation or refuse service to any person who is deemed unsafe or intoxicated.<\\/p><\\/li><li><p class=\\\"\\\">All participants must be at least 18 years of age or have written consent from a parent or legal guardian.<\\/p><\\/li><li><p class=\\\"\\\">All participants must be able to swim and wear a life jacket at all times during the activity.<\\/p><\\/li><li><p class=\\\"\\\">All participants must complete a safety briefing before starting any activity.<\\/p><\\/li><li><p class=\\\"\\\">Xtreme Jetski Watersports is not liable for any injuries or damages that occur during the activity. Participants assume all risks and are required to sign a liability waiver before participating.<\\/p><\\/li><li><p class=\\\"\\\">Cancellations and refunds: Participants must provide at least 72 hours' notice for cancellations or rescheduling. No-shows or cancellations made less than 72 hours in advance will not be refunded.<\\/p><\\/li><li><p class=\\\"\\\">Weather conditions: Xtreme Jetski Watersports reserves the right to cancel or reschedule any activity due to weather conditions or safety concerns.<\\/p><\\/li><li><p class=\\\"\\\">Participants must follow all instructions and safety guidelines given by Xtreme Jetski Watersports staff.<\\/p><\\/li><li><p class=\\\"\\\">Participants may not bring any outside equipment or gear unless approved by Xtreme Jetski Watersports staff.<\\/p><\\/li><li><p class=\\\"\\\">Participants are responsible for any damages caused to the equipment during the activity.<\\/p><\\/li><li><p class=\\\"\\\">Participants must not engage in any reckless or dangerous behavior during the activity.<\\/p><\\/li><li><p class=\\\"\\\">Xtreme Jetski Watersports reserves the right to modify or update these terms and conditions at any time without notice.<\\/p><\\/li><\\/ol><p class=\\\"\\\">By using our services, you agree to these terms and conditions. If you have any questions or concerns, please contact us before participating.<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}]",
+  "_elementor_page_settings": null
+ },
+ "parent": 0,
+ "menu_order": 0,
+ "latest_revisions": [],
+ "yoast_head_json": {
+  "title": "Terms and Conditions | Xtreme Jetski Watersports",
+  "description": "Terms and conditions for jet ski rentals and guided tours with Xtreme Jetski Watersports in St. Petersburg, FL.",
+  "robots": {
+   "index": "index",
+   "follow": "follow",
+   "max-snippet": "max-snippet:-1",
+   "max-image-preview": "max-image-preview:large",
+   "max-video-preview": "max-video-preview:-1"
+  },
+  "canonical": "https://xtremestpete.com/terms-and-conditions/",
+  "og_locale": "en_US",
+  "og_type": "article",
+  "og_title": "Terms and Conditions | Xtreme Jetski Watersports",
+  "og_description": "Terms and conditions for jet ski rentals and guided tours with Xtreme Jetski Watersports in St. Petersburg, FL.",
+  "og_url": "https://xtremestpete.com/terms-and-conditions/",
+  "og_site_name": "Xtreme Jetski Watersports",
+  "article_publisher": "https://www.facebook.com/p/Xtreme-Jetski-Watersports-100091345715641/",
+  "article_modified_time": "2026-02-16T01:00:09+00:00",
+  "og_image": [
+   {
+    "width": 1024,
+    "height": 1024,
+    "url": "https://xtremestpete.com/wp-content/uploads/2025/05/JetSkiRentalLogo.png",
+    "type": "image/png"
+   }
+  ],
+  "twitter_card": "summary_large_image",
+  "twitter_misc": {
+   "Est. reading time": "2 minutes"
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "WebPage",
+     "@id": "https://xtremestpete.com/terms-and-conditions/",
+     "url": "https://xtremestpete.com/terms-and-conditions/",
+     "name": "Terms and Conditions | Xtreme Jetski Watersports",
+     "isPartOf": {
+      "@id": "https://xtremestpete.com/#website"
+     },
+     "datePublished": "2025-05-10T01:32:43+00:00",
+     "dateModified": "2026-02-16T01:00:09+00:00",
+     "description": "Terms and conditions for jet ski rentals and guided tours with Xtreme Jetski Watersports in St. Petersburg, FL.",
+     "breadcrumb": {
+      "@id": "https://xtremestpete.com/terms-and-conditions/#breadcrumb"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": [
+      {
+       "@type": "ReadAction",
+       "target": [
+        "https://xtremestpete.com/terms-and-conditions/"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://xtremestpete.com/terms-and-conditions/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://xtremestpete.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Terms and Conditions"
+      }
+     ]
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://xtremestpete.com/#website",
+     "url": "https://xtremestpete.com/",
+     "name": "Xtreme Jetski Watersports",
+     "description": "Jet Ski Rental",
+     "publisher": {
+      "@id": "https://xtremestpete.com/#organization"
+     },
+     "potentialAction": [
+      {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://xtremestpete.com/?s={search_term_string}"
+       },
+       "query-input": {
+        "@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueName": "search_term_string"
+       }
+      }
+     ],
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://xtremestpete.com/#organization",
+     "name": "Xtreme Jetski Watersports",
+     "url": "https://xtremestpete.com/",
+     "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://xtremestpete.com/#/schema/logo/image/",
+      "url": "https://xtremestpete.com/wp-content/uploads/2025/05/JetSkiRentalLogo.png",
+      "contentUrl": "https://xtremestpete.com/wp-content/uploads/2025/05/JetSkiRentalLogo.png",
+      "width": 1024,
+      "height": 1024,
+      "caption": "Xtreme Jetski Watersports"
+     },
+     "image": {
+      "@id": "https://xtremestpete.com/#/schema/logo/image/"
+     },
+     "sameAs": [
+      "https://www.facebook.com/p/Xtreme-Jetski-Watersports-100091345715641/",
+      "https://www.tiktok.com/@xtremejetskiwatersports",
+      "https://www.youtube.com/channel/UCrbwYKO60uSz9f5DBzrY39Q",
+      "https://www.tripadvisor.com/Attraction_Review-g34607-d33111671-Reviews-Xtreme_Jet_Ski_Watersports-St_Petersburg_Florida.html"
+     ]
+    }
+   ]
+  }
+ }
+}

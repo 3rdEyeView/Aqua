@@ -1,0 +1,142 @@
+[
+ {
+  "id": "g-e0dc74a",
+  "label": "xj-btn-ghost"
+ },
+ {
+  "id": "g-f142a0e",
+  "label": "xj-btn-dark"
+ },
+ {
+  "id": "g-ca64ff4",
+  "label": "xj-on-dark"
+ },
+ {
+  "id": "g-799dffe",
+  "label": "xj-on-dark-muted"
+ },
+ {
+  "id": "g-9593987",
+  "label": "xj-bg-navy"
+ },
+ {
+  "id": "g-597df6f",
+  "label": "xj-bg-sand"
+ },
+ {
+  "id": "g-33e7cbc",
+  "label": "xj-split"
+ },
+ {
+  "id": "g-77fe5e1",
+  "label": "xj-cardrow"
+ },
+ {
+  "id": "g-7ba5f3c",
+  "label": "xj-col"
+ },
+ {
+  "id": "g-632bee7",
+  "label": "xj-section"
+ },
+ {
+  "id": "g-785584b",
+  "label": "xj-wrap"
+ },
+ {
+  "id": "g-480c213",
+  "label": "xj-eyebrow"
+ },
+ {
+  "id": "g-d787f42",
+  "label": "xj-display"
+ },
+ {
+  "id": "g-72acc2e",
+  "label": "xj-h2"
+ },
+ {
+  "id": "g-e182b8d",
+  "label": "xj-h3"
+ },
+ {
+  "id": "g-afa1713",
+  "label": "xj-lead"
+ },
+ {
+  "id": "g-8b5265d",
+  "label": "xj-body"
+ },
+ {
+  "id": "g-ceabad0",
+  "label": "xj-small"
+ },
+ {
+  "id": "g-373ffd2",
+  "label": "xj-btn"
+ },
+ {
+  "id": "g-23c4685",
+  "label": "xj-card"
+ },
+ {
+  "id": "g-861ecd9",
+  "label": "xj-photo"
+ },
+ {
+  "id": "g-5bc24c5",
+  "label": "xj-stack"
+ },
+ {
+  "id": "g-bd2832d",
+  "label": "xj-row"
+ },
+ {
+  "id": "g-d938b0d",
+  "label": "xj-tag"
+ },
+ {
+  "id": "g-35610a7",
+  "label": "xj-price"
+ },
+ {
+  "id": "g-3bbfffe",
+  "label": "xj-pill"
+ },
+ {
+  "id": "g-9762a3e",
+  "label": "xj-panel"
+ },
+ {
+  "id": "g-9d3ff66",
+  "label": "xj-hero-inner"
+ },
+ {
+  "id": "g-954095c",
+  "label": "xj-acc"
+ },
+ {
+  "id": "g-e47bb75",
+  "label": "xj-acc-item"
+ },
+ {
+  "id": "g-9ad12cb",
+  "label": "xj-acc-hd"
+ },
+ {
+  "id": "g-d200f4a",
+  "label": "xj-acc-q"
+ },
+ {
+  "id": "g-491d38e",
+  "label": "xj-acc-ic"
+ },
+ {
+  "id": "g-5cfdbb8",
+  "label": "xj-acc-i"
+ },
+ {
+  "id": "g-c1935a1",
+  "label": "xj-acc-ct"
+ }
+]

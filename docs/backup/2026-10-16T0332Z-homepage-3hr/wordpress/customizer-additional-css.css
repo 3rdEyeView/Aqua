@@ -1,0 +1,198 @@
+
+/* =========================================================
+GLOBAL: Remove the white gap above header
+========================================================= */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.site,
+.site-header,
+header,
+.elementor-location-header {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* =========================================================
+MOBILE FIX
+========================================================= */
+@media (max-width: 767px){
+  .hero-value-section + .elementor-section,
+  .hero-value-section + .e-con,
+  .hero-value-section + .e-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+  }
+
+  .hero-value-section + .elementor-section .elementor-column,
+  .hero-value-section + .elementor-section .elementor-widget-wrap,
+  .hero-value-section + .elementor-section .elementor-element-populated,
+  .hero-value-section + .e-con > *,
+  .hero-value-section + .e-container > * {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    flex: 0 0 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .hero-value-section + .elementor-section *,
+  .hero-value-section + .e-con *,
+  .hero-value-section + .e-container * {
+    min-width: 0 !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+    hyphens: none !important;
+  }
+}
+
+/* =========================================================
+CTA ROW
+========================================================= */
+.hero-cta-row{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:18px;
+  flex-wrap:wrap;
+}
+
+.call-now-link{
+  font-weight:600;
+  text-decoration:none;
+  color:#ff4f7a;
+  transition: opacity 0.2s ease;
+}
+
+.call-now-link:hover{
+  opacity:0.7;
+}
+
+@media (max-width:640px){
+  .hero-cta-row{
+    flex-direction:column;
+  }
+}
+
+.hero-call-link{
+  display:inline-block;
+  background:linear-gradient(180deg,#19d38f 0%, #00B67A 100%);
+  color:#fff;
+  font-weight:900;
+  font-size:20px;
+  padding:16px 32px;
+  border-radius:12px;
+  text-decoration:none;
+  letter-spacing:.5px;
+  box-shadow:0 8px 20px rgba(0,182,122,0.35);
+  transition:all .25s ease;
+  animation:callGlow 2.4s infinite;
+}
+
+.hero-call-link:hover{
+  transform:translateY(-3px) scale(1.03);
+  box-shadow:
+    0 0 12px rgba(0,255,170,.7),
+    0 0 22px rgba(0,255,170,.5),
+    0 12px 28px rgba(0,182,122,.45);
+}
+
+@keyframes callGlow{
+  0%{box-shadow:0 0 6px rgba(0,255,170,.4)}
+  50%{box-shadow:0 0 18px rgba(0,255,170,.9)}
+  100%{box-shadow:0 0 6px rgba(0,255,170,.4)}
+}
+
+/* =========================================================
+HEADER NAVY STYLE
+========================================================= */
+header,
+.site-header,
+.elementor-location-header,
+.elementor-location-header .elementor-section,
+.elementor-location-header .e-con {
+  background: #04293A !important;
+}
+
+header a,
+.site-header a,
+.elementor-location-header a {
+  color: #ffffff !important;
+}
+
+header a:hover,
+.site-header a:hover,
+.elementor-location-header a:hover {
+  color: #FF6123 !important;
+}
+
+header img,
+.site-header img {
+  background: transparent !important;
+}
+
+header,
+.site-header,
+.elementor-location-header {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+/* =========================================================
+SPACING FIXES
+========================================================= */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.elementor-section:first-of-type {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.elementor-location-header {
+  margin-bottom: 0 !important;
+}
+
+.elementor-section.elementor-top-section {
+  margin-top: 0 !important;
+}
+
+.elementor-section {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* =========================================================
+HERO TEXT FIXES (SAFE)
+========================================================= */
+.hero-reassurance {
+  margin-top: 16px;
+  font-size: 0.98rem;
+  color: #000000;
+  opacity: 1;
+}
+
+.hero-description {
+  max-width: 900px;
+  margin: 0 auto 28px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-weight: 600;
+  color: #000000;
+}
+
+.hero-price {
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin-bottom: 18px;
+  color: #000000;
+  letter-spacing: 0.3px;
+}

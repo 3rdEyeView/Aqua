@@ -28,7 +28,7 @@ const fs = require('fs');
         } catch (e) { await r.abort(); }
       });
       const page = await ctx.newPage();
-      const bust = url + (url.includes('?') ? '&' : '?') + 'qa=' + Date.now();
+      const bust = process.env.PLAIN ? url : url + (url.includes('?') ? '&' : '?') + 'qa=' + Date.now(); // PLAIN=1: exactly what ordinary visitors get
       // Cloudflare challenges headless document requests; fetch the live HTML with curl (allowed),
       // then render it with a <base> so every asset still loads from the live site.
       const ua = mobile ? 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) Mobile Safari/604.1 XtremeAudit-Claude/1.0' : 'Mozilla/5.0 Chrome/128.0 XtremeAudit-Claude/1.0';
@@ -47,6 +47,7 @@ const fs = require('fs');
         h1: [...document.querySelectorAll('h1')].map(h => h.innerText.trim().slice(0, 60)),
         barlow: document.fonts.check('800 40px "Barlow Condensed"'), manrope: document.fonts.check('500 16px Manrope'),
         brokenImgs: [...document.images].filter(i => i.complete && i.naturalWidth === 0 && i.src).map(i => i.src.slice(-60)),
+        hero: [...document.querySelectorAll('.xj-hero-inner')].map(h => getComputedStyle(h).backgroundSize).join('|'),
         tel: [...new Set([...document.querySelectorAll('a[href^="tel:"]')].map(a => a.getAttribute('href')))],
         wr: [...new Set([...document.querySelectorAll('a[href*="reservations.waverez.com"],[data-waverez-id]')].map(a => a.getAttribute('href') || 'data-waverez-id=' + a.getAttribute('data-waverez-id')))],
       }));
@@ -61,7 +62,7 @@ const fs = require('fs');
           await page.screenshot({ path: `${out}/${slug}-mobile-lightframe.png` });
         }
       }
-      console.log(`${slug} ${name} status=${resp.status()} overflow=${info.overflow} h1=${JSON.stringify(info.h1)} fonts=${info.barlow}/${info.manrope} broken=${info.brokenImgs.length} tel=${info.tel} wr=${info.wr.length} lightframe=${lf}`);
+      console.log(`${slug} ${name} status=${resp.status()} overflow=${info.overflow} h1=${JSON.stringify(info.h1)} fonts=${info.barlow}/${info.manrope} broken=${info.brokenImgs.length} hero=${info.hero} tel=${info.tel} wr=${info.wr.length} lightframe=${lf}`);
       await ctx.close();
     }
   }

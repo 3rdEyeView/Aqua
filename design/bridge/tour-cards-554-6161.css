@@ -1,0 +1,23 @@
+/* Egmont Key 554: .xj-panel rule dropped by the stray \n in the edge-cached bundle */
+.elementor-554 .xj-panel{padding:30px;border-radius:18px;background-color:#FFFFFF;display:flex;flex-direction:column;gap:12px;flex:1 1 240px;}
+.elementor-554 .e-6bdc46b-6e81{position:relative;padding:34px;background-color:#F7F2EA;gap:14px;}
+.elementor-554 .e-7359ec7e-6616{position:relative;padding:34px;background-color:#04293A;gap:14px;}
+.elementor-554 .e-4fab8a3-317f{position:relative;padding:34px;background-color:#F7F2EA;gap:14px;}
+.elementor-554 .e-76aed395-a8b9{padding:44px;gap:16px;flex:1 1 0px;}
+.elementor-554 .e-1b835eca-b689{padding:44px;gap:16px;flex:1 1 0px;align-items:flex-start;}
+@media (max-width:767px){
+.elementor-554 .e-76aed395-a8b9{padding:28px;}
+.elementor-554 .e-1b835eca-b689{padding:28px;}
+}
+/* Fort De Soto 6161 */
+.elementor-6161 .xj-panel{padding:30px;border-radius:18px;background-color:#FFFFFF;display:flex;flex-direction:column;gap:12px;flex:1 1 240px;}
+.elementor-6161 .e-62438d8b-2d09{padding:40px;background-color:#04293A;gap:16px;flex:0 0 400px;}
+.elementor-6161 .e-4d0f7f58-3102{padding:34px;gap:14px;}
+.elementor-6161 .e-73a11a78-3d98{padding:34px;gap:14px;}
+.elementor-6161 .e-1d3448-e3a0{padding:34px;gap:14px;}
+@media (max-width:1024px){
+.elementor-6161 .e-62438d8b-2d09{flex:0 0 340px;}
+}
+@media (max-width:767px){
+.elementor-6161 .e-62438d8b-2d09{width:100%;padding:28px;flex:1 1 auto;}
+}

@@ -10,7 +10,7 @@ function cf(u){const o=execFileSync('curl',['-sS','-L','-A','Mozilla/5.0 Chrome/
   const ctx=await b.newContext({viewport:{width:w,height:900},isMobile:mob,hasTouch:w<1025,userAgent:ua});
   await ctx.route(/^https?:/,async r=>{const u=r.request().url(); if(!/xtremestpete\.com|waverez\.com|googleapis|gstatic/.test(u)){try{await r.fulfill({response:await r.fetch({timeout:20000})})}catch(e){await r.abort()}return;} try{const x=cf(u);await r.fulfill({status:200,body:x.body,contentType:x.contentType})}catch(e){await r.abort()}});
   const p=await ctx.newPage(); const errs=[]; p.on('pageerror',e=>errs.push(e.message.slice(0,120)));
-  await p.goto('file://'+hp,{waitUntil:'domcontentloaded',timeout:60000}); await p.addStyleTag({content:'.cmplz-cookiebanner,.cmplz-soft-cookiewall{display:none!important}'});
+  await p.goto('file://'+hp,{waitUntil:'domcontentloaded',timeout:60000}); await p.addStyleTag({content:'.cmplz-cookiebanner,.cmplz-soft-cookiewall{display:none!important}'}); if(process.env.NOBRIDGE) await p.evaluate(()=>{const b=document.getElementById('xj-cdn-bridge'); if(b) b.remove();}); // NOBRIDGE=1: test without the temporary CDN bridge
   await p.evaluate(async()=>{document.querySelectorAll('img[loading="lazy"]').forEach(i=>{i.loading='eager'});for(let y=0;y<document.body.scrollHeight;y+=500){scrollTo(0,y);await new Promise(r=>setTimeout(r,80))}scrollTo(0,0)});
   await p.waitForFunction(()=>[...document.querySelectorAll('.elementor-element-119cd4b5 img')].every(i=>i.complete),null,{timeout:30000}).catch(()=>{});
   await p.waitForTimeout(1500);

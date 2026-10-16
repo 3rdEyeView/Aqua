@@ -17,3 +17,5 @@ credentials*.json
 Thumbs.db
 .vscode/
 .idea/
+
+__pycache__/

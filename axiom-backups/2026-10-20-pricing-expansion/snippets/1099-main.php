@@ -1,0 +1,124 @@
+<?php
+/**
+ * Axiom Get Started Form
+ * Replaces the AXIOM_GS_FORM_SLOT marker on the Get Started page with
+ * Jetpack form 1096, records the ?plan= interest in the hidden field,
+ * and styles the form to match the Axiom design system.
+ */
+namespace AngieSnippets\AxiomGetStartedForm_1099;
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+const FORM_ID      = 1096;
+const MARKER       = 'AXIOM_GS_FORM_SLOT';
+const DEFAULT_PLAN = 'Website (no plan selected)';
+// Approved scheduling link. Leave empty until one is provided.
+const CALENDLY_URL = '';
+
+function plans() {
+	return array(
+		'growth-system'        => array( 'Axiom Growth System', '$597/month' ),
+		'review-automation'    => array( 'Review Automation', '+$99/month' ),
+		'lead-response'        => array( 'Lead Response', '+$149/month' ),
+		'follow-up-automation' => array( 'Follow-Up Automation', '+$199/month' ),
+	);
+}
+
+function current_plan() {
+	if ( empty( $_GET['plan'] ) ) {
+		return null;
+	}
+	$key   = sanitize_key( wp_unslash( $_GET['plan'] ) );
+	$plans = plans();
+	return isset( $plans[ $key ] ) ? array( $key, $plans[ $key ][0], $plans[ $key ][1] ) : null;
+}
+
+function styles() {
+	return '<style id="axgs-form-css">
+.axgs{width:100%}
+.axgs-plan{margin:0 0 20px;padding:12px 16px;border-radius:10px;background:var(--ax-blue-soft,#EAF1FD);color:var(--ax-ink,#0A1628);font-family:var(--ax-body,Inter),sans-serif;font-size:15px;line-height:1.4}
+.axgs-plan span{display:block;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ax-blue,#1D6CE2);margin-bottom:2px}
+.axgs .wp-block-jetpack-contact-form{display:flex;flex-direction:column;gap:18px;padding:0;margin:0}
+.axgs .wp-block-jetpack-contact-form>*{width:100%!important;flex:0 0 100%!important;max-width:100%!important;margin:0!important}
+.axgs .grunion-field-wrap,.axgs .contact-form__input-wrap{width:100%}
+.axgs label,.axgs .grunion-field-label{display:block;font-family:var(--ax-body,Inter),sans-serif;font-size:14px;font-weight:600;color:var(--ax-ink,#0A1628);margin:0 0 6px;line-height:1.3}
+.axgs .grunion-label-required{font-weight:500;color:var(--ax-muted,#5B6778);font-size:12px;margin-left:4px}
+.axgs input[type=text],.axgs input[type=email],.axgs input[type=tel],.axgs input[type=url],.axgs textarea{width:100%!important;max-width:100%;box-sizing:border-box;min-height:52px;padding:13px 15px;border:1px solid var(--ax-line,#E2E7EE)!important;border-radius:10px!important;background:#fff!important;color:var(--ax-ink,#0A1628);font-family:var(--ax-body,Inter),sans-serif;font-size:16px;line-height:1.4;box-shadow:none;transition:border-color .15s,box-shadow .15s}
+.axgs textarea{min-height:132px;resize:vertical}
+.axgs input:focus,.axgs textarea:focus{outline:none;border-color:var(--ax-blue,#1D6CE2)!important;box-shadow:0 0 0 3px rgba(29,108,226,.18)}
+.axgs input::placeholder,.axgs textarea::placeholder,.axgs .grunion-field::placeholder{color:#8A94A3!important;opacity:1!important}
+.axgs .wp-block-jetpack-button,.axgs .wp-block-button{margin-top:4px!important}
+.axgs button[type=submit],.axgs .wp-block-button__link{display:block;width:100%!important;min-height:56px;padding:16px 24px;border:0!important;border-radius:10px!important;background:var(--ax-blue,#1D6CE2)!important;color:#fff!important;font-family:var(--ax-display,Manrope),sans-serif;font-size:15px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:background .15s}
+.axgs button[type=submit]:hover,.axgs button[type=submit]:focus-visible{background:var(--ax-blue-deep,#1553B4)!important}
+.axgs .contact-form__input-error{color:#B42318;font-size:14px}
+.axgs .contact-form__error.show-errors{background:#FEF3F2!important;color:#B42318!important;border:1px solid #FECDCA;border-radius:10px;padding:12px 16px;font-family:var(--ax-body,Inter),sans-serif;font-size:14px;line-height:1.5}
+.axgs .contact-form__error.show-errors *{color:inherit!important}
+.axgs .contact-form-submission{font-family:var(--ax-body,Inter),sans-serif;color:var(--ax-ink,#0A1628);padding:8px 0}
+.axgs .contact-form-submission .go-back-message{display:none}
+.axgs .contact-form-submission h4{margin:0 0 10px;font-family:var(--ax-display,Manrope),sans-serif;font-size:1.75rem;font-weight:800;letter-spacing:-.02em;line-height:1.15;color:var(--ax-ink,#0A1628)}
+.axgs .jetpack_forms_contact-form-custom-success-message{font-size:1rem;line-height:1.6;color:var(--ax-muted,#5B6778)}
+.axgs-cal-wrap{display:none;margin:14px 0 0}
+.axgs:has(.submission-success) .axgs-cal-wrap{display:block}
+.axgs-cal{color:var(--ax-blue,#1D6CE2);font-weight:700;text-decoration:none}
+</style>';
+}
+
+function script( $label ) {
+	$data = wp_json_encode(
+		array(
+			'def'   => DEFAULT_PLAN,
+			'label' => $label,
+		)
+	);
+	// Mobile keyboards and autofill hints; keep the plan label in the hidden field.
+	return '<script id="axgs-form-js">(function(){var d=' . $data . ',f=document.querySelector(".axgs form");if(!f)return;'
+		. 'var h={name:"name",businessname:"organization",email:"email",phone:"tel",currentwebsite:"url"};'
+		. 'Object.keys(h).forEach(function(k){var el=f.querySelector("[name$=\'-"+k+"\']");if(el){el.setAttribute("autocomplete",h[k]);}});'
+		. 'var u=f.querySelector("[name$=\'-currentwebsite\']");if(u){u.setAttribute("inputmode","url");}'
+		. 'if(d.label){f.querySelectorAll("input[type=hidden]").forEach(function(el){if(el.value===d.def){el.value=d.label;}});}})();</script>';
+}
+
+function render_form() {
+	$plan  = current_plan();
+	$label = $plan ? $plan[1] . ' — ' . $plan[2] . ' (plan=' . $plan[0] . ')' : '';
+
+	$form = do_blocks( '<!-- wp:jetpack/contact-form {"ref":' . FORM_ID . '} /-->' );
+	if ( $label ) {
+		// Server-side: set the hidden field's value (input value and the
+		// interactivity context). Labels come from the allowlist above and
+		// contain no quote, backslash or markup characters.
+		$form = str_replace( DEFAULT_PLAN, $label, $form );
+	}
+
+	$html = styles() . '<div class="axgs">';
+	if ( $plan ) {
+		$html .= '<p class="axgs-plan"><span>Interested in</span>' . esc_html( $plan[1] ) . ' — ' . esc_html( $plan[2] ) . '</p>';
+	}
+	$html .= $form;
+	if ( '' !== CALENDLY_URL ) {
+		// Hidden by CSS until the form reports a successful submission.
+		$html .= '<p class="axgs-cal-wrap"><a class="axgs-cal" href="' . esc_url( CALENDLY_URL ) . '" target="_blank" rel="noopener">Want to talk sooner? Schedule a Call →</a></p>';
+	}
+	$html .= '</div>';
+	$html .= script( $label );
+	return $html;
+}
+
+function replace_marker( $content ) {
+	if ( ! is_string( $content ) || false === strpos( $content, MARKER ) ) {
+		return $content;
+	}
+	return preg_replace_callback(
+		'#<p\b[^>]*>\s*' . MARKER . '\s*</p>#',
+		function () {
+			return render_form();
+		},
+		$content,
+		1
+	);
+}
+
+add_filter( 'elementor/frontend/the_content', __NAMESPACE__ . '\\replace_marker', 20 );
+add_filter( 'the_content', __NAMESPACE__ . '\\replace_marker', 999 );

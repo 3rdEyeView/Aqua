@@ -27,3 +27,18 @@ live Pricing page at the same height (the draft was then deleted). WordPress/Ele
 
 Snippet 1099 plan keys: growth-system, review-automation, lead-response, follow-up-automation.
 No checkout/payment links existed on these pages. Tracking: GA4 GT-55XGH597, Google Ads AW-17878870459.
+
+## Staging (2026-10-20)
+All page changes are staged on draft copies, not on the live pages:
+1309 Pricing · 1310 Add-Ons · 1311 Home · 1312 Our Work · 1313 FAQ · 1314 Get Started · 1315 How It Works.
+`proposed-snippets/` holds the reviewed new source for snippets 1099 (plan keys + legacy aliases) and
+1135 (mobile-menu copy). Snippets go live when saved, so they are applied only at publish time.
+
+### Publish procedure (after approval)
+1. Re-verify each live page still matches `pages/<id>.json` (no edits since backup).
+2. Copy each staging draft's `_elementor_data` and page settings into its live page via REST,
+   re-apply the `elementor_canvas` template, regenerate Elementor CSS, and confirm the render.
+3. Save `proposed-snippets/` into snippets 1099 and 1135.
+4. Set Services (107) to noindex in Yoast (this also removes it from the XML sitemap).
+5. Clear the Kinsta cache, re-run QA on the live URLs, then delete the staging drafts.
+Rollback: `restore.py <ids>` plus the original `snippets/` sources; set 107 back to index.

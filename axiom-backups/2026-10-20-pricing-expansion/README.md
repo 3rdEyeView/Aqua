@@ -42,3 +42,18 @@ All page changes are staged on draft copies, not on the live pages:
 4. Set Services (107) to noindex in Yoast (this also removes it from the XML sitemap).
 5. Clear the Kinsta cache, re-run QA on the live URLs, then delete the staging drafts.
 Rollback: `restore.py <ids>` plus the original `snippets/` sources; set 107 back to index.
+
+## Published 2026-10-20/21 (UTC)
+Approved changes are live on 952, 1068, 1074, 1085, 1095, 1013, 1031; snippets 1099 and 1135 are
+updated and published; Services (107) is noindex (out of the sitemap) and its Primary Menu item 205
+was removed (`menu3-before.json` has the original menu). `after-publish/` holds the live state after
+publication. Staging drafts 1309–1315 were deleted after verification.
+
+Rollback notes learned during publish:
+- After writing `_elementor_data` via REST, Elementor keeps serving cached HTML. Save the page once
+  through Elementor (any element update via the Elementor MCP, then `elementor-publish-document`),
+  then re-apply the `elementor_canvas` template.
+- Snippet file changes only go live after `angie-publish-snippet`.
+- Yoast descriptions come from post_content; regenerate it from the rendered page after a restore.
+- To restore the menu item: add a Primary Menu item for page 107 at position 3.
+- To re-index Services: set Yoast noindex back to null for page 107.

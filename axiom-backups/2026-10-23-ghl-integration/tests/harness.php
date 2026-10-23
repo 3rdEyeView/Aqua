@@ -169,16 +169,21 @@ $w = writes();
 ok( 'sent' === S\get_state( 109 )['status'] && array( 'axiom-integration-test' ) === end( $w )[2]['tags'], 'test mode: listed email sent with test tag' );
 ok( ! in_array( '/opportunities/', array_column( $w, 1 ), true ), 'test mode never creates opportunities' );
 
-// --- api opportunity mode: existing open one reused, otherwise created once
+// --- opportunities are left to the GHL workflow, even with a stale 'api' setting
 reset_all( 'live', array( 'opportunity_mode' => 'api', 'pipeline_id' => 'P1', 'stage_id' => 'S1' ) );
 submit( 110 ); run_queue();
-$opp = array_values( array_filter( writes(), function ( $c ) { return '/opportunities/' === $c[1]; } ) );
-ok( 1 === count( $opp ) && 'S1' === $opp[0][2]['pipelineStageId'] && 'open' === $opp[0][2]['status'], 'api mode: creates one opportunity at New Lead' );
-reset_all( 'live', array( 'opportunity_mode' => 'api', 'pipeline_id' => 'P1', 'stage_id' => 'S1' ) );
+$opp_calls = array_values( array_filter( $GLOBALS['CALLS'], function ( $c ) { return false !== strpos( $c[1], '/opportunities' ); } ) );
+ok( 'sent' === S\get_state( 110 )['status'] && array( 'GET' ) === array_unique( array_column( $opp_calls, 0 ) ), 'live mode: snippet never creates opportunities (read-only check only)' );
+ok( false !== strpos( (string) S\get_state( 110 )['opportunity_check'], 'in pipeline' ), 'live mode: follow-up check confirms the workflow opportunity' );
+
+// --- verification reports the location duplicate settings (read-only)
+reset_all( 'dry-run' );
 $base = fake_ok();
-$GLOBALS['FAKE'] = function ( $m, $url, $a ) use ( $base ) { if ( false !== strpos( $url, '/opportunities/search' ) ) return array( 'code' => 200, 'body' => json_encode( array( 'opportunities' => array( array( 'id' => 'OLD', 'status' => 'open' ) ) ) ) ); return $base( $m, $url, $a ); };
-submit( 111 ); run_queue();
-ok( 0 === count( array_filter( writes(), function ( $c ) { return '/opportunities/' === $c[1]; } ) ) && 'OLD' === S\get_state( 111 )['opportunity_id'], 'api mode: existing open opportunity reused, none created' );
+$GLOBALS['FAKE'] = function ( $m, $url, $a ) use ( $base ) { if ( preg_match( '#/locations/[^/?]+$#', parse_url( $url, PHP_URL_PATH ) ) ) return array( 'code' => 200, 'body' => json_encode( array( 'location' => array( 'id' => 'WSbB7bUher6I1M2VNlZz', 'name' => 'AxiomSystems', 'settings' => array( 'allowDuplicateContact' => false, 'allowDuplicateOpportunity' => false ) ) ) ) ); return $base( $m, $url, $a ); };
+$v = S\verify();
+$dup = $v['checks']['location (locations.readonly)']['duplicate_settings'];
+ok( false === $dup['allowDuplicateContact'] && false === $dup['allowDuplicateOpportunity'] && 'not returned' === $dup['allowFacebookNameMerge'], 'verify: duplicate settings reported' );
+ok( 0 === count( writes() ), 'verify: still no write requests' );
 
 // --- protected field values: fallback snapshot from email values still works
 reset_all( 'live' );

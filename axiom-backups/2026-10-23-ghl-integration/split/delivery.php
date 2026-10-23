@@ -162,16 +162,8 @@ function deliver( $post_id ) {
 		}
 	}
 
-	// 3. Opportunity via API only if chosen; default leaves it to the workflow.
-	if ( 'api' === $s['opportunity_mode'] && empty( $state['opportunity_id'] ) && 'live' === $mode ) {
-		$opp = ensure_opportunity( $state['contact_id'], $snap, $s );
-		if ( is_wp_error( $opp ) ) {
-			return fail_or_retry( $post_id, $opp );
-		}
-		$state = set_state( $post_id, array( 'opportunity_id' => $opp['id'] ), $opp['created'] ? 'opportunity created ' . $opp['id'] : 'open opportunity already exists ' . $opp['id'] );
-	}
-
-	// 4. Tag last, so the workflow starts with the contact and note in place.
+	// 3. Tag last, so the workflow starts with the contact and note in place.
+	//    The workflow (not this snippet) creates the New Lead opportunity.
 	//    Adding a tag the contact already has does not restart a tag-added trigger.
 	if ( empty( $state['tagged'] ) ) {
 		$r = api( 'POST', '/contacts/' . $cid . '/tags', array( 'tags' => array( $tag ) ), true );
@@ -185,47 +177,6 @@ function deliver( $post_id ) {
 	if ( function_exists( 'as_schedule_single_action' ) && $s['pipeline_id'] ) {
 		as_schedule_single_action( time() + 300, CHECK_JOB, array( $post_id ), GROUP );
 	}
-}
-
-/** Finds an open opportunity for the contact in the Axiom pipeline, or creates one at New Lead. */
-function ensure_opportunity( $contact_id, $snap, $s ) {
-	if ( ! $s['pipeline_id'] || ! $s['stage_id'] ) {
-		return new \WP_Error( 'axiom_no_pipeline', 'Pipeline/stage not verified yet.', array( 'retry' => false ) );
-	}
-	$q = '/opportunities/search?' . http_build_query(
-		array(
-			'location_id' => $s['location_id'],
-			'contact_id'  => $contact_id,
-			'pipeline_id' => $s['pipeline_id'],
-			'status'      => 'open',
-		)
-	);
-	$r = api( 'GET', $q );
-	if ( is_wp_error( $r ) ) {
-		return $r;
-	}
-	if ( ! empty( $r['opportunities'][0]['id'] ) ) {
-		return array( 'id' => (string) $r['opportunities'][0]['id'], 'created' => false );
-	}
-	$name = field( $snap, 'Business name' ) ? field( $snap, 'Business name' ) : field( $snap, 'Name' );
-	$r    = api(
-		'POST',
-		'/opportunities/',
-		array(
-			'pipelineId'      => $s['pipeline_id'],
-			'pipelineStageId' => $s['stage_id'],
-			'locationId'      => $s['location_id'],
-			'contactId'       => $contact_id,
-			'name'            => $name . ' - Website lead',
-			'status'          => 'open',
-			'source'          => SOURCE,
-		),
-		true
-	);
-	if ( is_wp_error( $r ) ) {
-		return $r;
-	}
-	return array( 'id' => isset( $r['opportunity']['id'] ) ? (string) $r['opportunity']['id'] : 'created', 'created' => true );
 }
 
 function fail_or_retry( $post_id, $error ) {

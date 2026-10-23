@@ -29,8 +29,13 @@ function verify() {
 		'location (locations.readonly)',
 		api( 'GET', '/locations/' . $loc ),
 		function ( $r ) use ( $s ) {
-			$l = isset( $r['location'] ) ? $r['location'] : $r;
-			return array( 'name' => isset( $l['name'] ) ? $l['name'] : '', 'id_matches' => isset( $l['id'] ) && $l['id'] === $s['location_id'] );
+			$l   = isset( $r['location'] ) ? $r['location'] : $r;
+			$set = isset( $l['settings'] ) && is_array( $l['settings'] ) ? $l['settings'] : array();
+			$dup = array();
+			foreach ( array( 'allowDuplicateContact', 'allowDuplicateOpportunity', 'allowFacebookNameMerge' ) as $k ) {
+				$dup[ $k ] = array_key_exists( $k, $set ) ? $set[ $k ] : 'not returned';
+			}
+			return array( 'name' => isset( $l['name'] ) ? $l['name'] : '', 'id_matches' => isset( $l['id'] ) && $l['id'] === $s['location_id'], 'duplicate_settings' => $dup );
 		}
 	);
 	$check(
@@ -164,9 +169,6 @@ add_action(
 							}
 							if ( isset( $request['test_emails'] ) ) {
 								$changes['test_emails'] = sanitize_textarea_field( $request['test_emails'] );
-							}
-							if ( isset( $request['opportunity_mode'] ) ) {
-								$changes['opportunity_mode'] = sanitize_key( $request['opportunity_mode'] );
 							}
 							$s = save_settings( $changes );
 							unset( $s['verified'] );

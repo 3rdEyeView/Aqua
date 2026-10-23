@@ -14,7 +14,6 @@ function defaults() {
 		'location_id'      => defined( 'AXIOM_GHL_LOCATION_ID' ) ? AXIOM_GHL_LOCATION_ID : DEFAULT_LOCATION,
 		'pipeline_id'      => '',
 		'stage_id'         => '',
-		'opportunity_mode' => 'workflow',
 		// Form label => GoHighLevel custom field ID (contact model). Empty = not mapped.
 		'field_map'        => array(),
 		'test_emails'      => '',
@@ -31,9 +30,6 @@ function save_settings( $changes ) {
 	$s = array_merge( settings(), $changes );
 	if ( ! in_array( $s['mode'], array( 'off', 'dry-run', 'test', 'live' ), true ) ) {
 		$s['mode'] = 'dry-run';
-	}
-	if ( ! in_array( $s['opportunity_mode'], array( 'workflow', 'api' ), true ) ) {
-		$s['opportunity_mode'] = 'workflow';
 	}
 	update_option( OPT, $s, false );
 	return $s;
@@ -273,7 +269,7 @@ function preview( $post_id, $snap, $s ) {
 		'contact_fields' => array_values( $fields ),
 		'note_chars'     => strlen( build_note( $post_id, $snap ) ),
 		'tag'            => 'test' === $s['mode'] ? TEST_TAG : LEAD_TAG,
-		'opportunity'    => $s['opportunity_mode'],
+		'opportunity'    => 'created by the GoHighLevel workflow',
 		'source'         => 'set only if the contact is new',
 	);
 }

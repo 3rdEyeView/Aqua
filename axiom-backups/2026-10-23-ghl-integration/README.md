@@ -30,9 +30,9 @@ Source of truth: `split/` (main, capture, delivery, verify, admin). Offline test
    - Set `source` only if the contact was newly created.
    - Add one note per entry, marked "Axiom website entry #ID" and checked before a
      retry so it isn't duplicated.
-   - Opportunity: default `workflow` (the GHL workflow creates it). An optional `api` mode
-     creates one in "AXIOM | Standard Client Pipeline" / New Lead only if the contact
-     has no open opportunity there.
+   - No opportunity is created here: the Instant New Lead Response workflow creates it
+     (owner-confirmed: re-entry off, multiple opportunities off, stop on response on).
+     A read-only check 5 minutes later records whether the contact has one.
    - Add the `axiom-new-lead` tag **last**, so a workflow fires once, after the data is
      in place.
 3. Failures: 429/5xx/network errors retry at 1m, 5m, 30m, 2h and 12h, then the entry is marked
@@ -49,8 +49,10 @@ SMS Consent field is never set; the snippet sends no messages itself.
 Location WSbB7bUher6I1M2VNlZz = "AxiomSystems". All six read scopes OK. Pipeline
 gWBaXOSSXt70oOgBlvXN, stage eb77750e-edd9-49b1-8186-a4bde1481599 stored. Tag
 `axiom-new-lead` exists; the test tag will be created on the first test-mode delivery.
-Write scopes (contacts.write, opportunities.write) can only be confirmed by the first
-test-mode delivery.
+Duplicate settings (`verify-3.json`, read from the location record): `allowDuplicateContact`
+false, `allowDuplicateOpportunity` false, `allowFacebookNameMerge` false, so a returning
+lead updates the existing contact. The contacts.write scope can only be confirmed by the first
+test-mode delivery; opportunities.write is not needed.
 
 ## Field mapping (approved by owner 2026-10-23)
 

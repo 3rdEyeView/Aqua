@@ -57,7 +57,6 @@ function admin_page() {
 				save_settings(
 					array(
 						'mode'             => $mode,
-						'opportunity_mode' => sanitize_key( wp_unslash( isset( $_POST['opportunity_mode'] ) ? $_POST['opportunity_mode'] : 'workflow' ) ),
 						'field_map'        => posted_field_map(),
 						'test_emails'      => sanitize_textarea_field( wp_unslash( isset( $_POST['test_emails'] ) ? $_POST['test_emails'] : '' ) ),
 					)
@@ -100,7 +99,7 @@ function admin_page() {
 		echo '<option value="' . esc_attr( $k ) . '"' . selected( $s['mode'], $k, false ) . '>' . esc_html( $label ) . '</option>';
 	}
 	echo '</select> <label><input type="checkbox" name="confirm_live" value="1"> I confirm live delivery is approved</label></td></tr>';
-	echo '<tr><th>Opportunity</th><td><select name="opportunity_mode"><option value="workflow"' . selected( $s['opportunity_mode'], 'workflow', false ) . '>Created by the GoHighLevel workflow (tag only)</option><option value="api"' . selected( $s['opportunity_mode'], 'api', false ) . '>Created here if the contact has no open one</option></select></td></tr>';
+	echo '<tr><th>Opportunity</th><td>Created by the GoHighLevel workflow (Instant New Lead Response). This snippet never creates opportunities.</td></tr>';
 	foreach ( mapped_labels() as $i => $label ) {
 		$id = isset( $s['field_map'][ $label ] ) ? $s['field_map'][ $label ] : '';
 		echo '<tr><th>Custom field ID for &ldquo;' . esc_html( $label ) . '&rdquo;</th><td><input name="field_map[' . (int) $i . ']" class="regular-text" value="' . esc_attr( $id ) . '"> <span class="description">Empty: not mapped (still in the note).</span></td></tr>';

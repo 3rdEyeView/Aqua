@@ -1,0 +1,355 @@
+{
+ "/": {
+  "title": [
+   "Managed Websites & CRM for Local Businesses | Axiom Systems"
+  ],
+  "description": [
+   "Professional websites for small and local businesses, built and managed by Axiom, plus Axiom CRM, automated follow-up, Google review requests and Google Ads."
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/"
+  ],
+  "og:title": [
+   "Managed Websites & CRM for Local Businesses | Axiom Systems"
+  ],
+  "og:description": [
+   "Professional websites for small and local businesses, built and managed by Axiom, plus Axiom CRM, automated follow-up, Google review requests and Google Ads."
+  ],
+  "og:site_name": [
+   "Axiom Systems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ],
+   [
+    "FAQPage"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "Managed Websites & CRM for Local Businesses | Axiom Systems",
+   "WebSite": "Axiom Systems",
+   "Organization": "Axiom Systems",
+   "FAQPage": null
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 0
+ },
+ "/pricing/": {
+  "title": [
+   "Pricing: Managed Website Plans from $299/mo | Axiom Systems"
+  ],
+  "description": [
+   "Simple monthly plans for local businesses: a managed website from $299/month, Axiom Growth with CRM and automated follow-up for $599, and Google Ads management."
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/pricing/"
+  ],
+  "og:title": [
+   "Pricing: Managed Website Plans from $299/mo | Axiom Systems"
+  ],
+  "og:description": [
+   "Simple monthly plans for local businesses: a managed website from $299/month, Axiom Growth with CRM and automated follow-up for $599, and Google Ads management."
+  ],
+  "og:site_name": [
+   "Axiom Systems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/pricing/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "Pricing: Managed Website Plans from $299/mo | Axiom Systems",
+   "WebSite": "Axiom Systems",
+   "Organization": "Axiom Systems"
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 0
+ },
+ "/add-ons/": {
+  "title": [
+   "Lead Response & Follow-Up Automation Add-Ons | Axiom Systems"
+  ],
+  "description": [
+   "Reply to new leads faster and follow up automatically. Add missed-call text-back and SMS & email follow-up to your Axiom website, or get both with Axiom Growth."
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/add-ons/"
+  ],
+  "og:title": [
+   "Lead Response & Follow-Up Automation Add-Ons | Axiom Systems"
+  ],
+  "og:description": [
+   "Reply to new leads faster and follow up automatically. Add missed-call text-back and SMS & email follow-up to your Axiom website, or get both with Axiom Growth."
+  ],
+  "og:site_name": [
+   "Axiom Systems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/add-ons/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "Lead Response & Follow-Up Automation Add-Ons | Axiom Systems",
+   "WebSite": "Axiom Systems",
+   "Organization": "Axiom Systems"
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 0
+ },
+ "/faq/": {
+  "title": [
+   "FAQ: Pricing, Plans & What's Included | Axiom Systems"
+  ],
+  "description": [
+   "Straight answers for small business owners about Axiom's managed websites, Axiom CRM, setup fees, cancellation, ownership and what each monthly plan includes."
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/faq/"
+  ],
+  "og:title": [
+   "FAQ: Pricing, Plans & What's Included | Axiom Systems"
+  ],
+  "og:description": [
+   "Straight answers for small business owners about Axiom's managed websites, Axiom CRM, setup fees, cancellation, ownership and what each monthly plan includes."
+  ],
+  "og:site_name": [
+   "Axiom Systems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/faq/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ],
+   [
+    "FAQPage"
+   ],
+   [
+    "FAQPage"
+   ],
+   [
+    "FAQPage"
+   ],
+   [
+    "FAQPage"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "FAQ: Pricing, Plans & What's Included | Axiom Systems",
+   "WebSite": "Axiom Systems",
+   "Organization": "Axiom Systems",
+   "FAQPage": null
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 0
+ },
+ "/get-started/": {
+  "title": [
+   "Get Started: Tell Us About Your Business | Axiom Systems"
+  ],
+  "description": [
+   "Tell us about your business in a short form and we'll recommend the right plan. Nothing is charged to submit. Plans for local businesses start at $299/month."
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/get-started/"
+  ],
+  "og:title": [
+   "Get Started: Tell Us About Your Business | Axiom Systems"
+  ],
+  "og:description": [
+   "Tell us about your business in a short form and we'll recommend the right plan. Nothing is charged to submit. Plans for local businesses start at $299/month."
+  ],
+  "og:site_name": [
+   "Axiom Systems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/get-started/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "Get Started: Tell Us About Your Business | Axiom Systems",
+   "WebSite": "Axiom Systems",
+   "Organization": "Axiom Systems"
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 1
+ },
+ "/how-it-works/": {
+  "title": [
+   "How Our Managed Website Service Works | Axiom Systems"
+  ],
+  "description": [
+   "See how Axiom designs, builds and launches a custom website for your small business, then keeps hosting, updating, backing up and supporting it every month."
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/how-it-works/"
+  ],
+  "og:title": [
+   "How Our Managed Website Service Works | Axiom Systems"
+  ],
+  "og:description": [
+   "See how Axiom designs, builds and launches a custom website for your small business, then keeps hosting, updating, backing up and supporting it every month."
+  ],
+  "og:site_name": [
+   "Axiom Systems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/how-it-works/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "How Our Managed Website Service Works | Axiom Systems",
+   "WebSite": "Axiom Systems",
+   "Organization": "Axiom Systems"
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 0
+ },
+ "/our-work/": {
+  "title": [
+   "Our Work: Custom Local Business Websites | Axiom Systems"
+  ],
+  "description": [
+   "See live websites Axiom designed and built for local service, trade and tour businesses on Florida's Gulf Coast. Every site is custom, never a template."
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/our-work/"
+  ],
+  "og:title": [
+   "Our Work: Custom Local Business Websites | Axiom Systems"
+  ],
+  "og:description": [
+   "See live websites Axiom designed and built for local service, trade and tour businesses on Florida's Gulf Coast. Every site is custom, never a template."
+  ],
+  "og:site_name": [
+   "Axiom Systems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/our-work/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "Our Work: Custom Local Business Websites | Axiom Systems",
+   "WebSite": "Axiom Systems",
+   "Organization": "Axiom Systems"
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 0
+ }
+}

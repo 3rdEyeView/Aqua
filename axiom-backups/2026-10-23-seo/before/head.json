@@ -1,0 +1,341 @@
+{
+ "/": {
+  "title": [
+   "Home - AxiomSystems"
+  ],
+  "description": [],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/"
+  ],
+  "og:title": [
+   "Home - AxiomSystems"
+  ],
+  "og:description": [
+   "Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Get Started WEBSITES, CRM & AUTOMATION FOR LOCAL BUSINESSES Websites that turn leads into customers. Fully managed. Axiom builds and manages the systems local businesses need to grow: a custom website we host and maintain, free Google review requests, and, when you’re ready, Axiom CRM, […]"
+  ],
+  "og:site_name": [
+   "AxiomSystems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ],
+   [
+    "FAQPage"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "Home - AxiomSystems",
+   "WebSite": "AxiomSystems",
+   "Organization": "AxiomSystems",
+   "FAQPage": null
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 0
+ },
+ "/pricing/": {
+  "title": [
+   "Pricing - AxiomSystems"
+  ],
+  "description": [],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/pricing/"
+  ],
+  "og:title": [
+   "Pricing - AxiomSystems"
+  ],
+  "og:description": [
+   "Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Get Started PRICING Plans that grow with your business. Start with a professionally managed website. Add Axiom CRM and automated follow-up, or bring in new leads with Google Ads, when your business is ready. Every plan builds on the same connected system. INCLUDED WITH EVERY […]"
+  ],
+  "og:site_name": [
+   "AxiomSystems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/pricing/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "Pricing - AxiomSystems",
+   "WebSite": "AxiomSystems",
+   "Organization": "AxiomSystems"
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 0
+ },
+ "/add-ons/": {
+  "title": [
+   "Add-Ons - AxiomSystems"
+  ],
+  "description": [],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/add-ons/"
+  ],
+  "og:title": [
+   "Add-Ons - AxiomSystems"
+  ],
+  "og:description": [
+   "Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Get Started ADD-ONS Build the system your business needs. Respond faster, follow up consistently and win more of the leads you already get. Add individual automations to Axiom Essential, or get everything working together with Axiom Growth. Compare plans → Google Review Requests Every Axiom […]"
+  ],
+  "og:site_name": [
+   "AxiomSystems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/add-ons/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "Add-Ons - AxiomSystems",
+   "WebSite": "AxiomSystems",
+   "Organization": "AxiomSystems"
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 0
+ },
+ "/faq/": {
+  "title": [
+   "FAQ - AxiomSystems"
+  ],
+  "description": [],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/faq/"
+  ],
+  "og:title": [
+   "FAQ - AxiomSystems"
+  ],
+  "og:description": [
+   "Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Get Started FAQ Questions? We’ve got answers. Straight answers about pricing, what’s included and how it works, so you know exactly what you’re signing up for. PRICING & BILLING How much does it cost? Axiom Essential is $299 a month and Axiom Growth is $599 […]"
+  ],
+  "og:site_name": [
+   "AxiomSystems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/faq/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ],
+   [
+    "FAQPage"
+   ],
+   [
+    "FAQPage"
+   ],
+   [
+    "FAQPage"
+   ],
+   [
+    "FAQPage"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "FAQ - AxiomSystems",
+   "WebSite": "AxiomSystems",
+   "Organization": "AxiomSystems",
+   "FAQPage": null
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 0
+ },
+ "/get-started/": {
+  "title": [
+   "Get Started - AxiomSystems"
+  ],
+  "description": [],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/get-started/"
+  ],
+  "og:title": [
+   "Get Started - AxiomSystems"
+  ],
+  "og:description": [
+   "Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Get Started GET STARTED Let’s grow your business. Submit your business details and we’ll guide you through the next steps. Nothing is charged when you send this form. Essential $299/mo · Growth $599/mo · Marketing from $1,500/mo Sending this form doesn’t start a subscription or […]"
+  ],
+  "og:site_name": [
+   "AxiomSystems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/get-started/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "Get Started - AxiomSystems",
+   "WebSite": "AxiomSystems",
+   "Organization": "AxiomSystems"
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 1
+ },
+ "/how-it-works/": {
+  "title": [
+   "How It Works - AxiomSystems"
+  ],
+  "description": [],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/how-it-works/"
+  ],
+  "og:title": [
+   "How It Works - AxiomSystems"
+  ],
+  "og:description": [
+   "Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Get Started HOW WEBSITE AS A SERVICE WORKS We build it. We launch it. Then we keep taking care of it. Axiom designs and builds a custom website for your business, puts it live, and then stays on as the team responsible for it. Here’s […]"
+  ],
+  "og:site_name": [
+   "AxiomSystems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/how-it-works/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "How It Works - AxiomSystems",
+   "WebSite": "AxiomSystems",
+   "Organization": "AxiomSystems"
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 0
+ },
+ "/our-work/": {
+  "title": [
+   "Our Work - AxiomSystems"
+  ],
+  "description": [],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "canonical": [
+   "https://axiomsystems.systems/our-work/"
+  ],
+  "og:title": [
+   "Our Work - AxiomSystems"
+  ],
+  "og:description": [
+   "Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Get Started OUR WORK The work is the pitch. Every site here is live. A pressure washing and coatings company in Pinellas County. A custom tile contractor in Tampa Bay. Two jet ski tour operators on Florida’s Gulf Coast. Real businesses with real customers, and […]"
+  ],
+  "og:site_name": [
+   "AxiomSystems"
+  ],
+  "og:url": [
+   "https://axiomsystems.systems/our-work/"
+  ],
+  "twitter": [
+   "summary_large_image"
+  ],
+  "schema_types": [
+   [
+    "WebPage",
+    "BreadcrumbList",
+    "WebSite",
+    "Organization"
+   ]
+  ],
+  "schema_names": {
+   "WebPage": "Our Work - AxiomSystems",
+   "WebSite": "AxiomSystems",
+   "Organization": "AxiomSystems"
+  },
+  "org_telephone": [
+   "+1-727-591-7527"
+  ],
+  "gtag": 2,
+  "tel_links": 3,
+  "form": 0
+ }
+}

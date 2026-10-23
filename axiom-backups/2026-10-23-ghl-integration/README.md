@@ -52,6 +52,17 @@ gWBaXOSSXt70oOgBlvXN, stage eb77750e-edd9-49b1-8186-a4bde1481599 stored. Tag
 Write scopes (contacts.write, opportunities.write) can only be confirmed by the first
 test-mode delivery.
 
+## Field mapping (approved by owner 2026-10-23)
+
+| Form field | GHL contact custom field |
+|---|---|
+| Business name | Business Name `4ZYDZGWO0Z3TUuZIgWqX` (also sent as companyName) |
+| Current website | Current Website URL `HUtHUw3TbnQn9ZZD864k` (also sent as website) |
+| Plan interest | Service Interest `o8EzFOVQrRoWE1OWqA5H` |
+| Tell us about your business | Primary Business Challenge `EB63uFUp0FROWGBS2QGG` |
+
+Name, email and phone go to the standard contact fields. An empty answer is never sent.
+
 ## Rollback
 
 Set mode to Off (Tools → Axiom CRM Sync), or unpublish/delete snippet 1398. The form,

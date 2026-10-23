@@ -27,3 +27,8 @@ t.php / t.js — offline unit tests; live-test.js / spam-sim.js — live browser
 LEAD_CONVERSION_SEND_TO = AW-17889231515/6i7MCMaIsqYdEJuFoNJC ("Submit lead form", confirmed by owner in Google Ads).
 Live snippet source: `snippet-1099-main.active.php`. Final test: tests/final-test.js (entry 1373 fired once;
 1374 marked spam fired zero; validation, failed request, reload and replay fired zero). Pause: set the constant to ''.
+
+## Destination replaced (2026-10-23)
+LEAD_CONVERSION_SEND_TO = AW-17889231515/C8k6CJn4q6YdEJuFoNJC (owner-supplied manual lead conversion). No value/currency sent;
+transaction_id axiom-lead-<entry ID> kept. Retest: page load 0, success (entry 1375) 1, duplicate 0, spam (1376) 0, failures 0.
+Previous active value was AW-17889231515/6i7MCMaIsqYdEJuFoNJC.

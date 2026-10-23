@@ -18,7 +18,7 @@ const DEFAULT_PLAN = 'Website (no plan selected)';
 const CALENDLY_URL = '';
 // Google Ads "Submit lead form" conversion (send_to). Leave empty until the
 // owner confirms the value from Google Ads; while empty nothing is sent to Google.
-const LEAD_CONVERSION_SEND_TO = 'AW-17889231515/6i7MCMaIsqYdEJuFoNJC';
+const LEAD_CONVERSION_SEND_TO = 'AW-17889231515/C8k6CJn4q6YdEJuFoNJC';
 // Entries older than this are never counted (guards against replays).
 const LEAD_MAX_AGE = 600;
 

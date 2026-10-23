@@ -1,0 +1,190 @@
+388844b9 | 5c960b2f | None | href | /
+388844b9 | 76510b3 | e-paragraph | paragraph | Axiom
+388844b9 | 3f45ecf2 | e-paragraph | paragraph | Systems
+388844b9 | 73793dde | e-button | text | How It Works
+388844b9 | 73793dde | e-button | href | /how-it-works/
+388844b9 | 43a7db9c | e-button | text | Our Work
+388844b9 | 43a7db9c | e-button | href | /our-work/
+388844b9 | 76ddd10 | e-button | text | Pricing
+388844b9 | 76ddd10 | e-button | href | /pricing/
+388844b9 | 5dbc3a12 | e-button | text | Add-Ons
+388844b9 | 5dbc3a12 | e-button | href | /add-ons/
+388844b9 | 6342519f | e-button | text | FAQ
+388844b9 | 6342519f | e-button | href | /faq/
+388844b9 | 2c70238 | e-button | text | Get Started
+388844b9 | 2c70238 | e-button | href | /get-started/
+top | 46921639 | e-paragraph | paragraph | Website as a Service for local businesses
+top | 356e689d | e-heading | title | Professional websites for local businesses.
+top | 74d65e42 | e-paragraph | paragraph | Fully managed.
+top | 1b220467 | e-paragraph | paragraph | Axiom designs and builds a custom website for your business, then hosts it, maintains it and keeps it up to date, with free automated Google review follow-ups included. When you're ready, we can automate your follow-up and run your Google Ads too.
+top | 3863a588 | e-button | text | Start my website
+top | 3863a588 | e-button | href | /get-started/?plan=essential
+top | 75ca02be | e-button | text | See websites we've built
+top | 75ca02be | e-button | href | /our-work/
+top | 1ab4aea9 | e-paragraph | paragraph | /month
+top | 5c06111b | e-paragraph | paragraph | Axiom Essential: design, hosting, updates and support, plus free Google review follow-ups.
+top | 201101ce | e-paragraph | paragraph | bragspressurewashing.com
+top | 2946fb1 | e-paragraph | paragraph | Managed by Axiom
+top | 2d2632a9 | e-paragraph | paragraph | Hosting
+top | 37be54aa | e-paragraph | paragraph | Updates
+top | 7d07ff98 | e-paragraph | paragraph | Backups
+top | 76e9dc32 | e-paragraph | paragraph | Built for businesses like yours
+top | 7d77f08e | e-paragraph | paragraph | Contractors
+top | 685a0856 | e-paragraph | paragraph | Pressure washing
+top | 6a402c0e | e-paragraph | paragraph | HVAC
+top | 7f192fcb | e-paragraph | paragraph | Plumbing &amp; electrical
+top | 254baa71 | e-paragraph | paragraph | Roofing
+top | 23479656 | e-paragraph | paragraph | Landscaping
+top | e4e9a44 | e-paragraph | paragraph | Auto detailing
+top | 3b4f9251 | e-paragraph | paragraph | Marine, rentals &amp; tours
+top | 36e1a6e8 | e-paragraph | paragraph | Home services
+work | 7e38a403 | e-paragraph | paragraph | Our work
+work | 2c415bf8 | e-heading | title | Real websites for real local businesses.
+work | 6476ebf | e-paragraph | paragraph | Every Axiom site is designed from scratch around the business it belongs to. These are live right now. Click through and see for yourself.
+work | 6f3ff5d5 | e-paragraph | paragraph | bragspressurewashing.com
+work | 5be028aa | e-image | href | https://bragspressurewashing.com/
+work | 4f8335fe | e-paragraph | paragraph | Pressure washing &amp; coatings · Pinellas County, FL
+work | 5173da27 | e-heading | title | Brags Global
+work | 5196d46b | e-paragraph | paragraph | A clean, confident website for a pressure washing and coatings company. Six services are easy to understand at a glance, and a free quote or a phone call is always one tap away.
+work | 4b398afe | e-paragraph | paragraph | A clear photo card for each of their six services
+work | ebe72f | e-paragraph | paragraph | Quote and call buttons at the top of every visit
+work | d158e38 | e-paragraph | paragraph | Licensed, insured and locally owned, right up top
+work | 3d2e5045 | e-button | text | Visit bragspressurewashing.com ↗
+work | 3d2e5045 | e-button | href | https://bragspressurewashing.com/
+work | 5c6e1eeb | e-heading | title | Two jet ski companies. Same coastline. Nothing alike.
+work | 3970fb67 | e-paragraph | paragraph | Aqua Safari and Xtreme sell to the same kind of customer on the same stretch of Florida's Gulf Coast. Put their websites side by side and you'd never guess one team built both. Your website should look like your business, not like a template.
+work | 6854cc42 | e-paragraph | paragraph | jetskiadventureclearwater.com
+work | 6a069fcc | e-image | href | https://jetskiadventureclearwater.com/
+work | 7372f1c7 | e-paragraph | paragraph | Guided jet ski tours · Tarpon Springs, FL
+work | 6f569cda | e-heading | title | Aqua Safari Jet Ski Adventures
+work | 72afff43 | e-paragraph | paragraph | Bold and editorial. Big type and real Gulf photography sell the island destinations, not just the ride, with a booking button on the very first screen.
+work | 19482278 | e-button | text | Visit the website ↗
+work | 19482278 | e-button | href | https://jetskiadventureclearwater.com/
+work | 52d1635e | e-paragraph | paragraph | xtremestpete.com
+work | 429526b9 | e-image | href | https://xtremestpete.com/
+work | 50a26dbb | e-paragraph | paragraph | Jet ski rentals &amp; guided tours · St. Petersburg, FL
+work | 77fe7d1e | e-heading | title | Xtreme Jet Ski Watersports
+work | 6d2314de | e-paragraph | paragraph | Bright and high energy. Built around booking, with availability and call buttons up top and Google reviews right on the homepage.
+work | 5d1a23b6 | e-button | text | Visit the website ↗
+work | 5d1a23b6 | e-button | href | https://xtremestpete.com/
+work | 7d103395 | e-paragraph | paragraph | Want a website like these for your business?
+work | 486d10a5 | e-paragraph | paragraph | Designed, built and looked after by us, starting at $299 a month.
+work | 58b1b9a6 | e-button | text | Start my website
+work | 58b1b9a6 | e-button | href | /get-started/
+why-monthly | 37b63a27 | e-paragraph | paragraph | Why a monthly service
+why-monthly | 268c2d72 | e-heading | title | A website shouldn't turn into a second job.
+why-monthly | 4cadfe50 | e-paragraph | paragraph | Most websites are sold as a one-time project. They look great on launch day. Then hosting, updates, fixes and changes quietly become your problem. Axiom is built the other way around.
+why-monthly | 63698a15 | e-paragraph | paragraph | Typical website project
+why-monthly | 34a857e0 | e-paragraph | paragraph | Axiom Website as a Service
+why-monthly | 33e585d | e-paragraph | paragraph | Paying for it
+why-monthly | 4f21a31d | e-paragraph | paragraph | A large project invoice, usually before anything goes live
+why-monthly | 4b25cf10 | e-paragraph | paragraph | One predictable monthly price
+why-monthly | 59306816 | e-paragraph | paragraph | Hosting
+why-monthly | 2cb5d1d | e-paragraph | paragraph | A separate account for you to set up and pay for
+why-monthly | a9c4a99 | e-paragraph | paragraph | Included. We set it up and manage it
+why-monthly | 1232a6d | e-paragraph | paragraph | Updates &amp; security
+why-monthly | 343df6e1 | e-paragraph | paragraph | Your job, or another bill
+why-monthly | 388c835f | e-paragraph | paragraph | Handled for you, every month
+why-monthly | e4108b1 | e-paragraph | paragraph | Making changes
+why-monthly | 66615337 | e-paragraph | paragraph | Often quoted as new work
+why-monthly | 85aa2b0 | e-paragraph | paragraph | Send us a request. We take care of it
+why-monthly | 4bbb22e4 | e-paragraph | paragraph | When something breaks
+why-monthly | c514302 | e-paragraph | paragraph | You figure out who to call
+why-monthly | 3a6ec494 | e-paragraph | paragraph | You call us. It's our job
+why-monthly | e2f91e8 | e-paragraph | paragraph | After launch
+why-monthly | 3d68e017 | e-paragraph | paragraph | The project is finished
+why-monthly | dc496a6 | e-paragraph | paragraph | We keep looking after your site
+why-monthly | 48424b3c | e-paragraph | paragraph | Every web designer works differently. This is how a typical one-time project works, and why we built Axiom as an ongoing service instead.
+pricing | 6a3ada21 | e-paragraph | paragraph | What's included
+pricing | 2b928208 | e-heading | title | Axiom Essential. Everything your website needs.
+pricing | 4d6f36aa | e-paragraph | paragraph | Here's what $299 a month covers, from the first design to every update after launch. Want automated follow-up or Google Ads? Our Growth and Marketing plans take it further.
+pricing | 36e92ad | e-paragraph | paragraph | Axiom Essential
+pricing | 17051b7c | e-paragraph | paragraph | /month
+pricing | 43012f9e | e-paragraph | paragraph | A custom website, the team that keeps it running, and FREE automated Google review follow-ups.
+pricing | 2cbfdd09 | e-paragraph | paragraph | That's less than $10 a day for a professionally built website that someone else is responsible for.
+pricing | 78cdb79 | e-button | text | Start my website
+pricing | 78cdb79 | e-button | href | /get-started/?plan=essential
+pricing | 7ac0ecea | e-paragraph | paragraph | We walk through your site's scope and our terms with you before any work begins.
+pricing | 1f9e1032 | e-button | text | Compare all plans →
+pricing | 1f9e1032 | e-button | href | /pricing/
+pricing | 2f1f9c87 | e-heading | title | We build it
+pricing | 2f59f693 | e-paragraph | paragraph | Custom design for your business. No templates
+pricing | 2b0f8178 | e-paragraph | paragraph | Mobile-friendly, fast-loading pages
+pricing | 727dc47e | e-paragraph | paragraph | Your services, photos and service area laid out clearly
+pricing | 77e0b359 | e-paragraph | paragraph | Contact forms and tap-to-call buttons
+pricing | 41df637 | e-paragraph | paragraph | Local-search fundamentals built in, from page titles to site structure
+pricing | 38c4be32 | e-heading | title | We keep it running
+pricing | 59b16f9b | e-paragraph | paragraph | Secure, managed hosting
+pricing | 6f4e6ac4 | e-paragraph | paragraph | WordPress, plugin and security updates
+pricing | 3df2dc9f | e-paragraph | paragraph | Regular backups
+pricing | 35fc9d0b | e-paragraph | paragraph | Content updates as your business changes
+pricing | 1f654d64 | e-paragraph | paragraph | Fixes when something isn't working right
+pricing | 52d94d6b | e-paragraph | paragraph | Support from people who know your site
+pricing | 6b5b4416 | e-paragraph | paragraph | FREE automated Google review follow-ups (available upon activation)
+how-it-works | 2a2b8dc5 | e-paragraph | paragraph | How it works
+how-it-works | 3b39dad2 | e-heading | title | From first conversation to live website.
+how-it-works | 13cb7f49 | e-paragraph | paragraph | You know your business. We know websites. Here's how we put the two together, and what happens once your site is live.
+how-it-works | 52eda93a | e-heading | title | Tell us about your business
+how-it-works | 7ab4db37 | e-paragraph | paragraph | A conversation about what you do, who your customers are and what you want your website to do for you.
+how-it-works | 14f94afd | e-heading | title | We design and build it
+how-it-works | 534747c0 | e-paragraph | paragraph | We create your site around your brand, your services and your photos. You review it and tell us what to change.
+how-it-works | 13eefe1f | e-heading | title | We launch it
+how-it-works | 31663bdb | e-paragraph | paragraph | Hosting, setup and going live are on us. You don't have to touch a single technical setting.
+how-it-works | 5e6b6238 | e-heading | title | We look after it
+how-it-works | 5f71cbe3 | e-paragraph | paragraph | Updates, security, backups and changes are our job from here on. When you need something, just ask.
+about | 4605e162 | e-paragraph | paragraph | Who you'll work with
+about | 58b7e31f | e-heading | title | Built by someone who runs a local business too.
+about | 3a74f934 | e-paragraph | paragraph | I'm Michael Hinkle. Along with Axiom, I own and run Xtreme Jet Ski Watersports in St. Petersburg, Florida. I know what it's like to need a website that does its job while you're out doing yours.
+about | 45bba0fb | e-paragraph | paragraph | That's why Axiom works the way it does. We build your site, we take care of it, and when you need something, you talk to a real person who already knows your business.
+about | 6685ee46 | e-paragraph | paragraph | Michael Hinkle
+about | 36b10ab5 | e-paragraph | paragraph | Founder, Axiom Systems
+faq | 325e2ec3 | e-paragraph | paragraph | Questions
+faq | 4ff5d65c | e-heading | title | Straight answers.
+faq | 69398c8 | e-paragraph | paragraph | The things local business owners usually ask before getting started. Don't see yours? Just ask. A real person will answer.
+faq | 54c83508 | e-button | text | Email axiom.systems.co@gmail.com →
+faq | 54c83508 | e-button | href | mailto:axiom.systems.co@gmail.com?subject=Question%20about%20Website%20as%20a%20Service
+faq | 5fd38bfe | e-paragraph | paragraph | Why pay monthly instead of buying a website once?
+faq | 504e4b65 | e-paragraph | paragraph | Because a website is never really finished. It needs hosting, software updates, security and changes as your business grows. With a one-time project, those costs and chores land on you after launch. With Axiom, they're part of the service, and someone is always responsible for your site.
+faq | 67d9462a | e-paragraph | paragraph | What exactly does $299 a month include?
+faq | 515a1ed2 | e-paragraph | paragraph | A custom-designed website built for your business, plus hosting, software and security updates, backups, content updates, ongoing support and FREE automated Google review follow-ups (available upon activation). We confirm the scope of your site with you before any work begins.
+faq | 1a53af1f | e-paragraph | paragraph | Is there a setup fee or a contract?
+faq | 11cac54e | e-paragraph | paragraph | There's no setup fee for Axiom Essential, and you can cancel anytime. Submitting the form doesn't charge you anything: send us your business details and we'll guide you through the next steps.
+faq | 7713a14c | e-paragraph | paragraph | Will my website look like a template?
+faq | 48d59077 | e-paragraph | paragraph | No. Every site is designed for the business it belongs to. Compare Aqua Safari and Xtreme above: same industry, same coastline, completely different websites.
+faq | 569ff7b9 | e-paragraph | paragraph | What if I need something changed?
+faq | 3e27bdde | e-paragraph | paragraph | Send us what you need, like new photos, a new service, updated hours or prices, and we'll make the update for you. You don't need to log in or learn anything.
+faq | 519c49a6 | e-paragraph | paragraph | I already have a website. Can you help?
+faq | 72580ae2 | e-paragraph | paragraph | Yes. We'll design a new site for your business and bring over the content that's worth keeping, so you're not starting from zero.
+faq | 4116b8fc | e-paragraph | paragraph | How long does it take to launch?
+faq | 6d5224b6 | e-paragraph | paragraph | It depends on the size of your site and how quickly we get your content and feedback. We'll give you a realistic timeline once we've reviewed your business.
+faq | 6bcd49cf | e-paragraph | paragraph | Do you only work with businesses in Florida?
+faq | 71a9f1e1 | e-paragraph | paragraph | No. We work remotely with local businesses across the U.S. Everything from the first call to ongoing updates can happen by phone, email and video.
+get-started | 2e9d4c2 | e-paragraph | paragraph | Get started
+get-started | 9abfe10 | e-heading | title | Let's build a website you never have to worry about.
+get-started | 5daf889c | e-paragraph | paragraph | Tell us a little about your business. We'll talk through what your website needs, answer every question and show you what's possible before you commit to anything.
+get-started | 51dffb0d | e-paragraph | paragraph | Tell us about your business in a short form
+get-started | 1f98832b | e-paragraph | paragraph | We talk through what your site needs
+get-started | 2e5a75cf | e-paragraph | paragraph | You decide. No pressure, no obligation
+get-started | 53833b95 | e-paragraph | paragraph | Start the conversation
+get-started | 53c41697 | e-heading | title | Tell us about your business
+get-started | a3de1c9 | e-paragraph | paragraph | A few lines is plenty: your business name, what you do and where you work. You'll hear back from a real person, not a sales script.
+get-started | 4bb8ebe6 | e-button | text | Get Started
+get-started | 4bb8ebe6 | e-button | href | /get-started/
+get-started | 2fbbc2b1 | e-button | text | See our work first
+get-started | 2fbbc2b1 | e-button | href | /our-work/
+get-started | 205c5cc3 | e-paragraph | paragraph | Or write to us directly at axiom.systems.co@gmail.com
+4f1138e6 | 47b04360 | e-paragraph | paragraph | Axiom Systems
+4f1138e6 | 584a44b3 | e-paragraph | paragraph | Managed websites, automation and lead generation for local businesses.
+4f1138e6 | 6eded8a7 | e-button | text | How It Works
+4f1138e6 | 6eded8a7 | e-button | href | /how-it-works/
+4f1138e6 | 3a941f75 | e-button | text | Our Work
+4f1138e6 | 3a941f75 | e-button | href | /our-work/
+4f1138e6 | 635d55f0 | e-button | text | Pricing
+4f1138e6 | 635d55f0 | e-button | href | /pricing/
+4f1138e6 | 5df156aa | e-button | text | Add-Ons
+4f1138e6 | 5df156aa | e-button | href | /add-ons/
+4f1138e6 | 73199ad2 | e-button | text | FAQ
+4f1138e6 | 73199ad2 | e-button | href | /faq/
+4f1138e6 | 71acda64 | e-button | text | Get Started
+4f1138e6 | 71acda64 | e-button | href | /get-started/
+4f1138e6 | 54bb93e | e-paragraph | paragraph | © 2026 Axiom Systems. All rights reserved.

@@ -1,0 +1,168 @@
+3bc5ec6f | 59773e3d | None | href | /
+3bc5ec6f | 66a884c9 | e-paragraph | paragraph | Axiom
+3bc5ec6f | 659174c | e-paragraph | paragraph | Systems
+3bc5ec6f | 11384ac3 | e-button | text | How It Works
+3bc5ec6f | 11384ac3 | e-button | href | /how-it-works/
+3bc5ec6f | 7989c806 | e-button | text | Our Work
+3bc5ec6f | 7989c806 | e-button | href | /our-work/
+3bc5ec6f | 92275ac | e-button | text | Pricing
+3bc5ec6f | 92275ac | e-button | href | /pricing/
+3bc5ec6f | 12184aa | e-button | text | Add-Ons
+3bc5ec6f | 12184aa | e-button | href | /add-ons/
+3bc5ec6f | 7f3f9c24 | e-button | text | FAQ
+3bc5ec6f | 7f3f9c24 | e-button | href | /faq/
+3bc5ec6f | 55f8bdd9 | e-button | text | Get Started
+3bc5ec6f | 55f8bdd9 | e-button | href | /get-started/
+top | 5acfbec7 | e-paragraph | paragraph | How Website as a Service works
+top | 27c0508d | e-heading | title | We build it.<br>We launch it.
+top | 3a360f8e | e-paragraph | paragraph | Then we keep taking care of it.
+top | 5116e8b5 | e-paragraph | paragraph | Axiom designs and builds a custom website for your business, puts it live, and then stays on as the team responsible for it. Here's exactly what happens, from our first conversation to every month after launch.
+top | bc24b32 | e-button | text | Start my website
+top | bc24b32 | e-button | href | /get-started/
+top | 3720d8bb | e-button | text | See the four stages
+top | 3720d8bb | e-button | href | #process
+top | 472b113f | e-paragraph | paragraph | /month
+top | 32c56866 | e-paragraph | paragraph | Design, build, hosting, updates, backups and support. One monthly price.
+top | 315fd1db | e-paragraph | paragraph | Your website with Axiom
+top | 1409d843 | e-paragraph | paragraph | Tell us about your business
+top | 3383dcb | e-paragraph | paragraph | A conversation, not a questionnaire
+top | 6dbe5af1 | e-paragraph | paragraph | Start
+top | 48e7c7ca | e-paragraph | paragraph | We design and build
+top | 6fa9d2a2 | e-paragraph | paragraph | Custom, around your business
+top | 34ecf119 | e-paragraph | paragraph | Build
+top | 737f4a11 | e-paragraph | paragraph | We refine and launch
+top | 324674ff | e-paragraph | paragraph | Your feedback, then we go live
+top | 618c4133 | e-paragraph | paragraph | Launch
+top | 5b12059e | e-paragraph | paragraph | We keep managing it
+top | 2956a685 | e-paragraph | paragraph | Hosting, updates, backups, changes and support
+top | 5fef618a | e-paragraph | paragraph | Every month
+top | 7cecb2ce | e-paragraph | paragraph | Stages 01 to 03 get you live. Stage 04 is what your monthly plan is for.
+process | 2938ad19 | e-paragraph | paragraph | The process
+process | 34e8df6c | e-heading | title | Four stages. The last one keeps going.
+process | 1d539272 | e-paragraph | paragraph | Most website projects end at launch. With Axiom, launch is where the ongoing part of the relationship begins. Here's what happens at each stage, and what we'll need from you.
+process | 2459524b | e-paragraph | paragraph | Stage 01 · Getting started
+process | 3dae7cf9 | e-heading | title | Tell us about your business
+process | 7a3cbfd7 | e-paragraph | paragraph | It starts with a conversation, not a pile of forms. We'll ask what you do, who your customers are, where you work and what you want people to do when they find you: call, request a quote, book or stop by.
+process | 489367e | e-paragraph | paragraph | What we do
+process | 3213b1a6 | e-paragraph | paragraph | Listen first and ask the right questions
+process | 6776af91 | e-paragraph | paragraph | Look at your current website, if you have one
+process | e9fcb60 | e-paragraph | paragraph | Walk you through your site's scope and our terms before any work begins
+process | 88774d4 | e-paragraph | paragraph | What we need from you
+process | 6517b4fd | e-paragraph | paragraph | Your business name, services and service area
+process | 6e8d0ca7 | e-paragraph | paragraph | Your logo and photos of your work, if you have them
+process | 5869e645 | e-paragraph | paragraph | How you want customers to reach you
+process | d933526 | e-paragraph | paragraph | A little of your time to answer questions
+process | 2088ecc1 | e-paragraph | paragraph | No logo or good photos yet? That's common. We'll talk it through together.
+process | 36b3ec0b | e-paragraph | paragraph | Stage 02 · Design and build
+process | 70f2b4c6 | e-heading | title | We design and build your website
+process | 43e016bd | e-paragraph | paragraph | We design a custom site around your business: your services, your photos, your service area and the way you talk to customers. Not a template with your name swapped in.
+process | 546c1584 | e-paragraph | paragraph | What we take care of
+process | 6d6053a6 | e-paragraph | paragraph | A custom design that fits your brand
+process | 1540d63a | e-paragraph | paragraph | Pages that look and work great on phones
+process | 3ad4c202 | e-paragraph | paragraph | Tap-to-call buttons and contact forms
+process | 3b9b5e1e | e-paragraph | paragraph | Your services and service area laid out clearly
+process | 634a59a1 | e-paragraph | paragraph | Local-search fundamentals built in
+process | 577b9feb | e-paragraph | paragraph | <strong>Your part:</strong> answer questions as they come up. Nothing technical.
+process | 2f4ecbbd | e-paragraph | paragraph | bragspressurewashing.com
+process | 62e58c4b | e-paragraph | paragraph | A recent Axiom build: custom design, clear services, quote and call buttons up front.
+process | 50d37e1f | e-paragraph | paragraph | Stage 03 · Refine and launch
+process | 4b2b7ca5 | e-heading | title | We refine it with you, then launch
+process | 3c40ce8a | e-paragraph | paragraph | You review a working version of your website on your own phone and computer, not a sketch. Tell us what you'd like changed in plain words and we'll refine it together. When you're happy with it, we take it live.
+process | c628331 | e-paragraph | paragraph | How feedback works
+process | 3618a2b2 | e-paragraph | paragraph | You see the real site before your customers do
+process | 42b69592 | e-paragraph | paragraph | Point out anything that doesn't feel right
+process | 64b861a | e-paragraph | paragraph | No design or technical vocabulary needed
+process | 2aac1710 | e-paragraph | paragraph | We make the changes and walk you through them
+process | 254263ee | e-paragraph | paragraph | Launch day, handled
+process | 7c0b642e | e-paragraph | paragraph | Hosting set up and ready
+process | 2b69af32 | e-paragraph | paragraph | Your website connected and taken live
+process | 281f699 | e-paragraph | paragraph | Forms and call buttons tested
+process | 18f26da1 | e-paragraph | paragraph | Checked on phones, tablets and computers
+process | 29393799 | e-paragraph | paragraph | Stage 04 · Every month after launch
+process | 25a72cc6 | e-heading | title | We keep managing it
+process | 8361644 | e-paragraph | paragraph | This is what makes Website as a Service different. Launch isn't the finish line, and you don't get handed a login and a goodbye. Axiom stays responsible for your website, month after month.
+process | 13d645b | e-paragraph | paragraph | Hosting
+process | 74df95a9 | e-paragraph | paragraph | Your website lives on secure, managed hosting. We set it up and keep watch over it.
+process | 40b54c6a | e-paragraph | paragraph | Updates
+process | 5b67767c | e-paragraph | paragraph | The software behind your site needs regular updates. We install them and make sure nothing breaks.
+process | 75a6c32 | e-paragraph | paragraph | Security
+process | 795e37e6 | e-paragraph | paragraph | We keep your site protected, so it stays safe and trustworthy for your customers.
+process | 29f61db | e-paragraph | paragraph | Backups
+process | 6d664ce1 | e-paragraph | paragraph | Regular backups, so your site can be restored if something ever goes wrong.
+process | 509c9fff | e-paragraph | paragraph | Changes
+process | 709316ea | e-paragraph | paragraph | New service, new photos, new hours? Tell us what changed and we'll update your website.
+process | 41b0a832 | e-paragraph | paragraph | Support
+process | 1c5dae09 | e-paragraph | paragraph | Something not looking right? You reach the people who built your site and know it.
+process | 4e3a259b | e-paragraph | paragraph | /month
+process | 3afd915e | e-paragraph | paragraph | Everything in this stage is part of your plan. It's what the monthly price is for.
+after-launch | 32df999d | e-paragraph | paragraph | After launch
+after-launch | 3bc4a83b | e-heading | title | You run your business. We handle the website.
+after-launch | 35c71455 | e-paragraph | paragraph | Once your site is live, here's how the work splits. Almost all of it lands on our side. That's the whole point.
+after-launch | 18e15688 | e-paragraph | paragraph | Off your plate
+after-launch | 7f2d085e | e-heading | title | Things you won't have to deal with
+after-launch | 4f64a695 | e-paragraph | paragraph | Finding, setting up and managing website hosting
+after-launch | 531b8dae | e-paragraph | paragraph | Installing software updates and hoping nothing breaks
+after-launch | 4777ae29 | e-paragraph | paragraph | Wondering whether your website is backed up
+after-launch | 6c1abab9 | e-paragraph | paragraph | Figuring out why a page or form stopped working
+after-launch | 2f9435f3 | e-paragraph | paragraph | Learning website software just to change a phone number
+after-launch | 35c0eadd | e-paragraph | paragraph | Chasing a freelancer who stopped answering
+after-launch | 372f5ad7 | e-paragraph | paragraph | Your part
+after-launch | 148ebb9e | e-heading | title | What we'll ask of you
+after-launch | 7a70f1d3 | e-paragraph | paragraph | Tell us when something in your business changes
+after-launch | 48ef8c63 | e-paragraph | paragraph | Send new photos or details when you have them
+after-launch | 27facc16 | e-paragraph | paragraph | Let us know if something doesn't look right
+after-launch | 38afb496 | e-paragraph | paragraph | Answer the calls and quote requests
+after-launch | 4bd43adc | e-paragraph | paragraph | That's it. No logins to remember, no dashboards to learn.
+after-launch | 25f736d0 | e-paragraph | paragraph | Requesting a change
+after-launch | 7a2b741b | e-heading | title | Need something updated? Just ask.
+after-launch | 5fea0e4 | e-paragraph | paragraph | Tell us what you need, in plain words
+after-launch | 4a15deaf | e-paragraph | paragraph | We make the update for you
+after-launch | 66d6f084 | e-paragraph | paragraph | You see it live on your website
+why-monthly | 69a8b0d9 | e-paragraph | paragraph | Why monthly?
+why-monthly | 42ff1eeb | e-heading | title | You're not paying off a website. You're paying to have it managed.
+why-monthly | e1a6dbf | e-paragraph | paragraph | A one-time website is finished the day it launches. After that, software goes out of date, your business changes and problems land on you. Your monthly plan keeps a team responsible for your website the whole time you're with us.
+why-monthly | 19d0f4ee | e-paragraph | paragraph | A one-time website project
+why-monthly | 2c0324ec | e-paragraph | paragraph | Paid for once, then you're on your own
+why-monthly | 66372a4a | e-paragraph | paragraph | Build
+why-monthly | 410d2492 | e-paragraph | paragraph | After launch, it's up to you
+why-monthly | 60b97294 | e-paragraph | paragraph | Axiom Website as a Service
+why-monthly | 5518c9eb | e-paragraph | paragraph | $299/month, managed the whole time
+why-monthly | 409c5bd5 | e-paragraph | paragraph | Build
+why-monthly | 445c6406 | e-paragraph | paragraph | Hosting · Updates · Backups · Changes · Support
+why-monthly | 63e95a89 | e-paragraph | paragraph | Before launch
+why-monthly | 42bec9b0 | e-paragraph | paragraph | Launch day, then every month after
+why-monthly | 53025e12 | e-heading | title | Websites need ongoing care
+why-monthly | 44cf869e | e-paragraph | paragraph | Updates, security and backups don't stop after launch. Someone has to handle them. With Axiom, that's us.
+why-monthly | 36921cff | e-heading | title | Your business keeps changing
+why-monthly | 76484320 | e-paragraph | paragraph | New services, photos, prices or hours. Your website keeps up, without you having to learn how to edit it.
+why-monthly | 638671f0 | e-heading | title | One price for all of it
+why-monthly | 5e1f9d6c | e-paragraph | paragraph | Instead of separate bills for a designer, a host and whoever fixes things when they break, it's one plan: $299 a month.
+get-started | 632e714b | e-paragraph | paragraph | Get started
+get-started | 13f3fbfa | e-heading | title | Ready to hand off your website?
+get-started | 544ed7f7 | e-paragraph | paragraph | Tell us a little about your business. We'll talk through what your website needs, answer every question and show you what's possible before you commit to anything.
+get-started | 226bad61 | e-paragraph | paragraph | Tell us about your business in a short form
+get-started | 1839d346 | e-paragraph | paragraph | We talk through what your site needs
+get-started | 5b540114 | e-paragraph | paragraph | You decide. No pressure, no obligation
+get-started | 5ead5295 | e-paragraph | paragraph | Start the conversation
+get-started | 61c2f9a4 | e-heading | title | Tell us about your business
+get-started | 59babd2d | e-paragraph | paragraph | A few lines is plenty: your business name, what you do and where. We'll review it and reach out personally with the next step.
+get-started | d4ebb39 | e-button | text | Get Started
+get-started | d4ebb39 | e-button | href | /get-started/
+get-started | 32a97ce5 | e-button | text | See our work first
+get-started | 32a97ce5 | e-button | href | /our-work/
+get-started | 6f6bbc9c | e-paragraph | paragraph | Or write to us directly at axiom.systems.co@gmail.com
+5e19a5b3 | 515e8e48 | e-paragraph | paragraph | Axiom Systems
+5e19a5b3 | 31273c97 | e-paragraph | paragraph | Managed websites, automation and lead generation for local businesses.
+5e19a5b3 | 757b36a8 | e-button | text | How It Works
+5e19a5b3 | 757b36a8 | e-button | href | /how-it-works/
+5e19a5b3 | 1b78f630 | e-button | text | Our Work
+5e19a5b3 | 1b78f630 | e-button | href | /our-work/
+5e19a5b3 | 21eebd1c | e-button | text | Pricing
+5e19a5b3 | 21eebd1c | e-button | href | /pricing/
+5e19a5b3 | 47685aae | e-button | text | Add-Ons
+5e19a5b3 | 47685aae | e-button | href | /add-ons/
+5e19a5b3 | 62331515 | e-button | text | FAQ
+5e19a5b3 | 62331515 | e-button | href | /faq/
+5e19a5b3 | 44b8a958 | e-button | text | Get Started
+5e19a5b3 | 44b8a958 | e-button | href | /get-started/
+5e19a5b3 | 78b55782 | e-paragraph | paragraph | © 2026 Axiom Systems. All rights reserved.

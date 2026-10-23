@@ -1,0 +1,5126 @@
+{
+ "home@1440": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 144,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1176,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 1018,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 144,
+   "y": 8368,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 917,
+     "y": 8096,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "errors": []
+ },
+ "home@1280": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 64,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1096,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 938,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 64,
+   "y": 8368,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 837,
+     "y": 8096,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "errors": []
+ },
+ "home@1100": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1100,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 956,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 798,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 8368,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 697,
+     "y": 8096,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "errors": []
+ },
+ "home@1025": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1025,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 881,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 723,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 8530,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 622,
+     "y": 8234,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "errors": []
+ },
+ "home@1024": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1024,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 828,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 776,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 956,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 9873,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 61,
+     "y": 9625,
+     "w": 902,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "home@768": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 768,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 572,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 520,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 700,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 10269,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 61,
+     "y": 10021,
+     "w": 646,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "home@414": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 414,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 237,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 197,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 354,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 12141,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 11924,
+     "w": 324,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "home@390": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 390,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 145,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 213,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 173,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 330,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 12396,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 12160,
+     "w": 300,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "home@360": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 360,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 190,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 300,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 12876,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 12640,
+     "w": 270,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "home@320": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 320,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 122,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 150,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 260,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 13374,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 13137,
+     "w": 230,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "pricing@1440": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 144,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1176,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 1018,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 144,
+   "y": 3236,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 917,
+     "y": 2964,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "errors": []
+ },
+ "pricing@1280": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 64,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1096,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 938,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 64,
+   "y": 3236,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 837,
+     "y": 2964,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "errors": []
+ },
+ "pricing@1100": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1100,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 956,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 798,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 3345,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 697,
+     "y": 3073,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "errors": []
+ },
+ "pricing@1025": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1025,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 881,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 723,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 3473,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 622,
+     "y": 3202,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "errors": []
+ },
+ "pricing@1024": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1024,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 828,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 776,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 956,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 4593,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 61,
+     "y": 4346,
+     "w": 902,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "pricing@768": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 768,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 572,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 520,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 700,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 4761,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 61,
+     "y": 4513,
+     "w": 646,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "pricing@414": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 414,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 237,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 197,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 354,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 5315,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 5098,
+     "w": 324,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "pricing@390": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 390,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 145,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 213,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 173,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 330,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 5564,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 5327,
+     "w": 300,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "pricing@360": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 360,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 190,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 300,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 5867,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 5631,
+     "w": 270,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "pricing@320": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 320,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 122,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 150,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 260,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 6390,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 6154,
+     "w": 230,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 2,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "add-ons@1440": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 144,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1176,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 1018,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 144,
+   "y": 4498,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 917,
+     "y": 4227,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "add-ons@1280": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 64,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1096,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 938,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 64,
+   "y": 4498,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 837,
+     "y": 4227,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "add-ons@1100": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1100,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 956,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 798,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 4681,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 697,
+     "y": 4410,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "add-ons@1025": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1025,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 881,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 723,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 4802,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 622,
+     "y": 4531,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "add-ons@1024": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1024,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 828,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 776,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 956,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 6190,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 61,
+     "y": 5942,
+     "w": 902,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "add-ons@768": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 768,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 572,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 520,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 700,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 6496,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 61,
+     "y": 6248,
+     "w": 646,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "add-ons@414": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 414,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 237,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 197,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 354,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 7637,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 7420,
+     "w": 324,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "add-ons@390": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 390,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 145,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 213,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 173,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 330,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 7852,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 7616,
+     "w": 300,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "add-ons@360": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 360,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 190,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 300,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 8239,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 8003,
+     "w": 270,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "add-ons@320": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 320,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 122,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 150,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 260,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 9055,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 8819,
+     "w": 230,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "faq@1440": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 144,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1176,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 1018,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 144,
+   "y": 2739,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 564,
+     "y": 2505,
+     "w": 312,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "faq@1280": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 64,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1096,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 938,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 64,
+   "y": 2739,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 484,
+     "y": 2505,
+     "w": 312,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "faq@1100": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1100,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 956,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 798,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 2739,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 394,
+     "y": 2505,
+     "w": 312,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "faq@1025": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1025,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 881,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 723,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 2739,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 357,
+     "y": 2505,
+     "w": 312,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "faq@1024": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1024,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 828,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 776,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 956,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 2722,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 356,
+     "y": 2511,
+     "w": 312,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "faq@768": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 768,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 572,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 520,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 700,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 2722,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 228,
+     "y": 2511,
+     "w": 312,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "faq@414": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 414,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 237,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 197,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 354,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 2432,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 51,
+     "y": 2241,
+     "w": 312,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "faq@390": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 390,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 145,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 213,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 173,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 330,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 2455,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 39,
+     "y": 2263,
+     "w": 312,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "faq@360": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 360,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 190,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 300,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 2543,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 24,
+     "y": 2351,
+     "w": 312,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "faq@320": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 320,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 122,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 150,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 260,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 2644,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 20,
+     "y": 2433,
+     "w": 280,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "get-started@1440": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 144,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1176,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 1018,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 144,
+   "y": 1277,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(86, 97, 116)",
+    "link": "rgb(86, 97, 116)",
+    "box": {
+     "x": 721,
+     "y": 1017,
+     "w": 502,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 0,
+  "errors": []
+ },
+ "get-started@1280": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 64,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1096,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 938,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 64,
+   "y": 1277,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(86, 97, 116)",
+    "link": "rgb(86, 97, 116)",
+    "box": {
+     "x": 641,
+     "y": 1017,
+     "w": 502,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 0,
+  "errors": []
+ },
+ "get-started@1100": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1100,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 956,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 798,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 1277,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(86, 97, 116)",
+    "link": "rgb(86, 97, 116)",
+    "box": {
+     "x": 554,
+     "y": 1017,
+     "w": 482,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 0,
+  "errors": []
+ },
+ "get-started@1025": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1025,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 881,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 723,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 1277,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(86, 97, 116)",
+    "link": "rgb(86, 97, 116)",
+    "box": {
+     "x": 522,
+     "y": 1017,
+     "w": 438,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 0,
+  "errors": []
+ },
+ "get-started@1024": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1024,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 828,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 776,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 956,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 1732,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(86, 97, 116)",
+    "link": "rgb(86, 97, 116)",
+    "box": {
+     "x": 61,
+     "y": 1239,
+     "w": 902,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 0,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "get-started@768": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 768,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 572,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 520,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 700,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 1751,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(86, 97, 116)",
+    "link": "rgb(86, 97, 116)",
+    "box": {
+     "x": 61,
+     "y": 1259,
+     "w": 646,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 0,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "get-started@414": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 414,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 237,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 197,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 354,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 1703,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(86, 97, 116)",
+    "link": "rgb(86, 97, 116)",
+    "box": {
+     "x": 37,
+     "y": 1237,
+     "w": 340,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 0,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "get-started@390": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 390,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 145,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 213,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 173,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 330,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 1725,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(86, 97, 116)",
+    "link": "rgb(86, 97, 116)",
+    "box": {
+     "x": 37,
+     "y": 1237,
+     "w": 316,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 0,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "get-started@360": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 360,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 190,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 300,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 1745,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(86, 97, 116)",
+    "link": "rgb(86, 97, 116)",
+    "box": {
+     "x": 37,
+     "y": 1237,
+     "w": 286,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 0,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "get-started@320": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 320,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 122,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 150,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 260,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 1811,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(86, 97, 116)",
+    "link": "rgb(86, 97, 116)",
+    "box": {
+     "x": 37,
+     "y": 1281,
+     "w": 246,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 0,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "how-it-works@1440": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 144,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1176,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 1018,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 144,
+   "y": 6668,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 917,
+     "y": 6396,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "how-it-works@1280": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 64,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1096,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 938,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 64,
+   "y": 6668,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 837,
+     "y": 6396,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "how-it-works@1100": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1100,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 956,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 798,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 6765,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 697,
+     "y": 6493,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "how-it-works@1025": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1025,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 881,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 723,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 6867,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 622,
+     "y": 6595,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "how-it-works@1024": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1024,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 828,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 776,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 956,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 8915,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 61,
+     "y": 8667,
+     "w": 902,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "how-it-works@768": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 768,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 572,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 520,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 700,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 8979,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 61,
+     "y": 8732,
+     "w": 646,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "how-it-works@414": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 414,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 237,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 197,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 354,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 9888,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 9672,
+     "w": 324,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "how-it-works@390": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 390,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 145,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 213,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 173,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 330,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 10288,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 10051,
+     "w": 300,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "how-it-works@360": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 360,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 190,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 300,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 10726,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 10489,
+     "w": 270,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "how-it-works@320": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 320,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 122,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 150,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 260,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 11616,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 11380,
+     "w": 230,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "our-work@1440": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 144,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1176,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 1018,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 144,
+   "y": 9452,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 917,
+     "y": 9180,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "our-work@1280": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 64,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 1096,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 938,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 64,
+   "y": 9452,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 837,
+     "y": 9180,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "our-work@1100": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1100,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 956,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 798,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 9463,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 697,
+     "y": 9191,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "our-work@1025": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1025,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 881,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 723,
+   "y": 16,
+   "w": 138,
+   "h": 37,
+   "vis": true
+  },
+  "toggle": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "numVisible": true,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 9748,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 622,
+     "y": 9467,
+     "w": 342,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "errors": []
+ },
+ "our-work@1024": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 1024,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 828,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 776,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 956,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 11500,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 61,
+     "y": 11252,
+     "w": 902,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "our-work@768": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 768,
+   "h": 71,
+   "vis": true
+  },
+  "logo": {
+   "x": 24,
+   "y": 14,
+   "w": 180,
+   "h": 42,
+   "vis": true
+  },
+  "cta": {
+   "x": 572,
+   "y": 14,
+   "w": 120,
+   "h": 42,
+   "vis": true
+  },
+  "call": {
+   "x": 520,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 700,
+   "y": 13,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 24,
+   "y": 11216,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 61,
+     "y": 10969,
+     "w": 646,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "our-work@414": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 414,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 237,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 197,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 354,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 12244,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 12027,
+     "w": 324,
+     "h": 20,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "our-work@390": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 390,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 145,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 213,
+   "y": 10,
+   "w": 109,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 173,
+   "y": 7,
+   "w": 36,
+   "h": 44,
+   "vis": true
+  },
+  "toggle": {
+   "x": 330,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 12347,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 12111,
+     "w": 300,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "our-work@360": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 360,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 160,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 190,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 300,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 12522,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 12286,
+     "w": 270,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ },
+ "our-work@320": {
+  "header": {
+   "x": 0,
+   "y": 0,
+   "w": 320,
+   "h": 60,
+   "vis": true
+  },
+  "logo": {
+   "x": 16,
+   "y": 10,
+   "w": 122,
+   "h": 38,
+   "vis": true
+  },
+  "cta": {
+   "x": 150,
+   "y": 10,
+   "w": 102,
+   "h": 38,
+   "vis": true
+  },
+  "call": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "vis": false
+  },
+  "toggle": {
+   "x": 260,
+   "y": 7,
+   "w": 44,
+   "h": 44,
+   "vis": true
+  },
+  "numVisible": false,
+  "callName": "Call us at (727) 591-7527",
+  "overlap": false,
+  "hscroll": false,
+  "foot": {
+   "x": 20,
+   "y": 13045,
+   "w": 130,
+   "h": 20,
+   "vis": true
+  },
+  "footText": "Call us at (727) 591-7527",
+  "direct": [
+   {
+    "text": "Prefer to speak directly? Call us at (727) 591-7527.",
+    "font": "13px",
+    "color": "rgb(139, 151, 171)",
+    "link": "rgb(139, 151, 171)",
+    "box": {
+     "x": 45,
+     "y": 12809,
+     "w": 230,
+     "h": 39,
+     "vis": true
+    }
+   }
+  ],
+  "tels": [
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527",
+   "tel:+17275917527"
+  ],
+  "emailCount": 1,
+  "menuOpen": 6,
+  "menuClosed": true,
+  "errors": []
+ }
+}

@@ -1,0 +1,110 @@
+6bce342f | 73322e7b | None | href | /
+6bce342f | d789ccb | e-paragraph | paragraph | Axiom
+6bce342f | 5d92bbc5 | e-paragraph | paragraph | Systems
+6bce342f | 15f539ce | e-button | text | How It Works
+6bce342f | 15f539ce | e-button | href | /how-it-works/
+6bce342f | 23b6760f | e-button | text | Our Work
+6bce342f | 23b6760f | e-button | href | /our-work/
+6bce342f | 6ad58db5 | e-button | text | Pricing
+6bce342f | 6ad58db5 | e-button | href | /pricing/
+6bce342f | 6826432c | e-button | text | Add-Ons
+6bce342f | 6826432c | e-button | href | /add-ons/
+6bce342f | 5e5773b1 | e-button | text | FAQ
+6bce342f | 5e5773b1 | e-button | href | /faq/
+6bce342f | 6a9dff28 | e-button | text | Get Started
+6bce342f | 6a9dff28 | e-button | href | /get-started/
+top | 2fde0e1e | e-paragraph | paragraph | Pricing
+top | 1196128b | e-heading | title | Plans that grow<br>with your business.
+top | 4eb97eec | e-paragraph | paragraph | Start with a professionally managed website. Add automated follow-up or full lead generation when your business is ready.
+top | 6800ff3b | e-paragraph | paragraph | Included with every Axiom website
+top | 28ad0480 | e-paragraph | paragraph | FREE automated Google review follow-ups
+top | 2bca7cb3 | e-paragraph | paragraph | Your website does more than look good. Every Axiom website includes automated Google review follow-ups to help you build your online reputation.
+top | 4eba32ac | e-paragraph | paragraph | Available upon activation.
+top | 76353f67 | e-paragraph | paragraph | Axiom Essential
+top | a80faf8 | e-paragraph | paragraph | /month
+top | 44ed6e5a | e-paragraph | paragraph | $0 setup fee
+top | 2bd7100f | e-paragraph | paragraph | Cancel anytime
+top | 4b7a09e2 | e-paragraph | paragraph | A professional website, built and managed for you, with essential automation included.
+top | 7a88e268 | e-paragraph | paragraph | Your website
+top | 16108913 | e-paragraph | paragraph | Professional, conversion-focused website
+top | 2caced19 | e-paragraph | paragraph | Hosting &amp; ongoing website management
+top | 7ce7c2e3 | e-paragraph | paragraph | Mobile-responsive design
+top | 4b43aee9 | e-paragraph | paragraph | Website maintenance &amp; updates
+top | 28c1eeb5 | e-paragraph | paragraph | On-page SEO fundamentals
+top | 7449181f | e-paragraph | paragraph | Included automation · Available upon activation
+top | 4a87d996 | e-paragraph | paragraph | <strong>FREE</strong> automated Google review requests
+top | 1a7aaa11 | e-paragraph | paragraph | Instant acknowledgment of website inquiries
+top | 3ee795fc | e-button | text | Get Started
+top | 3ee795fc | e-button | href | /get-started/?plan=essential
+top | 1469166e | e-paragraph | paragraph | Axiom Growth
+top | 1725db04 | e-paragraph | paragraph | Recommended
+top | e8c314d | e-paragraph | paragraph | /month
+top | 4dfe762d | e-paragraph | paragraph | $0 setup fee
+top | 20099b6f | e-paragraph | paragraph | No long-term contract
+top | 3359b2ba | e-paragraph | paragraph | Turn more inquiries into booked customers with automated systems that follow up even when you're busy.
+top | 4f288362 | e-paragraph | paragraph | Everything in Essential, plus · Available upon activation
+top | 1d2346d3 | e-paragraph | paragraph | GoHighLevel CRM
+top | 1b73ded9 | e-paragraph | paragraph | Missed-call text-back
+top | 5e162213 | e-paragraph | paragraph | Multi-step SMS &amp; email lead follow-up
+top | f10a255 | e-paragraph | paragraph | Lead management pipeline
+top | 42df896f | e-paragraph | paragraph | Appointment confirmations &amp; reminders
+top | 6ec3518e | e-paragraph | paragraph | Estimate &amp; quote follow-up
+top | 569b83c2 | e-paragraph | paragraph | Lead conversion tracking &amp; reporting
+top | 4aa219b8 | e-paragraph | paragraph | For businesses that already get leads and want help responding, organizing and converting them. No long-term contract: cancel anytime with 30 days' written notice.
+top | 2c4b03c9 | e-button | text | Automate My Business
+top | 2c4b03c9 | e-button | href | /get-started/?plan=growth
+top | 1eb24608 | e-paragraph | paragraph | Axiom Marketing
+top | 3bb24f45 | e-paragraph | paragraph | Starting at
+top | 58ac3f1e | e-paragraph | paragraph | /month
+top | 7e2dd02c | e-paragraph | paragraph | Ad spend paid separately
+top | 3b853f8a | e-paragraph | paragraph | Generate more qualified opportunities, capture every inquiry, and turn more advertising clicks into real business conversations.
+top | 4f7d8c3e | e-paragraph | paragraph | Lead generation
+top | 4f207a1d | e-paragraph | paragraph | Google Ads campaign strategy &amp; management
+top | 41a4d1d7 | e-paragraph | paragraph | Conversion-focused landing pages
+top | 524a919a | e-paragraph | paragraph | Lead tracking &amp; attribution
+top | 649c8f7b | e-paragraph | paragraph | Campaign optimization
+top | 6049784c | e-paragraph | paragraph | Monthly performance reporting
+top | 2072c5e8 | e-paragraph | paragraph | Ongoing marketing strategy
+top | 738a6527 | e-paragraph | paragraph | Automation · Available upon activation
+top | 3044bf61 | e-paragraph | paragraph | GoHighLevel CRM integration
+top | 7f2fd746 | e-paragraph | paragraph | Automated lead follow-up
+top | 76fa4ab6 | e-paragraph | paragraph | Works with your existing website. Advertising spend is paid directly by you. A custom setup fee may apply. Initial three-month agreement; renewal and cancellation terms are shared before you sign.
+top | 7c646a4b | e-button | text | Get More Leads
+top | 7c646a4b | e-button | href | /get-started/?plan=marketing
+top | 3f79b119 | e-paragraph | paragraph | Review requests are neutral and sent after completed services; reviews and ratings are never guaranteed. All automated messaging is subject to reasonable usage limits and applicable consent requirements. Custom booking-software integrations and high-volume messaging are not included. Questions first? Email axiom.systems.co@gmail.com
+how-pricing-works | 1c1ba8de | e-heading | title | Why there's no big website bill.
+how-pricing-works | 2d87e56c | e-heading | title | You pay monthly, not upfront.
+how-pricing-works | 20d9252e | e-paragraph | paragraph | Custom websites usually start with a large invoice. With Axiom, your website is part of a monthly plan instead, starting at $299 a month with no setup fee.
+how-pricing-works | 3c825682 | e-heading | title | We keep it running.
+how-pricing-works | 37ec60d8 | e-paragraph | paragraph | Hosting, security, updates, backups and support are all part of the monthly price, so your site doesn't go stale after launch.
+how-pricing-works | 17c697ef | e-heading | title | What's yours stays yours.
+how-pricing-works | 2b98f7a1 | e-paragraph | paragraph | Your business, domain, brand, logo, customer data and the content you give us are always yours. The website build and design are provided by Axiom as part of your active subscription.
+how-pricing-works | 51a2234a | e-paragraph | paragraph | Want just one automation?
+how-pricing-works | 5a597acc | e-paragraph | paragraph | Lead Response and Follow-Up Automation can be added to Axiom Essential on their own.
+how-pricing-works | 3b263d17 | e-button | text | Explore Add-Ons →
+how-pricing-works | 3b263d17 | e-button | href | /add-ons/
+get-started | 672d41ad | e-paragraph | paragraph | Get started
+get-started | 7952dea6 | e-heading | title | Let's find the<br>right plan.
+get-started | 369aee85 | e-paragraph | paragraph | Tell us about your business and what you want your website and marketing to do. We'll recommend a plan and answer every question before you sign up.
+get-started | 361ed3f8 | e-paragraph | paragraph | Plans from $299/month · Submit your business details and we'll guide you through the next steps.
+get-started | 14da5c33 | e-paragraph | paragraph | Start the conversation
+get-started | 667d8464 | e-heading | title | Tell us about your business
+get-started | 7b6c6b64 | e-paragraph | paragraph | A few lines is plenty: your business name, what you do and where. We'll review it and reach out personally with the next step.
+get-started | 5d739dda | e-button | text | Get Started
+get-started | 5d739dda | e-button | href | /get-started/
+get-started | 99667 | e-paragraph | paragraph | Or write to us directly at axiom.systems.co@gmail.com
+4d8a2bcc | 50c68097 | e-paragraph | paragraph | Axiom Systems
+4d8a2bcc | 6f96fda1 | e-paragraph | paragraph | Managed websites, automation and lead generation for local businesses.
+4d8a2bcc | 1c8b46c2 | e-button | text | How It Works
+4d8a2bcc | 1c8b46c2 | e-button | href | /how-it-works/
+4d8a2bcc | 5f12afeb | e-button | text | Our Work
+4d8a2bcc | 5f12afeb | e-button | href | /our-work/
+4d8a2bcc | 1fecb4e5 | e-button | text | Pricing
+4d8a2bcc | 1fecb4e5 | e-button | href | /pricing/
+4d8a2bcc | 457d045a | e-button | text | Add-Ons
+4d8a2bcc | 457d045a | e-button | href | /add-ons/
+4d8a2bcc | 1be5109f | e-button | text | FAQ
+4d8a2bcc | 1be5109f | e-button | href | /faq/
+4d8a2bcc | 47d644f0 | e-button | text | Get Started
+4d8a2bcc | 47d644f0 | e-button | href | /get-started/
+4d8a2bcc | 1dc9991b | e-paragraph | paragraph | © 2026 Axiom Systems. All rights reserved.

@@ -70,3 +70,18 @@ Name, email and phone go to the standard contact fields. An empty answer is neve
 Set mode to Off (Tools → Axiom CRM Sync), or unpublish/delete snippet 1398. The form,
 email and Ads conversion don't depend on it. Option `axiom_ghl_sync_settings`, meta
 `_axiom_ghl_*`, and Action Scheduler group `axiom-ghl` can be removed afterwards.
+
+## Test log
+
+**2026-10-23 — controlled dry-run (one live form submission, owner-approved)**
+Submitted once from a headless Chromium session at `/get-started/?plan=essential`; mode
+confirmed `dry-run` immediately before.
+
+| Item | Result |
+|---|---|
+| Jetpack entry | #1399, `publish` (not spam), 2026-10-23 23:57:50 UTC, all 7 fields stored |
+| Plan interest | "Axiom Essential — $299/month (plan=essential)" |
+| CRM Sync | 23:57:50 queued (dry-run) → 23:57:53 "dry-run: payload built, nothing sent"; 0 attempts, no errors |
+| Payload preview | name, first/last, email, phone, companyName, website + all 4 mapped custom fields |
+| Ads conversion (local) | lead-check `countable:true`; `gtag('event','conversion',{send_to:'AW-17889231515/C8k6CJn4q6YdEJuFoNJC', transaction_id:'axiom-lead-1399'})`. Google hosts were blocked in the test environment, so nothing reached Google. |
+| GHL | no requests in dry-run (by code path; log has no contact/note/tag steps) |

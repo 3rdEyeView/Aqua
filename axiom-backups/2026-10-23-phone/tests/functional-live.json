@@ -1,0 +1,74 @@
+{
+ "desktopClicks": [
+  "https://axiomsystems.systems/",
+  "https://axiomsystems.systems/",
+  "https://axiomsystems.systems/"
+ ],
+ "telRequests": [
+  "tel:+17275917527"
+ ],
+ "keyboard": [
+  [
+   "ax-link e-6c578bab-d4dc e-button-base e-default-a",
+   "/faq/",
+   "FAQ",
+   "solid"
+  ],
+  [
+   "ax-link",
+   "/faq/"
+  ]
+ ],
+ "accName": "Call us at\n(727) 591-7527 | textContent=Call us at (727) 591-7527",
+ "menu390": [
+  "How It Works -> /how-it-works/",
+  "Our Work -> /our-work/",
+  "Pricing -> /pricing/",
+  "Add-OnsLead response & follow-up automationOptional -> /add-ons/",
+  "FAQ -> /faq/",
+  "Call (727) 591-7527 -> tel:+17275917527"
+ ],
+ "tap390": [
+  36,
+  44
+ ],
+ "menu360": [
+  "How It Works -> /how-it-works/",
+  "Our Work -> /our-work/",
+  "Pricing -> /pricing/",
+  "Add-OnsLead response & follow-up automationOptional -> /add-ons/",
+  "FAQ -> /faq/",
+  "Call (727) 591-7527 -> tel:+17275917527"
+ ],
+ "tap360": [
+  0,
+  0
+ ],
+ "form": {
+  "form": true,
+  "fields": 14,
+  "plan": "Interested inAxiom Growth — $599/month",
+  "hidden": [
+   "Axiom Growth — $599/month (plan=growth)"
+  ],
+  "leadJs": true,
+  "tracking": true,
+  "gtagTags": [
+   "id=GT-55XGH597"
+  ],
+  "direct": "Prefer to speak directly? Call us at (727) 591-7527."
+ },
+ "formAfterEmptySubmit": {
+  "errors": true,
+  "success": true,
+  "fired": []
+ },
+ "formAjax": [],
+ "schema": [
+  "WebPage,BreadcrumbList,WebSite,Organization:+1-727-591-7527",
+  "FAQPage",
+  "FAQPage",
+  "FAQPage",
+  "FAQPage"
+ ]
+}

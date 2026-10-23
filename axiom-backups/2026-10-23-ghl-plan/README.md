@@ -33,3 +33,15 @@ each sent one Gmail notification; Google tags were blocked in the test browser, 
   Tools > Scheduled Actions (group axiom-ghl).
 - Modes, set by the owner in wp-config.php: off | dry-run | verify | test | live. Token never printed, stored or logged.
 - No SMS/consent fields are set; the integration sends no messages.
+
+## Owner decisions (2026-10-23) - implementation paused
+Approved architecture: Jetpack saved submission -> Action Scheduler queue -> secure GHL contact upsert ->
+controlled workflow trigger. Paused until the owner supplies the verified Location ID, workflow settings and
+Private Integration permissions. No live-site changes or test submissions until then.
+Conditions for implementation:
+- verify and dry-run modes make no write calls at all (no contacts, tags, notes, opportunities, messages).
+  Only GET requests are allowed in verify; dry-run makes no GHL requests.
+- Only valid, non-spam entries of form 1096 are queued.
+- The hook only enqueues; it must not delay form processing.
+- Staged rollout (verify -> dry-run -> test -> workflow test -> live); production delivery only when the owner
+  switches AXIOM_GHL_MODE to live.

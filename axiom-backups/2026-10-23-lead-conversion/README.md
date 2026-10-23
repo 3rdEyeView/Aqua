@@ -22,3 +22,8 @@ To pause conversions only, set LEAD_CONVERSION_SEND_TO back to ''.
 
 ## Tests (tests/)
 t.php / t.js — offline unit tests; live-test.js / spam-sim.js — live browser tests (Google domains blocked, dummy send_to).
+
+## Activated (2026-10-23)
+LEAD_CONVERSION_SEND_TO = AW-17889231515/6i7MCMaIsqYdEJuFoNJC ("Submit lead form", confirmed by owner in Google Ads).
+Live snippet source: `snippet-1099-main.active.php`. Final test: tests/final-test.js (entry 1373 fired once;
+1374 marked spam fired zero; validation, failed request, reload and replay fired zero). Pause: set the constant to ''.

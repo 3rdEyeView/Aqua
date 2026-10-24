@@ -85,3 +85,15 @@ confirmed `dry-run` immediately before.
 | Payload preview | name, first/last, email, phone, companyName, website + all 4 mapped custom fields |
 | Ads conversion (local) | lead-check `countable:true`; `gtag('event','conversion',{send_to:'AW-17889231515/C8k6CJn4q6YdEJuFoNJC', transaction_id:'axiom-lead-1399'})`. Google hosts were blocked in the test environment, so nothing reached Google. |
 | GHL | no requests in dry-run (by code path; log has no contact/note/tag steps) |
+
+**2026-10-24: controlled Test-mode run (one live form submission, owner-approved)**
+The owner audited the six published workflows, legacy triggers (none) and Conversation AI (Suggestive) beforehand.
+
+| Item | Result |
+|---|---|
+| Mode | dry-run → test (allowlist: owner's test email only) at 00:18:40 UTC → reverted to dry-run, allowlist cleared, at 00:19:21 |
+| Jetpack entry | #1400, `publish`, 2026-10-24 00:19:04 UTC |
+| CRM Sync | 00:19:04 queued (test) → 00:19:07 contact updated `NjaQutbGnBwzCvU1EnFH` (existing contact, so source not set) → note added → tag added: `axiom-integration-test` → sent. 0 retries |
+| Opportunity check | 00:25:06 "0 open / 0 total in pipeline" (read-only) |
+| Ads conversion (local) | `transaction_id: axiom-lead-1400` (Google hosts blocked in the test environment) |
+| GHL afterwards | `axiom-integration-test` tag now exists (9 tags); the same 6 workflows published |

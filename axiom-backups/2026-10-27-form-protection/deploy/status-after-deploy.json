@@ -1,0 +1,17 @@
+{
+ "mode": "log",
+ "site_key_set": false,
+ "secret_set": false,
+ "limits": {
+  "ip": "10 per 600s",
+  "email_or_phone": "3 per 3600s"
+ },
+ "last_7_days": [],
+ "recent": [],
+ "your_request_ip": {
+  "remote_addr_set": true,
+  "cf_connecting_ip_set": true,
+  "remote_addr_equals_cf": true,
+  "x_forwarded_for_set": true
+ }
+}

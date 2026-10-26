@@ -1,0 +1,11 @@
+{
+ "files": [
+  {
+   "name": "main.php",
+   "content": "<?php\n/**\n * Axiom Front Page\n * Serves the new Home page (ID 952) as the static front page.\n * Rollback: delete or unpublish this snippet; the stored Reading\n * settings (previous homepage) are left untouched.\n */\nnamespace AngieSnippets\\AxiomFrontPage_1134;\n\nif ( ! defined( 'ABSPATH' ) ) {\n\texit;\n}\n\nconst HOME_ID = 952;\n\nadd_filter(\n\t'pre_option_show_on_front',\n\tfunction () {\n\t\treturn 'page';\n\t}\n);\n\nadd_filter(\n\t'pre_option_page_on_front',\n\tfunction () {\n\t\treturn HOME_ID;\n\t}\n);\n",
+   "size": 485
+  }
+ ],
+ "total": 1,
+ "isOwnedByCurrentUser": true
+}

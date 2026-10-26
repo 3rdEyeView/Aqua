@@ -204,39 +204,44 @@ function fail_or_retry( $post_id, $error ) {
 	return null;
 }
 
-// Five minutes after delivery: confirm the contact has an opportunity in the pipeline (read-only).
-add_action(
-	CHECK_JOB,
-	function ( $post_id ) {
-		$s     = settings();
-		$state = get_state( $post_id );
-		if ( empty( $state['contact_id'] ) || ! $s['pipeline_id'] ) {
-			return;
-		}
-		$r = api(
-			'GET',
-			'/opportunities/search?' . http_build_query(
-				array(
-					'location_id' => $s['location_id'],
-					'contact_id'  => $state['contact_id'],
-					'pipeline_id' => $s['pipeline_id'],
-				)
+// Five minutes after delivery: confirm the contact has an opportunity in the production
+// pipeline, and list any in other pipelines (read-only).
+add_action( CHECK_JOB, __NAMESPACE__ . '\\check_opportunity', 10, 1 );
+
+function check_opportunity( $post_id ) {
+	$s     = settings();
+	$state = get_state( $post_id );
+	if ( empty( $state['contact_id'] ) || ! $s['pipeline_id'] ) {
+		return;
+	}
+	$r = api(
+		'GET',
+		'/opportunities/search?' . http_build_query(
+			array(
+				'location_id' => $s['location_id'],
+				'contact_id'  => $state['contact_id'],
 			)
-		);
-		if ( is_wp_error( $r ) ) {
-			set_state( $post_id, array( 'opportunity_check' => 'error: ' . $r->get_error_message() ), 'opportunity check error' );
-			return;
+		)
+	);
+	if ( is_wp_error( $r ) ) {
+		set_state( $post_id, array( 'opportunity_check' => 'error: ' . $r->get_error_message() ), 'opportunity check error' );
+		return;
+	}
+	$main  = array( 0, 0 );
+	$other = array();
+	foreach ( isset( $r['opportunities'] ) ? $r['opportunities'] : array() as $o ) {
+		$pid  = isset( $o['pipelineId'] ) ? (string) $o['pipelineId'] : '?';
+		$open = isset( $o['status'] ) && 'open' === $o['status'];
+		if ( $pid === $s['pipeline_id'] ) {
+			$main[0] += $open ? 1 : 0;
+			++$main[1];
+		} else {
+			$other[ $pid ] = isset( $other[ $pid ] ) ? $other[ $pid ] + 1 : 1;
 		}
-		$opps  = isset( $r['opportunities'] ) ? $r['opportunities'] : array();
-		$open  = array_filter(
-			$opps,
-			function ( $o ) {
-				return isset( $o['status'] ) && 'open' === $o['status'];
-			}
-		);
-		$check = count( $open ) . ' open / ' . count( $opps ) . ' total in pipeline';
-		set_state( $post_id, array( 'opportunity_check' => $check ), 'opportunity check: ' . $check );
-	},
-	10,
-	1
-);
+	}
+	$check = $main[0] . ' open / ' . $main[1] . ' total in ' . PIPELINE_NAME;
+	foreach ( $other as $pid => $n ) {
+		$check .= '; ' . $n . ' in other pipeline ' . $pid;
+	}
+	set_state( $post_id, array( 'opportunity_check' => $check ), 'opportunity check: ' . $check );
+}

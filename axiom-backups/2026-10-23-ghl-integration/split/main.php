@@ -29,7 +29,9 @@ const API_BASE         = 'https://services.leadconnectorhq.com';
 const API_VERSION      = '2021-07-28';
 const LEAD_TAG         = 'axiom-new-lead';
 const TEST_TAG         = 'axiom-integration-test';
-const PIPELINE_NAME    = 'AXIOM Standard Client Pipeline';
+// Production pipeline the Instant New Lead Response workflow writes to. Verification
+// resolves it to an ID; only the read-only opportunity check uses it.
+const PIPELINE_NAME    = 'Axiom Sales & Client Acquisition';
 const STAGE_NAME       = 'New Lead';
 const ALERT_TO         = 'axiom.systems.co@gmail.com';
 const SOURCE           = 'Website: Get Started form';

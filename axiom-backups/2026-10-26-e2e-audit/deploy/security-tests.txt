@@ -1,0 +1,9 @@
+check, no auth: 401
+check, forged login cookie, no nonce: 401
+check, wrong password: 401
+check via GET query string (admin): 200 (GET returns status only, no check run)
+admin {"action":"check","entry":1095} -> {"http_error":400,"body":"{\"code\":\"axiom_entry\",\"message\":\"NotaGetStartedentry.\",\"data\":{\"status\":400}}"}
+admin {"action":"check","entry":"abc"} -> {"http_error":400,"body":"{\"code\":\"axiom_entry\",\"message\":\"NotaGetStartedentry.\",\"data\":{\"status\":400}}"}
+admin {"action":"check"} -> {"http_error":400,"body":"{\"code\":\"axiom_entry\",\"message\":\"NotaGetStartedentry.\",\"data\":{\"status\":400}}"}
+admin {"action":"check","entry":1376} -> {"entry":1376,"opportunity_check":null}
+response keys: ['entry', 'opportunity_check'] | contains @/phone digits/token-like: False

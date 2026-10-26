@@ -1,0 +1,268 @@
+{
+ "token_defined": true,
+ "action_scheduler": true,
+ "settings": {
+  "mode": "live",
+  "location_id": "WSbB7bUher6I1M2VNlZz",
+  "pipeline_id": "29sSMvlcvPPuSxaEzoVb",
+  "stage_id": "14423499-01c7-4ca3-91b2-d10ea619186a",
+  "field_map": {
+   "Business name": "4ZYDZGWO0Z3TUuZIgWqX",
+   "Current website": "HUtHUw3TbnQn9ZZD864k",
+   "Plan interest": "o8EzFOVQrRoWE1OWqA5H",
+   "Tell us about your business": "EB63uFUp0FROWGBS2QGG"
+  },
+  "test_emails": "",
+  "verified": {
+   "time": "2026-10-26 17:42:48 UTC",
+   "token_defined": true,
+   "location_id": "WSbB7bUher6I1M2VNlZz",
+   "checks": {
+    "location (locations.readonly)": {
+     "ok": true,
+     "name": "AxiomSystems",
+     "id_matches": true,
+     "duplicate_settings": {
+      "allowDuplicateContact": false,
+      "allowDuplicateOpportunity": false,
+      "allowFacebookNameMerge": false
+     }
+    },
+    "contacts read (contacts.readonly)": {
+     "ok": true
+    },
+    "pipelines (opportunities.readonly)": {
+     "ok": true,
+     "pipelines": [
+      "Reactivation/ Win Back Pipeline",
+      "Marketing Pipeline",
+      "Axiom Sales & Client Acquisition",
+      "AXIOM | Standard Client Pipeline"
+     ],
+     "pipeline_ids": {
+      "nWWunySWS0jadYI8XvQR": "Reactivation/ Win Back Pipeline (Past Customer/Cold Lead, Reactivation Sent, Engaged, Interested, Booking Created, Won Back, Not Interested, Do Not Contact)",
+      "zdkOVHlrlSWJKDEYzUKM": "Marketing Pipeline (New Lead, Hot Lead, New Booking, Visit Attended, Sale, Left a Review)",
+      "29sSMvlcvPPuSxaEzoVb": "Axiom Sales & Client Acquisition (New Lead, Appointment Booked, Follow Up, Won)",
+      "gWBaXOSSXt70oOgBlvXN": "AXIOM | Standard Client Pipeline (New Lead, Contact Attempted, Engaged / Qualified, Appointment Scheduled, Proposal / Estimate Sent, Won, Lost)"
+     },
+     "axiom_pipeline": {
+      "pipeline_id": "29sSMvlcvPPuSxaEzoVb",
+      "stage_id": "14423499-01c7-4ca3-91b2-d10ea619186a"
+     }
+    },
+    "tags (locations/tags.readonly)": {
+     "ok": true,
+     "axiom-new-lead_exists": true,
+     "axiom-integration-test_exists": true,
+     "tag_count": 15
+    },
+    "custom fields (locations/customFields.readonly)": {
+     "ok": true,
+     "contact_fields": [
+      {
+       "id": "2FJSO373zYTSVICXfPD9",
+       "name": "Next Appointment Date & Time",
+       "key": "contact.next_appointment_date__time",
+       "type": "TEXT"
+      },
+      {
+       "id": "4ZYDZGWO0Z3TUuZIgWqX",
+       "name": "Business Name",
+       "key": "contact.business_name",
+       "type": "TEXT"
+      },
+      {
+       "id": "EB63uFUp0FROWGBS2QGG",
+       "name": "Primary Business Challenge",
+       "key": "contact.primary_business_challenge",
+       "type": "LARGE_TEXT"
+      },
+      {
+       "id": "G8p7qNO6J172tErMpMg4",
+       "name": "Lead Source Detail",
+       "key": "contact.lead_source_detail",
+       "type": "TEXT"
+      },
+      {
+       "id": "HUtHUw3TbnQn9ZZD864k",
+       "name": "Current Website URL",
+       "key": "contact.current_website_url",
+       "type": "TEXT"
+      },
+      {
+       "id": "fGbnhCUlv5IlbewSQGN5",
+       "name": "Project Timeline",
+       "key": "contact.project_timeline",
+       "type": "TEXT"
+      },
+      {
+       "id": "o8EzFOVQrRoWE1OWqA5H",
+       "name": "Service Interest",
+       "key": "contact.service_interest",
+       "type": "TEXT"
+      },
+      {
+       "id": "oGj8GJR71dmwY7jG1DSW",
+       "name": "Your website",
+       "key": "contact.your_website",
+       "type": "TEXT"
+      },
+      {
+       "id": "wJ4irZm3JokdQE9WWDdQ",
+       "name": "Industry",
+       "key": "contact.industry",
+       "type": "TEXT"
+      },
+      {
+       "id": "xBX0lq8bwM9v08uGmrG9",
+       "name": "SMS Consent",
+       "key": "contact.sms_consent",
+       "type": "SINGLE_OPTIONS"
+      }
+     ]
+    },
+    "workflows (workflows.readonly)": {
+     "ok": true,
+     "workflows": [
+      "1. New Lead Nurture (Fast 5) - Claim Offer [draft]",
+      "2. Appointment Confirmation + Reminders [draft]",
+      "3. Appt No Show [draft]",
+      "4. New Sale - Send Review Request [draft]",
+      "5. Long-Term Nurture [draft]",
+      "6. Stale Leads [draft]",
+      "Appointment Confirmation Workflow [published]",
+      "Appointment Reminder Workflow [published]",
+      "CLIENT TEMPLATE | Appointment Cancellation Handler [published]",
+      "CLIENT TEMPLATE | Appointment Confirmation [published]",
+      "CLIENT TEMPLATE | Appointment Reminder [published]",
+      "CLIENT TEMPLATE | Google Review Request [published]",
+      "CLIENT TEMPLATE | Instant New Lead Response [published]",
+      "CLIENT TEMPLATE | Lead Follow-Up Sequence [published]",
+      "CLIENT TEMPLATE | Missed Call Text Back [published]",
+      "CLIENT TEMPLATE | Stop Lead Follow-Ups [published]",
+      "Copy - CLIENT TEMPLATE | Facebook & Instagram DM Auto Response [draft]",
+      "Google Review Request Automation [published]",
+      "Instant New Lead Response [published]",
+      "Lead Follow-Up Sequence [published]",
+      "Missed Call Auto Text Back [published]",
+      "New Workflow - 2026-10-22T23:10:21.622Z [draft]",
+      "Post-Appointment Follow-Up [draft]",
+      "| Facebook & Instagram DM Auto Response [published]"
+     ]
+    }
+   }
+  },
+  "opportunity_mode": "workflow",
+  "field_message": "",
+  "field_plan": ""
+ },
+ "entries": [
+  {
+   "id": 1402,
+   "post": "publish",
+   "status": "sent",
+   "preview": null,
+   "history": [
+    "2026-10-24 03:48:40 queued (live)",
+    "2026-10-24 03:48:43 contact created MWWqo11piJdDiATUmsze",
+    "2026-10-24 03:48:43 source set on new contact",
+    "2026-10-24 03:48:43 note added",
+    "2026-10-24 03:48:44 tag added: axiom-new-lead",
+    "2026-10-24 03:48:44 sent",
+    "2026-10-24 03:58:21 opportunity check: 0 open / 0 total in pipeline",
+    "2026-10-26 17:42:57 opportunity check: 1 open / 1 total in Axiom Sales & Client Acquisition"
+   ]
+  },
+  {
+   "id": 1400,
+   "post": "publish",
+   "status": "sent",
+   "preview": null,
+   "history": [
+    "2026-10-24 00:19:04 queued (test)",
+    "2026-10-24 00:19:07 contact updated NjaQutbGnBwzCvU1EnFH",
+    "2026-10-24 00:19:07 note added",
+    "2026-10-24 00:19:07 tag added: axiom-integration-test",
+    "2026-10-24 00:19:07 sent",
+    "2026-10-24 00:25:06 opportunity check: 0 open / 0 total in pipeline"
+   ]
+  },
+  {
+   "id": 1399,
+   "post": "publish",
+   "status": "dry-run",
+   "preview": {
+    "contact_fields": [
+     "name",
+     "firstName",
+     "lastName",
+     "email",
+     "phone",
+     "companyName",
+     "website",
+     "custom:4ZYDZGWO0Z3TUuZIgWqX",
+     "custom:HUtHUw3TbnQn9ZZD864k",
+     "custom:o8EzFOVQrRoWE1OWqA5H",
+     "custom:EB63uFUp0FROWGBS2QGG"
+    ],
+    "note_chars": 427,
+    "tag": "axiom-new-lead",
+    "opportunity": "created by the GoHighLevel workflow",
+    "source": "set only if the contact is new"
+   },
+   "history": [
+    "2026-10-23 23:57:50 queued (dry-run)",
+    "2026-10-23 23:57:53 dry-run: payload built, nothing sent"
+   ]
+  },
+  {
+   "id": 1397,
+   "post": "publish",
+   "status": null,
+   "preview": null,
+   "history": []
+  },
+  {
+   "id": 1396,
+   "post": "publish",
+   "status": null,
+   "preview": null,
+   "history": []
+  },
+  {
+   "id": 1378,
+   "post": "publish",
+   "status": null,
+   "preview": null,
+   "history": []
+  },
+  {
+   "id": 1376,
+   "post": "spam",
+   "status": null,
+   "preview": null,
+   "history": []
+  },
+  {
+   "id": 1375,
+   "post": "publish",
+   "status": null,
+   "preview": null,
+   "history": []
+  },
+  {
+   "id": 1374,
+   "post": "spam",
+   "status": null,
+   "preview": null,
+   "history": []
+  },
+  {
+   "id": 1373,
+   "post": "publish",
+   "status": null,
+   "preview": null,
+   "history": []
+  }
+ ]
+}

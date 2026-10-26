@@ -174,7 +174,25 @@ reset_all( 'live', array( 'opportunity_mode' => 'api', 'pipeline_id' => 'P1', 's
 submit( 110 ); run_queue();
 $opp_calls = array_values( array_filter( $GLOBALS['CALLS'], function ( $c ) { return false !== strpos( $c[1], '/opportunities' ); } ) );
 ok( 'sent' === S\get_state( 110 )['status'] && array( 'GET' ) === array_unique( array_column( $opp_calls, 0 ) ), 'live mode: snippet never creates opportunities (read-only check only)' );
-ok( false !== strpos( (string) S\get_state( 110 )['opportunity_check'], 'in pipeline' ), 'live mode: follow-up check confirms the workflow opportunity' );
+ok( false !== strpos( (string) S\get_state( 110 )['opportunity_check'], 'in Axiom Sales & Client Acquisition' ), 'live mode: follow-up check reports the production pipeline' );
+ok( ! array_filter( $opp_calls, function ( $c ) { return false !== strpos( $c[1], 'pipeline_id' ); } ), 'opportunity check: one search for all of the contact\'s opportunities (no pipeline filter)' );
+
+// --- opportunity check counts the production pipeline and lists others (read-only)
+reset_all( 'live', array( 'pipeline_id' => 'PROD' ) );
+$base = fake_ok();
+$GLOBALS['FAKE'] = function ( $m, $url, $a ) use ( $base ) {
+	if ( '/opportunities/search' === parse_url( $url, PHP_URL_PATH ) ) return array( 'code' => 200, 'body' => json_encode( array( 'opportunities' => array( array( 'pipelineId' => 'PROD', 'status' => 'open' ), array( 'pipelineId' => 'PROD', 'status' => 'lost' ), array( 'pipelineId' => 'TPL', 'status' => 'open' ) ) ) ) );
+	return $base( $m, $url, $a );
+};
+submit( 130 ); run_queue();
+$chk = (string) S\get_state( 130 )['opportunity_check'];
+ok( 0 === strpos( $chk, '1 open / 2 total in Axiom Sales & Client Acquisition' ) && false !== strpos( $chk, '1 in other pipeline TPL' ), 'opportunity check: production counted, other pipelines listed' );
+$before = writes(); $GLOBALS['CALLS'] = array();
+S\check_opportunity( 130 );
+ok( 1 === count( $GLOBALS['CALLS'] ) && 'GET' === $GLOBALS['CALLS'][0][0] && 0 === count( writes() ), 'manual re-check: a single GET, no writes' );
+ok( array( '/contacts/upsert', '/contacts/C1', '/contacts/C1/notes', '/contacts/C1/tags' ) === array_column( $before, 1 ), 'delivery unchanged: upsert, source, note, tag' );
+$GLOBALS['CALLS'] = array(); S\check_opportunity( 999 );
+ok( 0 === count( $GLOBALS['CALLS'] ), 'manual re-check: entry without a contact makes no request' );
 
 // --- verification reports the location duplicate settings (read-only)
 reset_all( 'dry-run' );
@@ -202,7 +220,7 @@ $GLOBALS['FAKE'] = function ( $m, $url ) {
 	$map = array(
 		'/locations/WSbB7bUher6I1M2VNlZz' => array( 'location' => array( 'id' => 'WSbB7bUher6I1M2VNlZz', 'name' => 'AxiomSystems' ) ),
 		'/contacts/' => array( 'contacts' => array() ),
-		'/opportunities/pipelines' => array( 'pipelines' => array( array( 'id' => 'P1', 'name' => 'AXIOM | Standard Client Pipeline', 'stages' => array( array( 'id' => 'S0', 'name' => 'Inbox' ), array( 'id' => 'S1', 'name' => 'New Lead' ) ) ) ) ),
+		'/opportunities/pipelines' => array( 'pipelines' => array( array( 'id' => 'P1', 'name' => 'AXIOM | Standard Client Pipeline', 'stages' => array( array( 'id' => 'S0', 'name' => 'Inbox' ), array( 'id' => 'S1', 'name' => 'New Lead' ) ) ), array( 'id' => 'P2', 'name' => 'Axiom Sales & Client Acquisition', 'stages' => array( array( 'id' => 'S2', 'name' => 'New Lead' ), array( 'id' => 'S3', 'name' => 'Appointment Booked' ) ) ) ) ),
 		'/locations/WSbB7bUher6I1M2VNlZz/tags' => array( 'tags' => array( array( 'name' => 'axiom-new-lead' ) ) ),
 		'/locations/WSbB7bUher6I1M2VNlZz/customFields' => array( 'customFields' => array( array( 'id' => 'F1', 'name' => 'Message', 'fieldKey' => 'contact.message', 'dataType' => 'LARGE_TEXT', 'model' => 'contact' ) ) ),
 		'/workflows/' => array( 'workflows' => array( array( 'name' => 'New Lead', 'status' => 'published' ) ) ),
@@ -211,9 +229,20 @@ $GLOBALS['FAKE'] = function ( $m, $url ) {
 };
 $v = S\verify();
 ok( 6 === count( $GLOBALS['CALLS'] ) && 0 === count( writes() ), 'verify: 6 requests, all GET' );
-ok( $v['checks']['location (locations.readonly)']['id_matches'] && 'P1' === S\settings()['pipeline_id'] && 'S1' === S\settings()['stage_id'], 'verify: location matched; "AXIOM | Standard Client Pipeline" / New Lead stored' );
+ok( $v['checks']['location (locations.readonly)']['id_matches'] && 'P2' === S\settings()['pipeline_id'] && 'S2' === S\settings()['stage_id'], 'verify: production pipeline "Axiom Sales & Client Acquisition" / New Lead stored by ID' );
+$ids = $v['checks']['pipelines (opportunities.readonly)']['pipeline_ids'];
+ok( 'Axiom Sales & Client Acquisition (New Lead, Appointment Booked)' === $ids['P2'] && isset( $ids['P1'] ), 'verify: every pipeline ID reported with its stages' );
 ok( true === $v['checks']['tags (locations/tags.readonly)']['axiom-new-lead_exists'], 'verify: tag found' );
 ok( false === strpos( json_encode( $GLOBALS['OPT'] ), 'pit-test' ), 'verify results do not contain the token' );
+
+// --- production pipeline without a "New Lead" stage: ID still stored
+reset_all( 'dry-run' );
+$GLOBALS['FAKE'] = function ( $m, $url ) {
+	if ( '/opportunities/pipelines' === parse_url( $url, PHP_URL_PATH ) ) return array( 'code' => 200, 'body' => json_encode( array( 'pipelines' => array( array( 'id' => 'P2', 'name' => 'Axiom Sales & Client Acquisition', 'stages' => array( array( 'id' => 'S9', 'name' => 'Inquiry' ) ) ) ) ) ) );
+	return array( 'code' => 403, 'body' => '{}' );
+};
+S\verify();
+ok( 'P2' === S\settings()['pipeline_id'] && '' === S\settings()['stage_id'], 'verify: pipeline ID stored even if stage names change' );
 
 echo $fails ? "\n$fails FAILED\n" : "\nALL PASSED\n";
 exit( $fails ? 1 : 0 );

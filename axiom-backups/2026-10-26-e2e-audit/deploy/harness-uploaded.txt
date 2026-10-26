@@ -1,0 +1,56 @@
+PASS phone 10 digits -> +1
+PASS phone 11 digits -> +1
+PASS intl phone kept
+PASS no digits -> empty
+PASS empty values are omitted (no blanking)
+PASS name/email mapped
+PASS dry-run: one job queued in submission request
+PASS dry-run: no HTTP during submission
+PASS dry-run: worker made no HTTP requests
+PASS dry-run: status recorded
+PASS dry-run preview lists mapped fields, skips empty website
+PASS state/preview contains no lead values
+PASS spam entry not queued
+PASS other form not queued
+PASS api() refuses writes unless explicitly allowed
+PASS live: upsert, source (new contact), note, tag (tag last)
+PASS live: axiom-new-lead tag
+PASS source not in upsert; set separately on new contact
+PASS live: upsert payload mapped, empty website omitted
+PASS token only sent in Authorization header
+PASS live: sent; token not stored anywhere
+PASS note has marker and message
+PASS workflow mode: no opportunity created by the snippet
+PASS already-sent entry is never re-sent
+PASS existing contact: no source overwrite
+PASS field map: mapped fields sent, unmapped skipped, website normalised
+PASS field map: empty value not sent (no blanking)
+PASS timeout after note was saved: retry finds it, exactly one note
+PASS retried once then sent
+PASS contact upserted once across retries
+PASS retry schedule 1m, 5m, 30m, 2h, 12h
+PASS after final retry: failed + one alert email
+PASS alert email has no lead data or token
+PASS 401: no retry, failed + alert
+PASS test mode: real lead held, no requests
+PASS test mode: listed email sent with test tag
+PASS test mode never creates opportunities
+PASS live mode: snippet never creates opportunities (read-only check only)
+PASS live mode: follow-up check reports the production pipeline
+PASS opportunity check: one search for all of the contact's opportunities (no pipeline filter)
+PASS opportunity check: production counted, other pipelines listed
+PASS manual re-check: a single GET, no writes
+PASS delivery unchanged: upsert, source, note, tag
+PASS manual re-check: entry without a contact makes no request
+PASS verify: duplicate settings reported
+PASS verify: still no write requests
+PASS non-public field values: fallback capture still maps fields
+PASS no valid email/phone: skipped, nothing sent
+PASS verify: 6 requests, all GET
+PASS verify: production pipeline "Axiom Sales & Client Acquisition" / New Lead stored by ID
+PASS verify: every pipeline ID reported with its stages
+PASS verify: tag found
+PASS verify results do not contain the token
+PASS verify: pipeline ID stored even if stage names change
+
+ALL PASSED

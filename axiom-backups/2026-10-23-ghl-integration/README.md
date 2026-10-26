@@ -1,6 +1,6 @@
 # Get Started form → GoHighLevel (Axiom CRM Sync)
 
-Snippet **1398** (`AngieSnippets\AxiomCrmSync_1398`), published 2026-10-23. Mode was dry-run at publication; **live since 2026-10-24** (entry #1402; see ../2026-10-26-e2e-audit). Its opportunity check targets "AXIOM | Standard Client Pipeline"; production opportunities go to "Axiom Sales & Client Acquisition".
+Snippet **1398** (`AngieSnippets\AxiomCrmSync_1398`), published 2026-10-23. Mode was dry-run at publication; **live since 2026-10-24** (entry #1402; see ../2026-10-26-e2e-audit). Since 2026-10-26 the opportunity check targets the production pipeline "Axiom Sales & Client Acquisition" (`29sSMvlcvPPuSxaEzoVb`); current code is `../2026-10-26-e2e-audit/patch/split/` (deployment record: `../2026-10-26-e2e-audit/deploy/`).
 Source of truth: `split/` (main, capture, delivery, verify, admin). Offline tests:
 `php tests/harness.php split/main.php` (45 pass).
 

@@ -51,18 +51,20 @@ function verify() {
 		api( 'GET', '/opportunities/pipelines?' . http_build_query( array( 'locationId' => $s['location_id'] ) ) ),
 		function ( $r ) use ( &$pipeline ) {
 			$names = array();
+			$ids   = array();
 			foreach ( isset( $r['pipelines'] ) ? $r['pipelines'] : array() as $p ) {
-				$names[] = $p['name'];
+				$names[]         = $p['name'];
+				$ids[ $p['id'] ] = $p['name'] . ' (' . implode( ', ', wp_list_pluck( $p['stages'], 'name' ) ) . ')';
 				if ( name_key( $p['name'] ) === name_key( PIPELINE_NAME ) ) {
+					$pipeline = array( 'pipeline_id' => $p['id'], 'stage_id' => '' );
 					foreach ( $p['stages'] as $st ) {
 						if ( name_key( $st['name'] ) === name_key( STAGE_NAME ) ) {
-							$pipeline = array( 'pipeline_id' => $p['id'], 'stage_id' => $st['id'] );
+							$pipeline['stage_id'] = $st['id'];
 						}
 					}
-					$pipeline = $pipeline ? $pipeline : array( 'pipeline_id' => $p['id'], 'stage_id' => '', 'stages' => wp_list_pluck( $p['stages'], 'name' ) );
 				}
 			}
-			return array( 'pipelines' => $names, 'axiom_pipeline' => $pipeline );
+			return array( 'pipelines' => $names, 'pipeline_ids' => $ids, 'axiom_pipeline' => $pipeline );
 		}
 	);
 	$check(
@@ -100,7 +102,7 @@ function verify() {
 	);
 
 	$changes = array( 'verified' => $out );
-	if ( $pipeline && ! empty( $pipeline['stage_id'] ) ) {
+	if ( $pipeline ) {
 		$changes['pipeline_id'] = $pipeline['pipeline_id'];
 		$changes['stage_id']    = $pipeline['stage_id'];
 	}
@@ -154,6 +156,15 @@ add_action(
 					'callback'            => function ( $request ) {
 						if ( 'verify' === $request['action'] ) {
 							return rest_ensure_response( verify() );
+						}
+						if ( 'check' === $request['action'] ) {
+							$id = (int) $request['entry'];
+							if ( ! is_form_entry( $id ) ) {
+								return new \WP_Error( 'axiom_entry', 'Not a Get Started entry.', array( 'status' => 400 ) );
+							}
+							check_opportunity( $id );
+							$st = get_state( $id );
+							return rest_ensure_response( array( 'entry' => $id, 'opportunity_check' => isset( $st['opportunity_check'] ) ? $st['opportunity_check'] : null ) );
 						}
 						if ( 'settings' === $request['action'] ) {
 							$changes = array();

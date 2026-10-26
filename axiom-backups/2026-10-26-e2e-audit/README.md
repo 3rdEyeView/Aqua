@@ -14,6 +14,107 @@ Evidence key: **V** = verified from real events/logs · **C** = configuration/co
   opportunities by contact, A2P/10DLC status, or message logs.** PHP execution on the site is denied.
 - Google Ads / GA4 UIs: no access. Gmail inbox: no access.
 
+## Revision 2 — production readiness (2026-10-26, after owner's GHL verification) — supersedes Revision 1 where they differ
+Evidence key: **OV** = owner-verified in GHL/inbox/phone · **V** = verified here from logs/code/settings · **C** = configuration
+inspection · **N** = not tested · **X** = not visible to this session (GHL workflow internals, messages, Ads UI).
+
+### Confirmed working (do not rebuild)
+| Item | Evidence |
+|---|---|
+| Website and manual test leads reach GHL (contact, note, `axiom-new-lead` tag) | OV; V (#1402 log) |
+| Instant lead-response email and SMS | OV |
+| Day 1 and Day 2 follow-up emails | OV |
+| Production Instant New Lead Response creates opportunities in **Axiom Sales & Client Acquisition / New Lead / Open** (execution log shows Create Opportunity succeeded; dashboard: 3 New Lead + 1 Appointment Booked) | OV |
+| Appointment bookings in the GHL calendar; opportunity in Appointment Booked | OV |
+| Form → plan label → GHL "Service Interest" for every plan incl. Axiom Lead Automation (+ legacy aliases) | V |
+| Integration code = reviewed code; offline tests pass; GHL read scopes OK; duplicate contacts/opportunities off | V |
+| Lead conversion script present with AW-17889231515/C8k6…, fired once per real entry in 10-23 tests (Google blocked) | V |
+
+The original "missing opportunity" finding was caused by the integration's check looking in **AXIOM | Standard Client
+Pipeline**; production opportunities go to **Axiom Sales & Client Acquisition**. It was not a lead-handling failure.
+
+### Confirmed defects
+| # | Defect | Cause | Fix (approval needed) |
+|---|---|---|---|
+| D1 | Integration's opportunity check reports the wrong pipeline ("0 open") | `PIPELINE_NAME` constant (V) | Patch in `patch/` (read-only check/logging only) |
+| D2 | Opportunity source shows `[object Object] Website Inquiry` | OV symptom. The action's Source field contains a merge field that resolves to an object, followed by the literal "Website Inquiry". Not caused by the website: the integration sets contact source to the plain string "Website: Get Started form" (V), which would render as text. Exact merge field: X | Owner opens Instant New Lead Response → Create Opportunity → Source; replace the merge field with static text "Website Inquiry" (or `{{contact.source}}` alone). New opportunities only; historical ones untouched unless authorised |
+| D3 | One opportunity named `- NewLead` | OV symptom. The name template is "<contact-name merge field> - NewLead" and that contact had no name when the action ran. Website leads always send a name before the tag that starts the workflow (V), so this contact most likely came from another route (manual/test contact without a name, booking, call/SMS). X: which contact | Owner checks that opportunity's contact (Name empty? created how?). Fix: name template that cannot be empty, e.g. `{{contact.company_name}} {{contact.name}} – New Lead`, or an If/Else on "Full Name is empty" using email/phone |
+
+### Confirmed gaps (site, read-only facts)
+| # | Gap | Evidence |
+|---|---|---|
+| G1 | No privacy policy, terms or SMS policy page (404) | V |
+| G2 | No SMS/marketing consent wording or checkbox on the form; GHL `SMS Consent` field never set; consent not recorded anywhere | V |
+| G3 | Akismet active without an API key → no spam filtering; spam would sync live to GHL | V |
+| G4 | Site Kit Ads module AW-17878870459 vs conversion AW-17889231515; no GTM | V (impact X) |
+
+### Unverified risks
+| # | Risk | What settles it |
+|---|---|---|
+| R1 | A CLIENT TEMPLATE workflow enrolling Axiom leads (templates added after 10-24 01:55 UTC; triggers X) | Manual checks below; patched check lists opportunities in other pipelines |
+| R2 | Repeat inquiry from an existing contact gets no new response/opportunity (integration: contact updated, note added, tag already present) | Production trigger type/re-entry (X); test T2 |
+| R3 | Workflows matching old package text ("Lead Response", "Follow-Up Automation") in Service Interest | Owner search (below) |
+| R4 | Ads conversions not attributed if campaigns run in AW-17878870459 | Owner: Ads account + Goals → conversion status |
+| R5 | SMS/email compliance (TCPA, Florida FTSA, A2P 10DLC, CAN-SPAM) | Legal/compliance review; A2P campaign status in GHL |
+
+### CLIENT TEMPLATE isolation — manual checks (no template is changed)
+For each published template and "| Facebook & Instagram DM Auto Response", record trigger + filters + created date.
+A template can enrol Axiom leads if its trigger is account-wide and unfiltered:
+| Template | Trigger types that would collide | Safe if |
+|---|---|---|
+| Instant New Lead Response | Contact Tag Added `axiom-new-lead`, Contact Created, Form Submitted (any form) | Filtered to a client-only tag/form |
+| Lead Follow-Up Sequence | same as above | same |
+| Stop Lead Follow-Ups | Customer Replied (any channel) | Filtered by a client-only tag; check what it removes/ends |
+| Missed Call Text Back | Call Status = missed / Inbound call without number filter | Filtered to a number Axiom doesn't use |
+| Appointment Confirmation / Reminder / Cancellation Handler | Appointment Status / Customer Booked Appointment with "any calendar" | Filtered to a client-only calendar |
+| Google Review Request | Opportunity Status/Stage Changed without pipeline filter, or on Axiom Sales & Client Acquisition | Filtered to the client template pipeline |
+| Facebook & Instagram DM Auto Response | Facebook/Instagram message received | Only if Axiom's pages aren't connected or it's intended |
+Direct evidence: each test contact's **Workflows/Activity** tab (only production workflows should appear), and the booked
+test contact's message count (1 confirmation = no template overlap on appointments).
+
+### Package-name dependency check (owner)
+In GHL search workflow conditions, smart lists and opportunity name/value fields for "Lead Response", "Follow-Up
+Automation", "lead-response", "Service Interest". New value format: `Axiom Lead Automation — +$349/month (plan=lead-automation)`;
+legacy links arrive as `(plan=lead-response)` / `(plan=follow-up-automation)` with the new label.
+
+### SMS consent: transactional vs marketing (requires legal review; not legal advice)
+- Transactional/informational: a reply to the inquiry the person just sent (acknowledgment, scheduling, appointment
+  confirmations/reminders). Typically needs consent tied to the inquiry plus STOP/HELP handling.
+- Marketing: follow-up sequences promoting packages, nurture, re-engagement, and arguably review requests. Under TCPA
+  and Florida's FTSA, automated marketing texts need prior express written consent; FTSA also limits calling hours and frequency.
+- A2P 10DLC registration expects at the point of collection: brand name, message purpose/frequency, "Msg & data rates may
+  apply", STOP/HELP, and links to a privacy policy stating mobile numbers are not shared for third-party marketing.
+- Recommended for review: (1) disclosure under the submit button for inquiry-related contact; (2) a separate, optional,
+  unticked checkbox for marketing texts; (3) record value + timestamp + wording version (Jetpack stores the entry; mapping to
+  GHL `SMS Consent` needs a small integration change); (4) gate marketing SMS steps on that field; (5) privacy policy and
+  terms pages; (6) CAN-SPAM: unsubscribe + postal address in commercial emails.
+
+### Remaining end-to-end tests (test contacts only; production delays unchanged)
+| P | Test | Steps | Pass criteria |
+|---|---|---|---|
+| 1 | Reply stops follow-ups (T3) | New test lead; after instant SMS reply "Yes, call me" | Conversation in inbox; no further follow-up after reply; only production workflows in history |
+| 2 | Duplicate inquiry (T2) | Same email/phone submits again ≥2 min later | Same contact; 2nd note; no 2nd opportunity; documented behaviour for response (decide R2) |
+| 3 | Missed call (T5) | From test phone call the GHL number, don't answer | Exactly 1 text-back |
+| 4 | After-hours (T6) | Submit outside business hours | Behaviour matches the rule the owner defines |
+| 5 | Reschedule / cancel (T8, T9) | Use the booked test appointment | 1 notice each; reminders re-timed/stopped; stage behaviour as designed |
+| 6 | Review request (T10) | Move a test opportunity to the review-trigger stage | 1 neutral request |
+| 7 | Review duplicate prevention | Move it out and back | No second request |
+| 8 | Opt-out (T4) | Reply STOP from a test number | DND SMS set; no further SMS; email unaffected unless unsubscribed |
+| 9 | Template isolation | Checks above + workflow history of every test contact | No template enrolments |
+| — | After patch deploy | verify + `check` entry 1402 | "1 open / 1 total in Axiom Sales & Client Acquisition" |
+Already passed, not repeated: lead → GHL, instant email + SMS, Day 1/Day 2 emails, opportunity creation, booking → Appointment Booked.
+
+### Changes requiring approval (none applied)
+A1 Deploy `patch/` (snippet 1398; read-only check/logging). · A2 Fix opportunity Source field (D2). · A3 Opportunity name
+fallback (D3). · A4 Akismet key or Jetpack anti-spam (G3). · A5 Privacy policy, terms, SMS consent wording/checkbox and consent
+recording, after legal review (G1, G2). · A6 Template isolation change only if the checks show overlap. · A7 Ads ID
+alignment after confirming the campaign account (G4).
+
+### Readiness
+Core lead path (website → GHL → opportunity → instant email/SMS → Day 1/2 emails → booking) is verified. **Not yet ready to
+onboard paying clients at scale**: blocking items are G1/G2 (SMS consent and privacy, legal review) and G3 (spam reaching
+live SMS); template isolation (R1) and tests 1–8 are unverified. D1–D3 are cosmetic or reporting issues.
+
 ## Revision 1 (2026-10-26, after owner review) — supersedes "Findings" and the T0/T1 expectations below
 The first pass mixed Axiom's production workflows with the CLIENT TEMPLATE library and checked the wrong pipeline.
 Owner-supplied facts (not visible to this session): Axiom's "Instant New Lead Response" is published; its Create

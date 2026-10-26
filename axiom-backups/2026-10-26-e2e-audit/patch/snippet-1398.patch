@@ -1,0 +1,149 @@
+diff -ru backup-live/delivery.php split/delivery.php
+--- backup-live/delivery.php	2026-10-26 17:34:49.585388348 +0000
++++ split/delivery.php	2026-10-26 17:35:14.599295968 +0000
+@@ -204,39 +204,44 @@
+ 	return null;
+ }
+ 
+-// Five minutes after delivery: confirm the contact has an opportunity in the pipeline (read-only).
+-add_action(
+-	CHECK_JOB,
+-	function ( $post_id ) {
+-		$s     = settings();
+-		$state = get_state( $post_id );
+-		if ( empty( $state['contact_id'] ) || ! $s['pipeline_id'] ) {
+-			return;
+-		}
+-		$r = api(
+-			'GET',
+-			'/opportunities/search?' . http_build_query(
+-				array(
+-					'location_id' => $s['location_id'],
+-					'contact_id'  => $state['contact_id'],
+-					'pipeline_id' => $s['pipeline_id'],
+-				)
++// Five minutes after delivery: confirm the contact has an opportunity in the production
++// pipeline, and list any in other pipelines (read-only).
++add_action( CHECK_JOB, __NAMESPACE__ . '\\check_opportunity', 10, 1 );
++
++function check_opportunity( $post_id ) {
++	$s     = settings();
++	$state = get_state( $post_id );
++	if ( empty( $state['contact_id'] ) || ! $s['pipeline_id'] ) {
++		return;
++	}
++	$r = api(
++		'GET',
++		'/opportunities/search?' . http_build_query(
++			array(
++				'location_id' => $s['location_id'],
++				'contact_id'  => $state['contact_id'],
+ 			)
+-		);
+-		if ( is_wp_error( $r ) ) {
+-			set_state( $post_id, array( 'opportunity_check' => 'error: ' . $r->get_error_message() ), 'opportunity check error' );
+-			return;
++		)
++	);
++	if ( is_wp_error( $r ) ) {
++		set_state( $post_id, array( 'opportunity_check' => 'error: ' . $r->get_error_message() ), 'opportunity check error' );
++		return;
++	}
++	$main  = array( 0, 0 );
++	$other = array();
++	foreach ( isset( $r['opportunities'] ) ? $r['opportunities'] : array() as $o ) {
++		$pid  = isset( $o['pipelineId'] ) ? (string) $o['pipelineId'] : '?';
++		$open = isset( $o['status'] ) && 'open' === $o['status'];
++		if ( $pid === $s['pipeline_id'] ) {
++			$main[0] += $open ? 1 : 0;
++			++$main[1];
++		} else {
++			$other[ $pid ] = isset( $other[ $pid ] ) ? $other[ $pid ] + 1 : 1;
+ 		}
+-		$opps  = isset( $r['opportunities'] ) ? $r['opportunities'] : array();
+-		$open  = array_filter(
+-			$opps,
+-			function ( $o ) {
+-				return isset( $o['status'] ) && 'open' === $o['status'];
+-			}
+-		);
+-		$check = count( $open ) . ' open / ' . count( $opps ) . ' total in pipeline';
+-		set_state( $post_id, array( 'opportunity_check' => $check ), 'opportunity check: ' . $check );
+-	},
+-	10,
+-	1
+-);
++	}
++	$check = $main[0] . ' open / ' . $main[1] . ' total in ' . PIPELINE_NAME;
++	foreach ( $other as $pid => $n ) {
++		$check .= '; ' . $n . ' in other pipeline ' . $pid;
++	}
++	set_state( $post_id, array( 'opportunity_check' => $check ), 'opportunity check: ' . $check );
++}
+diff -ru backup-live/main.php split/main.php
+--- backup-live/main.php	2026-10-26 17:34:49.585202877 +0000
++++ split/main.php	2026-10-26 17:35:14.597992482 +0000
+@@ -29,7 +29,9 @@
+ const API_VERSION      = '2021-07-28';
+ const LEAD_TAG         = 'axiom-new-lead';
+ const TEST_TAG         = 'axiom-integration-test';
+-const PIPELINE_NAME    = 'AXIOM Standard Client Pipeline';
++// Production pipeline the Instant New Lead Response workflow writes to. Verification
++// resolves it to an ID; only the read-only opportunity check uses it.
++const PIPELINE_NAME    = 'Axiom Sales & Client Acquisition';
+ const STAGE_NAME       = 'New Lead';
+ const ALERT_TO         = 'axiom.systems.co@gmail.com';
+ const SOURCE           = 'Website: Get Started form';
+diff -ru backup-live/verify.php split/verify.php
+--- backup-live/verify.php	2026-10-26 17:34:49.585506701 +0000
++++ split/verify.php	2026-10-26 17:35:14.599166137 +0000
+@@ -51,18 +51,20 @@
+ 		api( 'GET', '/opportunities/pipelines?' . http_build_query( array( 'locationId' => $s['location_id'] ) ) ),
+ 		function ( $r ) use ( &$pipeline ) {
+ 			$names = array();
++			$ids   = array();
+ 			foreach ( isset( $r['pipelines'] ) ? $r['pipelines'] : array() as $p ) {
+-				$names[] = $p['name'];
++				$names[]         = $p['name'];
++				$ids[ $p['id'] ] = $p['name'] . ' (' . implode( ', ', wp_list_pluck( $p['stages'], 'name' ) ) . ')';
+ 				if ( name_key( $p['name'] ) === name_key( PIPELINE_NAME ) ) {
++					$pipeline = array( 'pipeline_id' => $p['id'], 'stage_id' => '' );
+ 					foreach ( $p['stages'] as $st ) {
+ 						if ( name_key( $st['name'] ) === name_key( STAGE_NAME ) ) {
+-							$pipeline = array( 'pipeline_id' => $p['id'], 'stage_id' => $st['id'] );
++							$pipeline['stage_id'] = $st['id'];
+ 						}
+ 					}
+-					$pipeline = $pipeline ? $pipeline : array( 'pipeline_id' => $p['id'], 'stage_id' => '', 'stages' => wp_list_pluck( $p['stages'], 'name' ) );
+ 				}
+ 			}
+-			return array( 'pipelines' => $names, 'axiom_pipeline' => $pipeline );
++			return array( 'pipelines' => $names, 'pipeline_ids' => $ids, 'axiom_pipeline' => $pipeline );
+ 		}
+ 	);
+ 	$check(
+@@ -100,7 +102,7 @@
+ 	);
+ 
+ 	$changes = array( 'verified' => $out );
+-	if ( $pipeline && ! empty( $pipeline['stage_id'] ) ) {
++	if ( $pipeline ) {
+ 		$changes['pipeline_id'] = $pipeline['pipeline_id'];
+ 		$changes['stage_id']    = $pipeline['stage_id'];
+ 	}
+@@ -155,6 +157,15 @@
+ 						if ( 'verify' === $request['action'] ) {
+ 							return rest_ensure_response( verify() );
+ 						}
++						if ( 'check' === $request['action'] ) {
++							$id = (int) $request['entry'];
++							if ( ! is_form_entry( $id ) ) {
++								return new \WP_Error( 'axiom_entry', 'Not a Get Started entry.', array( 'status' => 400 ) );
++							}
++							check_opportunity( $id );
++							$st = get_state( $id );
++							return rest_ensure_response( array( 'entry' => $id, 'opportunity_check' => isset( $st['opportunity_check'] ) ? $st['opportunity_check'] : null ) );
++						}
+ 						if ( 'settings' === $request['action'] ) {
+ 							$changes = array();
+ 							if ( isset( $request['mode'] ) ) {

@@ -1,0 +1,287 @@
+{
+ "desktop /": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 829,
+    "w": 1440,
+    "h": 71
+   },
+   {
+    "el": "div.elementor-element",
+    "pos": "sticky",
+    "right": 864,
+    "bottom": -6058,
+    "w": 432,
+    "h": 237
+   }
+  ],
+  "submit": null,
+  "form_inputs": 0
+ },
+ "desktop /pricing/": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 829,
+    "w": 1440,
+    "h": 71
+   }
+  ],
+  "submit": null,
+  "form_inputs": 0
+ },
+ "desktop /add-ons/": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 829,
+    "w": 1440,
+    "h": 71
+   }
+  ],
+  "submit": null,
+  "form_inputs": 0
+ },
+ "desktop /faq/": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 829,
+    "w": 1440,
+    "h": 71
+   }
+  ],
+  "submit": null,
+  "form_inputs": 0
+ },
+ "desktop /get-started/?plan=lead-automation": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 829,
+    "w": 1440,
+    "h": 71
+   }
+  ],
+  "submit": {
+   "right": 217,
+   "width": 502
+  },
+  "form_inputs": 14,
+  "empty_submit_ajax": 0,
+  "plan_label": "INTERESTED IN\nAxiom Lead Automation — +$349/month"
+ },
+ "desktop /how-it-works/": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 829,
+    "w": 1440,
+    "h": 71
+   }
+  ],
+  "submit": null,
+  "form_inputs": 0
+ },
+ "desktop /our-work/": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 829,
+    "w": 1440,
+    "h": 71
+   }
+  ],
+  "submit": null,
+  "form_inputs": 0
+ },
+ "mobile /": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 784,
+    "w": 390,
+    "h": 60
+   }
+  ],
+  "submit": null,
+  "form_inputs": 0,
+  "menu_opens": true
+ },
+ "mobile /pricing/": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 784,
+    "w": 390,
+    "h": 60
+   }
+  ],
+  "submit": null,
+  "form_inputs": 0
+ },
+ "mobile /add-ons/": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 784,
+    "w": 390,
+    "h": 60
+   }
+  ],
+  "submit": null,
+  "form_inputs": 0
+ },
+ "mobile /faq/": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 784,
+    "w": 390,
+    "h": 60
+   }
+  ],
+  "submit": null,
+  "form_inputs": 0
+ },
+ "mobile /get-started/?plan=lead-automation": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 784,
+    "w": 390,
+    "h": 60
+   }
+  ],
+  "submit": {
+   "right": 37,
+   "width": 316
+  },
+  "form_inputs": 14,
+  "empty_submit_ajax": 0,
+  "plan_label": "INTERESTED IN\nAxiom Lead Automation — +$349/month"
+ },
+ "mobile /how-it-works/": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 784,
+    "w": 390,
+    "h": 60
+   }
+  ],
+  "submit": null,
+  "form_inputs": 0
+ },
+ "mobile /our-work/": {
+  "status": 200,
+  "overflow": false,
+  "js_errors": [],
+  "widget_tags": 1,
+  "widget_requests": 1,
+  "fixed_or_sticky": [
+   {
+    "el": "div.elementor-element",
+    "pos": "fixed",
+    "right": 0,
+    "bottom": 784,
+    "w": 390,
+    "h": 60
+   }
+  ],
+  "submit": null,
+  "form_inputs": 0
+ }
+}

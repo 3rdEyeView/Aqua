@@ -14,7 +14,69 @@ Evidence key: **V** = verified from real events/logs · **C** = configuration/co
   opportunities by contact, A2P/10DLC status, or message logs.** PHP execution on the site is denied.
 - Google Ads / GA4 UIs: no access. Gmail inbox: no access.
 
-## Findings
+## Revision 1 (2026-10-26, after owner review) — supersedes "Findings" and the T0/T1 expectations below
+The first pass mixed Axiom's production workflows with the CLIENT TEMPLATE library and checked the wrong pipeline.
+Owner-supplied facts (not visible to this session): Axiom's "Instant New Lead Response" is published; its Create
+Opportunity action targets **Axiom Sales & Client Acquisition / New Lead / Open**; duplicate opportunities are off; initial
+email + SMS and Day 1 / Day 2 follow-up emails were received in an earlier test.
+
+### Workflow classification (by name and status only; triggers are not visible here)
+| Group | Workflows (status) |
+|---|---|
+| Axiom production | Instant New Lead Response (pub), Lead Follow-Up Sequence (pub), Missed Call Auto Text Back (pub), Appointment Confirmation Workflow (pub), Appointment Reminder Workflow (pub), Google Review Request Automation (pub) |
+| CLIENT TEMPLATE | Appointment Cancellation Handler, Appointment Confirmation, Appointment Reminder, Google Review Request, Instant New Lead Response, Lead Follow-Up Sequence, Missed Call Text Back, Stop Lead Follow-Ups (all pub); Copy - … Facebook & Instagram DM Auto Response (draft) |
+| Other / unclear | "\| Facebook & Instagram DM Auto Response" (pub; name looks like a template copy with the prefix removed); drafts: 1. New Lead Nurture (Fast 5), 2. Appointment Confirmation + Reminders, 3. Appt No Show, 4. New Sale - Send Review Request, 5. Long-Term Nurture, 6. Stale Leads, New Workflow - 2026-10-22…, Post-Appointment Follow-Up |
+
+### Do CLIENT TEMPLATE workflows fire on Axiom production leads?
+**No evidence either way is available to this session.** The API used here returns workflow names/status only; it
+cannot show triggers, filters, enrollment history or messages. The first audit's "overlap" was an inference from names
+and publish status and is **withdrawn** as a finding. Relevant fact: the snapshots show the templates did not exist at
+2026-10-24 01:55 UTC (14 workflows, 0 templates) and existed by 2026-10-26 17:01 UTC (24, 9). Entry #1402 synced at
+2026-10-24 03:48 UTC, so the earlier successful test may pre-date the templates and does not show whether they react
+to production leads today. Deciding evidence (owner, read-only): contact `MWWqo11piJdDiATUmsze` → Workflows/Activity
+(which workflows enrolled it), each template's created date, and each template's trigger + filters.
+
+### Confirmed (verified from logs/code/settings)
+| # | Item | Impact |
+|---|---|---|
+| C1 | Integration mode is **live**; repo docs said dry-run (docs corrected here). | Docs only |
+| C2 | #1402 delivered end-to-end to GHL: contact created, source set, note added, `axiom-new-lead` tag added, 0 retries. | Working |
+| C3 | The integration's **post-delivery opportunity check looks in the wrong pipeline**: `PIPELINE_NAME` = "AXIOM Standard Client Pipeline", stored pipeline `gWBaXOSSXt70oOgBlvXN`. Its "0 open / 0 total" for #1402 says nothing about Axiom Sales & Client Acquisition. It only logs; lead delivery does not use the pipeline. | Misleading status log; no lead impact |
+| C4 | Site: no SMS-consent wording on form 1096; no privacy/terms page (404). Akismet active without a key. Site Kit Ads module AW-17878870459 vs lead conversion AW-17889231515. No Google Tag Manager. | Facts; impact listed under risks |
+| C5 | Code on site = repo; offline harness 45/45; GHL read scopes OK; duplicate contact/opportunity settings off. | Working |
+
+**Withdrawn:** the first pass's F2 (missing opportunity) and F3 (template overlap). **No confirmed failure in lead handling.**
+
+### Not verifiable from this session (needs the GHL UI)
+- U1 Opportunity for `MWWqo11piJdDiATUmsze` in Axiom Sales & Client Acquisition / New Lead. The available reads cannot query
+  that pipeline (the check is hard-wired to the Standard Client Pipeline; arbitrary GET calls aren't possible).
+- U2 Production workflow triggers (e.g. tag `axiom-new-lead` vs contact created), re-entry, stop-on-response.
+- U3 Whether any template/other workflow enrolled production contacts (see above).
+- U4 Missed-call number routing, calendars, reminders, review trigger and duplicate protection, A2P 10DLC status.
+- U5 Google Ads receiving the conversions; which Ads account runs campaigns.
+- U6 Whether anything in GHL reads Service Interest text (old "Lead Response"/"Follow-Up Automation" values).
+
+### Potential risks (not failures)
+| # | Risk | Why | How to settle |
+|---|---|---|---|
+| R1 | Templates enrolling production contacts | Same account; published; triggers unknown; created after the last production test | U3 checks; T1 workflow-history check |
+| R2 | SMS compliance | No consent wording/privacy page while workflows text web leads | Owner/legal decision; A2P status in GHL |
+| R3 | Spam reaching GHL and SMS | Akismet has no key; spam would sync live | Add key; T14 |
+| R4 | Ads attribution | Two AW IDs | Confirm account (U5) |
+| R5 | Repeat inquiries silent | Tag already present → depends on production trigger (U2) | T2 |
+| R6 | Misleading opportunity-check log | C3 | Optional read-only fix below |
+
+### Revised expectations for the test plan
+- T0 (owner, read-only): U1–U4 above, especially the #1402 contact's workflow history and opportunity.
+- T1: opportunity expected in **Axiom Sales & Client Acquisition / New Lead / Open**; workflow history should list only
+  production workflows; integration log will still say "0 … in pipeline" until C3 is fixed — ignore that line.
+- T10: review request expectations follow the production "Google Review Request Automation" trigger only.
+
+### Optional fix (needs approval; changes snippet 1398 only, no GHL change)
+Point the post-delivery check at Axiom Sales & Client Acquisition / New Lead and make it read-only report all open
+opportunities for the contact across pipelines, so the integration log can confirm U1 by itself.
+
+## Findings (original pass, superseded by Revision 1)
 | # | Severity | Finding | Evidence |
 |---|---|---|---|
 | F1 | High | **Integration mode is LIVE** (repo docs still said dry-run). Every non-spam Get Started entry now creates/updates a real GHL contact and adds `axiom-new-lead`. | V `live/crm-sync-status.json` |

@@ -1,6 +1,6 @@
 # Get Started form → GoHighLevel (Axiom CRM Sync)
 
-Snippet **1398** (`AngieSnippets\AxiomCrmSync_1398`), published 2026-10-23, **mode: dry-run**.
+Snippet **1398** (`AngieSnippets\AxiomCrmSync_1398`), published 2026-10-23. Mode was dry-run at publication; **live since 2026-10-24** (entry #1402; see ../2026-10-26-e2e-audit). Its opportunity check targets "AXIOM | Standard Client Pipeline"; production opportunities go to "Axiom Sales & Client Acquisition".
 Source of truth: `split/` (main, capture, delivery, verify, admin). Offline tests:
 `php tests/harness.php split/main.php` (45 pass).
 

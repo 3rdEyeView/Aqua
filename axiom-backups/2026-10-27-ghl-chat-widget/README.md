@@ -52,3 +52,14 @@ consent text. Owner checks below.
   contact creation or live-chat replies may enrol them (owner check 4).
 
 Rollback: unpublish snippet 1412 (and let the page cache refresh).
+
+## Widget ID change (2026-10-27, owner request)
+Snippet 1412 now loads widget **6adfdfee388cb81c668e729a** (was 6adf9aa5388cb81c665a7bda). Exact owner-supplied tag:
+`<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6adfdfee388cb81c668e729a" data-source="WEB_USER"></script>`
+- Backup: `swap-2026-10-27/before/` (live 1412 = previous `snippet/main.php`). Change: the ID in the tag and its comment only.
+- Uploaded bytes = `snippet/main.php`; tests pass; published.
+- Kinsta kept serving cached pages with the old ID; empty REST saves of pages 952, 1068, 1074, 1085, 1095, 1013, 1031
+  (content verified identical) purged them.
+- After (`swap-check.sh`, `swap-2026-10-27/after/`): 7 pages + 404, cached and uncached: new ID exactly once, old ID 0,
+  one loader. Other snippets, page baselines (except the widget ID), CRM Sync and Form Protection settings unchanged.
+- Widget rendering/opening not testable here (widgets.leadconnectorhq.com blocked); owner to check.

@@ -1,0 +1,11 @@
+{
+ "files": [
+  {
+   "name": "main.php",
+   "content": "<?php\n/**\n * Axiom GHL Chat Widget\n * Loads the official LeadConnector (GoHighLevel) chat widget once, in the footer of every public page.\n * WIDGET_TAG is the exact code supplied by GoHighLevel (widget 6adfdfee388cb81c668e729a); do not edit it.\n * Not loaded in wp-admin, the Elementor editor preview, feeds, embeds, REST or AJAX responses.\n * Touches nothing else: no form, tracking, CRM sync or consent settings.\n * Rollback: unpublish this snippet.\n */\nnamespace AngieSnippets\\AxiomGhlChatWidget;\n\nif ( ! defined( 'ABSPATH' ) ) {\n\texit;\n}\n\nconst WIDGET_TAG = '<script src=\"https://widgets.leadconnectorhq.com/loader.js\" data-resources-url=\"https://widgets.leadconnectorhq.com/chat-widget/loader.js\" data-widget-id=\"6adfdfee388cb81c668e729a\" data-source=\"WEB_USER\"></script>';\n\nfunction is_editor_preview() {\n\t// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- read-only check.\n\tif ( isset( $_GET['elementor-preview'] ) ) {\n\t\treturn true;\n\t}\n\treturn class_exists( '\\Elementor\\Plugin' ) && isset( \\Elementor\\Plugin::$instance->preview )\n\t\t&& \\Elementor\\Plugin::$instance->preview && \\Elementor\\Plugin::$instance->preview->is_preview_mode();\n}\n\nadd_action(\n\t'wp_footer',\n\tfunction () {\n\t\tstatic $done = false;\n\t\tif ( $done || is_admin() || is_feed() || is_embed() || wp_doing_ajax() || ( defined( 'REST_REQUEST' ) && REST_REQUEST ) || is_editor_preview() ) {\n\t\t\treturn;\n\t\t}\n\t\t$done = true;\n\t\techo \"\\n\" . WIDGET_TAG . \"\\n\"; // phpcs:ignore WordPress.Security.EscapeOutput -- exact vendor tag, static.\n\t},\n\t100\n);\n",
+   "size": 1530
+  }
+ ],
+ "total": 1,
+ "isOwnedByCurrentUser": true
+}

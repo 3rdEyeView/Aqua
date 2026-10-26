@@ -7,7 +7,7 @@ require $argv[1]; }
 namespace T { $fails = 0;
 function ok( $c, $m ) { global $fails; echo ( $c ? 'PASS ' : 'FAIL ' ) . $m . "\n"; if ( ! $c ) $fails++; }
 function footer() { ob_start(); foreach ( $GLOBALS['H']['wp_footer'] as $cb ) { $cb(); } return ob_get_clean(); }
-$exact = '<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6adf9aa5388cb81c665a7bda" data-source="WEB_USER"></script>';
+$exact = '<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6adfdfee388cb81c668e729a" data-source="WEB_USER"></script>';
 $o = footer();
 ok( 1 === substr_count( $o, $exact ) && trim( $o ) === $exact, 'public page: exact vendor tag, once' );
 ok( '' === footer(), 'second wp_footer call in the same request: no duplicate' );

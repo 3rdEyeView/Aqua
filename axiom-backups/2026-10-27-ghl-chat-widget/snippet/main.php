@@ -2,7 +2,7 @@
 /**
  * Axiom GHL Chat Widget
  * Loads the official LeadConnector (GoHighLevel) chat widget once, in the footer of every public page.
- * WIDGET_TAG is the exact code supplied by GoHighLevel (widget 6adf9aa5388cb81c665a7bda); do not edit it.
+ * WIDGET_TAG is the exact code supplied by GoHighLevel (widget 6adfdfee388cb81c668e729a); do not edit it.
  * Not loaded in wp-admin, the Elementor editor preview, feeds, embeds, REST or AJAX responses.
  * Touches nothing else: no form, tracking, CRM sync or consent settings.
  * Rollback: unpublish this snippet.
@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-const WIDGET_TAG = '<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6adf9aa5388cb81c665a7bda" data-source="WEB_USER"></script>';
+const WIDGET_TAG = '<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6adfdfee388cb81c668e729a" data-source="WEB_USER"></script>';
 
 function is_editor_preview() {
 	// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- read-only check.

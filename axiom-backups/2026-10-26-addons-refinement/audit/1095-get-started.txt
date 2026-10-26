@@ -1,0 +1,43 @@
+81cc355 | 7a646537 | None | href | /
+81cc355 | 3b744c1f | e-paragraph | paragraph | Axiom
+81cc355 | 574889e3 | e-paragraph | paragraph | Systems
+81cc355 | 197c10aa | e-button | text | How It Works
+81cc355 | 197c10aa | e-button | href | /how-it-works/
+81cc355 | 584f0fce | e-button | text | Our Work
+81cc355 | 584f0fce | e-button | href | /our-work/
+81cc355 | 5848b257 | e-button | text | Pricing
+81cc355 | 5848b257 | e-button | href | /pricing/
+81cc355 | 701af0a1 | e-button | text | Add-Ons
+81cc355 | 701af0a1 | e-button | href | /add-ons/
+81cc355 | 380a89cc | e-button | text | FAQ
+81cc355 | 380a89cc | e-button | href | /faq/
+81cc355 | 53fb2103 | e-button | text | Get Started
+81cc355 | 53fb2103 | e-button | href | /get-started/
+top | 1046eb3 | e-paragraph | paragraph | Get started
+top | 12b86bdd | e-heading | title | Let's grow<br>your business.
+top | 565f219 | e-paragraph | paragraph | Submit your business details and we'll guide you through the next steps. Nothing is charged when you send this form.
+top | 6508d7ca | e-paragraph | paragraph | Essential $299/mo · Growth $599/mo · Marketing from $1,500/mo
+top | 2d5881b5 | e-paragraph | paragraph | AXIOM_GS_FORM_SLOT
+top | 73820ed8 | e-paragraph | paragraph | Sending this form doesn't start a subscription or collect payment. We'll review your information and reach out personally.
+top | 53d5371a | e-paragraph | paragraph | Every Axiom website includes
+top | 3427e0aa | e-paragraph | paragraph | Professional, conversion-focused website
+top | 7468b2f8 | e-paragraph | paragraph | Hosting &amp; ongoing management
+top | 3166505b | e-paragraph | paragraph | Mobile-responsive design
+top | 78994aa0 | e-paragraph | paragraph | Maintenance &amp; updates
+top | 6a56e065 | e-paragraph | paragraph | On-page SEO fundamentals
+top | 39decd9c | e-paragraph | paragraph | FREE Google review requests (upon activation)
+5ad04b9f | 18b4d7a | e-paragraph | paragraph | Axiom Systems
+5ad04b9f | 401112a1 | e-paragraph | paragraph | Managed websites, automation and lead generation for local businesses.
+5ad04b9f | 54800b96 | e-button | text | How It Works
+5ad04b9f | 54800b96 | e-button | href | /how-it-works/
+5ad04b9f | 46cf1923 | e-button | text | Our Work
+5ad04b9f | 46cf1923 | e-button | href | /our-work/
+5ad04b9f | e763093 | e-button | text | Pricing
+5ad04b9f | e763093 | e-button | href | /pricing/
+5ad04b9f | 5a8eeb32 | e-button | text | Add-Ons
+5ad04b9f | 5a8eeb32 | e-button | href | /add-ons/
+5ad04b9f | 49687984 | e-button | text | FAQ
+5ad04b9f | 49687984 | e-button | href | /faq/
+5ad04b9f | 5eda05c | e-button | text | Get Started
+5ad04b9f | 5eda05c | e-button | href | /get-started/
+5ad04b9f | 57255cc3 | e-paragraph | paragraph | © 2026 Axiom Systems. All rights reserved.

@@ -1,0 +1,304 @@
+[
+ {
+  "action": "duplicate",
+  "element_id": "1574deff"
+ },
+ {
+  "action": "duplicate",
+  "element_id": "3f549d91"
+ },
+ {
+  "action": "duplicate",
+  "element_id": "5e295794"
+ },
+ {
+  "action": "duplicate",
+  "element_id": "5e295794"
+ },
+ {
+  "action": "duplicate",
+  "element_id": "5e295794"
+ },
+ {
+  "action": "update",
+  "element_id": "4961b413",
+  "settings": {
+   "paragraph": "Every Axiom website plan includes free Google review requests. Add Lead Automation when you're ready, or get one connected system with Axiom Growth."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "7d71cc2d",
+  "settings": {
+   "paragraph": "Google review requests are included free."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "645c77ea",
+  "settings": {
+   "paragraph": "Every Axiom website plan includes Google review invitations at no extra cost.<br>Everything else on this page is optional."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1574deff",
+  "settings": {
+   "paragraph": "Turn Great Service Into a Stronger Reputation."
+  },
+  "style": "color: var(--ax-ink, #0A1628); font-family: var(--ax-display, Manrope), sans-serif; font-weight: 700; font-size: 1.05rem; line-height: 1.35; letter-spacing: -0.01em;"
+ },
+ {
+  "action": "update",
+  "element_id": "16f6e08e",
+  "settings": {
+   "paragraph": "Neutral Google review invitations"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3f1d5914",
+  "settings": {
+   "text": "Explore Website Plans \u2192"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "799af7e9",
+  "settings": {
+   "title": "Axiom Lead Automation"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "748dd511",
+  "settings": {
+   "paragraph": "+$349"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3f549d91",
+  "settings": {
+   "paragraph": "Never Miss an Opportunity."
+  },
+  "style": "color: var(--ax-ink, #0A1628); font-family: var(--ax-display, Manrope), sans-serif; font-weight: 700; font-size: 1.05rem; line-height: 1.35; letter-spacing: -0.01em;"
+ },
+ {
+  "action": "update",
+  "element_id": "631392d6",
+  "settings": {
+   "paragraph": "Instant lead response"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5e295794",
+  "settings": {
+   "paragraph": "Automated SMS &amp; email follow-up"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5cd41bfc",
+  "settings": {
+   "text": "Add Lead Automation \u2192"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1a720fb3",
+  "settings": {
+   "paragraph": "Axiom Lead Automation is a managed service, $349/month in addition to your $299/month Axiom Essential plan. It's included with Axiom Growth, so you're never charged twice. Automation features are available upon activation and subject to reasonable usage limits and applicable consent requirements. Review requests are neutral; reviews and ratings are never guaranteed. Axiom CRM is our branded, managed setup of an established third-party CRM platform."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5bed5140",
+  "settings": {
+   "title": "One Connected System. Built to Grow Your Business."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4c7dd1a6",
+  "settings": {
+   "paragraph": "Your website, customer inquiries, and follow-ups working together. Axiom Growth combines professional website management with powerful business automations so fewer opportunities slip away and more leads become paying customers."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "52c6582f",
+  "settings": {
+   "paragraph": "Axiom Essential ($299) + Axiom Lead Automation ($349) = $648/month purchased separately. Growth also includes features not available in the Lead Automation add-on."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5dff73dc",
+  "settings": {
+   "paragraph": "Save $49/month"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "65851d63",
+  "settings": {
+   "paragraph": "Axiom CRM"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1b8712fe",
+  "settings": {
+   "paragraph": "Missed-call text-back"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "7181ca8b",
+  "settings": {
+   "paragraph": "Automated SMS &amp; email follow-up"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "79f0f036",
+  "settings": {
+   "paragraph": "Lead pipeline management"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "287818c7",
+  "settings": {
+   "paragraph": "Premium advertising \u00b7 Axiom Marketing"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "46ec4a34",
+  "settings": {
+   "title": "More Leads. Better Opportunities. Real Growth."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "2abec125",
+  "settings": {
+   "paragraph": "Take your business beyond a great website. Axiom Marketing combines strategic Google advertising, conversion-focused landing pages, and hands-on campaign management to help turn qualified traffic into real customer opportunities."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6d7a7a05",
+  "settings": {
+   "paragraph": "Actively managed advertising"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "22510f2",
+  "settings": {
+   "paragraph": "Google Ads strategy &amp; management"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "628ac0f6",
+  "settings": {
+   "paragraph": "Continuous campaign monitoring &amp; optimization"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4045a426",
+  "settings": {
+   "paragraph": "Conversion-focused landing pages"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1f5994fc",
+  "settings": {
+   "paragraph": "Lead tracking &amp; performance reporting"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "2e13ea5d",
+  "settings": {
+   "paragraph": "<strong>Available independently.</strong> No Axiom website plan required: Marketing works with the website you already have. Axiom Growth manages your website and follow-up; Axiom Marketing actively brings in new leads. Choose either, or pair them."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1ec7ff21",
+  "settings": {
+   "paragraph": "Advertising spend is billed separately and paid directly by you. Lead tracking and follow-up are included as described above, within your agreed service scope. Custom setup fees may apply. Initial three-month agreement; renewal and cancellation terms are shared before you sign. Results vary; we don't guarantee lead volume, ad performance or rankings."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "2c8f448",
+  "settings": {
+   "paragraph": "Google review requests"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "2c8d98d2",
+  "settings": {
+   "paragraph": "Missed-call text-back &amp; lead follow-up"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "60031ca5",
+  "settings": {
+   "paragraph": "Lead Automation +$349/mo \u00b7 Included with Growth"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1e5ba4c4",
+  "settings": {
+   "paragraph": "Included with Lead Automation, Growth and Marketing"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3c6a6564",
+  "settings": {
+   "paragraph": "Ongoing campaign management"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5cd41bfc",
+  "settings": {
+   "link": {
+    "destination": "/get-started/?plan=lead-automation",
+    "isTargetBlank": false,
+    "tag": "a"
+   }
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "39b068c4",
+  "style": "grid-template-columns: 1fr 1fr;"
+ },
+ {
+  "action": "delete",
+  "element_id": "185b87e7"
+ },
+ {
+  "action": "delete",
+  "element_id": "787e8fa"
+ },
+ {
+  "action": "delete",
+  "element_id": "601ac531"
+ }
+]

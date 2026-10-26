@@ -1,0 +1,391 @@
+{
+ "pages": {
+  "/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "gt": true,
+   "tel": true,
+   "title": "Managed Websites & CRM for Local Businesses | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "/get-started/?plan=essential",
+    "https://bragspressurewashing.com/",
+    "https://jetskiadventureclearwater.com/",
+    "https://xtremestpete.com/",
+    "mailto:axiom.systems.co@gmail.com?subject=Question%20about%20Website%20as%20a%20Service"
+   ],
+   "prices": [
+    "$299"
+   ]
+  },
+  "/pricing/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "gt": true,
+   "tel": true,
+   "title": "Pricing: Managed Website Plans from $299/mo | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "/get-started/?plan=essential",
+    "/get-started/?plan=growth",
+    "/get-started/?plan=marketing"
+   ],
+   "prices": [
+    "$299",
+    "$349",
+    "$599",
+    "$1,500"
+   ]
+  },
+  "/add-ons/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "gt": true,
+   "tel": true,
+   "title": "Lead Automation & Business Add-Ons | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "/get-started/?plan=lead-automation",
+    "/get-started/?plan=growth",
+    "/get-started/?plan=marketing",
+    "#marketing"
+   ],
+   "prices": [
+    "$299",
+    "$349",
+    "$599",
+    "$1,500",
+    "$648",
+    "Save $49"
+   ]
+  },
+  "/faq/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "gt": true,
+   "tel": true,
+   "title": "FAQ: Pricing, Plans & What's Included | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/"
+   ],
+   "prices": [
+    "$299"
+   ]
+  },
+  "/get-started/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "gt": true,
+   "tel": true,
+   "title": "Get Started: Tell Us About Your Business | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "/get-started/?nc=1793028147080"
+   ],
+   "prices": [
+    "$299",
+    "$599",
+    "$1,500"
+   ]
+  },
+  "/how-it-works/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "gt": true,
+   "tel": true,
+   "title": "How Our Managed Website Service Works | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "#process"
+   ],
+   "prices": [
+    "$299"
+   ]
+  },
+  "/our-work/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "gt": true,
+   "tel": true,
+   "title": "Our Work: Custom Local Business Websites | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "#get-started",
+    "#brags",
+    "#xtreme",
+    "#aqua-safari",
+    "#tile-father",
+    "https://bragspressurewashing.com/",
+    "https://xtremestpete.com/",
+    "https://jetskiadventureclearwater.com/",
+    "https://thetilefather.com/",
+    "/get-started/?plan=essential"
+   ],
+   "prices": [
+    "$299"
+   ]
+  }
+ },
+ "links": {
+  "/": 200,
+  "/how-it-works/": 200,
+  "/our-work/": 200,
+  "/pricing/": 200,
+  "/add-ons/": 200,
+  "/faq/": 200,
+  "/get-started/": 200,
+  "/get-started/?plan=essential": 200,
+  "/get-started/?plan=growth": 200,
+  "/get-started/?plan=marketing": 200,
+  "/get-started/?plan=lead-automation": 200,
+  "/get-started/?nc=1793028147080": 200
+ },
+ "form": {
+  "lead-automation": {
+   "label": "INTERESTED IN\nAxiom Lead Automation — +$349/month",
+   "hidden": [
+    "Axiom Lead Automation — +$349/month (plan=lead-automation)"
+   ],
+   "leadJs": true,
+   "sendTo": false,
+   "ajaxOnEmptySubmit": 0
+  },
+  "lead-response": {
+   "label": "INTERESTED IN\nAxiom Lead Automation — +$349/month",
+   "hidden": [
+    "Axiom Lead Automation — +$349/month (plan=lead-response)"
+   ],
+   "leadJs": true,
+   "sendTo": false
+  },
+  "follow-up-automation": {
+   "label": "INTERESTED IN\nAxiom Lead Automation — +$349/month",
+   "hidden": [
+    "Axiom Lead Automation — +$349/month (plan=follow-up-automation)"
+   ],
+   "leadJs": true,
+   "sendTo": false
+  },
+  "growth": {
+   "label": "INTERESTED IN\nAxiom Growth — $599/month",
+   "hidden": [
+    "Axiom Growth — $599/month (plan=growth)"
+   ],
+   "leadJs": true,
+   "sendTo": false
+  },
+  "essential": {
+   "label": "INTERESTED IN\nAxiom Essential — $299/month",
+   "hidden": [
+    "Axiom Essential — $299/month (plan=essential)"
+   ],
+   "leadJs": true,
+   "sendTo": false
+  },
+  "marketing": {
+   "label": "INTERESTED IN\nAxiom Marketing — Starting at $1,500/month",
+   "hidden": [
+    "Axiom Marketing — Starting at $1,500/month (plan=marketing)"
+   ],
+   "leadJs": true,
+   "sendTo": false
+  }
+ },
+ "errors": []
+}

@@ -1,0 +1,30 @@
+[
+ {
+  "action": "update",
+  "element_id": "2bca7cb3",
+  "settings": {
+   "paragraph": "Every Axiom website plan includes simple, automated Google review invitations to help your business build a stronger online reputation."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3f79b119",
+  "settings": {
+   "paragraph": "Review requests are neutral invitations; reviews and ratings are never guaranteed. All automated messaging is subject to reasonable usage limits and applicable consent requirements. Custom booking-software integrations and high-volume messaging are not included. Axiom CRM is our branded, managed setup of an established third-party CRM platform. Questions first? Email axiom.systems.co@gmail.com"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "51a2234a",
+  "settings": {
+   "paragraph": "Need automation, not the full system?"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5a597acc",
+  "settings": {
+   "paragraph": "Axiom Lead Automation adds missed-call text-back, instant lead response and automated follow-up to Axiom Essential for $349/month."
+  }
+ }
+]

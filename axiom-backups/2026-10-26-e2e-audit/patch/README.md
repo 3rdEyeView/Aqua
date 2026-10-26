@@ -1,7 +1,7 @@
 # Snippet 1398 patch: opportunity check → production pipeline (NOT DEPLOYED, awaiting approval)
 
 `backup-live/` = the five live files, fetched 2026-10-26 and byte-identical to `../../2026-10-23-ghl-integration/split/`.
-`split/` = patched files. `snippet-1398.patch` = unified diff. `harness.php` = offline tests (52 pass on `split/`).
+`split/` = patched files. `snippet-1398.patch` = unified diff. `harness.php` = offline tests (54 pass on `split/`).
 
 ## What changes (read-only verification and logging only)
 | File | Change |

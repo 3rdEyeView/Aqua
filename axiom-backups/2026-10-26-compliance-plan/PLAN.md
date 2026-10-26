@@ -3,6 +3,10 @@
 Status: for owner and legal/compliance review. No legal wording is published and the live form is unchanged until approved.
 All wording below is a starting draft, not legal advice.
 
+> **Update (2026-10-26, phase 2 planning):** spam protection is now recommended as Cloudflare Turnstile + rate limiting
+> (`SPAM-PROTECTION.md`); paid Akismet is optional. Policy drafts: `drafts/privacy-policy.md`, `drafts/terms-of-service.md`.
+> Form wording, evidence and GHL enforcement: `CONSENT-PLAN.md`. Owner decisions: `DECISIONS.md`.
+
 ## Current state (verified 2026-10-26)
 - No privacy policy, terms or SMS policy page (all 404); no footer links to them.
 - Form 1096 (Get Started): Name, Business name, Email, Phone (all required), Current website, message, hidden Plan interest.

@@ -1,0 +1,241 @@
+{
+ "/": {
+  "third_party_hosts": {
+   "fonts.googleapis.com": 4,
+   "stats.wp.com": 2,
+   "www.googletagmanager.com": 1,
+   "widgets.leadconnectorhq.com": 1,
+   "fonts.gstatic.com": 2,
+   "": 1
+  },
+  "scripts": [
+   "https://axiomsystems.systems/wp-includes/js/jquery/jquery.min.js",
+   "https://axiomsystems.systems/wp-includes/js/jquery/jquery-migrate.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js",
+   "https://stats.wp.com/s-202644.js",
+   "https://www.googletagmanager.com/gtag/js",
+   "https://axiomsystems.systems/wp-includes/js/wp-emoji-release.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js",
+   "https://axiomsystems.systems/wp-content/themes/hello-elementor/assets/js/hello-frontend.js",
+   "https://axiomsystems.systems/wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/build/woocommerce-analytics-client.js",
+   "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-5ef17bce870a966299fc.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-90bacb156ab34fa090db.js",
+   "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-woocommerce-6578612452b5920ad014.js",
+   "https://stats.wp.com/e-202644.js",
+   "https://widgets.leadconnectorhq.com/loader.js"
+  ],
+  "cookies": [
+   {
+    "name": "__cf_bm",
+    "domain": ".axiomsystems.systems",
+    "expires": "0d"
+   },
+   {
+    "name": "sbjs_migrations",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_current_add",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_first_add",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_current",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_first",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_udata",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_session",
+    "domain": ".axiomsystems.systems",
+    "expires": "0d"
+   },
+   {
+    "name": "tk_ai",
+    "domain": "axiomsystems.systems",
+    "expires": "365d"
+   }
+  ],
+  "localStorage": []
+ },
+ "/get-started/": {
+  "third_party_hosts": {
+   "fonts.googleapis.com": 4,
+   "stats.wp.com": 2,
+   "www.googletagmanager.com": 1,
+   "widgets.leadconnectorhq.com": 1,
+   "fonts.gstatic.com": 3,
+   "": 1
+  },
+  "scripts": [
+   "https://axiomsystems.systems/wp-includes/js/jquery/jquery.min.js",
+   "https://axiomsystems.systems/wp-includes/js/jquery/jquery-migrate.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js",
+   "https://stats.wp.com/s-202644.js",
+   "https://www.googletagmanager.com/gtag/js",
+   "https://axiomsystems.systems/wp-includes/js/wp-emoji-release.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-forms/dist/modules/form/view.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js",
+   "https://axiomsystems.systems/wp-content/themes/hello-elementor/assets/js/hello-frontend.js",
+   "https://axiomsystems.systems/wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/build/woocommerce-analytics-client.js",
+   "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-5ef17bce870a966299fc.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-90bacb156ab34fa090db.js",
+   "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-woocommerce-6578612452b5920ad014.js",
+   "https://stats.wp.com/e-202644.js",
+   "https://axiomsystems.systems/wp-includes/js/dist/vendor/wp-polyfill.min.js",
+   "https://axiomsystems.systems/wp-includes/js/dist/hooks.min.js",
+   "https://axiomsystems.systems/wp-includes/js/dist/i18n.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-forms/dist/blocks/view.js",
+   "https://widgets.leadconnectorhq.com/loader.js"
+  ],
+  "cookies": [
+   {
+    "name": "sbjs_migrations",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_current_add",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_first_add",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_current",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_first",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_udata",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_session",
+    "domain": ".axiomsystems.systems",
+    "expires": "0d"
+   },
+   {
+    "name": "tk_ai",
+    "domain": "axiomsystems.systems",
+    "expires": "365d"
+   },
+   {
+    "name": "__cf_bm",
+    "domain": ".axiomsystems.systems",
+    "expires": "0d"
+   }
+  ],
+  "localStorage": []
+ },
+ "/pricing/": {
+  "third_party_hosts": {
+   "fonts.googleapis.com": 4,
+   "stats.wp.com": 2,
+   "www.googletagmanager.com": 1,
+   "widgets.leadconnectorhq.com": 1,
+   "fonts.gstatic.com": 2,
+   "": 1
+  },
+  "scripts": [
+   "https://axiomsystems.systems/wp-includes/js/jquery/jquery.min.js",
+   "https://axiomsystems.systems/wp-includes/js/jquery/jquery-migrate.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js",
+   "https://stats.wp.com/s-202644.js",
+   "https://www.googletagmanager.com/gtag/js",
+   "https://axiomsystems.systems/wp-includes/js/wp-emoji-release.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js",
+   "https://axiomsystems.systems/wp-content/themes/hello-elementor/assets/js/hello-frontend.js",
+   "https://axiomsystems.systems/wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/build/woocommerce-analytics-client.js",
+   "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-5ef17bce870a966299fc.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js",
+   "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-90bacb156ab34fa090db.js",
+   "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-woocommerce-6578612452b5920ad014.js",
+   "https://stats.wp.com/e-202644.js",
+   "https://widgets.leadconnectorhq.com/loader.js"
+  ],
+  "cookies": [
+   {
+    "name": "sbjs_migrations",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_current_add",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_first_add",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_current",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_first",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_udata",
+    "domain": ".axiomsystems.systems",
+    "expires": "session"
+   },
+   {
+    "name": "sbjs_session",
+    "domain": ".axiomsystems.systems",
+    "expires": "0d"
+   },
+   {
+    "name": "tk_ai",
+    "domain": "axiomsystems.systems",
+    "expires": "365d"
+   },
+   {
+    "name": "__cf_bm",
+    "domain": ".axiomsystems.systems",
+    "expires": "0d"
+   }
+  ],
+  "localStorage": []
+ }
+}

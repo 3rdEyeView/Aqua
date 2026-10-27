@@ -1,0 +1,11 @@
+{
+ "files": [
+  {
+   "name": "main.php",
+   "content": "<?php\n/**\n * Axiom Legacy Redirects\n * Permanently redirects pages from the previous site to their current\n * equivalents and keeps them out of the Yoast XML sitemap. The old pages\n * are left in place (unchanged), so removing this snippet restores them.\n * Rollback: unpublish or delete this snippet.\n */\nnamespace AngieSnippets\\AxiomLegacyRedirects_1390;\n\nif ( ! defined( 'ABSPATH' ) ) {\n\texit;\n}\n\n// Old page ID => current path.\nfunction targets() {\n\treturn array(\n\t\t230 => '/get-started/',  // Contact Axiom Systems\n\t\t109 => '/#about',        // About Us -> founder section on Home\n\t\t9   => '/',              // previous homepage (elementor-9)\n\t\t107 => '/pricing/',      // Services\n\t);\n}\n\nadd_action(\n\t'template_redirect',\n\tfunction () {\n\t\tif ( is_admin() || is_preview() || isset( $_GET['elementor-preview'] ) ) {\n\t\t\treturn;\n\t\t}\n\t\t$id      = get_queried_object_id();\n\t\t$targets = targets();\n\t\tif ( $id && is_page() && isset( $targets[ $id ] ) ) {\n\t\t\twp_safe_redirect( home_url( $targets[ $id ] ), 301, 'Axiom Systems' );\n\t\t\texit;\n\t\t}\n\t},\n\t1\n);\n\nadd_filter(\n\t'wpseo_exclude_from_sitemap_by_post_ids',\n\tfunction ( $ids ) {\n\t\treturn array_values( array_unique( array_merge( (array) $ids, array_keys( targets() ) ) ) );\n\t}\n);\n",
+   "size": 1228
+  }
+ ],
+ "total": 1,
+ "isOwnedByCurrentUser": true
+}

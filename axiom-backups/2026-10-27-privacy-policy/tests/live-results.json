@@ -1,0 +1,28 @@
+{
+ "desktop": {
+  "footer_link_visible": true,
+  "nav_status": "loaded",
+  "url": "/privacy-policy/",
+  "h1": "Privacy Policy",
+  "sections": 14,
+  "sw": 1440,
+  "linksUnderlined": true,
+  "overflow": false,
+  "js_errors": 0,
+  "get_started_empty_submit_ajax": 0,
+  "plan_label": "INTERESTED IN Axiom Lead Automation — +$349/month"
+ },
+ "mobile": {
+  "footer_link_visible": true,
+  "nav_status": "loaded",
+  "url": "/privacy-policy/",
+  "h1": "Privacy Policy",
+  "sections": 14,
+  "sw": 390,
+  "linksUnderlined": true,
+  "overflow": false,
+  "js_errors": 0,
+  "get_started_empty_submit_ajax": 0,
+  "plan_label": "INTERESTED IN Axiom Lead Automation — +$349/month"
+ }
+}

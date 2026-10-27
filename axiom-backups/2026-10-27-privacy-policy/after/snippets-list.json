@@ -1,0 +1,181 @@
+{
+ "snippets": [
+  {
+   "id": 1377,
+   "slug": "axiom-business-phone",
+   "title": "Axiom Business Phone",
+   "status": "publish",
+   "types": [
+    "code-snippet"
+   ],
+   "files": [
+    {
+     "name": "main.php",
+     "size": 6909
+    }
+   ],
+   "deploymentStatus": "deployed",
+   "artifactId": null,
+   "version": null,
+   "createdAt": "2026-10-23 01:43:04",
+   "isOwnedByCurrentUser": true
+  },
+  {
+   "id": 1398,
+   "slug": "axiom-crm-sync",
+   "title": "Axiom CRM Sync",
+   "status": "publish",
+   "types": [
+    "code-snippet"
+   ],
+   "files": [
+    {
+     "name": "main.php",
+     "size": 2387
+    },
+    {
+     "name": "capture.php",
+     "size": 8519
+    },
+    {
+     "name": "delivery.php",
+     "size": 9969
+    },
+    {
+     "name": "verify.php",
+     "size": 7306
+    },
+    {
+     "name": "admin.php",
+     "size": 7066
+    }
+   ],
+   "deploymentStatus": "deployed",
+   "artifactId": null,
+   "version": null,
+   "createdAt": "2026-10-23 22:51:22",
+   "isOwnedByCurrentUser": true
+  },
+  {
+   "id": 1411,
+   "slug": "axiom-form-protection",
+   "title": "Axiom Form Protection",
+   "status": "publish",
+   "types": [
+    "code-snippet"
+   ],
+   "files": [
+    {
+     "name": "main.php",
+     "size": 15336
+    }
+   ],
+   "deploymentStatus": "deployed",
+   "artifactId": null,
+   "version": null,
+   "createdAt": "2026-10-26 18:37:09",
+   "isOwnedByCurrentUser": true
+  },
+  {
+   "id": 1134,
+   "slug": "axiom-front-page",
+   "title": "Axiom Front Page",
+   "status": "publish",
+   "types": [
+    "code-snippet"
+   ],
+   "files": [
+    {
+     "name": "main.php",
+     "size": 485
+    }
+   ],
+   "deploymentStatus": "deployed",
+   "artifactId": null,
+   "version": null,
+   "createdAt": "2026-09-26 02:29:26",
+   "isOwnedByCurrentUser": true
+  },
+  {
+   "id": 1099,
+   "slug": "axiom-get-started-form",
+   "title": "Axiom Get Started Form",
+   "status": "publish",
+   "types": [
+    "code-snippet"
+   ],
+   "files": [
+    {
+     "name": "main.php",
+     "size": 10999
+    }
+   ],
+   "deploymentStatus": "deployed",
+   "artifactId": null,
+   "version": null,
+   "createdAt": "2026-09-26 01:55:36",
+   "isOwnedByCurrentUser": true
+  },
+  {
+   "id": 1412,
+   "slug": "axiom-ghl-chat-widget",
+   "title": "Axiom GHL Chat Widget",
+   "status": "publish",
+   "types": [
+    "code-snippet"
+   ],
+   "files": [
+    {
+     "name": "main.php",
+     "size": 1530
+    }
+   ],
+   "deploymentStatus": "deployed",
+   "artifactId": null,
+   "version": null,
+   "createdAt": "2026-10-26 18:44:11",
+   "isOwnedByCurrentUser": true
+  },
+  {
+   "id": 1390,
+   "slug": "axiom-legacy-redirects",
+   "title": "Axiom Legacy Redirects",
+   "status": "publish",
+   "types": [
+    "code-snippet"
+   ],
+   "files": [
+    {
+     "name": "main.php",
+     "size": 1228
+    }
+   ],
+   "deploymentStatus": "deployed",
+   "artifactId": null,
+   "version": null,
+   "createdAt": "2026-10-23 03:44:00",
+   "isOwnedByCurrentUser": true
+  },
+  {
+   "id": 1135,
+   "slug": "axiom-mobile-menu",
+   "title": "Axiom Mobile Menu",
+   "status": "publish",
+   "types": [
+    "code-snippet"
+   ],
+   "files": [
+    {
+     "name": "main.php",
+     "size": 10129
+    }
+   ],
+   "deploymentStatus": "deployed",
+   "artifactId": null,
+   "version": null,
+   "createdAt": "2026-09-27 13:58:56",
+   "isOwnedByCurrentUser": true
+  }
+ ],
+ "total": 8
+}

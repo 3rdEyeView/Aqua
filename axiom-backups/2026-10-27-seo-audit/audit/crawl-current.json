@@ -1,0 +1,1361 @@
+{
+ "https://axiomsystems.systems/": {
+  "hops": [
+   [
+    "https://axiomsystems.systems/",
+    200,
+    null
+   ]
+  ],
+  "final": "https://axiomsystems.systems/",
+  "status": 200,
+  "x_robots": null,
+  "title": "Managed Websites & CRM for Local Businesses | Axiom Systems",
+  "desc": "Professional websites for small and local businesses, built and managed by Axiom, plus Axiom CRM, automated follow-up, Google review requests and Google Ads.",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "canonical": "https://axiomsystems.systems/",
+  "og_title": "Managed Websites & CRM for Local Businesses | Axiom Systems",
+  "og_desc": "Professional websites for small and local businesses, built and managed by Axiom, plus Axiom CRM, automated follow-up, Google review requests and Google Ads.",
+  "og_image": null,
+  "og_url": "https://axiomsystems.systems/",
+  "headings": [
+   [
+    "h1",
+    "Websites that turn leads into customers."
+   ],
+   [
+    "h2",
+    "Real websites for real local businesses."
+   ],
+   [
+    "h3",
+    "Brags Global"
+   ],
+   [
+    "h3",
+    "Two jet ski companies. Same coastline. Nothing alike."
+   ],
+   [
+    "h3",
+    "Aqua Safari Jet Ski Adventures"
+   ],
+   [
+    "h3",
+    "Xtreme Jet Ski Watersports"
+   ],
+   [
+    "h2",
+    "A website shouldn't turn into a second job."
+   ],
+   [
+    "h2",
+    "Axiom Essential. Everything your website needs."
+   ],
+   [
+    "h3",
+    "We build it"
+   ],
+   [
+    "h3",
+    "We keep it running"
+   ],
+   [
+    "h2",
+    "From first conversation to live website."
+   ],
+   [
+    "h3",
+    "Tell us about your business"
+   ],
+   [
+    "h3",
+    "We design and build it"
+   ],
+   [
+    "h3",
+    "We launch it"
+   ],
+   [
+    "h3",
+    "We look after it"
+   ],
+   [
+    "h2",
+    "Built by someone who runs a local business too."
+   ],
+   [
+    "h2",
+    "Straight answers."
+   ],
+   [
+    "h2",
+    "Let's build the system behind your next customer."
+   ],
+   [
+    "h3",
+    "Tell us about your business"
+   ]
+  ],
+  "h1": [
+   "Websites that turn leads into customers."
+  ],
+  "ld_types": [
+   "WebPage",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization",
+   "FAQPage"
+  ],
+  "ld": [
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Managed Websites & CRM for Local Businesses | Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"about\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"datePublished\":\"2026-09-26T02:29:07+00:00\",\"dateModified\":\"2026-10-26T23:26:03+00:00\",\"description\":\"Professional websites for small and local businesses, built and managed by Axiom, plus Axiom CRM, automated follow-up, Google review requests and Google Ads.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\"}]}",
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Why pay monthly instead of buying a website once?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Because a website is never really finished. It needs hosting, software updates, security and changes as your business grows. With a one-time project, those costs and chores land on you after launch. With Axiom, they're part of the service, and someone is always responsible for your site.\"}},{\"@type\":\"Question\",\"name\":\"What exactly does $299 a month include?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A custom-designed website built for your business, plus hosting, software and security updates, backups, content updates, ongoing support and FREE automated Google review follow-ups (available upon activation). We confirm the scope of your site with you before any work begins.\"}},{\"@type\":\"Question\",\"name\":\"Is there a setup fee or a contract?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"There's no setup fee for Axiom Essential, and you can cancel anytime. Submitting the form doesn't charge you anything: send us your business details and we'll guide you through the next steps.\"}},{\"@type\":\"Question\",\"name\":\"Will my website look like a template?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Every site is designed for the business it belongs to. Compare Aqua Safari and Xtreme above: same industry, same coastline, completely different websites.\"}},{\"@type\":\"Question\",\"name\":\"What if I need something changed?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Send us what you need, like new photos, a new service, updated hours or prices, and we'll make the update for you. You don't need to log in or learn anything.\"}},{\"@type\":\"Question\",\"name\":\"I already have a website. Can you help?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We'll design a new site for your business and bring over the content that's worth keeping, so you're not starting from zero.\"}},{\"@type\":\"Question\",\"name\":\"How long does it take to launch?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It depends on the size of your site and how quickly we get your content and feedback. We'll give you a realistic timeline once we've reviewed your business.\"}},{\"@type\":\"Question\",\"name\":\"Do you only work with businesses in Florida?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. We work remotely with local businesses across the U.S. Everything from the first call to ongoing updates can happen by phone, email and video.\"}}]}"
+  ],
+  "links": [
+   "/",
+   "/add-ons/",
+   "/cdn-cgi/l/email-protection",
+   "/cdn-cgi/l/email-protection#62031a0b0d0f4c111b1116070f114c010d22050f030b0e4c010d0f5d111700080701165f33170711160b0d0c47505203000d1716475052350700110b1607475052031147505203475052310710140b0107",
+   "/faq/",
+   "/get-started/",
+   "/get-started/?plan=essential",
+   "/how-it-works/",
+   "/our-work/",
+   "/pricing/",
+   "/privacy-policy/",
+   "https://bragspressurewashing.com/",
+   "https://jetskiadventureclearwater.com/",
+   "https://xtremestpete.com/",
+   "tel:+17275917527"
+  ],
+  "imgs": [
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark.webp",
+    "Axiom Systems"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-site-portfolio-preview-2026-09-24.webp",
+    "Brags Global pressure washing and concrete coatings website homepage designed by Axiom Systems, with Get a Free Quote and Call buttons"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-mobile.webp",
+    "Aqua Safari Jet Ski Adventures website on a phone, with a large headline and full-width booking button"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark.webp",
+    "Axiom Systems"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-website-services-showcase-2026-09-24-1.jpg",
+    "Brags Global website services section with photo cards for pressure washing, concrete coatings, epoxy flooring, flake flooring and concrete stains"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-desktop.webp",
+    "Aqua Safari Jet Ski Adventures homepage designed by Axiom Systems, showing a guided Gulf island tour hero with Book Your Adventure button"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-xtreme-jet-ski-desktop.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersburg, Florida, with Check Availability and Call Now buttons and Google reviews"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-founder-michael-hinkle.webp",
+    "Michael Hinkle, founder of Axiom Systems"
+   ]
+  ],
+  "body_len": 134063,
+  "body_text_sample": "Managed Websites &amp; CRM for Local Businesses | Axiom Systems Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Call us at (727) 591-7527 Get Started Websites, CRM &amp; automation for local businesses Websites that turn leads into customers. Fully managed. Axiom builds and manages the systems local businesses need to grow: a custom website we host and maintain, free Google review requests, and, when you're ready, Axiom CRM, automated follow-up and Google Ads. One connected system. Less manual work. More leads turned into paying customers. Start my website See websites we've built $299 /month Axiom Essential: design, hosting, updates and support, plus free Google review follow-ups. bragspressurewashing.com Managed by Axiom Hosting \u2713 Updates \u2713 Backups \u2713 Built for businesses like yours Contractors Pressure washing HVAC Plumbing &amp; electrical Roofing Landscaping Auto detailing Marine, rentals &amp; tours Home services Our work Real websites for real local businesses. Every Axiom site is designed from scratch around the business it belongs to. These are live right now. Click through and see for yourself. bragspressurewashing.com Pressure washing &amp; coatings \u00b7 Pinellas County, FL Brags Global A clean, confident website for a pressure washing and coatings company. Six services are easy to understand at a glance, and a free quote or a phone call is always one tap away. A clear photo card for each of their six services Quote and call buttons at the top of every visit Licensed, insured and locally owned, right up top Visit bragspressurewashing.com \u2197 Two jet ski companies. Same coastline. Nothing alike. Aqua Safari and Xtreme sell to the same kind of customer on the same stretch of Florida's Gulf Coast. Put their websites side by side and you'd never guess one team built both. Your website should look like your business, not like a template. jetskiadventureclearwater.com Guided jet ski tours \u00b7 Tarpon Springs, FL Aqua Safari Jet Ski Adventures Bold and editorial. Big type and real Gulf photography sell the island destinations, not just the ride, with a booking button on the very first screen. Visit the website \u2197 xtremestpete.com Jet ski rentals &amp; guided tours \u00b7 St. Petersburg, FL Xtreme Jet Ski Watersports Bright and high energy. Built around booking, with availability and call buttons up top and Google reviews right on the homepage. Visit the website \u2197 Want a website like these for your business? Designed, built and looked after by us, starting at $299 a month. Start my website Why a monthly service A website shouldn't turn into a second job. Most websites are sold as a one-time project. They look great on launch day. Then hosting, updates, fixes and changes quietly become your problem. Axiom is built the other way around. Typical website project Axiom Website as a Service Paying for it A large project invoice, usually before anything goes live One predictable monthly price Hosting A separate account for you to set up and pay for Included. We set it up and manage it Updates &amp; security Your job, or another bill Handled for you, every month Making changes Often quoted as new work Send us a request. We take care of it When something breaks You figure out who to call You call us. It's our job After launch The project is finished We keep looking after your site Every web designer works differently. This is how a typical one-time project works, and why we built Axiom as an ongoing service instead. What's included Axiom Essential. Everything your website needs. Here's what $299 a month covers, from the first design to every update after launch. Ready for more? Axiom Growth adds Axiom CRM, missed-call text-back and automated follow-up, and Axiom Marketing brings in new leads with Google Ads. Axiom Essential $299 /month A custom website, the team that keeps it running, and FREE automated Google review follow-ups. That's less than $10 a day for a professionally built website that someone else is responsible for. Start my web"
+ },
+ "https://axiomsystems.systems/how-it-works/": {
+  "hops": [
+   [
+    "https://axiomsystems.systems/how-it-works/",
+    200,
+    null
+   ]
+  ],
+  "final": "https://axiomsystems.systems/how-it-works/",
+  "status": 200,
+  "x_robots": null,
+  "title": "How Our Managed Website Service Works | Axiom Systems",
+  "desc": "See how Axiom designs, builds and launches a custom website for your small business, then keeps hosting, updating, backing up and supporting it every month.",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "canonical": "https://axiomsystems.systems/how-it-works/",
+  "og_title": "How Our Managed Website Service Works | Axiom Systems",
+  "og_desc": "See how Axiom designs, builds and launches a custom website for your small business, then keeps hosting, updating, backing up and supporting it every month.",
+  "og_image": null,
+  "og_url": "https://axiomsystems.systems/how-it-works/",
+  "headings": [
+   [
+    "h1",
+    "We build it.We launch it."
+   ],
+   [
+    "h2",
+    "Four stages. The last one keeps going."
+   ],
+   [
+    "h3",
+    "Tell us about your business"
+   ],
+   [
+    "h3",
+    "We design and build your website"
+   ],
+   [
+    "h3",
+    "We refine it with you, then launch"
+   ],
+   [
+    "h3",
+    "We keep managing it"
+   ],
+   [
+    "h2",
+    "You run your business. We handle the website."
+   ],
+   [
+    "h3",
+    "Things you won't have to deal with"
+   ],
+   [
+    "h3",
+    "What we'll ask of you"
+   ],
+   [
+    "h3",
+    "Need something updated? Just ask."
+   ],
+   [
+    "h2",
+    "You're not paying off a website. You're paying to have it managed."
+   ],
+   [
+    "h3",
+    "Websites need ongoing care"
+   ],
+   [
+    "h3",
+    "Your business keeps changing"
+   ],
+   [
+    "h3",
+    "One price for all of it"
+   ],
+   [
+    "h2",
+    "Ready to hand off your website?"
+   ],
+   [
+    "h3",
+    "Tell us about your business"
+   ]
+  ],
+  "h1": [
+   "We build it.We launch it."
+  ],
+  "ld_types": [
+   "WebPage",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization"
+  ],
+  "ld": [
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/how-it-works\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/how-it-works\\/\",\"name\":\"How Our Managed Website Service Works | Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"datePublished\":\"2026-09-26T02:28:52+00:00\",\"dateModified\":\"2026-10-26T23:26:24+00:00\",\"description\":\"See how Axiom designs, builds and launches a custom website for your small business, then keeps hosting, updating, backing up and supporting it every month.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/how-it-works\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/how-it-works\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/how-it-works\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/axiomsystems.systems\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"How It Works\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\"}]}"
+  ],
+  "links": [
+   "#process",
+   "/",
+   "/add-ons/",
+   "/cdn-cgi/l/email-protection",
+   "/faq/",
+   "/get-started/",
+   "/how-it-works/",
+   "/our-work/",
+   "/pricing/",
+   "/privacy-policy/",
+   "tel:+17275917527"
+  ],
+  "imgs": [
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark.webp",
+    "Axiom Systems"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark.webp",
+    "Axiom Systems"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-site-portfolio-preview-2026-09-24.webp",
+    "Brags Global pressure washing and concrete coatings website homepage designed by Axiom Systems, with Get a Free Quote and Call buttons"
+   ]
+  ],
+  "body_len": 111584,
+  "body_text_sample": "How Our Managed Website Service Works | Axiom Systems Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Call us at (727) 591-7527 Get Started How Website as a Service works We build it. We launch it. Then we keep taking care of it. Axiom designs and builds a custom website for your business, puts it live, and then stays on as the team responsible for it. Here's exactly what happens, from our first conversation to every month after launch. Start my website See the four stages $299 /month Design, build, hosting, updates, backups and support. One monthly price. Your website with Axiom 01 Tell us about your business A conversation, not a questionnaire Start 02 We design and build Custom, around your business Build 03 We refine and launch Your feedback, then we go live Launch 04 We keep managing it Hosting, updates, backups, changes and support Every month Stages 01 to 03 get you live. Stage 04 is what your monthly plan is for. The process Four stages. The last one keeps going. Most website projects end at launch. With Axiom, launch is where the ongoing part of the relationship begins. Here's what happens at each stage, and what we'll need from you. 01 Stage 01 \u00b7 Getting started Tell us about your business It starts with a conversation, not a pile of forms. We'll ask what you do, who your customers are, where you work and what you want people to do when they find you: call, request a quote, book or stop by. What we do Listen first and ask the right questions Look at your current website, if you have one Walk you through your site's scope and our terms before any work begins What we need from you Your business name, services and service area Your logo and photos of your work, if you have them How you want customers to reach you A little of your time to answer questions No logo or good photos yet? That's common. We'll talk it through together. 02 Stage 02 \u00b7 Design and build We design and build your website We design a custom site around your business: your services, your photos, your service area and the way you talk to customers. Not a template with your name swapped in. What we take care of A custom design that fits your brand Pages that look and work great on phones Tap-to-call buttons and contact forms Your services and service area laid out clearly Local-search fundamentals built in Your part: answer questions as they come up. Nothing technical. bragspressurewashing.com A recent Axiom build: custom design, clear services, quote and call buttons up front. 03 Stage 03 \u00b7 Refine and launch We refine it with you, then launch You review a working version of your website on your own phone and computer, not a sketch. Tell us what you'd like changed in plain words and we'll refine it together. When you're happy with it, we take it live. How feedback works You see the real site before your customers do Point out anything that doesn't feel right No design or technical vocabulary needed We make the changes and walk you through them Launch day, handled Hosting set up and ready Your website connected and taken live Forms and call buttons tested Checked on phones, tablets and computers 04 Stage 04 \u00b7 Every month after launch We keep managing it This is what makes Website as a Service different. Launch isn't the finish line, and you don't get handed a login and a goodbye. Axiom stays responsible for your website, month after month. Hosting Your website lives on secure, managed hosting. We set it up and keep watch over it. Updates The software behind your site needs regular updates. We install them and make sure nothing breaks. Security We keep your site protected, so it stays safe and trustworthy for your customers. Backups Regular backups, so your site can be restored if something ever goes wrong. Changes New service, new photos, new hours? Tell us what changed and we'll update your website. Support Something not looking right? You reach the people who built your site and know it. $299 /month Everything in this stage is part of your plan."
+ },
+ "https://axiomsystems.systems/our-work/": {
+  "hops": [
+   [
+    "https://axiomsystems.systems/our-work/",
+    200,
+    null
+   ]
+  ],
+  "final": "https://axiomsystems.systems/our-work/",
+  "status": 200,
+  "x_robots": null,
+  "title": "Our Work: Custom Local Business Websites | Axiom Systems",
+  "desc": "See live websites Axiom designed and built for local service, trade and tour businesses on Florida's Gulf Coast. Every site is custom, never a template.",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "canonical": "https://axiomsystems.systems/our-work/",
+  "og_title": "Our Work: Custom Local Business Websites | Axiom Systems",
+  "og_desc": "See live websites Axiom designed and built for local service, trade and tour businesses on Florida's Gulf Coast. Every site is custom, never a template.",
+  "og_image": null,
+  "og_url": "https://axiomsystems.systems/our-work/",
+  "headings": [
+   [
+    "h1",
+    "The work isthe pitch."
+   ],
+   [
+    "h2",
+    "Brags Global"
+   ],
+   [
+    "h2",
+    "Xtreme Jet Ski Watersports"
+   ],
+   [
+    "h2",
+    "Same industry. Same coast. Look again."
+   ],
+   [
+    "h2",
+    "Aqua Safari Jet Ski Adventures"
+   ],
+   [
+    "h3",
+    "An adventure site that sells the islands"
+   ],
+   [
+    "h2",
+    "The Tile Father"
+   ],
+   [
+    "h2",
+    "Every Axiom website. One high standard."
+   ],
+   [
+    "h2",
+    "So what would yours look like?"
+   ],
+   [
+    "h3",
+    "Tell us about your business"
+   ]
+  ],
+  "h1": [
+   "The work isthe pitch."
+  ],
+  "ld_types": [
+   "WebPage",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization"
+  ],
+  "ld": [
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/our-work\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/our-work\\/\",\"name\":\"Our Work: Custom Local Business Websites | Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"datePublished\":\"2026-09-26T02:28:56+00:00\",\"dateModified\":\"2026-10-26T23:26:28+00:00\",\"description\":\"See live websites Axiom designed and built for local service, trade and tour businesses on Florida's Gulf Coast. Every site is custom, never a template.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/our-work\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/our-work\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/our-work\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/axiomsystems.systems\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Our Work\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\"}]}"
+  ],
+  "links": [
+   "#aqua-safari",
+   "#brags",
+   "#get-started",
+   "#tile-father",
+   "#xtreme",
+   "/",
+   "/add-ons/",
+   "/cdn-cgi/l/email-protection",
+   "/faq/",
+   "/get-started/",
+   "/get-started/?plan=essential",
+   "/how-it-works/",
+   "/our-work/",
+   "/pricing/",
+   "/privacy-policy/",
+   "https://bragspressurewashing.com/",
+   "https://jetskiadventureclearwater.com/",
+   "https://thetilefather.com/",
+   "https://xtremestpete.com/",
+   "tel:+17275917527"
+  ],
+  "imgs": [
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark-300x253.webp",
+    "Axiom Systems"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-website-services-showcase-2026-09-24-1.jpg",
+    "Brags Global website services section with photo cards for pressure washing, concrete coatings, epoxy flooring, flake flooring and concrete stains"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-site-portfolio-preview-2026-09-24.webp",
+    "Brags Global pressure washing and concrete coatings website homepage designed by Axiom Systems, with Get a Free Quote and Call buttons"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-site-portfolio-preview-2026-09-24.webp",
+    "Brags Global pressure washing and concrete coatings website homepage designed by Axiom Systems, with Get a Free Quote and Call buttons"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-xtreme-jet-ski-desktop.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersburg, Florida, with Check Availability and Call Now buttons and Google reviews"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-xtreme-jet-ski-desktop.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersburg, Florida, with Check Availability and Call Now buttons and Google reviews"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/XtremeStpete.png",
+    "Detail from the Xtreme Jet Ski Watersports website"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-xtreme-jet-ski-desktop-1024x576.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersburg, Florida, with Check Availability and Call Now buttons and Google reviews"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-desktop-1024x640.webp",
+    "Aqua Safari Jet Ski Adventures homepage designed by Axiom Systems, showing a guided Gulf island tour hero with Book Your Adventure button"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-mobile.webp",
+    "Aqua Safari Jet Ski Adventures website on a phone, with a large headline and full-width booking button"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/tile-father-site-desktop.webp",
+    "The Tile Father website homepage on desktop: headline, Get My Quote button and a grid of real tile project photos"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/tile-father-site-recent-work.webp",
+    "Recent work gallery on The Tile Father website: entryway, restroom and kitchen backsplash projects"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/tile-father-site-mobile.webp",
+    "The Tile Father website on a phone, with the headline and Get My Quote and See the work buttons"
+   ]
+  ],
+  "body_len": 131471,
+  "body_text_sample": "Our Work: Custom Local Business Websites | Axiom Systems Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Call us at (727) 591-7527 Get Started Our work The work is the pitch. Every site here is live. A pressure washing and coatings company in Pinellas County. A custom tile contractor in Tampa Bay. Two jet ski tour operators on Florida's Gulf Coast. Real businesses with real customers, and websites you can open and use right now. What would yours look like? \u2193 In this showroom 01 Brags Global Pressure washing &amp; coatings \u00b7 Pinellas County \u2193 02 Xtreme Jet Ski Watersports Guided jet ski tours \u00b7 St. Petersburg \u2193 03 Aqua Safari Jet Ski Adventures jetskiadventureclearwater.com \u00b7 Tarpon Springs \u2193 04 The Tile Father Custom tile \u00b7 Tampa Bay \u2193 01 Local service business Brags Global Trade Pressure washing, epoxy &amp; flake floors, concrete coatings Service area Pinellas County, Florida bragspressurewashing.com The first screen does the selling: every service listed, quote and call buttons, and the trust signals customers look for before they pick up the phone. The business Brags Global cleans, coats and refinishes concrete for homes and businesses across Pinellas County. Pressure washing, epoxy and flake floors, stains and protective coatings. What mattered Six different services had to make sense at a glance. And asking for a price had to take one tap, whether a customer wants to call, text or send a request. What we built A dark, confident site with the full service list on the first screen, a photo card for every service, a simple three-step process and quote buttons throughout. Licensed &amp; Insured and Locally Owned sit right under the headline. Local service business \u00b7 Call, text or request a quote \u00b7 Residential &amp; commercial Visit the live site \u2197 Live client website: bragspressurewashing.com. Opens in a new tab. 02 Tours &amp; experiences Xtreme Jet Ski Watersports Business Guided jet ski expeditions around Tampa Bay Location St. Petersburg, Florida The business Xtreme takes riders out of St. Petersburg on guided jet ski expeditions to sandbars, hidden islands and dolphin spots, with Captain Mike leading the way. What mattered Someone looking at a jet ski tour wants three answers fast: are you open, is there a spot, and how do I book? The site had to answer all three before anyone scrolls. What we built A bright, high-energy site over a full-screen water backdrop. Opening hours, Check Availability &amp; Book and Call Now come first, then Captain Mike's guided expedition, then Google reviews. Tours, boating license info and FAQs are one click away. xtremestpete.com Hours, booking and a call button, all on the first screen. The guided expedition gets its own spotlight, sold by the captain who leads it, with a button that books the 2-hour tour directly. Tours &amp; experiences \u00b7 Online booking \u00b7 Google reviews on the homepage Visit the live site \u2197 Live client website: xtremestpete.com. Opens in a new tab. Not a template Same industry. Same coast. Look again. Xtreme and Aqua Safari both take people out on guided jet ski tours along Florida's Gulf Coast. On paper, they're the same kind of business. Here's how differently their websites introduce them. Xtreme Jet Ski Watersports Aqua Safari Jet Ski Adventures Headline A rounded, glowing all-caps wordmark Towering condensed capitals Palette First words Open Daily, Check Availability &amp; Book, Call Now \u201cClearwater Jet Ski Adventures Beyond the Ordinary\u201d What it sells Captain Mike's guided expeditions The islands: Three Rooker and Anclote Key Trust Google reviews right on the homepage Real photos from their own tours and a meet-the-owner intro Neither site could be swapped for the other. That's the point. 03 Tours &amp; experiences Aqua Safari Jet Ski Adventures Business Guided island tours by jet ski Launches from The Anclote area, Tarpon Springs, Florida Aqua Safari takes riders across the Gulf from Tarpon Springs to Three Rooker Island and Anclote Key. Its website had o"
+ },
+ "https://axiomsystems.systems/pricing/": {
+  "hops": [
+   [
+    "https://axiomsystems.systems/pricing/",
+    200,
+    null
+   ]
+  ],
+  "final": "https://axiomsystems.systems/pricing/",
+  "status": 200,
+  "x_robots": null,
+  "title": "Pricing: Managed Website Plans from $299/mo | Axiom Systems",
+  "desc": "Simple monthly plans for local businesses: a managed website from $299/month, Axiom Growth with CRM and automated follow-up for $599, and Google Ads management.",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "canonical": "https://axiomsystems.systems/pricing/",
+  "og_title": "Pricing: Managed Website Plans from $299/mo | Axiom Systems",
+  "og_desc": "Simple monthly plans for local businesses: a managed website from $299/month, Axiom Growth with CRM and automated follow-up for $599, and Google Ads management.",
+  "og_image": null,
+  "og_url": "https://axiomsystems.systems/pricing/",
+  "headings": [
+   [
+    "h1",
+    "Plans that growwith your business."
+   ],
+   [
+    "h2",
+    "Why there's no big website bill."
+   ],
+   [
+    "h3",
+    "You pay monthly, not upfront."
+   ],
+   [
+    "h3",
+    "We keep it running."
+   ],
+   [
+    "h3",
+    "What's yours stays yours."
+   ],
+   [
+    "h2",
+    "Let's find theright plan."
+   ],
+   [
+    "h3",
+    "Tell us about your business"
+   ]
+  ],
+  "h1": [
+   "Plans that growwith your business."
+  ],
+  "ld_types": [
+   "WebPage",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization"
+  ],
+  "ld": [
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/pricing\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/pricing\\/\",\"name\":\"Pricing: Managed Website Plans from $299\\/mo | Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"datePublished\":\"2026-09-26T02:28:59+00:00\",\"dateModified\":\"2026-10-26T23:26:08+00:00\",\"description\":\"Simple monthly plans for local businesses: a managed website from $299\\/month, Axiom Growth with CRM and automated follow-up for $599, and Google Ads management.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/pricing\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/pricing\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/pricing\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/axiomsystems.systems\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Pricing\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\"}]}"
+  ],
+  "links": [
+   "/",
+   "/add-ons/",
+   "/cdn-cgi/l/email-protection",
+   "/faq/",
+   "/get-started/",
+   "/get-started/?plan=essential",
+   "/get-started/?plan=growth",
+   "/get-started/?plan=marketing",
+   "/how-it-works/",
+   "/our-work/",
+   "/pricing/",
+   "/privacy-policy/",
+   "tel:+17275917527"
+  ],
+  "imgs": [
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark-300x253.webp",
+    "Axiom Systems"
+   ]
+  ],
+  "body_len": 85634,
+  "body_text_sample": "Pricing: Managed Website Plans from $299/mo | Axiom Systems Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Call us at (727) 591-7527 Get Started Pricing Plans that grow with your business. Start with a professionally managed website. Add Axiom CRM and automated follow-up, or bring in new leads with Google Ads, when your business is ready. Every plan builds on the same connected system. Included with every Axiom website FREE automated Google review follow-ups Every Axiom website plan includes simple, automated Google review invitations to help your business build a stronger online reputation. Available upon activation. Axiom Essential $299 /month $0 setup fee Cancel anytime A conversion-focused website, built and managed for you, with Google review requests and instant inquiry replies included. Your website Professional, conversion-focused website Hosting &amp; ongoing website management Mobile-responsive design Website maintenance &amp; updates On-page SEO fundamentals Included automation \u00b7 Available upon activation FREE automated Google review requests Instant acknowledgment of website inquiries Get Started Axiom Growth Recommended $599 /month $0 setup fee No long-term contract Our complete business system. Your website, Axiom CRM, missed-call recovery and automated follow-up work together, so fewer leads slip away and more inquiries become paying customers. Everything in Essential, plus \u00b7 Available upon activation Axiom CRM: leads, conversations &amp; pipeline in one place Missed-call text-back to recover lost calls Automated multi-step SMS &amp; email follow-up Pipeline from new lead to paying customer Appointment confirmations &amp; reminders Estimate &amp; quote follow-up Lead conversion tracking &amp; reporting Built for businesses that already get calls and inquiries and want to respond faster, follow up consistently and win more of them. No long-term contract: cancel anytime with 30 days' written notice. Grow My Business Axiom Marketing Starting at $1,500 /month Ad spend paid separately Bring in new leads with Google Ads, then capture and follow up with them automatically, so more of your ad spend turns into real customer conversations. Lead generation Google Ads campaign strategy &amp; management Conversion-focused landing pages Lead tracking &amp; attribution Campaign optimization Monthly performance reporting Ongoing marketing strategy Automation \u00b7 Available upon activation Axiom CRM lead tracking Automated lead follow-up Works with your existing website. Advertising spend is paid directly by you. A custom setup fee may apply. Initial three-month agreement; renewal and cancellation terms are shared before you sign. Get More Leads Review requests are neutral invitations; reviews and ratings are never guaranteed. All automated messaging is subject to reasonable usage limits and applicable consent requirements. Custom booking-software integrations and high-volume messaging are not included. Axiom CRM is our branded, managed setup of an established third-party CRM platform. Questions first? Email [email&#160;protected] Why there's no big website bill. You pay monthly, not upfront. Custom websites usually start with a large invoice. With Axiom, your website is part of a monthly plan instead, starting at $299 a month with no setup fee. We keep it running. Hosting, security, updates, backups and support are all part of the monthly price, so your site doesn't go stale after launch. What's yours stays yours. Your business, domain, brand, logo, customer data and the content you give us are always yours. The website build and design are provided by Axiom as part of your active subscription. Need automation, not the full system? Axiom Lead Automation adds missed-call text-back, instant lead response and automated follow-up to Axiom Essential for $349/month. Explore Add-Ons \u2192 Get started Let's find the right plan. Tell us about your business and what you want your website, follow-up and marketing to do. We'll recommend "
+ },
+ "https://axiomsystems.systems/add-ons/": {
+  "hops": [
+   [
+    "https://axiomsystems.systems/add-ons/",
+    200,
+    null
+   ]
+  ],
+  "final": "https://axiomsystems.systems/add-ons/",
+  "status": 200,
+  "x_robots": null,
+  "title": "Lead Automation & Business Add-Ons | Axiom Systems",
+  "desc": "Free Google review requests with every Axiom website, Lead Automation for $349/month, Axiom Growth for $599/month, and managed Google Ads with Axiom Marketing.",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "canonical": "https://axiomsystems.systems/add-ons/",
+  "og_title": "Lead Automation & Business Add-Ons | Axiom Systems",
+  "og_desc": "Free Google review requests with every Axiom website, Lead Automation for $349/month, Axiom Growth for $599/month, and managed Google Ads with Axiom Marketing.",
+  "og_image": null,
+  "og_url": "https://axiomsystems.systems/add-ons/",
+  "headings": [
+   [
+    "h1",
+    "Build the systemyour business needs."
+   ],
+   [
+    "h2",
+    "Google Review Requests"
+   ],
+   [
+    "h2",
+    "Axiom Lead Automation"
+   ],
+   [
+    "h2",
+    "One Connected System. Built to Grow Your Business."
+   ],
+   [
+    "h2",
+    "More Leads. Better Opportunities. Real Growth."
+   ],
+   [
+    "h2",
+    "What's included where."
+   ],
+   [
+    "h3",
+    "Axiom Business Automation"
+   ],
+   [
+    "h3",
+    "Marketing & Lead Generation"
+   ],
+   [
+    "h3",
+    "Website Enhancements"
+   ],
+   [
+    "h2",
+    "Let's find theright plan."
+   ],
+   [
+    "h3",
+    "Tell us about your business"
+   ]
+  ],
+  "h1": [
+   "Build the systemyour business needs."
+  ],
+  "ld_types": [
+   "WebPage",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization"
+  ],
+  "ld": [
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/add-ons\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/add-ons\\/\",\"name\":\"Lead Automation & Business Add-Ons | Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"datePublished\":\"2026-09-26T02:29:01+00:00\",\"dateModified\":\"2026-10-26T23:26:12+00:00\",\"description\":\"Free Google review requests with every Axiom website, Lead Automation for $349\\/month, Axiom Growth for $599\\/month, and managed Google Ads with Axiom Marketing.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/add-ons\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/add-ons\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/add-ons\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/axiomsystems.systems\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Add-Ons\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\"}]}"
+  ],
+  "links": [
+   "#marketing",
+   "/",
+   "/add-ons/",
+   "/cdn-cgi/l/email-protection",
+   "/faq/",
+   "/get-started/",
+   "/get-started/?plan=growth",
+   "/get-started/?plan=lead-automation",
+   "/get-started/?plan=marketing",
+   "/how-it-works/",
+   "/our-work/",
+   "/pricing/",
+   "/privacy-policy/",
+   "tel:+17275917527"
+  ],
+  "imgs": [
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark-300x253.webp",
+    "Axiom Systems"
+   ]
+  ],
+  "body_len": 94183,
+  "body_text_sample": "Lead Automation &amp; Business Add-Ons | Axiom Systems Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Call us at (727) 591-7527 Get Started Add-ons Build the system your business needs. Every Axiom website plan includes free Google review requests. Add Lead Automation when you're ready, or get one connected system with Axiom Growth. Google review requests are included free. Every Axiom website plan includes Google review invitations at no extra cost. Everything else on this page is optional. Compare plans \u2192 Included free Google Review Requests FREE with every website plan Turn Great Service Into a Stronger Reputation. Make it easier for customers to share their experience. Every Axiom website plan includes simple, automated Google review invitations to help your business build a stronger online reputation. Neutral Google review invitations Standardized email workflow or limited SMS Available upon activation Explore Website Plans \u2192 Optional \u00b7 Included with Growth Axiom Lead Automation +$349 /month Never Miss an Opportunity. Your business doesn't stop when you're busy. Axiom Lead Automation responds to incoming inquiries, recovers missed calls, and automatically follows up with potential customers, helping you turn more opportunities into booked jobs. Missed-call text-back Instant lead response Automated SMS &amp; email follow-up Lead notifications Lead nurturing Basic CRM &amp; pipeline management Add Lead Automation \u2192 Axiom Lead Automation is a managed service, $349/month in addition to your $299/month Axiom Essential plan. It's included with Axiom Growth, so you're never charged twice. Automation features are available upon activation and subject to reasonable usage limits and applicable consent requirements. Review requests are neutral; reviews and ratings are never guaranteed. Axiom CRM is our branded, managed setup of an established third-party CRM platform. Recommended One Connected System. Built to Grow Your Business. Your website, customer inquiries, and follow-ups working together. Axiom Growth combines professional website management with powerful business automations so fewer opportunities slip away and more leads become paying customers. Axiom Growth $599 /month Axiom Essential ($299) + Axiom Lead Automation ($349) = $648/month purchased separately. Growth also includes features not available in the Lead Automation add-on. Save $49/month $0 setup fee \u00b7 No long-term contract \u00b7 Cancel anytime with 30 days' written notice Grow My Business Everything in Axiom Essential Professional, conversion-focused website Hosting &amp; ongoing management Mobile-responsive design Maintenance &amp; updates On-page SEO fundamentals FREE Google review requests Instant inquiry acknowledgment Plus \u00b7 Available upon activation Axiom CRM Missed-call text-back Automated SMS &amp; email follow-up Lead pipeline management Appointment confirmations &amp; reminders Estimate &amp; quote follow-up Lead conversion tracking &amp; reporting Premium advertising \u00b7 Axiom Marketing More Leads. Better Opportunities. Real Growth. Take your business beyond a great website. Axiom Marketing combines strategic Google advertising, conversion-focused landing pages, and hands-on campaign management to help turn qualified traffic into real customer opportunities. Starting at $1,500 /month Ad spend paid separately Keep your existing website Get More Leads Actively managed advertising Google Ads strategy &amp; management Continuous campaign monitoring &amp; optimization Conversion-focused landing pages Lead tracking &amp; performance reporting Automation \u00b7 Available upon activation Axiom CRM lead tracking Automated lead follow-up Available independently. No Axiom website plan required: Marketing works with the website you already have. Axiom Growth manages your website and follow-up; Axiom Marketing actively brings in new leads. Choose either, or pair them. Advertising spend is billed separately and paid directly by you. Lead tracking and follow-up are inclu"
+ },
+ "https://axiomsystems.systems/faq/": {
+  "hops": [
+   [
+    "https://axiomsystems.systems/faq/",
+    200,
+    null
+   ]
+  ],
+  "final": "https://axiomsystems.systems/faq/",
+  "status": 200,
+  "x_robots": null,
+  "title": "FAQ: Pricing, Plans & What's Included | Axiom Systems",
+  "desc": "Straight answers for small business owners about Axiom's managed websites, Axiom CRM, setup fees, cancellation, ownership and what each monthly plan includes.",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "canonical": "https://axiomsystems.systems/faq/",
+  "og_title": "FAQ: Pricing, Plans & What's Included | Axiom Systems",
+  "og_desc": "Straight answers for small business owners about Axiom's managed websites, Axiom CRM, setup fees, cancellation, ownership and what each monthly plan includes.",
+  "og_image": null,
+  "og_url": "https://axiomsystems.systems/faq/",
+  "headings": [
+   [
+    "h1",
+    "Questions?We've got answers."
+   ],
+   [
+    "h2",
+    "Pricing & billing"
+   ],
+   [
+    "h3",
+    "How much does it cost?"
+   ],
+   [
+    "h3",
+    "Is there really no setup fee?"
+   ],
+   [
+    "h3",
+    "Can I cancel anytime?"
+   ],
+   [
+    "h3",
+    "Why is it monthly instead of one big website payment?"
+   ],
+   [
+    "h2",
+    "What's included"
+   ],
+   [
+    "h3",
+    "What's included in Axiom Essential?"
+   ],
+   [
+    "h3",
+    "Can you update my website after it launches?"
+   ],
+   [
+    "h3",
+    "Will my website work on phones?"
+   ],
+   [
+    "h3",
+    "Do you handle hosting, security and backups?"
+   ],
+   [
+    "h3",
+    "Can you help with Google and local search?"
+   ],
+   [
+    "h3",
+    "Can you connect forms, reviews or booking tools?"
+   ],
+   [
+    "h3",
+    "Do you offer more than websites?"
+   ],
+   [
+    "h3",
+    "What is Axiom CRM?"
+   ],
+   [
+    "h2",
+    "Ownership"
+   ],
+   [
+    "h3",
+    "Who owns my domain and business content?"
+   ],
+   [
+    "h3",
+    "Who owns the website?"
+   ],
+   [
+    "h2",
+    "Getting started"
+   ],
+   [
+    "h3",
+    "What if I already have a website?"
+   ],
+   [
+    "h3",
+    "How do I get started?"
+   ],
+   [
+    "h2",
+    "Getting startedis simple."
+   ]
+  ],
+  "h1": [
+   "Questions?We've got answers."
+  ],
+  "ld_types": [
+   "WebPage",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization",
+   "FAQPage",
+   "FAQPage",
+   "FAQPage",
+   "FAQPage"
+  ],
+  "ld": [
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/faq\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/faq\\/\",\"name\":\"FAQ: Pricing, Plans & What's Included | Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"datePublished\":\"2026-09-26T02:29:03+00:00\",\"dateModified\":\"2026-10-26T23:26:16+00:00\",\"description\":\"Straight answers for small business owners about Axiom's managed websites, Axiom CRM, setup fees, cancellation, ownership and what each monthly plan includes.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/faq\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/faq\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/faq\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/axiomsystems.systems\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"FAQ\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\"}]}",
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How much does it cost?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Axiom Essential is $299 a month and Axiom Growth is $599 a month, both with a $0 setup fee. Axiom Marketing starts at $1,500 a month, plus advertising spend that you pay directly; a custom setup fee may apply depending on complexity. Submitting the Get Started form doesn't charge you anything: we'll guide you through the next steps first.\"}},{\"@type\":\"Question\",\"name\":\"Is there really no setup fee?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Really, for Axiom Essential and Axiom Growth. There's no separate charge for designing or building your website; you simply pay your monthly plan. Axiom Marketing may include a custom setup fee depending on campaign complexity, and we'll tell you before you sign.\"}},{\"@type\":\"Question\",\"name\":\"Can I cancel anytime?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Axiom Essential is a monthly subscription you can cancel anytime. Axiom Growth has no long-term contract: you can cancel anytime with 30 days' written notice. Axiom Marketing starts with an initial three-month agreement, and its renewal and cancellation terms are shared before you sign.\"}},{\"@type\":\"Question\",\"name\":\"Why is it monthly instead of one big website payment?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Because a website isn't finished the day it launches. It needs hosting, security, software updates and changes as your business grows. Instead of charging thousands upfront and leaving all of that to you, we build your website and then keep hosting, maintaining, updating and supporting it for one monthly price.\"}}]}",
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What's included in Axiom Essential?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A professionally designed, conversion-focused website that works on phones, plus managed hosting, SSL and security, maintenance and updates, backups, on-page SEO fundamentals, contact forms, analytics, ongoing support, instant acknowledgment of website inquiries and FREE automated Google review requests. Automation features are available upon activation.\"}},{\"@type\":\"Question\",\"name\":\"Can you update my website after it launches?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Standard updates are part of the service, like changing text, photos, hours, services or contact details. Bigger projects, like a complete redesign or new custom features, go beyond standard updates, and we'll talk those through with you first.\"}},{\"@type\":\"Question\",\"name\":\"Will my website work on phones?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Every Axiom website is built to work on phones, tablets and computers. Most of your customers will see it on a phone first, so we design with that in mind.\"}},{\"@type\":\"Question\",\"name\":\"Do you handle hosting, security and backups?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Managed hosting, SSL, security, software updates and regular backups are all included. You don't need to buy or manage any of it yourself.\"}},{\"@type\":\"Question\",\"name\":\"Can you help with Google and local search?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Every website is built with local-search fundamentals: a clean structure, mobile-friendly pages and clear information about your services and service area. Nobody can honestly guarantee rankings, and we don't, but your site starts on a solid foundation.\"}},{\"@type\":\"Question\",\"name\":\"Can you connect forms, reviews or booking tools?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Usually, yes. Contact and lead forms are included, and we can bring in things like your reviews or an existing booking tool when it makes sense for your business. Every platform is different, so we'll confirm what's possible for your setup.\"}},{\"@type\":\"Question\",\"name\":\"Do you offer more than websites?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Axiom Growth ($599\\/month) is our complete business system: your website plus Axiom CRM, missed-call text-back, automated lead follow-up, a sales pipeline and appointment reminders. Axiom Marketing (from $1,500\\/month) adds Google Ads management and landing pages, and works with your existing website. Axiom Lead Automation ($349\\/month) can also be added to Axiom Essential. See the Pricing and Add-Ons pages for details.\"}},{\"@type\":\"Question\",\"name\":\"What is Axiom CRM?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Axiom CRM is the customer management system we set up and manage for Axiom Growth and Axiom Marketing clients. It brings your leads, conversations, appointments and sales pipeline into one place, with automated follow-up running in the background. It's our branded, managed setup of an established third-party CRM platform, so you get proven software without having to configure it yourself.\"}}]}",
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Who owns my domain and business content?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"You do. Your business, domain, brand, logo, customer data and any content or materials you give us always belong to you.\"}},{\"@type\":\"Question\",\"name\":\"Who owns the website?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The website design and build are provided by Axiom as part of your active subscription. That's what makes a professional website possible without a big upfront cost. Your domain, brand and content stay yours throughout.\"}}]}",
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What if I already have a website?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"That's common. Tell us about your current site and we'll take an honest look at what you have, then let you know whether rebuilding it as an Axiom managed website makes sense for your business.\"}},{\"@type\":\"Question\",\"name\":\"How do I get started?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Click Get Started and fill out a short form about your business. We'll review what you send and follow up with you. You don't need to book a call first.\"}}]}"
+  ],
+  "links": [
+   "/",
+   "/add-ons/",
+   "/cdn-cgi/l/email-protection",
+   "/faq/",
+   "/get-started/",
+   "/how-it-works/",
+   "/our-work/",
+   "/pricing/",
+   "/privacy-policy/",
+   "tel:+17275917527"
+  ],
+  "imgs": [
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark-300x253.webp",
+    "Axiom Systems"
+   ]
+  ],
+  "body_len": 105224,
+  "body_text_sample": "FAQ: Pricing, Plans &amp; What&#039;s Included | Axiom Systems Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Call us at (727) 591-7527 Get Started FAQ Questions? We've got answers. Straight answers about pricing, what's included and how it works, so you know exactly what you're signing up for. Pricing &amp; billing How much does it cost? Axiom Essential is $299 a month and Axiom Growth is $599 a month, both with a $0 setup fee. Axiom Marketing starts at $1,500 a month, plus advertising spend that you pay directly; a custom setup fee may apply depending on complexity. Submitting the Get Started form doesn't charge you anything: we'll guide you through the next steps first. Is there really no setup fee? Really, for Axiom Essential and Axiom Growth. There's no separate charge for designing or building your website; you simply pay your monthly plan. Axiom Marketing may include a custom setup fee depending on campaign complexity, and we'll tell you before you sign. Can I cancel anytime? Axiom Essential is a monthly subscription you can cancel anytime. Axiom Growth has no long-term contract: you can cancel anytime with 30 days' written notice. Axiom Marketing starts with an initial three-month agreement, and its renewal and cancellation terms are shared before you sign. Why is it monthly instead of one big website payment? Because a website isn't finished the day it launches. It needs hosting, security, software updates and changes as your business grows. Instead of charging thousands upfront and leaving all of that to you, we build your website and then keep hosting, maintaining, updating and supporting it for one monthly price. What's included What's included in Axiom Essential? A professionally designed, conversion-focused website that works on phones, plus managed hosting, SSL and security, maintenance and updates, backups, on-page SEO fundamentals, contact forms, analytics, ongoing support, instant acknowledgment of website inquiries and FREE automated Google review requests. Automation features are available upon activation. Can you update my website after it launches? Yes. Standard updates are part of the service, like changing text, photos, hours, services or contact details. Bigger projects, like a complete redesign or new custom features, go beyond standard updates, and we'll talk those through with you first. Will my website work on phones? Yes. Every Axiom website is built to work on phones, tablets and computers. Most of your customers will see it on a phone first, so we design with that in mind. Do you handle hosting, security and backups? Yes. Managed hosting, SSL, security, software updates and regular backups are all included. You don't need to buy or manage any of it yourself. Can you help with Google and local search? Every website is built with local-search fundamentals: a clean structure, mobile-friendly pages and clear information about your services and service area. Nobody can honestly guarantee rankings, and we don't, but your site starts on a solid foundation. Can you connect forms, reviews or booking tools? Usually, yes. Contact and lead forms are included, and we can bring in things like your reviews or an existing booking tool when it makes sense for your business. Every platform is different, so we'll confirm what's possible for your setup. Do you offer more than websites? Yes. Axiom Growth ($599/month) is our complete business system: your website plus Axiom CRM, missed-call text-back, automated lead follow-up, a sales pipeline and appointment reminders. Axiom Marketing (from $1,500/month) adds Google Ads management and landing pages, and works with your existing website. Axiom Lead Automation ($349/month) can also be added to Axiom Essential. See the Pricing and Add-Ons pages for details. What is Axiom CRM? Axiom CRM is the customer management system we set up and manage for Axiom Growth and Axiom Marketing clients. It brings your leads, conversations, appointments and sales pipeline into on"
+ },
+ "https://axiomsystems.systems/get-started/": {
+  "hops": [
+   [
+    "https://axiomsystems.systems/get-started/",
+    200,
+    null
+   ]
+  ],
+  "final": "https://axiomsystems.systems/get-started/",
+  "status": 200,
+  "x_robots": null,
+  "title": "Get Started: Tell Us About Your Business | Axiom Systems",
+  "desc": "Tell us about your business in a short form and we'll recommend the right plan. Nothing is charged to submit. Plans for local businesses start at $299/month.",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "canonical": "https://axiomsystems.systems/get-started/",
+  "og_title": "Get Started: Tell Us About Your Business | Axiom Systems",
+  "og_desc": "Tell us about your business in a short form and we'll recommend the right plan. Nothing is charged to submit. Plans for local businesses start at $299/month.",
+  "og_image": null,
+  "og_url": "https://axiomsystems.systems/get-started/",
+  "headings": [
+   [
+    "h1",
+    "Let's growyour business."
+   ]
+  ],
+  "h1": [
+   "Let's growyour business."
+  ],
+  "ld_types": [
+   "WebPage",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization"
+  ],
+  "ld": [
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/get-started\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/get-started\\/\",\"name\":\"Get Started: Tell Us About Your Business | Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"datePublished\":\"2026-09-26T02:29:05+00:00\",\"dateModified\":\"2026-10-26T23:26:20+00:00\",\"description\":\"Tell us about your business in a short form and we'll recommend the right plan. Nothing is charged to submit. Plans for local businesses start at $299\\/month.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/get-started\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/get-started\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/get-started\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/axiomsystems.systems\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Get Started\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\"}]}"
+  ],
+  "links": [
+   "/",
+   "/add-ons/",
+   "/faq/",
+   "/get-started/",
+   "/how-it-works/",
+   "/our-work/",
+   "/pricing/",
+   "/privacy-policy/",
+   "tel:+17275917527"
+  ],
+  "imgs": [
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark-300x253.webp",
+    "Axiom Systems"
+   ]
+  ],
+  "body_len": 99727,
+  "body_text_sample": "Get Started: Tell Us About Your Business | Axiom Systems Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Call us at (727) 591-7527 Get Started Get started Let's grow your business. Submit your business details and we'll guide you through the next steps. Nothing is charged when you send this form. Essential $299/mo \u00b7 Growth $599/mo \u00b7 Marketing from $1,500/mo \u2190 Back Thanks \u2014 we got it. We'll review your business and reach out with the next step. Name (required) Business name (required) Email (required) Phone (required) Current website Tell us about your business (required) Get Started Submitting form &#916; Sending this form doesn't start a subscription or collect payment. We'll review your information and reach out personally. Prefer to speak directly? Call us at (727) 591-7527 . Every Axiom website includes Professional, conversion-focused website Hosting &amp; ongoing management Mobile-responsive design Maintenance &amp; updates On-page SEO fundamentals FREE Google review requests (upon activation) Axiom Systems Managed websites, automation and lead generation for local businesses. Call us at (727) 591-7527 How It Works Our Work Pricing Add-Ons FAQ Privacy Policy Get Started \u00a9 2026 Axiom Systems. All rights reserved."
+ },
+ "https://axiomsystems.systems/privacy-policy/": {
+  "hops": [
+   [
+    "https://axiomsystems.systems/privacy-policy/",
+    200,
+    null
+   ]
+  ],
+  "final": "https://axiomsystems.systems/privacy-policy/",
+  "status": 200,
+  "x_robots": null,
+  "title": "Privacy Policy | Axiom Systems",
+  "desc": "How Axiom Systems collects, uses and protects information from our website, Google Ads, CRM, and email and text message communications, and how to opt out.",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "canonical": "https://axiomsystems.systems/privacy-policy/",
+  "og_title": "Privacy Policy | Axiom Systems",
+  "og_desc": "How Axiom Systems collects, uses and protects information from our website, Google Ads, CRM, and email and text message communications, and how to opt out.",
+  "og_image": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark-300x253.webp",
+  "og_url": "https://axiomsystems.systems/privacy-policy/",
+  "headings": [
+   [
+    "h1",
+    "Privacy Policy"
+   ],
+   [
+    "h2",
+    "Overview"
+   ],
+   [
+    "h2",
+    "1. Information we collect"
+   ],
+   [
+    "h2",
+    "2. How we use information"
+   ],
+   [
+    "h2",
+    "3. Google Ads and lead forms"
+   ],
+   [
+    "h2",
+    "4. CRM and automation"
+   ],
+   [
+    "h2",
+    "5. Text messages (SMS)"
+   ],
+   [
+    "h2",
+    "6. Email"
+   ],
+   [
+    "h2",
+    "7. Cookies and analytics"
+   ],
+   [
+    "h2",
+    "8. Service providers and sharing"
+   ],
+   [
+    "h2",
+    "9. Data retention and security"
+   ],
+   [
+    "h2",
+    "10. Your privacy rights"
+   ],
+   [
+    "h2",
+    "11. Children\u2019s privacy"
+   ],
+   [
+    "h2",
+    "12. Changes to this policy"
+   ],
+   [
+    "h2",
+    "13. Contact us"
+   ]
+  ],
+  "h1": [
+   "Privacy Policy"
+  ],
+  "ld_types": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization"
+  ],
+  "ld": [
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/privacy-policy\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/privacy-policy\\/\",\"name\":\"Privacy Policy | Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/privacy-policy\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/privacy-policy\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/09\\/axiom-mark-300x253.webp\",\"datePublished\":\"2026-10-27T03:59:18+00:00\",\"description\":\"How Axiom Systems collects, uses and protects information from our website, Google Ads, CRM, and email and text message communications, and how to opt out.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/privacy-policy\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/privacy-policy\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/privacy-policy\\/#primaryimage\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/09\\/axiom-mark-300x253.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/09\\/axiom-mark-300x253.webp\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/privacy-policy\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/axiomsystems.systems\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Privacy Policy\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\"}]}"
+  ],
+  "links": [
+   "/",
+   "/add-ons/",
+   "/cdn-cgi/l/email-protection#f4958c9d9b99da878d8780919987da979bb49399959d98da979b99",
+   "/faq/",
+   "/get-started/",
+   "/how-it-works/",
+   "/our-work/",
+   "/pricing/",
+   "/privacy-policy/",
+   "https://adssettings.google.com",
+   "https://axiomsystems.systems/",
+   "https://policies.google.com/privacy",
+   "https://tools.google.com/dlpage/gaoptout",
+   "tel:+17275917527"
+  ],
+  "imgs": [
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark-300x253.webp",
+    "Axiom Systems"
+   ]
+  ],
+  "body_len": 88525,
+  "body_text_sample": "Privacy Policy | Axiom Systems Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Call us at (727) 591-7527 Get Started Legal Privacy Policy How Axiom Systems collects, uses and protects information when you visit our website, contact us or use our services. Effective date: October 27, 2026 Overview This Privacy Policy explains how Axiom Systems (&#8220;Axiom Systems,&#8221; &#8220;we,&#8221; &#8220;us&#8221; or &#8220;our&#8221;) collects, uses and shares information when you visit axiomsystems.systems (the &#8220;Website&#8221;), contact us, or use our services. Our services include website-as-a-service, web design, website hosting and maintenance, Google Ads management, lead capture, CRM automation, appointment scheduling, automated follow-ups and review request systems. Our services are offered to businesses in the United States. By using the Website or contacting us, you acknowledge the practices described in this policy. 1. Information we collect Information you provide. When you submit our Get Started form, we collect your name, business name, email address, phone number, current website address (optional), what you tell us about your business, and the plan or service you were viewing when you contacted us. When you use the chat widget on our Website, we collect the name, contact details and messages you enter. We also collect information you share when you call, text or email us. Information from clients. If you become a client, we collect the business, billing and account information needed to provide our services, along with the content, images and other materials you give us for your website, campaigns and automations. Information collected automatically. When you visit the Website, we and our service providers automatically collect technical information such as your IP address, browser and device type, the pages you view, the page that referred you, and the date and time of your visit. When you submit our form, your IP address and browser information are stored with your submission to help us prevent spam and abuse. See &#8220;Cookies and analytics&#8221; below. Information from third parties. We may receive information from advertising platforms such as Google (for example, the details you submit in a Google Ads lead form, or information about which ad led to your visit) and from people who refer you to us. 2. How we use information We use the information we collect to respond to your inquiries and questions; to schedule and confirm consultations and appointments; to provide, manage and support our services; to manage our client relationships, including billing and account communications; to send marketing communications where permitted by law or where you have agreed to receive them; to measure and improve our Website and our advertising; to protect our Website, our business and our users against spam, fraud and abuse; and to comply with legal obligations and enforce our agreements. 3. Google Ads and lead forms We advertise our services with Google Ads. When you visit our Website after clicking one of our ads, Google may use cookies to measure the ad&#8217;s performance. When you successfully submit our Get Started form, our Website reports a conversion to Google Ads so we can see which ads produce inquiries. This report contains a reference number for the submission; it does not include the answers you entered in the form. If we run ads that include a Google lead form and you submit it, Google provides the information you enter (such as your name, email address and phone number) to us so we can respond to your request, and we add it to our CRM. Google&#8217;s collection and use of information is governed by the Google Privacy Policy . 4. CRM and automation Inquiries from our Get Started form are saved on our Website, emailed to our team, and transferred to our customer relationship management (CRM) system, which is built on the GoHighLevel (LeadConnector) platform. Conversations started in our chat widget a"
+ },
+ "https://axiomsystems.systems/myrtle-beach-ink-demo/": {
+  "hops": [
+   [
+    "https://axiomsystems.systems/myrtle-beach-ink-demo/",
+    200,
+    null
+   ]
+  ],
+  "final": "https://axiomsystems.systems/myrtle-beach-ink-demo/",
+  "status": 200,
+  "x_robots": null,
+  "title": "Myrtle Beach Ink \u2014 Website Concept - Axiom Systems",
+  "desc": null,
+  "robots": "noindex, nofollow",
+  "canonical": null,
+  "og_title": "Myrtle Beach Ink \u2014 Website Concept - Axiom Systems",
+  "og_desc": "Artists Our Work The Studio Your Next Piece Start Your Tattoo Menu Artists Our Work The Studio Your Next Piece Start Your Tattoo Tattoo Studio\u00a0\u00a0\u00b7\u00a0\u00a0Myrtle Beach, SC Your story.Wear it. Black and grey realism, portraits, illustrative work, fine line and fully custom pieces, from artists who take your idea as seriously as you do. Start [\u2026]",
+  "og_image": "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-logo-myrtle-beach-ink.webp",
+  "og_url": "https://axiomsystems.systems/myrtle-beach-ink-demo/",
+  "headings": [
+   [
+    "h1",
+    "Your story.Wear it."
+   ],
+   [
+    "h2",
+    "Find your nextobsession."
+   ],
+   [
+    "h2",
+    "Find your artist."
+   ],
+   [
+    "h3",
+    "Eddie Kane"
+   ],
+   [
+    "h3",
+    "Michael Brayson"
+   ],
+   [
+    "h3",
+    "Brian Colum Rush"
+   ],
+   [
+    "h2",
+    "A South CarolinaOriginal."
+   ],
+   [
+    "h2",
+    "On SeaboardStreet."
+   ],
+   [
+    "h2",
+    "Real work.Straight answers."
+   ],
+   [
+    "h2",
+    "Got an idea?Let's make it yours."
+   ],
+   [
+    "h2",
+    "Bring the idea.Leave with your story."
+   ]
+  ],
+  "h1": [
+   "Your story.Wear it."
+  ],
+  "ld_types": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization"
+  ],
+  "ld": [
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/myrtle-beach-ink-demo\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/myrtle-beach-ink-demo\\/\",\"name\":\"Myrtle Beach Ink \u2014 Website Concept - Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/myrtle-beach-ink-demo\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/myrtle-beach-ink-demo\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/10\\/mbi-demo-logo-myrtle-beach-ink.webp\",\"datePublished\":\"2026-10-07T18:53:30+00:00\",\"dateModified\":\"2026-10-07T19:18:39+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/myrtle-beach-ink-demo\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/myrtle-beach-ink-demo\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/myrtle-beach-ink-demo\\/#primaryimage\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/10\\/mbi-demo-logo-myrtle-beach-ink.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/10\\/mbi-demo-logo-myrtle-beach-ink.webp\",\"width\":700,\"height\":420,\"caption\":\"Myrtle Beach Ink logo\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/myrtle-beach-ink-demo\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/axiomsystems.systems\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Myrtle Beach Ink \u2014 Website Concept\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\"}]}"
+  ],
+  "links": [
+   "#artists",
+   "#inquiry",
+   "#studio",
+   "#top",
+   "#work",
+   "/cdn-cgi/l/email-protection",
+   "/cdn-cgi/l/email-protection#066b7f74726a63646367656e6f686d467f676e69692865696b397573646c6365723b5267727269692334364f6877736f747f",
+   "/cdn-cgi/l/email-protection#92ffebe0e6fef7f0f7f3f1fafbfcf9d2ebf3fafdfdbcf1fdffade1e7f0f8f7f1e6afc6f3e6e6fdfdb7a0a2dbfce3e7fbe0eb",
+   "/cdn-cgi/l/email-protection#e984909b9d858c8b8c888a81808782a99088818686c78a8684d69a9c8b838c8a9dd4bd889d9d8686ccdbd9a087989c809b90",
+   "/cdn-cgi/l/email-protection#f994808b8d959c9b9c989a91909792b98098919696d79a9694c68a8c9b939c9a8dc4ad988d8d9696dccbc9b097888c908b80",
+   "https://instagram.com/myrtlebeachink",
+   "https://www.facebook.com/MyrtleBeachInk",
+   "https://www.google.com/maps/search/?api=1&query=704+Seaboard+Street+Unit+A+Myrtle+Beach+SC+29577",
+   "https://www.myrtlebeachink.com/colum-tattoos",
+   "https://www.myrtlebeachink.com/eddie-kane",
+   "https://www.myrtlebeachink.com/michael-brayson",
+   "tel:8436268282"
+  ],
+  "imgs": [
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-logo-myrtle-beach-ink.webp",
+    "Myrtle Beach Ink logo"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-eddie-kane-tattooing.webp",
+    "Eddie Kane tattooing a client, black and white photo"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-eddie-kane-cardinal-color.webp",
+    "Color realism cardinal and forest tattoo by Eddie Kane"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-brian-colum-rush-jester.webp",
+    "Bold black jester character tattoo by Brian Colum Rush"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-michael-brayson-tiger-forearm.webp",
+    "Black and grey tiger tattoo with blue eyes across a forearm by Michael Brayson"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-eddie-kane-woman-portrait.webp",
+    "Black and grey portrait of a woman by Eddie Kane"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-brian-colum-rush-ace-flames.webp",
+    "Ace of spades and flames color tattoo by Brian Colum Rush"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-michael-brayson-bear.webp",
+    "Black and grey roaring bear tattoo by Michael Brayson"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-eddie-kane-tiger-rose.webp",
+    "Black and grey tiger and rose tattoo by Eddie Kane"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-brian-colum-rush-floral-spine.webp",
+    "Black and grey floral spine tattoo by Brian Colum Rush"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-eddie-kane-viking-portrait.webp",
+    "Black and grey realism portrait of a bearded Norse figure by Eddie Kane"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-eddie-kane-realism-eye.webp",
+    "Black and grey realism eye tattoo by Eddie Kane"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-eddie-kane-vintage-portrait.webp",
+    "Black and grey portrait of a man in a suit by Eddie Kane"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-michael-brayson-lion-chest.webp",
+    "Black and grey roaring lion chest tattoo by Michael Brayson"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-michael-brayson-tattooing.webp",
+    "Michael Brayson tattooing a client, black and white photo"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-michael-brayson-tiger-woman.webp",
+    "Black and grey tiger and woman tattoo by Michael Brayson"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-brian-colum-rush-panda-floral.webp",
+    "Illustrative panda and flowers tattoo by Brian Colum Rush"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-brian-colum-rush-tattooing.webp",
+    "Brian Colum Rush tattooing, black and white photo"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-brian-colum-rush-blue-wave.webp",
+    "Color wave tattoo in blues by Brian Colum Rush"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-eddie-kane-large-scale-torso.webp",
+    "Large-scale black and grey chest and stomach tattoo by Eddie Kane"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-studio-storefront-seaboard-street.webp",
+    "Myrtle Beach Ink Tattoo Studio storefront at dusk on Seaboard Street"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-brian-colum-rush-lion-skull.webp",
+    "Black and grey lion and skull sleeve by Brian Colum Rush"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/mbi-demo-logo-myrtle-beach-ink.webp",
+    "Myrtle Beach Ink logo"
+   ]
+  ],
+  "body_len": 136040,
+  "body_text_sample": "Myrtle Beach Ink \u2014 Website Concept - Axiom Systems Artists Our Work The Studio Your Next Piece Start Your Tattoo Menu Artists Our Work The Studio Your Next Piece Start Your Tattoo Tattoo Studio&nbsp;&nbsp;\u00b7&nbsp;&nbsp;Myrtle Beach, SC Your story. Wear it. Black and grey realism, portraits, illustrative work, fine line and fully custom pieces, from artists who take your idea as seriously as you do. Start Your Tattoo Explore the Artists 704 Seaboard Street, Unit A&nbsp;&nbsp;\u00b7&nbsp;&nbsp;Myrtle Beach, SC Eddie Kane at work Over a decade Serving clients First legalized Tattoo studio in South Carolina Officially recognized Tattoo shop of Myrtle Beach Our work Find your next obsession. Real pieces from the artists at Myrtle Beach Ink, from portrait realism to bold, colorful linework. Tap any piece to see more from the artist who made it. Eddie Kane Realism \u00b7 Portfolio \u2197 Brian Colum Rush Bold linework \u00b7 Portfolio \u2197 Michael Brayson Black &amp; grey \u00b7 Portfolio \u2197 Eddie Kane Black &amp; grey portrait \u00b7 Portfolio \u2197 Brian Colum Rush Color \u00b7 Portfolio \u2197 Michael Brayson Black &amp; grey \u00b7 Portfolio \u2197 Eddie Kane Black &amp; grey realism \u00b7 Portfolio \u2197 Brian Colum Rush Black &amp; grey \u00b7 Portfolio \u2197 New work goes up on Instagram first. @myrtlebeachink \u2197 Meet the artists Find your artist. Myrtle Beach Ink is home to four resident artists, with visiting artists rotating in from associated studios across South Carolina. Meet three of them below, or ask the studio to match you with the right artist for your idea. 01&nbsp;&nbsp;\u00b7&nbsp;&nbsp;Owner &amp; artist Eddie Kane A multi-award-winning artist, Eddie owns and operates Myrtle Beach Ink. His focus is large-scale black and grey realism and portraits: faces, eyes and detail that reads from across the room. Black &amp; grey realism Portraits Large scale Consult with Eddie View portfolio \u2197 02&nbsp;&nbsp;\u00b7&nbsp;&nbsp;Artist Michael Brayson Michael works in black and grey with realism-inspired designs, illustrative pieces and custom work built around your idea. Black &amp; grey realism Illustrative Bold linework Fine line Custom Consult with Michael View portfolio \u2197 03&nbsp;&nbsp;\u00b7&nbsp;&nbsp;Artist Brian Colum Rush Brian moves between illustrative, black and grey and full color, with bold linework, fine line and custom designs. Illustrative Black &amp; grey Color Bold linework Fine line Custom Consult with Brian View portfolio \u2197 Large-scale black and grey by Eddie Kane Our story A South Carolina Original. For over a decade, Myrtle Beach Ink has served locals and visitors in a clean, welcoming, professional environment. It was the first legalized tattoo studio in South Carolina, and it is the officially recognized tattoo shop of Myrtle Beach. The studio is owned and operated by multi-award-winning artist Eddie Kane, who sets the standard for every piece that leaves the chair. From fine line and custom lettering to portraits, matching tattoos and large-scale custom work, the aim is simple: a tattoo you love and an experience you remember. Award winner Best of the Beach Year after year. The studio On Seaboard Street. A clean, welcoming, professional studio where every client should walk away with a piece they love. Small fine-line work, custom lettering, portraits, matching tattoos and large-scale projects all start here. Serving locals and visitors alike. Address 704 Seaboard Street, Unit A Myrtle Beach, SC 29577 Get directions \u2197 Call 843-626-8282 Email [email&#160;protected] Hours Call the studio for current hours and availability. Good to know Real work. Straight answers. Every piece on this page comes from the artists' own portfolios. If a question isn't answered here, the studio is a call or email away. Call 843-626-8282 Email the studio How do I book? + Email [email&#160;protected] or call 843-626-8282 with your idea. For larger projects, or if you want a set date and time, an appointment is recommended. Can I walk in? + Walk-ins are welcome on a first-come, first-served basis. Call ahead to chec"
+ },
+ "https://axiomsystems.systems/pierce-it-or-ink-it-demo/": {
+  "hops": [
+   [
+    "https://axiomsystems.systems/pierce-it-or-ink-it-demo/",
+    200,
+    null
+   ]
+  ],
+  "final": "https://axiomsystems.systems/pierce-it-or-ink-it-demo/",
+  "status": 200,
+  "x_robots": null,
+  "title": "Pierce It Or Ink It \u2014 Website Concept - Axiom Systems",
+  "desc": null,
+  "robots": "noindex, nofollow",
+  "canonical": null,
+  "og_title": "Pierce It Or Ink It \u2014 Website Concept - Axiom Systems",
+  "og_desc": "Pierce It Or Ink It Artists Our Work Piercings Studios Book a Consultation Menu Artists Our Work Piercings Studios Book a Consultation Tattoos & Body Piercings Your story.Wear it. Custom tattoos and body piercings from artists who take your idea seriously. Explore the work, meet the artists and find your studio. Start Your Tattoo Explore [\u2026]",
+  "og_image": "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-logo-pierce-it-or-ink-it.webp",
+  "og_url": "https://axiomsystems.systems/pierce-it-or-ink-it-demo/",
+  "headings": [
+   [
+    "h1",
+    "Your story.Wear it."
+   ],
+   [
+    "h2",
+    "Find your nextobsession."
+   ],
+   [
+    "h2",
+    "Different styles.The same dedication."
+   ],
+   [
+    "h3",
+    "Mav"
+   ],
+   [
+    "h3",
+    "Nico"
+   ],
+   [
+    "h3",
+    "Anthony"
+   ],
+   [
+    "h2",
+    "Where itall started."
+   ],
+   [
+    "h2",
+    "Three studios.Find yours."
+   ],
+   [
+    "h3",
+    "Palisades Mall"
+   ],
+   [
+    "h3",
+    "Poughkeepsie Galleria"
+   ],
+   [
+    "h3",
+    "Galleria at Crystal Run"
+   ],
+   [
+    "h2",
+    "Real artists.Real work."
+   ],
+   [
+    "h3",
+    "Good to know"
+   ],
+   [
+    "h2",
+    "Got an idea?Let's make it yours."
+   ],
+   [
+    "h2",
+    "Bring the idea.Leave with the story."
+   ]
+  ],
+  "h1": [
+   "Your story.Wear it."
+  ],
+  "ld_types": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization"
+  ],
+  "ld": [
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/pierce-it-or-ink-it-demo\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/pierce-it-or-ink-it-demo\\/\",\"name\":\"Pierce It Or Ink It \u2014 Website Concept - Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/pierce-it-or-ink-it-demo\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/pierce-it-or-ink-it-demo\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/10\\/pioi-demo-logo-pierce-it-or-ink-it.webp\",\"datePublished\":\"2026-10-07T16:46:18+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/pierce-it-or-ink-it-demo\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/pierce-it-or-ink-it-demo\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/pierce-it-or-ink-it-demo\\/#primaryimage\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/10\\/pioi-demo-logo-pierce-it-or-ink-it.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/10\\/pioi-demo-logo-pierce-it-or-ink-it.webp\",\"width\":831,\"height\":900,\"caption\":\"Pierce It Or Ink It logo: crossed red tattoo machines with a rose, Tattoos & Body Piercings\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/pierce-it-or-ink-it-demo\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/axiomsystems.systems\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Pierce It Or Ink It \u2014 Website Concept\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\"}]}"
+  ],
+  "links": [
+   "#artists",
+   "#consult",
+   "#piercings",
+   "#studios",
+   "#top",
+   "#work",
+   "/cdn-cgi/l/email-protection",
+   "https://www.instagram.com/pierceitorinkit/",
+   "https://www.pierceitorinkit.com/anthony",
+   "https://www.pierceitorinkit.com/mav-tattoos",
+   "https://www.pierceitorinkit.com/nico-tattoos"
+  ],
+  "imgs": [
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-logo-pierce-it-or-ink-it.webp",
+    "Pierce It Or Ink It logo: crossed red tattoo machines with a rose, Tattoos & Body Piercings"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-hero-tattoo-session-wide.webp",
+    "A tattoo artist in gloves works on a client's floral forearm piece in the studio"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-hero-tattoo-session-tall.webp",
+    "A tattoo artist in gloves works on a client's floral forearm piece in the studio"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-logo-pierce-it-or-ink-it.webp",
+    "Pierce It Or Ink It logo: crossed red tattoo machines with a rose, Tattoos & Body Piercings"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-nico-red-phoenix-sleeve.webp",
+    "Red and black phoenix tattoo running the length of an arm by Nico"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-mav-black-grey-oni-woman.webp",
+    "Black and grey tattoo of a woman with an oni mask by Mav"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-anthony-woman-portrait-rose.webp",
+    "Black and grey portrait of a woman with a rose on an upper arm by Anthony"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-nico-anime-trio.webp",
+    "Anime tattoo of three stacked character portraits by Nico"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-anthony-owl-rose.webp",
+    "Black and grey owl and rose tattoo by Anthony"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-nico-fine-line-dagger-spine.webp",
+    "Fine line dagger and floral spine tattoo by Nico"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-mav-black-grey-hooded-figure.webp",
+    "Black and grey tattoo of a hooded, masked figure by Mav"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-anthony-highland-cow.webp",
+    "Highland cow tattoo on a thigh by Anthony"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-mav-black-grey-skull-portrait.webp",
+    "Black and grey portrait tattoo with skull detailing on a calf by Mav"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-artist-nico-at-work.webp",
+    "Nico tattooing a client, black and white photo"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-artist-anthony-at-work.webp",
+    "Anthony tattooing a client, black and white photo"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-piercing-navel-studio.webp",
+    "Client in the studio showing a fresh navel piercing"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-piercing-ear-curated.webp",
+    "Close-up of a curated ear with multiple piercings and rings"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-piercing-septum-nostril.webp",
+    "Septum and nostril piercings on a smiling client"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-piercing-septum-lip.webp",
+    "Septum and lower lip piercings"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-studio-neon-storefront.webp",
+    "Pierce It Or Ink It neon logo in a mall studio window"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-studio-lounge-mural.webp",
+    "Studio lounge with a pool table and a graffiti mural reading Pierce It Or Ink It"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-studio-interior.webp",
+    "Studio interior with comic-print floor and black walls"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-studio-logo-shirt.webp",
+    "A client in a Pierce It Or Ink It t-shirt and cap"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/10/pioi-demo-logo-pierce-it-or-ink-it.webp",
+    "Pierce It Or Ink It logo: crossed red tattoo machines with a rose, Tattoos & Body Piercings"
+   ]
+  ],
+  "body_len": 134956,
+  "body_text_sample": "Pierce It Or Ink It \u2014 Website Concept - Axiom Systems Pierce It Or Ink It Artists Our Work Piercings Studios Book a Consultation Menu Artists Our Work Piercings Studios Book a Consultation Tattoos &amp; Body Piercings Your story. Wear it. Custom tattoos and body piercings from artists who take your idea seriously. Explore the work, meet the artists and find your studio. Start Your Tattoo Explore Piercings Palisades Mall&nbsp;&nbsp;\u00b7&nbsp;&nbsp;Poughkeepsie Galleria&nbsp;&nbsp;\u00b7&nbsp;&nbsp;Galleria at Crystal Run Our work Find your next obsession. Real pieces by our artists, from fine line to full black and grey. Tap a piece to see more from the artist who made it. Nico Portfolio \u2197 Mav Black &amp; grey \u00b7 Portfolio \u2197 Anthony Portfolio \u2197 Nico Anime \u00b7 Portfolio \u2197 Anthony Portfolio \u2197 Nico Fine line \u00b7 Portfolio \u2197 Mav Black &amp; grey \u00b7 Portfolio \u2197 Anthony Portfolio \u2197 Meet your artist Different styles. The same dedication. Three artists, three studios. Find the style that fits your idea and the artist who lives for it. 01 \u00b7 Palisades Mall Mav Born in the Philippines and tattooing for more than 15 years, Mav leads the Palisades Mall studio. Black and grey and neotraditional are his specialties, with range well beyond them. Black &amp; grey Neotraditional Consult with Mav View portfolio \u2197 02 \u00b7 Poughkeepsie Galleria Nico aka Nano Raised in The Bronx and Washington Heights, Nico is a self-taught artist with more than five years of tattooing behind him, and he pierces too. He leads the Poughkeepsie Galleria studio. Neo traditional Script Anime Japanese Trash polka Fine line Consult with Nico View portfolio \u2197 03 \u00b7 Galleria at Crystal Run Anthony aka Ant Anthony was drawing portraits of fellow subway riders in The Bronx at 10 years old. More than 11 years into tattooing, he leads the Galleria at Crystal Run studio. Contemporary blackwork Surrealism Consult with Anthony View portfolio \u2197 Body piercings Where it all started. Piercing is where Pierce It Or Ink It began: one mall kiosk in 2019. Ears, noses, lips, navels and more. See the work, then tell us what you have in mind. Questions about placement, jewelry or which studio to visit? Ask before you come in. Ask About a Piercing Locations Three studios. Find yours. Each studio has its own lead artist. Pick the one closest to you, or the artist whose work speaks to you. 01 Palisades Mall 3rd floor, near Macy's Artist Mav Black &amp; grey \u00b7 Neotraditional Inquire at Palisades \u2192 02 Poughkeepsie Galleria Our first full-service studio, opened in 2024 Artist Nico Tattoos &amp; piercing Inquire at Poughkeepsie \u2192 03 Galleria at Crystal Run Middletown Artist Anthony Contemporary blackwork \u00b7 Surrealism Inquire at Crystal Run \u2192 Book appointments and ask questions on Instagram. @pierceitorinkit \u2197 Experience you can see Real artists. Real work. 15+ Years tattooing Mav 11+ Years tattooing Anthony 5+ Years tattooing Nico 2019 Piercing since Where it began Good to know How do I book? + Message us on Instagram at @pierceitorinkit. That's where we book appointments and answer questions. Which artist works at which studio? + Mav leads Palisades Mall, Nico leads Poughkeepsie Galleria and Anthony leads Galleria at Crystal Run. Do you do body piercings? + Yes. Piercing is where Pierce It Or Ink It started. Ask us about the piercing you want and which studio to visit. Where can I see more work? + Each artist has a full portfolio linked above, and new work is posted on our Instagram. Your next piece Got an idea? Let's make it yours. Tell us what you're thinking: a tattoo, a piercing, or just the start of an idea. Choose your studio and name an artist if you already have one in mind. Prefer to message us? Message @pierceitorinkit \u2197 Preview only \u00b7 Nothing on this form is sent or saved Name Your name Email [email&#160;protected] Tattoo or piercing Tattoo Piercing Preferred studio Choose a studio \u25be Preferred artist (optional) No preference \u25be Tell us about your idea Placement, size, style, references, the story behind i"
+ }
+}

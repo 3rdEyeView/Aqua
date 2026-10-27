@@ -1,0 +1,167 @@
+{
+ "https://axiomsystems.systems/": {
+  "hops": [
+   [
+    "https://axiomsystems.systems/",
+    200,
+    null
+   ]
+  ],
+  "final": "https://axiomsystems.systems/",
+  "status": 200,
+  "x_robots": null,
+  "title": "Axiom Systems | Website Design & Digital Marketing",
+  "desc": "Axiom Systems builds and manages professional websites for small businesses. Plans start at $299/month with $0 setup. Explore websites, marketing and automation.",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "canonical": "https://axiomsystems.systems/",
+  "og_title": "Axiom Systems | Website Design & Digital Marketing",
+  "og_desc": "Axiom Systems builds and manages professional websites for small businesses. Plans start at $299/month with $0 setup. Explore websites, marketing and automation.",
+  "og_image": null,
+  "og_url": "https://axiomsystems.systems/",
+  "headings": [
+   [
+    "h1",
+    "Small business websites that turn leads into customers."
+   ],
+   [
+    "h2",
+    "Real websites for real local businesses."
+   ],
+   [
+    "h3",
+    "Brags Global"
+   ],
+   [
+    "h3",
+    "Two jet ski companies. Same coastline. Nothing alike."
+   ],
+   [
+    "h3",
+    "Aqua Safari Jet Ski Adventures"
+   ],
+   [
+    "h3",
+    "Xtreme Jet Ski Watersports"
+   ],
+   [
+    "h2",
+    "A website shouldn't turn into a second job."
+   ],
+   [
+    "h2",
+    "Axiom Essential. Everything your website needs."
+   ],
+   [
+    "h3",
+    "We build it"
+   ],
+   [
+    "h3",
+    "We keep it running"
+   ],
+   [
+    "h2",
+    "From first conversation to live website."
+   ],
+   [
+    "h3",
+    "Tell us about your business"
+   ],
+   [
+    "h3",
+    "We design and build it"
+   ],
+   [
+    "h3",
+    "We launch it"
+   ],
+   [
+    "h3",
+    "We look after it"
+   ],
+   [
+    "h2",
+    "Built by someone who runs a local business too."
+   ],
+   [
+    "h2",
+    "Straight answers."
+   ],
+   [
+    "h2",
+    "Let's build the system behind your next customer."
+   ],
+   [
+    "h3",
+    "Tell us about your business"
+   ]
+  ],
+  "h1": [
+   "Small business websites that turn leads into customers."
+  ],
+  "ld_types": [
+   "WebPage",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization",
+   "FAQPage"
+  ],
+  "ld": [
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems | Website Design & Digital Marketing\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"about\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"datePublished\":\"2026-09-26T02:29:07+00:00\",\"dateModified\":\"2026-10-27T20:18:34+00:00\",\"description\":\"Axiom Systems builds and manages professional websites for small businesses. Plans start at $299\\/month with $0 setup. Explore websites, marketing and automation.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\"}]}",
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Why pay monthly instead of buying a website once?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Because a website is never really finished. It needs hosting, software updates, security and changes as your business grows. With a one-time project, those costs and chores land on you after launch. With Axiom, they're part of the service, and someone is always responsible for your site.\"}},{\"@type\":\"Question\",\"name\":\"What exactly does $299 a month include?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A custom-designed website built for your business, plus hosting, software and security updates, backups, content updates, ongoing support and FREE automated Google review follow-ups (available upon activation). We confirm the scope of your site with you before any work begins.\"}},{\"@type\":\"Question\",\"name\":\"Is there a setup fee or a contract?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"There's no setup fee for Axiom Essential, and you can cancel anytime. Submitting the form doesn't charge you anything: send us your business details and we'll guide you through the next steps.\"}},{\"@type\":\"Question\",\"name\":\"Will my website look like a template?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Every site is designed for the business it belongs to. Compare Aqua Safari and Xtreme above: same industry, same coastline, completely different websites.\"}},{\"@type\":\"Question\",\"name\":\"What if I need something changed?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Send us what you need, like new photos, a new service, updated hours or prices, and we'll make the update for you. You don't need to log in or learn anything.\"}},{\"@type\":\"Question\",\"name\":\"I already have a website. Can you help?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We'll design a new site for your business and bring over the content that's worth keeping, so you're not starting from zero.\"}},{\"@type\":\"Question\",\"name\":\"How long does it take to launch?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It depends on the size of your site and how quickly we get your content and feedback. We'll give you a realistic timeline once we've reviewed your business.\"}},{\"@type\":\"Question\",\"name\":\"Do you only work with businesses in Florida?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. We're based in St. Petersburg, Florida, in the Tampa Bay area, and work remotely with small businesses across the U.S. Everything from the first call to ongoing updates can happen by phone, email and video.\"}}]}"
+  ],
+  "links": [
+   "/",
+   "/add-ons/",
+   "/cdn-cgi/l/email-protection",
+   "/cdn-cgi/l/email-protection#02637a6b6d6f2c717b7176676f712c616d42656f636b6e2c616d6f3d717760686761763f53776771766b6d6c27303263606d7776273032556760716b7667273032637127303263273032516770746b6167",
+   "/faq/",
+   "/get-started/",
+   "/get-started/?plan=essential",
+   "/how-it-works/",
+   "/our-work/",
+   "/pricing/",
+   "/privacy-policy/",
+   "https://bragspressurewashing.com/",
+   "https://jetskiadventureclearwater.com/",
+   "https://xtremestpete.com/",
+   "tel:+17275917527"
+  ],
+  "imgs": [
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark.webp",
+    "Axiom Systems"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-site-portfolio-preview-2026-09-24.webp",
+    "Brags Global pressure washing and concrete coatings website homepage designed by Axiom Systems, with Get a Free Quote and Call buttons"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-mobile.webp",
+    "Aqua Safari Jet Ski Adventures website on a phone, with a large headline and full-width booking button"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark.webp",
+    "Axiom Systems"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-website-services-showcase-2026-09-24-1.jpg",
+    "Brags Global website services section with photo cards for pressure washing, concrete coatings, epoxy flooring, flake flooring and concrete stains"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-desktop.webp",
+    "Aqua Safari Jet Ski Adventures homepage designed by Axiom Systems, showing a guided Gulf island tour hero with Book Your Adventure button"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-xtreme-jet-ski-desktop.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersburg, Florida, with Check Availability and Call Now buttons and Google reviews"
+   ],
+   [
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-founder-michael-hinkle.webp",
+    "Michael Hinkle, founder of Axiom Systems"
+   ]
+  ],
+  "body_len": 134238,
+  "body_text_sample": "Axiom Systems | Website Design &amp; Digital Marketing Axiom Systems How It Works Our Work Pricing Add-Ons FAQ Call us at (727) 591-7527 Get Started Website design &amp; marketing for small businesses Small business websites that turn leads into customers. Fully managed. Axiom Systems designs, builds and manages professional websites for small businesses: a custom website we host and maintain, plus free Google review requests. When you're ready to grow, add Axiom CRM, lead automation and Google Ads management. One connected system, based in St. Petersburg, Florida and serving businesses nationwide. Start my website See websites we've built $299 /month Axiom Essential: design, hosting, updates and support, plus free Google review follow-ups. bragspressurewashing.com Managed by Axiom Hosting \u2713 Updates \u2713 Backups \u2713 Built for businesses like yours Contractors Pressure washing HVAC Plumbing &amp; electrical Roofing Landscaping Auto detailing Marine, rentals &amp; tours Home services Our work Real websites for real local businesses. Every Axiom site is designed from scratch around the business it belongs to. These are live right now. Click through and see for yourself. bragspressurewashing.com Pressure washing &amp; coatings \u00b7 Pinellas County, FL Brags Global A clean, confident website for a pressure washing and coatings company. Six services are easy to understand at a glance, and a free quote or a phone call is always one tap away. A clear photo card for each of their six services Quote and call buttons at the top of every visit Licensed, insured and locally owned, right up top Visit bragspressurewashing.com \u2197 Two jet ski companies. Same coastline. Nothing alike. Aqua Safari and Xtreme sell to the same kind of customer on the same stretch of Florida's Gulf Coast. Put their websites side by side and you'd never guess one team built both. Your website should look like your business, not like a template. jetskiadventureclearwater.com Guided jet ski tours \u00b7 Tarpon Springs, FL Aqua Safari Jet Ski Adventures Bold and editorial. Big type and real Gulf photography sell the island destinations, not just the ride, with a booking button on the very first screen. Visit the website \u2197 xtremestpete.com Jet ski rentals &amp; guided tours \u00b7 St. Petersburg, FL Xtreme Jet Ski Watersports Bright and high energy. Built around booking, with availability and call buttons up top and Google reviews right on the homepage. Visit the website \u2197 Want a website like these for your business? Designed, built and looked after by us, starting at $299 a month. Start my website Why a monthly service A website shouldn't turn into a second job. Most websites are sold as a one-time project. They look great on launch day. Then hosting, updates, fixes and changes quietly become your problem. Axiom is built the other way around. Typical website project Axiom Website as a Service Paying for it A large project invoice, usually before anything goes live One predictable monthly price Hosting A separate account for you to set up and pay for Included. We set it up and manage it Updates &amp; security Your job, or another bill Handled for you, every month Making changes Often quoted as new work Send us a request. We take care of it When something breaks You figure out who to call You call us. It's our job After launch The project is finished We keep looking after your site Every web designer works differently. This is how a typical one-time project works, and why we built Axiom as an ongoing service instead. What's included Axiom Essential. Everything your website needs. Here's what $299 a month covers, from the first design to every update after launch. Ready for more? Axiom Growth adds Axiom CRM, missed-call text-back and automated follow-up, and Axiom Marketing brings in new leads with Google Ads. Axiom Essential $299 /month A custom website, the team that keeps it running, and FREE automated Google review follow-ups. That's less than $10 a day for a professionally built websit"
+ }
+}

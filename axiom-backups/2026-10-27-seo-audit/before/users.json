@@ -1,0 +1,363 @@
+[
+ {
+  "id": 1,
+  "username": "AxiomSystems",
+  "name": "AxiomSystems",
+  "first_name": "",
+  "last_name": "",
+  "email": "xtremejetskiwatersports@gmail.com",
+  "url": "https://axiomsystems.systems",
+  "description": "",
+  "link": "https://axiomsystems.systems/author/axiomsystems/",
+  "locale": "en_US",
+  "nickname": "AxiomSystems",
+  "slug": "axiomsystems",
+  "roles": [
+   "administrator"
+  ],
+  "registered_date": "2026-01-12T18:54:35+00:00",
+  "capabilities": {
+   "switch_themes": true,
+   "edit_themes": true,
+   "activate_plugins": true,
+   "edit_plugins": true,
+   "edit_users": true,
+   "edit_files": true,
+   "manage_options": true,
+   "moderate_comments": true,
+   "manage_categories": true,
+   "manage_links": true,
+   "upload_files": true,
+   "import": true,
+   "unfiltered_html": true,
+   "edit_posts": true,
+   "edit_others_posts": true,
+   "edit_published_posts": true,
+   "publish_posts": true,
+   "edit_pages": true,
+   "read": true,
+   "level_10": true,
+   "level_9": true,
+   "level_8": true,
+   "level_7": true,
+   "level_6": true,
+   "level_5": true,
+   "level_4": true,
+   "level_3": true,
+   "level_2": true,
+   "level_1": true,
+   "level_0": true,
+   "edit_others_pages": true,
+   "edit_published_pages": true,
+   "publish_pages": true,
+   "delete_pages": true,
+   "delete_others_pages": true,
+   "delete_published_pages": true,
+   "delete_posts": true,
+   "delete_others_posts": true,
+   "delete_published_posts": true,
+   "delete_private_posts": true,
+   "edit_private_posts": true,
+   "read_private_posts": true,
+   "delete_private_pages": true,
+   "edit_private_pages": true,
+   "read_private_pages": true,
+   "delete_users": true,
+   "create_users": true,
+   "unfiltered_upload": true,
+   "edit_dashboard": true,
+   "update_plugins": true,
+   "delete_plugins": true,
+   "install_plugins": true,
+   "update_themes": true,
+   "install_themes": true,
+   "update_core": true,
+   "list_users": true,
+   "remove_users": true,
+   "promote_users": true,
+   "edit_theme_options": true,
+   "delete_themes": true,
+   "export": true,
+   "wpseo_manage_options": true,
+   "manage_woocommerce": true,
+   "create_customers": true,
+   "view_woocommerce_reports": true,
+   "edit_product": true,
+   "read_product": true,
+   "delete_product": true,
+   "edit_products": true,
+   "edit_others_products": true,
+   "publish_products": true,
+   "read_private_products": true,
+   "delete_products": true,
+   "delete_private_products": true,
+   "delete_published_products": true,
+   "delete_others_products": true,
+   "edit_private_products": true,
+   "edit_published_products": true,
+   "manage_product_terms": true,
+   "edit_product_terms": true,
+   "delete_product_terms": true,
+   "assign_product_terms": true,
+   "edit_shop_order": true,
+   "read_shop_order": true,
+   "delete_shop_order": true,
+   "edit_shop_orders": true,
+   "edit_others_shop_orders": true,
+   "publish_shop_orders": true,
+   "read_private_shop_orders": true,
+   "delete_shop_orders": true,
+   "delete_private_shop_orders": true,
+   "delete_published_shop_orders": true,
+   "delete_others_shop_orders": true,
+   "edit_private_shop_orders": true,
+   "edit_published_shop_orders": true,
+   "manage_shop_order_terms": true,
+   "edit_shop_order_terms": true,
+   "delete_shop_order_terms": true,
+   "assign_shop_order_terms": true,
+   "edit_shop_coupon": true,
+   "read_shop_coupon": true,
+   "delete_shop_coupon": true,
+   "edit_shop_coupons": true,
+   "edit_others_shop_coupons": true,
+   "publish_shop_coupons": true,
+   "read_private_shop_coupons": true,
+   "delete_shop_coupons": true,
+   "delete_private_shop_coupons": true,
+   "delete_published_shop_coupons": true,
+   "delete_others_shop_coupons": true,
+   "edit_private_shop_coupons": true,
+   "edit_published_shop_coupons": true,
+   "manage_shop_coupon_terms": true,
+   "edit_shop_coupon_terms": true,
+   "delete_shop_coupon_terms": true,
+   "assign_shop_coupon_terms": true,
+   "use_angie": true,
+   "elementor_atomic_widgets_access_styles_tab": true,
+   "elementor_atomic_widgets_edit_local_css_class": true,
+   "elementor_global_classes_update_class": true,
+   "elementor_global_classes_remove_class": true,
+   "elementor_global_classes_apply_class": true,
+   "administrator": true
+  },
+  "extra_capabilities": {
+   "administrator": true
+  },
+  "avatar_urls": {
+   "24": "https://secure.gravatar.com/avatar/1c664fc4a20925368570ffcc46e8b8dc38cf655f22c33bef110596f6dc266e81?s=24&d=mm&r=g",
+   "48": "https://secure.gravatar.com/avatar/1c664fc4a20925368570ffcc46e8b8dc38cf655f22c33bef110596f6dc266e81?s=48&d=mm&r=g",
+   "96": "https://secure.gravatar.com/avatar/1c664fc4a20925368570ffcc46e8b8dc38cf655f22c33bef110596f6dc266e81?s=96&d=mm&r=g"
+  },
+  "meta": {
+   "persisted_preferences": {
+    "core": {
+     "isComplementaryAreaVisible": false,
+     "openPanels": [
+      "post-status",
+      "yoast-seo/document-panel",
+      "jetpack-ai-assistant-plugin/jetpack-ai-assistant",
+      "featured-image"
+     ]
+    },
+    "core/edit-post": {
+     "welcomeGuide": false
+    },
+    "_modified": "2026-02-07T09:18:30.842Z"
+   }
+  },
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>AxiomSystems, Author at Axiom Systems</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [Yoast SEO - Settings] menu and set up a template. -->\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"profile\" />\n<meta property=\"og:title\" content=\"AxiomSystems, Author at Axiom Systems\" />\n<meta property=\"og:url\" content=\"https://axiomsystems.systems/author/axiomsystems/\" />\n<meta property=\"og:site_name\" content=\"Axiom Systems\" />\n<meta property=\"og:image\" content=\"https://secure.gravatar.com/avatar/1c664fc4a20925368570ffcc46e8b8dc38cf655f22c33bef110596f6dc266e81?s=500&d=mm&r=g\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"ProfilePage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/author\\/axiomsystems\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/author\\/axiomsystems\\/\",\"name\":\"AxiomSystems, Author at Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/author\\/axiomsystems\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/author\\/axiomsystems\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/author\\/axiomsystems\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/axiomsystems.systems\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Archives for AxiomSystems\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\"},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/person\\/c8a1ba78b8b7aa236b2ff2b3c55b6c95\",\"name\":\"AxiomSystems\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/1c664fc4a20925368570ffcc46e8b8dc38cf655f22c33bef110596f6dc266e81?s=96&d=mm&r=g\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/1c664fc4a20925368570ffcc46e8b8dc38cf655f22c33bef110596f6dc266e81?s=96&d=mm&r=g\",\"contentUrl\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/1c664fc4a20925368570ffcc46e8b8dc38cf655f22c33bef110596f6dc266e81?s=96&d=mm&r=g\",\"caption\":\"AxiomSystems\"},\"sameAs\":[\"https:\\/\\/axiomsystems.systems\"],\"mainEntityOfPage\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/author\\/axiomsystems\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "AxiomSystems, Author at Axiom Systems",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "en_US",
+   "og_type": "profile",
+   "og_title": "AxiomSystems, Author at Axiom Systems",
+   "og_url": "https://axiomsystems.systems/author/axiomsystems/",
+   "og_site_name": "Axiom Systems",
+   "og_image": [
+    {
+     "url": "https://secure.gravatar.com/avatar/1c664fc4a20925368570ffcc46e8b8dc38cf655f22c33bef110596f6dc266e81?s=500&d=mm&r=g",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://axiomsystems.systems/author/axiomsystems/",
+      "url": "https://axiomsystems.systems/author/axiomsystems/",
+      "name": "AxiomSystems, Author at Axiom Systems",
+      "isPartOf": {
+       "@id": "https://axiomsystems.systems/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://axiomsystems.systems/author/axiomsystems/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://axiomsystems.systems/author/axiomsystems/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://axiomsystems.systems/author/axiomsystems/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://axiomsystems.systems/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Archives for AxiomSystems"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://axiomsystems.systems/#website",
+      "url": "https://axiomsystems.systems/",
+      "name": "Axiom Systems",
+      "description": "",
+      "publisher": {
+       "@id": "https://axiomsystems.systems/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://axiomsystems.systems/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://axiomsystems.systems/#organization",
+      "name": "Axiom Systems",
+      "url": "https://axiomsystems.systems/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://axiomsystems.systems/#/schema/logo/image/",
+       "url": "https://axiomsystems.systems/wp-content/uploads/2026/01/AxiomLogo2.webp",
+       "contentUrl": "https://axiomsystems.systems/wp-content/uploads/2026/01/AxiomLogo2.webp",
+       "width": 1536,
+       "height": 1024,
+       "caption": "Axiom Systems"
+      },
+      "image": {
+       "@id": "https://axiomsystems.systems/#/schema/logo/image/"
+      },
+      "telephone": "+1-727-591-7527"
+     },
+     {
+      "@type": "Person",
+      "@id": "https://axiomsystems.systems/#/schema/person/c8a1ba78b8b7aa236b2ff2b3c55b6c95",
+      "name": "AxiomSystems",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/1c664fc4a20925368570ffcc46e8b8dc38cf655f22c33bef110596f6dc266e81?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/1c664fc4a20925368570ffcc46e8b8dc38cf655f22c33bef110596f6dc266e81?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/1c664fc4a20925368570ffcc46e8b8dc38cf655f22c33bef110596f6dc266e81?s=96&d=mm&r=g",
+       "caption": "AxiomSystems"
+      },
+      "sameAs": [
+       "https://axiomsystems.systems"
+      ],
+      "mainEntityOfPage": {
+       "@id": "https://axiomsystems.systems/author/axiomsystems/"
+      }
+     }
+    ]
+   }
+  },
+  "is_super_admin": true,
+  "woocommerce_meta": {
+   "variable_product_tour_shown": "",
+   "wc_payments_transactions_hidden_columns": "",
+   "wc_payments_transactions_blocked_hidden_columns": "",
+   "wc_payments_transactions_risk_review_hidden_columns": "",
+   "wc_payments_transactions_uncaptured_hidden_columns": "",
+   "wc_payments_payouts_hidden_columns": "",
+   "wc_payments_disputes_hidden_columns": "",
+   "wc_payments_documents_hidden_columns": "",
+   "wc_payments_reports_fees_view": "",
+   "wc_payments_reports_feedback_dismissed": "",
+   "activity_panel_inbox_last_read": "",
+   "activity_panel_reviews_last_read": "",
+   "categories_report_columns": "",
+   "coupons_report_columns": "",
+   "customers_report_columns": "",
+   "orders_report_columns": "",
+   "products_report_columns": "",
+   "revenue_report_columns": "",
+   "taxes_report_columns": "",
+   "variations_report_columns": "",
+   "dashboard_sections": "",
+   "dashboard_chart_type": "",
+   "dashboard_chart_interval": "",
+   "dashboard_leaderboard_rows": "",
+   "order_attribution_install_banner_dismissed": "",
+   "scheduled_updates_promotion_notice_dismissed": "",
+   "homepage_layout": "",
+   "homepage_stats": "",
+   "task_list_tracked_started_tasks": "{\"tax\":3,\"launch-your-store\":1}",
+   "android_app_banner_dismissed": "",
+   "launch_your_store_tour_hidden": "",
+   "coming_soon_banner_dismissed": ""
+  },
+  "elementor_introduction": {
+   "ai-get-started-announcement": true,
+   "globals_introduction": true,
+   "ai_get_started_introduction_site_logo_with_ai_site-settings": true,
+   "yoast-introduction-editor-v2": true,
+   "e-ai-product-image-unification": true,
+   "e-editor-one-notice-pointer": true
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/users/1",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/users"
+    }
+   ]
+  }
+ }
+]

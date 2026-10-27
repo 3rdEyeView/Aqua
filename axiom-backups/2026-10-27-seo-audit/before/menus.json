@@ -1,0 +1,57 @@
+[
+ {
+  "id": 3,
+  "description": "",
+  "name": "Primary Menu",
+  "slug": "primary-menu",
+  "meta": [],
+  "locations": [
+   "menu-1"
+  ],
+  "auto_add": true,
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/menus/3",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/menus"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/taxonomies/nav_menu"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/menu-items?menus=3"
+    }
+   ],
+   "wp:menu-location": [
+    {
+     "embeddable": true,
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/menu-locations/menu-1"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ }
+]

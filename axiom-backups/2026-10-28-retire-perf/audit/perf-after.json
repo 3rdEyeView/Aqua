@@ -1,0 +1,544 @@
+{
+ "https://axiomsystems.systems/": {
+  "lcp": {
+   "t": 1768,
+   "el": "P Axiom Systems designs, builds and manages professional websites for small busine",
+   "size": 74613
+  },
+  "cls": 0,
+  "ttfb": 987,
+  "dcl": 1882.2000000001863,
+  "load": 2134.7000000001863,
+  "imgs": [
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark.webp",
+    "natural": [
+     412,
+     347
+    ],
+    "shown": [
+     30,
+     25
+    ],
+    "loading": "auto",
+    "w": "415",
+    "h": "350"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-site-portfolio-preview-2026-09-24.webp",
+    "natural": [
+     412,
+     272
+    ],
+    "shown": [
+     333,
+     220
+    ],
+    "loading": "auto",
+    "w": "1128",
+    "h": "745"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-mobile.webp",
+    "natural": [
+     412,
+     824
+    ],
+    "shown": [
+     102,
+     204
+    ],
+    "loading": "auto",
+    "w": "780",
+    "h": "1560"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark.webp",
+    "natural": [
+     412,
+     347
+    ],
+    "shown": [
+     14,
+     12
+    ],
+    "loading": "lazy",
+    "w": "415",
+    "h": "350"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-website-services-showcase-2026-09-24-1.jpg",
+    "natural": [
+     412,
+     408
+    ],
+    "shown": [
+     370,
+     254
+    ],
+    "loading": "lazy",
+    "w": "1140",
+    "h": "1130"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-desktop.webp",
+    "natural": [
+     412,
+     257
+    ],
+    "shown": [
+     370,
+     231
+    ],
+    "loading": "lazy",
+    "w": "1440",
+    "h": "900"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-xtreme-jet-ski-desktop.webp",
+    "natural": [
+     412,
+     231
+    ],
+    "shown": [
+     370,
+     231
+    ],
+    "loading": "lazy",
+    "w": "1440",
+    "h": "810"
+   },
+   {
+    "src": "",
+    "natural": [
+     0,
+     0
+    ],
+    "shown": [
+     352,
+     352
+    ],
+    "loading": "lazy",
+    "w": "840",
+    "h": "910"
+   }
+  ],
+  "overflow": false,
+  "requests": 41,
+  "totalKB": 1145,
+  "byTypeKB": {
+   "document": 129,
+   "stylesheet": 231,
+   "script": 219,
+   "image": 494,
+   "font": 71
+  },
+  "biggest": [
+   [
+    "228KB",
+    "image",
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-website-services-showcase-2026-09-24-1.jpg"
+   ],
+   [
+    "129KB",
+    "document",
+    "https://axiomsystems.systems/?nc=1793135841966"
+   ],
+   [
+    "86KB",
+    "script",
+    "https://axiomsystems.systems/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+   ],
+   [
+    "75KB",
+    "image",
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-mobile.webp"
+   ],
+   [
+    "70KB",
+    "script",
+    "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-5ef1"
+   ],
+   [
+    "62KB",
+    "image",
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-desktop.webp"
+   ]
+  ]
+ },
+ "https://axiomsystems.systems/our-work/": {
+  "lcp": {
+   "t": 1732,
+   "el": "P A pressure washing and coatings company in Pinellas County. A custom tile contra",
+   "size": 46848
+  },
+  "cls": 0,
+  "ttfb": 996.8000000002794,
+  "dcl": 1962.8999999999069,
+  "load": 2144.5,
+  "imgs": [
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark.webp",
+    "natural": [
+     412,
+     347
+    ],
+    "shown": [
+     30,
+     25
+    ],
+    "loading": "auto",
+    "w": "300",
+    "h": "253"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-website-services-showcase-2026-09-24-1.jpg",
+    "natural": [
+     412,
+     408
+    ],
+    "shown": [
+     370,
+     302
+    ],
+    "loading": "auto",
+    "w": "1140",
+    "h": "1130"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-site-portfolio-preview-2026-09-24.webp",
+    "natural": [
+     412,
+     272
+    ],
+    "shown": [
+     855,
+     564
+    ],
+    "loading": "auto",
+    "w": "1128",
+    "h": "745"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-site-portfolio-preview-2026-09-24.webp",
+    "natural": [
+     412,
+     272
+    ],
+    "shown": [
+     0,
+     0
+    ],
+    "loading": "lazy",
+    "w": "1128",
+    "h": "745"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-xtreme-jet-ski-desktop.webp",
+    "natural": [
+     412,
+     231
+    ],
+    "shown": [
+     370,
+     278
+    ],
+    "loading": "lazy",
+    "w": "1440",
+    "h": "810"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-xtreme-jet-ski-desktop.webp",
+    "natural": [
+     412,
+     231
+    ],
+    "shown": [
+     784,
+     441
+    ],
+    "loading": "lazy",
+    "w": "1440",
+    "h": "810"
+   },
+   {
+    "src": "",
+    "natural": [
+     0,
+     0
+    ],
+    "shown": [
+     0,
+     0
+    ],
+    "loading": "lazy",
+    "w": "1917",
+    "h": "1196"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-xtreme-jet-ski-desktop.webp",
+    "natural": [
+     412,
+     231
+    ],
+    "shown": [
+     178,
+     223
+    ],
+    "loading": "lazy",
+    "w": "800",
+    "h": "450"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-desktop.webp",
+    "natural": [
+     412,
+     257
+    ],
+    "shown": [
+     178,
+     223
+    ],
+    "loading": "lazy",
+    "w": "800",
+    "h": "500"
+   },
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-mobile.webp",
+    "natural": [
+     412,
+     824
+    ],
+    "shown": [
+     250,
+     499
+    ],
+    "loading": "lazy",
+    "w": "780",
+    "h": "1560"
+   },
+   {
+    "src": "",
+    "natural": [
+     0,
+     0
+    ],
+    "shown": [
+     370,
+     231
+    ],
+    "loading": "lazy",
+    "w": "1440",
+    "h": "900"
+   },
+   {
+    "src": "",
+    "natural": [
+     0,
+     0
+    ],
+    "shown": [
+     370,
+     254
+    ],
+    "loading": "lazy",
+    "w": "1280",
+    "h": "880"
+   },
+   {
+    "src": "",
+    "natural": [
+     0,
+     0
+    ],
+    "shown": [
+     270,
+     540
+    ],
+    "loading": "lazy",
+    "w": "780",
+    "h": "1560"
+   }
+  ],
+  "overflow": false,
+  "requests": 40,
+  "totalKB": 1140,
+  "byTypeKB": {
+   "document": 127,
+   "stylesheet": 229,
+   "script": 219,
+   "image": 493,
+   "font": 71
+  },
+  "biggest": [
+   [
+    "228KB",
+    "image",
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/brags-website-services-showcase-2026-09-24-1.jpg"
+   ],
+   [
+    "127KB",
+    "document",
+    "https://axiomsystems.systems/our-work/?nc=1793135846674"
+   ],
+   [
+    "86KB",
+    "script",
+    "https://axiomsystems.systems/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+   ],
+   [
+    "75KB",
+    "image",
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-mobile.webp"
+   ],
+   [
+    "70KB",
+    "script",
+    "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-5ef1"
+   ],
+   [
+    "62KB",
+    "image",
+    "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-portfolio-aqua-safari-desktop.webp"
+   ]
+  ]
+ },
+ "https://axiomsystems.systems/pricing/": {
+  "lcp": {
+   "t": 1760,
+   "el": "P Start with a professionally managed website. Add Axiom CRM and automated follow-",
+   "size": 44416
+  },
+  "cls": 0,
+  "ttfb": 1002.5,
+  "dcl": 2133.2999999998137,
+  "load": 2133.399999999907,
+  "imgs": [
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark.webp",
+    "natural": [
+     412,
+     347
+    ],
+    "shown": [
+     30,
+     25
+    ],
+    "loading": "auto",
+    "w": "300",
+    "h": "253"
+   }
+  ],
+  "overflow": false,
+  "requests": 35,
+  "totalKB": 587,
+  "byTypeKB": {
+   "document": 82,
+   "stylesheet": 198,
+   "script": 219,
+   "image": 17,
+   "font": 71
+  },
+  "biggest": [
+   [
+    "86KB",
+    "script",
+    "https://axiomsystems.systems/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+   ],
+   [
+    "82KB",
+    "document",
+    "https://axiomsystems.systems/pricing/?nc=1793135851396"
+   ],
+   [
+    "70KB",
+    "script",
+    "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-5ef1"
+   ],
+   [
+    "53KB",
+    "stylesheet",
+    "https://axiomsystems.systems/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.3.5"
+   ],
+   [
+    "47KB",
+    "font",
+    "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+   ],
+   [
+    "44KB",
+    "stylesheet",
+    "https://fonts.googleapis.com/css?family=Inter:100,100italic,200,200italic,300,300italic,400,400italic,500,500i"
+   ]
+  ]
+ },
+ "https://axiomsystems.systems/get-started/": {
+  "lcp": {
+   "t": 1516,
+   "el": "P Submit your business details and we'll guide you through the next steps. Nothing",
+   "size": 24222
+  },
+  "cls": 0,
+  "ttfb": 749.7000000001863,
+  "dcl": 1840.6000000000931,
+  "load": 2009.7000000001863,
+  "imgs": [
+   {
+    "src": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark.webp",
+    "natural": [
+     412,
+     347
+    ],
+    "shown": [
+     30,
+     25
+    ],
+    "loading": "auto",
+    "w": "300",
+    "h": "253"
+   }
+  ],
+  "overflow": false,
+  "requests": 41,
+  "totalKB": 804,
+  "byTypeKB": {
+   "document": 95,
+   "stylesheet": 225,
+   "script": 345,
+   "image": 17,
+   "font": 122
+  },
+  "biggest": [
+   [
+    "95KB",
+    "document",
+    "https://axiomsystems.systems/get-started/?nc=1793135856101"
+   ],
+   [
+    "86KB",
+    "script",
+    "https://axiomsystems.systems/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+   ],
+   [
+    "70KB",
+    "script",
+    "https://axiomsystems.systems/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-5ef1"
+   ],
+   [
+    "53KB",
+    "stylesheet",
+    "https://axiomsystems.systems/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.3.5"
+   ],
+   [
+    "50KB",
+    "font",
+    "https://fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L5UUMbndwV.woff2"
+   ],
+   [
+    "47KB",
+    "font",
+    "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,247 @@
+{
+ "id": 303,
+ "date": "2026-01-13T14:40:54",
+ "date_gmt": "2026-01-13T14:40:54",
+ "guid": {
+  "rendered": "https://axiomsystems.systems/?page_id=303",
+  "raw": "https://axiomsystems.systems/?page_id=303"
+ },
+ "modified": "2026-10-23T04:06:27",
+ "modified_gmt": "2026-10-23T04:06:27",
+ "password": "",
+ "slug": "shop",
+ "status": "draft",
+ "type": "page",
+ "link": "https://axiomsystems.systems/?page_id=303",
+ "title": {
+  "raw": "Shop",
+  "rendered": "Shop"
+ },
+ "content": {
+  "raw": "",
+  "rendered": "",
+  "protected": false,
+  "block_version": 0
+ },
+ "excerpt": {
+  "raw": "",
+  "rendered": "",
+  "protected": false
+ },
+ "author": 1,
+ "featured_media": 0,
+ "parent": 0,
+ "menu_order": 0,
+ "comment_status": "closed",
+ "ping_status": "closed",
+ "template": "",
+ "meta": {
+  "footnotes": "",
+  "_elementor_edit_mode": "builder",
+  "_elementor_template_type": "wp-page",
+  "_elementor_data": "",
+  "_elementor_page_settings": null
+ },
+ "permalink_template": "https://axiomsystems.systems/%pagename%/",
+ "generated_slug": "shop",
+ "class_list": [
+  "post-303",
+  "page",
+  "type-page",
+  "status-draft",
+  "hentry"
+ ],
+ "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Shop - Axiom Systems</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [Yoast SEO - Settings] menu and set up a template. -->\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Shop - Axiom Systems\" />\n<meta property=\"og:url\" content=\"https://axiomsystems.systems/?page_id=303\" />\n<meta property=\"og:site_name\" content=\"Axiom Systems\" />\n<meta property=\"article:modified_time\" content=\"2026-10-23T04:06:27+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/?page_id=303\",\"url\":\"https:\\/\\/axiomsystems.systems\\/?page_id=303\",\"name\":\"Shop - Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"datePublished\":\"2026-01-13T14:40:54+00:00\",\"dateModified\":\"2026-10-23T04:06:27+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/?page_id=303#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/axiomsystems.systems\\/?page_id=303\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/?page_id=303#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/axiomsystems.systems\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Shop\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"Website design, digital marketing and lead automation for small businesses\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\",\"description\":\"Axiom Systems designs, builds and manages professional websites for small businesses, with digital marketing, Google Ads management and lead automation. Based in St. Petersburg, Florida, serving businesses across the United States.\",\"email\":\"axiom.systems.co@gmail.com\",\"founder\":{\"@type\":\"Person\",\"name\":\"Michael Hinkle\"},\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+ "yoast_head_json": {
+  "title": "Shop - Axiom Systems",
+  "robots": {
+   "index": "noindex",
+   "follow": "follow"
+  },
+  "og_locale": "en_US",
+  "og_type": "article",
+  "og_title": "Shop - Axiom Systems",
+  "og_url": "https://axiomsystems.systems/?page_id=303",
+  "og_site_name": "Axiom Systems",
+  "article_modified_time": "2026-10-23T04:06:27+00:00",
+  "twitter_card": "summary_large_image",
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "WebPage",
+     "@id": "https://axiomsystems.systems/?page_id=303",
+     "url": "https://axiomsystems.systems/?page_id=303",
+     "name": "Shop - Axiom Systems",
+     "isPartOf": {
+      "@id": "https://axiomsystems.systems/#website"
+     },
+     "datePublished": "2026-01-13T14:40:54+00:00",
+     "dateModified": "2026-10-23T04:06:27+00:00",
+     "breadcrumb": {
+      "@id": "https://axiomsystems.systems/?page_id=303#breadcrumb"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": [
+      {
+       "@type": "ReadAction",
+       "target": [
+        "https://axiomsystems.systems/?page_id=303"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://axiomsystems.systems/?page_id=303#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://axiomsystems.systems/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Shop"
+      }
+     ]
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://axiomsystems.systems/#website",
+     "url": "https://axiomsystems.systems/",
+     "name": "Axiom Systems",
+     "description": "Website design, digital marketing and lead automation for small businesses",
+     "publisher": {
+      "@id": "https://axiomsystems.systems/#organization"
+     },
+     "potentialAction": [
+      {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://axiomsystems.systems/?s={search_term_string}"
+       },
+       "query-input": {
+        "@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueName": "search_term_string"
+       }
+      }
+     ],
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://axiomsystems.systems/#organization",
+     "name": "Axiom Systems",
+     "url": "https://axiomsystems.systems/",
+     "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://axiomsystems.systems/#/schema/logo/image/",
+      "url": "https://axiomsystems.systems/wp-content/uploads/2026/01/AxiomLogo2.webp",
+      "contentUrl": "https://axiomsystems.systems/wp-content/uploads/2026/01/AxiomLogo2.webp",
+      "width": 1536,
+      "height": 1024,
+      "caption": "Axiom Systems"
+     },
+     "image": {
+      "@id": "https://axiomsystems.systems/#/schema/logo/image/"
+     },
+     "telephone": "+1-727-591-7527",
+     "description": "Axiom Systems designs, builds and manages professional websites for small businesses, with digital marketing, Google Ads management and lead automation. Based in St. Petersburg, Florida, serving businesses across the United States.",
+     "email": "axiom.systems.co@gmail.com",
+     "founder": {
+      "@type": "Person",
+      "name": "Michael Hinkle"
+     },
+     "areaServed": {
+      "@type": "Country",
+      "name": "United States"
+     }
+    }
+   ]
+  }
+ },
+ "jetpack_sharing_enabled": true,
+ "_links": {
+  "self": [
+   {
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/pages/303",
+    "targetHints": {
+     "allow": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH",
+      "DELETE"
+     ]
+    }
+   }
+  ],
+  "collection": [
+   {
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/pages"
+   }
+  ],
+  "about": [
+   {
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/types/page"
+   }
+  ],
+  "author": [
+   {
+    "embeddable": true,
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/users/1"
+   }
+  ],
+  "replies": [
+   {
+    "embeddable": true,
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/comments?post=303"
+   }
+  ],
+  "version-history": [
+   {
+    "count": 1,
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/pages/303/revisions"
+   }
+  ],
+  "predecessor-version": [
+   {
+    "id": 504,
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/pages/303/revisions/504"
+   }
+  ],
+  "wp:attachment": [
+   {
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/media?parent=303"
+   }
+  ],
+  "wp:action-publish": [
+   {
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/pages/303"
+   }
+  ],
+  "wp:action-unfiltered-html": [
+   {
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/pages/303"
+   }
+  ],
+  "wp:action-assign-author": [
+   {
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/pages/303"
+   }
+  ],
+  "curies": [
+   {
+    "name": "wp",
+    "href": "https://api.w.org/{rel}",
+    "templated": true
+   }
+  ]
+ }
+}

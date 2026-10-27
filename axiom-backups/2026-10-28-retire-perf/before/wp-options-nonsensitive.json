@@ -1,0 +1,206 @@
+{
+ "blogname": "Axiom Systems",
+ "blogdescription": "Website design, digital marketing and lead automation for small businesses",
+ "siteurl": "https://axiomsystems.systems",
+ "admin_email": "xtremejetskiwatersports@gmail.com",
+ "timezone_string": "",
+ "date_format": "F j, Y",
+ "time_format": "g:i a",
+ "start_of_week": "1",
+ "WPLANG": "",
+ "use_smilies": "1",
+ "default_category": "1",
+ "default_post_format": "0",
+ "default_pingback_flag": "1",
+ "ping_sites": "https://rpc.pingomatic.com/",
+ "posts_per_page": "10",
+ "posts_per_rss": "10",
+ "rss_use_excerpt": "0",
+ "show_on_front": "page",
+ "page_on_front": 952,
+ "page_for_posts": "0",
+ "blog_public": "1",
+ "default_ping_status": "open",
+ "default_comment_status": "open",
+ "comment_registration": "0",
+ "require_name_email": "1",
+ "comment_previously_approved": "1",
+ "close_comments_for_old_posts": "0",
+ "close_comments_days_old": "14",
+ "thread_comments": "1",
+ "thread_comments_depth": "5",
+ "page_comments": "0",
+ "comments_per_page": "50",
+ "default_comments_page": "newest",
+ "comment_order": "asc",
+ "comments_notify": "1",
+ "moderation_notify": "1",
+ "comment_moderation": "0",
+ "comment_max_links": "2",
+ "show_avatars": "1",
+ "avatar_rating": "G",
+ "avatar_default": "mystery",
+ "thumbnail_size_w": "150",
+ "thumbnail_size_h": "150",
+ "thumbnail_crop": "1",
+ "medium_size_w": "300",
+ "medium_size_h": "300",
+ "large_size_w": "1024",
+ "large_size_h": "1024",
+ "uploads_use_yearmonth_folders": "1",
+ "permalink_structure": "/%postname%/",
+ "category_base": "",
+ "tag_base": "",
+ "users_can_register": "0",
+ "default_role": "subscriber",
+ "wp_page_for_privacy_policy": "0",
+ "site_logo": "163",
+ "site_icon": "163",
+ "googlesitekitpersistent_remote_features": {
+  "adBlockerDetection": {
+   "enabled": true
+  },
+  "adsConversionTrackingIntent": {
+   "enabled": false
+  },
+  "adsModule": {
+   "enabled": true
+  },
+  "adsPax": {
+   "enabled": true
+  },
+  "adsenseSetupV2": {
+   "enabled": true
+  },
+  "audienceSegmentation": {
+   "enabled": true
+  },
+  "conversionInfra": {
+   "enabled": true
+  },
+  "conversionReporting": {
+   "enabled": true
+  },
+  "dashboardSharing": {
+   "enabled": true
+  },
+  "enhancedMeasurement": {
+   "enabled": true
+  },
+  "ga4ActivationBanner": {
+   "enabled": false
+  },
+  "ga4Reporting": {
+   "enabled": true
+  },
+  "ga4setup": {
+   "enabled": true
+  },
+  "googleTagGateway": {
+   "enabled": false
+  },
+  "gteSupport": {
+   "enabled": true
+  },
+  "helpVisibility": {
+   "enabled": true
+  },
+  "ideaHubModule": {
+   "enabled": false
+  },
+  "keyMetrics": {
+   "enabled": true
+  },
+  "pdfGeneration": {
+   "enabled": true
+  },
+  "proactiveUserEngagement": {
+   "enabled": true
+  },
+  "rrmModule": {
+   "enabled": true
+  },
+  "serviceSetupV2": {
+   "enabled": true
+  },
+  "setupFlowRefresh": {
+   "enabled": false
+  },
+  "signInWithGoogleModule": {
+   "enabled": true
+  },
+  "siteGoals": {
+   "enabled": true
+  },
+  "unifiedDashboard": {
+   "enabled": true
+  },
+  "userFeedback": {
+   "enabled": true
+  },
+  "widgets.dashboard": {
+   "enabled": true
+  },
+  "widgets.pageDashboard": {
+   "enabled": true
+  },
+  "yoastIntegration": {
+   "enabled": true
+  },
+  "zeroDataStates": {
+   "enabled": true
+  },
+  "last_updated_at": 1793093405
+ },
+ "hello_elementor_settings_description_meta_tag": "",
+ "hello_elementor_settings_skip_link": "",
+ "hello_elementor_settings_header_footer": "",
+ "hello_elementor_settings_page_title": "",
+ "hello_elementor_settings_hello_style": "",
+ "hello_elementor_settings_hello_theme": "",
+ "jetpack_ai_enabled": true,
+ "jetpack_ai_writing_assistant_enabled": true,
+ "jetpack_ai_image_editor_enabled": true,
+ "jetpack_ai_feature_clip_enabled": true,
+ "jetpack_ai_seo_enabled": true,
+ "reader_chat": false,
+ "jetpack_ai_agents_enabled": false,
+ "jetpack_premium_analytics_enabled": false,
+ "elementor_one_welcome_screen_completed": "1",
+ "elementor_one_dismiss_connect_alert": false,
+ "elementor_one_dismiss_elementor_one_subscription_alert": false,
+ "image_optimizer_compression_level": "lossy",
+ "image_optimizer_optimize_on_upload": "1",
+ "image_optimizer_resize_larger_images": "1",
+ "image_optimizer_resize_larger_images_size": "1920",
+ "image_optimizer_exif_metadata": "1",
+ "image_optimizer_original_images": "1",
+ "image_optimizer_convert_to_format": "webp",
+ "image_optimizer_custom_sizes": "all",
+ "image_optimizer_help_videos": "",
+ "image_optimizer_migration_popup_dismissed": "",
+ "image_optimizer_review_data": {
+  "dismissals": 0,
+  "hide_for_days": 0,
+  "last_dismiss": null,
+  "rating": null,
+  "feedback": null,
+  "added_on": "2026-01-12 22:47:05",
+  "submitted": false,
+  "repo_review_clicked": false
+ },
+ "jetpack_search_ai_behavior_instructions": "",
+ "woocommerce_pickup_location_settings": {
+  "enabled": "no",
+  "title": "",
+  "cost": "",
+  "tax_status": "taxable"
+ },
+ "pickup_location_pickup_locations": [],
+ "cookie_consent_template": false,
+ "Blogroll Recommendations": false,
+ "woocommerce_default_catalog_orderby": "menu_order",
+ "woocommerce_checkout_phone_field": "optional",
+ "woocommerce_checkout_company_field": "hidden",
+ "woocommerce_checkout_address_2_field": "optional"
+}

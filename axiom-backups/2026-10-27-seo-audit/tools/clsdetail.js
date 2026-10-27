@@ -1,0 +1,11 @@
+const { chromium, devices } = require('playwright');
+(async () => { const b = await chromium.launch(); const ctx = await b.newContext({ ...devices['Pixel 7'] });
+  await ctx.route(/(googletagmanager|stats\.wp\.com|leadconnectorhq|fonts\.g)/, r => r.abort());
+  const p = await ctx.newPage();
+  await p.addInitScript(() => { window.__s = []; const t0 = performance.now();
+    new PerformanceObserver(l => { for (const e of l.getEntries()) if (!e.hadRecentInput) window.__s.push({ v: +e.value.toFixed(3), t: Math.round(e.startTime), src: e.sources.map(s => ({ n: s.node ? (s.node.className || s.node.nodeName).toString().slice(0, 50) + ' ' + (s.node.dataset && s.node.dataset.id || '') : null, prev: [s.previousRect.x, s.previousRect.y, s.previousRect.width, s.previousRect.height].map(Math.round), cur: [s.currentRect.x, s.currentRect.y, s.currentRect.width, s.currentRect.height].map(Math.round) })) }); }).observe({ type: 'layout-shift', buffered: true });
+    new PerformanceObserver(l => { for (const e of l.getEntries()) window.__s.push({ paint: e.name, t: Math.round(e.startTime) }); }).observe({ type: 'paint', buffered: true });
+    document.addEventListener('DOMContentLoaded', () => window.__s.push({ dcl: Math.round(performance.now()) })); window.addEventListener('load', () => window.__s.push({ load: Math.round(performance.now()) })); });
+  await p.goto(process.argv[2] + '?d=' + Date.now(), { waitUntil: 'load' }); await p.waitForTimeout(3000);
+  for (const s of await p.evaluate(() => window.__s)) console.log(JSON.stringify(s));
+  await b.close(); })();

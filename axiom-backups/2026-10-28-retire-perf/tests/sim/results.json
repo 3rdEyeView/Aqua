@@ -1,0 +1,226 @@
+{
+ "desktop /": {
+  "liveH": 8556,
+  "simH": 8556,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/desktop_live.png",
+   "tests/sim/desktop_sim.png"
+  ]
+ },
+ "desktop /how-it-works/": {
+  "liveH": 6792,
+  "simH": 6792,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/desktop_how-it-works_live.png",
+   "tests/sim/desktop_how-it-works_sim.png"
+  ]
+ },
+ "desktop /our-work/": {
+  "liveH": 9576,
+  "simH": 9576,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/desktop_our-work_live.png",
+   "tests/sim/desktop_our-work_sim.png"
+  ]
+ },
+ "desktop /pricing/": {
+  "liveH": 3366,
+  "simH": 3366,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/desktop_pricing_live.png",
+   "tests/sim/desktop_pricing_sim.png"
+  ]
+ },
+ "desktop /add-ons/": {
+  "liveH": 4711,
+  "simH": 4711,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/desktop_add-ons_live.png",
+   "tests/sim/desktop_add-ons_sim.png"
+  ]
+ },
+ "desktop /faq/": {
+  "liveH": 2863,
+  "simH": 2863,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/desktop_faq_live.png",
+   "tests/sim/desktop_faq_sim.png"
+  ]
+ },
+ "desktop /get-started/": {
+  "liveH": 1401,
+  "simH": 1401,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/desktop_get-started_live.png",
+   "tests/sim/desktop_get-started_sim.png"
+  ]
+ },
+ "desktop /privacy-policy/": {
+  "liveH": 4920,
+  "simH": 4920,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/desktop_privacy-policy_live.png",
+   "tests/sim/desktop_privacy-policy_sim.png"
+  ]
+ },
+ "mobile /": {
+  "liveH": 12434,
+  "simH": 12434,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/mobile_live.png",
+   "tests/sim/mobile_sim.png"
+  ]
+ },
+ "mobile /how-it-works/": {
+  "liveH": 10089,
+  "simH": 10089,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/mobile_how-it-works_live.png",
+   "tests/sim/mobile_how-it-works_sim.png"
+  ]
+ },
+ "mobile /our-work/": {
+  "liveH": 12483,
+  "simH": 12483,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/mobile_our-work_live.png",
+   "tests/sim/mobile_our-work_sim.png"
+  ]
+ },
+ "mobile /pricing/": {
+  "liveH": 5521,
+  "simH": 5521,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/mobile_pricing_live.png",
+   "tests/sim/mobile_pricing_sim.png"
+  ]
+ },
+ "mobile /add-ons/": {
+  "liveH": 7745,
+  "simH": 7745,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/mobile_add-ons_live.png",
+   "tests/sim/mobile_add-ons_sim.png"
+  ]
+ },
+ "mobile /faq/": {
+  "liveH": 2634,
+  "simH": 2634,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/mobile_faq_live.png",
+   "tests/sim/mobile_faq_sim.png"
+  ]
+ },
+ "mobile /get-started/": {
+  "liveH": 1904,
+  "simH": 1904,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/mobile_get-started_live.png",
+   "tests/sim/mobile_get-started_sim.png"
+  ]
+ },
+ "mobile /privacy-policy/": {
+  "liveH": 8423,
+  "simH": 8423,
+  "liveErr": [],
+  "simErr": [],
+  "menu": [
+   true,
+   true
+  ],
+  "files": [
+   "tests/sim/mobile_privacy-policy_live.png",
+   "tests/sim/mobile_privacy-policy_sim.png"
+  ]
+ }
+}

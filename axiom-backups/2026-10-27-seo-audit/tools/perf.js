@@ -14,7 +14,7 @@ const fs = require('fs');
       new PerformanceObserver(l => { for (const e of l.getEntries()) if (!e.hadRecentInput) window.__cls += e.value; }).observe({ type: 'layout-shift', buffered: true });
     });
     const t0 = Date.now();
-    await page.goto(url + (url.includes('?') ? '&' : '?') + 'perf=' + Date.now(), { waitUntil: 'load', timeout: 60000 });
+    await page.goto(url + (url.includes('?') ? '&' : '?') + 'nc=' + Date.now(), { waitUntil: 'load', timeout: 60000 });
     await page.mouse.wheel(0, 4000); await page.waitForTimeout(2500);
     const m = await page.evaluate(() => {
       const nav = performance.getEntriesByType('navigation')[0];

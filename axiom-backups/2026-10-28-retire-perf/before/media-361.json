@@ -1,0 +1,193 @@
+{
+ "id": 361,
+ "date": "2026-01-13T15:53:23",
+ "date_gmt": "2026-01-13T15:53:23",
+ "guid": {
+  "rendered": "https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch.webp",
+  "raw": "https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch.webp"
+ },
+ "modified": "2026-01-13T15:54:24",
+ "modified_gmt": "2026-01-13T15:54:24",
+ "slug": "axiom_launch",
+ "status": "inherit",
+ "type": "attachment",
+ "link": "https://axiomsystems.systems/?attachment_id=361",
+ "title": {
+  "raw": "axiom_launch",
+  "rendered": "axiom_launch"
+ },
+ "author": 1,
+ "featured_media": 0,
+ "comment_status": "open",
+ "ping_status": "closed",
+ "template": "",
+ "meta": {
+  "angie_ai_description": ""
+ },
+ "permalink_template": "https://axiomsystems.systems/?attachment_id=361",
+ "generated_slug": "axiom_launch",
+ "class_list": [
+  "post-361",
+  "attachment",
+  "type-attachment",
+  "status-inherit",
+  "hentry"
+ ],
+ "jetpack_sharing_enabled": true,
+ "description": {
+  "raw": "Launch your business with trajectory ",
+  "rendered": "<p class=\"attachment\"><a href='https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch.webp'><img fetchpriority=\"high\" decoding=\"async\" width=\"225\" height=\"300\" src=\"https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch-225x300.webp\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch-225x300.webp 225w, https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch-600x800.webp 600w, https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch.webp 768w\" sizes=\"(max-width: 225px) 100vw, 225px\" /></a></p>\n<p>Launch your business with trajectory </p>\n"
+ },
+ "caption": {
+  "raw": "",
+  "rendered": "<p>Launch your business with trajectory</p>\n"
+ },
+ "alt_text": "",
+ "media_type": "image",
+ "mime_type": "image/webp",
+ "media_details": {
+  "width": 768,
+  "height": 1024,
+  "file": "2026/01/axiom_launch.webp",
+  "filesize": 26386,
+  "sizes": {
+   "woocommerce_thumbnail": {
+    "file": "axiom_launch-300x300.webp",
+    "width": 300,
+    "height": 300,
+    "filesize": 10472,
+    "uncropped": false,
+    "mime_type": "image/webp",
+    "source_url": "https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch-300x300.webp"
+   },
+   "woocommerce_gallery_thumbnail": {
+    "file": "axiom_launch-100x100.webp",
+    "width": 100,
+    "height": 100,
+    "filesize": 2156,
+    "mime_type": "image/webp",
+    "source_url": "https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch-100x100.webp"
+   },
+   "woocommerce_single": {
+    "file": "axiom_launch-600x800.webp",
+    "width": 600,
+    "height": 800,
+    "filesize": 25754,
+    "mime_type": "image/webp",
+    "source_url": "https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch-600x800.webp"
+   },
+   "medium": {
+    "file": "axiom_launch-225x300.webp",
+    "width": 225,
+    "height": 300,
+    "filesize": 4768,
+    "mime_type": "image/webp",
+    "source_url": "https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch-225x300.webp"
+   },
+   "thumbnail": {
+    "file": "axiom_launch-150x150.webp",
+    "width": 150,
+    "height": 150,
+    "filesize": 2656,
+    "mime_type": "image/webp",
+    "source_url": "https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch-150x150.webp"
+   },
+   "full": {
+    "file": "axiom_launch.webp",
+    "width": 768,
+    "height": 1024,
+    "mime_type": "image/webp",
+    "source_url": "https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch.webp"
+   }
+  },
+  "image_meta": {
+   "aperture": "0",
+   "credit": "",
+   "camera": "",
+   "caption": "",
+   "created_timestamp": "0",
+   "copyright": "",
+   "focal_length": "0",
+   "iso": "0",
+   "shutter_speed": "0",
+   "title": "",
+   "orientation": "0",
+   "keywords": []
+  }
+ },
+ "post": 360,
+ "source_url": "https://axiomsystems.systems/wp-content/uploads/2026/01/axiom_launch.webp",
+ "missing_image_sizes": [],
+ "filename": "axiom_launch.webp",
+ "filesize": 26386,
+ "exif_orientation": 1,
+ "image_output_format": null,
+ "image_save_progressive": false,
+ "image_quality": {
+  "default": 86,
+  "sizes": []
+ },
+ "_links": {
+  "self": [
+   {
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/media/361",
+    "targetHints": {
+     "allow": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH",
+      "DELETE"
+     ]
+    }
+   }
+  ],
+  "collection": [
+   {
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/media"
+   }
+  ],
+  "about": [
+   {
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/types/attachment"
+   }
+  ],
+  "author": [
+   {
+    "embeddable": true,
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/users/1"
+   }
+  ],
+  "replies": [
+   {
+    "embeddable": true,
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/comments?post=361"
+   }
+  ],
+  "wp:attached-to": [
+   {
+    "embeddable": true,
+    "post_type": "product",
+    "id": 360,
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/product/360"
+   }
+  ],
+  "wp:action-unfiltered-html": [
+   {
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/media/361"
+   }
+  ],
+  "wp:action-assign-author": [
+   {
+    "href": "https://axiomsystems.systems/wp-json/wp/v2/media/361"
+   }
+  ],
+  "curies": [
+   {
+    "name": "wp",
+    "href": "https://api.w.org/{rel}",
+    "templated": true
+   }
+  ]
+ }
+}

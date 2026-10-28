@@ -1,0 +1,30 @@
+{
+ "ownerID": 1,
+ "accountID": "381229606",
+ "adsConversionID": "",
+ "propertyID": "520630200",
+ "webDataStreamID": "13331565207",
+ "measurementID": "G-T8J1CRQRH6",
+ "trackingDisabled": [
+  "loggedinUsers"
+ ],
+ "useSnippet": true,
+ "googleTagID": "GT-55XGH597",
+ "googleTagAccountID": "6335033621",
+ "googleTagContainerID": "241220769",
+ "googleTagContainerDestinationIDs": [
+  "G-T8J1CRQRH6",
+  "AW-17889231515"
+ ],
+ "googleTagLastSyncedAtMs": 1770427128911,
+ "availableCustomDimensions": null,
+ "propertyCreateTime": 1768874860462,
+ "adSenseLinked": false,
+ "adSenseLinkedLastSyncedAt": 0,
+ "adsConversionIDMigratedAtMs": 0,
+ "adsLinked": false,
+ "adsLinkedLastSyncedAt": 0,
+ "detectedEvents": [],
+ "newConversionEventsLastUpdateAt": 0,
+ "lostConversionEventsLastUpdateAt": 0
+}

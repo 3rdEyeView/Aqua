@@ -1,0 +1,794 @@
+[
+ {
+  "plugin": "akismet/akismet",
+  "status": "active",
+  "name": "Akismet Anti-spam: Spam Protection",
+  "plugin_uri": "https://akismet.com/",
+  "author": "Automattic - Anti-spam Team",
+  "author_uri": "https://automattic.com/wordpress-plugins/",
+  "description": {
+   "raw": "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.",
+   "rendered": "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key. <cite>By <a href=\"https://automattic.com/wordpress-plugins/\">Automattic - Anti-spam Team</a>.</cite>"
+  },
+  "version": "5.7.2",
+  "network_only": false,
+  "requires_wp": "5.8",
+  "requires_php": "7.2",
+  "textdomain": "akismet",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/akismet/akismet",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "angie/angie",
+  "status": "active",
+  "name": "Angie",
+  "plugin_uri": "https://elementor.com/pages/angie-early-access",
+  "author": "Elementor.com",
+  "author_uri": "https://elementor.com/?utm_source=wp-plugins-angie&#038;utm_campaign=author-uri&#038;utm_medium=wp-dash",
+  "description": {
+   "raw": "Agentic AI for WordPress",
+   "rendered": "Agentic AI for WordPress <cite>By <a href=\"https://elementor.com/?utm_source=wp-plugins-angie&#038;utm_campaign=author-uri&#038;utm_medium=wp-dash\">Elementor.com</a>.</cite>"
+  },
+  "version": "1.1.19",
+  "network_only": false,
+  "requires_wp": "6.9",
+  "requires_php": "7.4",
+  "textdomain": "angie",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/angie/angie",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "better-search-replace/better-search-replace",
+  "status": "active",
+  "name": "Better Search Replace",
+  "plugin_uri": "https://bettersearchreplace.com",
+  "author": "WP Engine",
+  "author_uri": "https://bettersearchreplace.com",
+  "description": {
+   "raw": "A small plugin for running a search/replace on your WordPress database.",
+   "rendered": "A small plugin for running a search/replace on your WordPress database. <cite>By <a href=\"https://bettersearchreplace.com\">WP Engine</a>.</cite>"
+  },
+  "version": "1.4.11",
+  "network_only": true,
+  "requires_wp": "6.2",
+  "requires_php": "8.1",
+  "textdomain": "better-search-replace",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/better-search-replace/better-search-replace",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "elementor/elementor",
+  "status": "active",
+  "name": "Elementor",
+  "plugin_uri": "https://elementor.com/?utm_source=wp-plugins&#038;utm_campaign=plugin-uri&#038;utm_medium=wp-dash",
+  "author": "Elementor.com",
+  "author_uri": "https://elementor.com/?utm_source=wp-plugins&#038;utm_campaign=author-uri&#038;utm_medium=wp-dash",
+  "description": {
+   "raw": "The Elementor Website Builder has it all: drag and drop page builder, Atomic Editor, pixel perfect design, global and reusable style systems, mobile responsive editing, and more. Get started now!",
+   "rendered": "The Elementor Website Builder has it all: drag and drop page builder, Atomic Editor, pixel perfect design, global and reusable style systems, mobile responsive editing, and more. Get started now! <cite>By <a href=\"https://elementor.com/?utm_source=wp-plugins&#038;utm_campaign=author-uri&#038;utm_medium=wp-dash\">Elementor.com</a>.</cite>"
+  },
+  "version": "4.3.5",
+  "network_only": false,
+  "requires_wp": "6.8",
+  "requires_php": "7.4",
+  "textdomain": "elementor",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/elementor/elementor",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "fluent-smtp/fluent-smtp",
+  "status": "active",
+  "name": "FluentSMTP",
+  "plugin_uri": "https://fluentsmtp.com",
+  "author": "FluentSMTP &amp; WPManageNinja Team",
+  "author_uri": "https://fluentsmtp.com",
+  "description": {
+   "raw": "The Ultimate SMTP Connection Plugin for WordPress.",
+   "rendered": "The Ultimate SMTP Connection Plugin for WordPress. <cite>By <a href=\"https://fluentsmtp.com\">FluentSMTP &amp; WPManageNinja Team</a>.</cite>"
+  },
+  "version": "2.4.1",
+  "network_only": false,
+  "requires_wp": "6.5",
+  "requires_php": "7.4",
+  "textdomain": "fluent-smtp",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/fluent-smtp/fluent-smtp",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "google-listings-and-ads/google-listings-and-ads",
+  "status": "active",
+  "name": "Google for WooCommerce",
+  "plugin_uri": "",
+  "author": "WooCommerce",
+  "author_uri": "https://woocommerce.com/",
+  "description": {
+   "raw": "Native integration with Google that allows merchants to easily display their products across Google\u2019s network.",
+   "rendered": "Native integration with Google that allows merchants to easily display their products across Google\u2019s network. <cite>By <a href=\"https://woocommerce.com/\">WooCommerce</a>.</cite>"
+  },
+  "version": "3.10.0",
+  "network_only": false,
+  "requires_wp": "6.9",
+  "requires_php": "7.4",
+  "textdomain": "google-listings-and-ads",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/google-listings-and-ads/google-listings-and-ads",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "header-footer-code-manager/99robots-header-footer-code-manager",
+  "status": "inactive",
+  "name": "Header Footer Code Manager",
+  "plugin_uri": "https://draftpress.com/products",
+  "author": "DraftPress",
+  "author_uri": "https://draftpress.com/",
+  "description": {
+   "raw": "Header Footer Code Manager is a quick and simple way for you to add tracking code snippets, conversion pixels, or other scripts required by third party services for analytics, tracking, marketing, or chat functions. Used by 700,000+ sites. For detailed documentation, please visit the plugin\u2019s <a href=\"https://draftpress.com/\"> official page</a>.",
+   "rendered": "Header Footer Code Manager is a quick and simple way for you to add tracking code snippets, conversion pixels, or other scripts required by third party services for analytics, tracking, marketing, or chat functions. Used by 700,000+ sites. For detailed documentation, please visit the plugin\u2019s <a href=\"https://draftpress.com/\"> official page</a>. <cite>By <a href=\"https://draftpress.com/\">DraftPress</a>.</cite>"
+  },
+  "version": "1.1.46",
+  "network_only": false,
+  "requires_wp": "4.9",
+  "requires_php": "5.6.20",
+  "textdomain": "header-footer-code-manager",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/header-footer-code-manager/99robots-header-footer-code-manager",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "hello",
+  "status": "active",
+  "name": "Hello Dolly",
+  "plugin_uri": "http://wordpress.org/plugins/hello-dolly/",
+  "author": "Matt Mullenweg",
+  "author_uri": "http://ma.tt/",
+  "description": {
+   "raw": "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from Hello, Dolly in the upper right of your admin screen on every page.",
+   "rendered": "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from Hello, Dolly in the upper right of your admin screen on every page. <cite>By <a href=\"http://ma.tt/\">Matt Mullenweg</a>.</cite>"
+  },
+  "version": "1.7.2",
+  "network_only": false,
+  "requires_wp": "",
+  "requires_php": "",
+  "textdomain": "hello-dolly",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/hello",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "hello-plus/hello-plus",
+  "status": "active",
+  "name": "Hello Plus",
+  "plugin_uri": "https://elementor.com",
+  "author": "Elementor.com",
+  "author_uri": "https://elementor.com/?utm_source=wp-plugins&#038;utm_campaign=author-uri&#038;utm_medium=wp-dash",
+  "description": {
+   "raw": "Boost your Elementor website with business-ready bonus widgets",
+   "rendered": "Boost your Elementor website with business-ready bonus widgets <cite>By <a href=\"https://elementor.com/?utm_source=wp-plugins&#038;utm_campaign=author-uri&#038;utm_medium=wp-dash\">Elementor.com</a>.</cite>"
+  },
+  "version": "1.7.8",
+  "network_only": false,
+  "requires_wp": "",
+  "requires_php": "",
+  "textdomain": "hello-plus",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/hello-plus/hello-plus",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "image-optimization/image-optimization",
+  "status": "active",
+  "name": "Image Optimization - Optimize Images and Convert to WebP or AVIF",
+  "plugin_uri": "https://go.elementor.com/wp-repo-description-tab-io-product-page/",
+  "author": "Elementor.com",
+  "author_uri": "https://go.elementor.com/author-uri-io/",
+  "description": {
+   "raw": "Automatically resize, optimize, and convert images to WebP and AVIF. Compress images in bulk or on upload to boost your WordPress site performance.",
+   "rendered": "Automatically resize, optimize, and convert images to WebP and AVIF. Compress images in bulk or on upload to boost your WordPress site performance. <cite>By <a href=\"https://go.elementor.com/author-uri-io/\">Elementor.com</a>.</cite>"
+  },
+  "version": "1.7.7",
+  "network_only": false,
+  "requires_wp": "",
+  "requires_php": "",
+  "textdomain": "image-optimization",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/image-optimization/image-optimization",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "jetpack/jetpack",
+  "status": "active",
+  "name": "Jetpack",
+  "plugin_uri": "https://jetpack.com",
+  "author": "Automattic",
+  "author_uri": "https://jetpack.com",
+  "description": {
+   "raw": "Security, performance, and marketing tools made by WordPress experts. Jetpack keeps your site protected so you can focus on more important things.",
+   "rendered": "Security, performance, and marketing tools made by WordPress experts. Jetpack keeps your site protected so you can focus on more important things. <cite>By <a href=\"https://jetpack.com\">Automattic</a>.</cite>"
+  },
+  "version": "16.3.1",
+  "network_only": false,
+  "requires_wp": "7.0",
+  "requires_php": "7.4",
+  "textdomain": "jetpack",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/jetpack/jetpack",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "klaviyo/klaviyo",
+  "status": "active",
+  "name": "Klaviyo",
+  "plugin_uri": "https://wordpress.org/plugins/klaviyo/",
+  "author": "Klaviyo, Inc.",
+  "author_uri": "https://www.klaviyo.com",
+  "description": {
+   "raw": "A plugin to automatically sync your WooCommerce sales, products and customers with Klaviyo. With Klaviyo you can set up abandoned cart emails, collect emails for your newsletter to grow your business.",
+   "rendered": "A plugin to automatically sync your WooCommerce sales, products and customers with Klaviyo. With Klaviyo you can set up abandoned cart emails, collect emails for your newsletter to grow your business. <cite>By <a href=\"https://www.klaviyo.com\">Klaviyo, Inc.</a>.</cite>"
+  },
+  "version": "3.8.3",
+  "network_only": false,
+  "requires_wp": "5.2",
+  "requires_php": "7.0",
+  "textdomain": "woocommerce-klaviyo",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/klaviyo/klaviyo",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "pinterest-for-woocommerce/pinterest-for-woocommerce",
+  "status": "active",
+  "name": "Pinterest for WooCommerce",
+  "plugin_uri": "https://woocommerce.com/products/pinterest-for-woocommerce/",
+  "author": "WooCommerce",
+  "author_uri": "https://woocommerce.com",
+  "description": {
+   "raw": "Grow your business on Pinterest! Use this official plugin to allow shoppers to Pin products while browsing your store, track conversions, and advertise on Pinterest.",
+   "rendered": "Grow your business on Pinterest! Use this official plugin to allow shoppers to Pin products while browsing your store, track conversions, and advertise on Pinterest. <cite>By <a href=\"https://woocommerce.com\">WooCommerce</a>.</cite>"
+  },
+  "version": "1.6.0",
+  "network_only": false,
+  "requires_wp": "7.0",
+  "requires_php": "7.4",
+  "textdomain": "pinterest-for-woocommerce",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/pinterest-for-woocommerce/pinterest-for-woocommerce",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "google-site-kit/google-site-kit",
+  "status": "active",
+  "name": "Site Kit by Google",
+  "plugin_uri": "https://sitekit.withgoogle.com",
+  "author": "Google",
+  "author_uri": "https://opensource.google.com",
+  "description": {
+   "raw": "Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web.",
+   "rendered": "Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web. <cite>By <a href=\"https://opensource.google.com\">Google</a>.</cite>"
+  },
+  "version": "1.190.0",
+  "network_only": false,
+  "requires_wp": "5.2",
+  "requires_php": "7.4",
+  "textdomain": "google-site-kit",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/google-site-kit/google-site-kit",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "stripe-tax-for-woocommerce/stripe-tax-for-woocommerce",
+  "status": "active",
+  "name": "Stripe Tax - Sales tax automation for WooCommerce",
+  "plugin_uri": "",
+  "author": "",
+  "author_uri": "",
+  "description": {
+   "raw": "Automate sales tax, VAT, and GST compliance for all your transactions.",
+   "rendered": "Automate sales tax, VAT, and GST compliance for all your transactions."
+  },
+  "version": "2.2.0",
+  "network_only": false,
+  "requires_wp": "6.3",
+  "requires_php": "7.4",
+  "textdomain": "stripe-tax-for-woocommerce",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/stripe-tax-for-woocommerce/stripe-tax-for-woocommerce",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "tiktok-for-business/tiktok-for-woocommerce",
+  "status": "active",
+  "name": "TikTok",
+  "plugin_uri": "https://wordpress.org/plugins/tiktok-for-business",
+  "author": "TikTok",
+  "author_uri": "",
+  "description": {
+   "raw": "With the TikTok x WooCommerce integration, it's easier than ever to unlock innovative social commerce features for your business to drive traffic and sales to a highly engaged community. With guided &amp; simple setup prompts, you can sync your WooCommerce product catalog and promote it with custom ads without leaving your dashboard. Also, in just 1 click you can install the most-advanced TikTok pixel to unlock advanced visibility into detailed campaign performance tracking. Reach over 1 billion users, globally, and drive more e-commerce sales when you sell via one of the world\u2019s most downloaded applications!",
+   "rendered": "With the TikTok x WooCommerce integration, it&#8217;s easier than ever to unlock innovative social commerce features for your business to drive traffic and sales to a highly engaged community. With guided &amp; simple setup prompts, you can sync your WooCommerce product catalog and promote it with custom ads without leaving your dashboard. Also, in just 1 click you can install the most-advanced TikTok pixel to unlock advanced visibility into detailed campaign performance tracking. Reach over 1 billion users, globally, and drive more e-commerce sales when you sell via one of the world\u2019s most downloaded applications! <cite>By TikTok.</cite>"
+  },
+  "version": "1.4.2",
+  "network_only": false,
+  "requires_wp": "5.7.0",
+  "requires_php": "",
+  "textdomain": "tiktok-for-business",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/tiktok-for-business/tiktok-for-woocommerce",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "woocommerce/woocommerce",
+  "status": "active",
+  "name": "WooCommerce",
+  "plugin_uri": "https://woocommerce.com/",
+  "author": "Automattic",
+  "author_uri": "https://woocommerce.com",
+  "description": {
+   "raw": "An ecommerce toolkit that helps you sell anything. Beautifully.",
+   "rendered": "An ecommerce toolkit that helps you sell anything. Beautifully. <cite>By <a href=\"https://woocommerce.com\">Automattic</a>.</cite>"
+  },
+  "version": "11.2.1",
+  "network_only": false,
+  "requires_wp": "7.0",
+  "requires_php": "7.4",
+  "textdomain": "woocommerce",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/woocommerce/woocommerce",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "woocommerce-paypal-payments/woocommerce-paypal-payments",
+  "status": "active",
+  "name": "WooCommerce PayPal Payments",
+  "plugin_uri": "https://woocommerce.com/products/woocommerce-paypal-payments/",
+  "author": "PayPal",
+  "author_uri": "https://paypal.com/",
+  "description": {
+   "raw": "PayPal's latest complete payments processing solution. Accept PayPal, Pay Later, credit/debit cards, alternative digital wallets local payment types and bank accounts. Turn on only PayPal options or process a full suite of payment methods. Enable global transaction with extensive currency and country coverage.",
+   "rendered": "PayPal&#8217;s latest complete payments processing solution. Accept PayPal, Pay Later, credit/debit cards, alternative digital wallets local payment types and bank accounts. Turn on only PayPal options or process a full suite of payment methods. Enable global transaction with extensive currency and country coverage. <cite>By <a href=\"https://paypal.com/\">PayPal</a>.</cite>"
+  },
+  "version": "4.2.0",
+  "network_only": false,
+  "requires_wp": "6.5",
+  "requires_php": "7.4",
+  "textdomain": "woocommerce-paypal-payments",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/woocommerce-paypal-payments/woocommerce-paypal-payments",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "woocommerce-shipping/woocommerce-shipping",
+  "status": "active",
+  "name": "WooCommerce Shipping",
+  "plugin_uri": "https://woocommerce.com/products/shipping/",
+  "author": "WooCommerce",
+  "author_uri": "https://woocommerce.com/",
+  "description": {
+   "raw": "Save time and money with WooCommerce Shipping. Print discounted shipping labels with just a few clicks from your WooCommerce dashboard.",
+   "rendered": "Save time and money with WooCommerce Shipping. Print discounted shipping labels with just a few clicks from your WooCommerce dashboard. <cite>By <a href=\"https://woocommerce.com/\">WooCommerce</a>.</cite>"
+  },
+  "version": "2.4.3",
+  "network_only": false,
+  "requires_wp": "7.0",
+  "requires_php": "7.4",
+  "textdomain": "woocommerce-shipping",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/woocommerce-shipping/woocommerce-shipping",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "woocommerce-services/woocommerce-services",
+  "status": "active",
+  "name": "WooCommerce Tax",
+  "plugin_uri": "https://woocommerce.com/",
+  "author": "WooCommerce",
+  "author_uri": "https://woocommerce.com/",
+  "description": {
+   "raw": "Automated tax calculation for WooCommerce.",
+   "rendered": "Automated tax calculation for WooCommerce. <cite>By <a href=\"https://woocommerce.com/\">WooCommerce</a>.</cite>"
+  },
+  "version": "3.7.3",
+  "network_only": false,
+  "requires_wp": "7.0",
+  "requires_php": "7.4",
+  "textdomain": "woocommerce-services",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/woocommerce-services/woocommerce-services",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "woocommerce-payments/woocommerce-payments",
+  "status": "active",
+  "name": "WooPayments",
+  "plugin_uri": "https://woocommerce.com/payments/",
+  "author": "WooCommerce",
+  "author_uri": "https://woocommerce.com/",
+  "description": {
+   "raw": "Accept payments via credit card. Manage transactions within WordPress.",
+   "rendered": "Accept payments via credit card. Manage transactions within WordPress. <cite>By <a href=\"https://woocommerce.com/\">WooCommerce</a>.</cite>"
+  },
+  "version": "11.2.0",
+  "network_only": false,
+  "requires_wp": "6.0",
+  "requires_php": "7.4",
+  "textdomain": "woocommerce-payments",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/woocommerce-payments/woocommerce-payments",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "wordfence/wordfence",
+  "status": "inactive",
+  "name": "Wordfence Security",
+  "plugin_uri": "https://www.wordfence.com/",
+  "author": "Wordfence",
+  "author_uri": "https://www.wordfence.com/",
+  "description": {
+   "raw": "Wordfence Security - Anti-virus, Firewall and Malware Scan",
+   "rendered": "Wordfence Security &#8211; Anti-virus, Firewall and Malware Scan <cite>By <a href=\"https://www.wordfence.com/\">Wordfence</a>.</cite>"
+  },
+  "version": "9.0.2",
+  "network_only": true,
+  "requires_wp": "4.7",
+  "requires_php": "7.0",
+  "textdomain": "wordfence",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/wordfence/wordfence",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "wp-fastest-cache/wpFastestCache",
+  "status": "active",
+  "name": "WP Fastest Cache",
+  "plugin_uri": "http://wordpress.org/plugins/wp-fastest-cache/",
+  "author": "Emre Vona",
+  "author_uri": "https://www.wpfastestcache.com/",
+  "description": {
+   "raw": "The simplest and fastest WP Cache system",
+   "rendered": "The simplest and fastest WP Cache system <cite>By <a href=\"https://www.wpfastestcache.com/\">Emre Vona</a>.</cite>"
+  },
+  "version": "1.5.3",
+  "network_only": false,
+  "requires_wp": "",
+  "requires_php": "",
+  "textdomain": "wp-fastest-cache",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/wp-fastest-cache/wpFastestCache",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "plugin": "wordpress-seo/wp-seo",
+  "status": "active",
+  "name": "Yoast SEO",
+  "plugin_uri": "https://yoa.st/1uj",
+  "author": "Team Yoast",
+  "author_uri": "https://yoa.st/1uk",
+  "description": {
+   "raw": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
+   "rendered": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more. <cite>By <a href=\"https://yoa.st/1uk\">Team Yoast</a>.</cite>"
+  },
+  "version": "28.8",
+  "network_only": false,
+  "requires_wp": "7.0",
+  "requires_php": "7.4",
+  "textdomain": "wordpress-seo",
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wp/v2/plugins/wordpress-seo/wp-seo",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,138 @@
+[
+ {
+  "id": 17,
+  "name": "Uncategorized",
+  "slug": "uncategorized",
+  "parent": 0,
+  "description": "",
+  "display": "default",
+  "image": null,
+  "menu_order": 0,
+  "count": 0,
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Uncategorized Archives - Axiom Systems</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [Yoast SEO - Settings] menu and set up a template. -->\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Uncategorized Archives - Axiom Systems\" />\n<meta property=\"og:url\" content=\"https://axiomsystems.systems/product-category/uncategorized/\" />\n<meta property=\"og:site_name\" content=\"Axiom Systems\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/product-category\\/uncategorized\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/product-category\\/uncategorized\\/\",\"name\":\"Uncategorized Archives - Axiom Systems\",\"isPartOf\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/product-category\\/uncategorized\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/product-category\\/uncategorized\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/axiomsystems.systems\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Uncategorized\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#website\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"name\":\"Axiom Systems\",\"description\":\"Website design, digital marketing and lead automation for small businesses\",\"publisher\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/axiomsystems.systems\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#organization\",\"name\":\"Axiom Systems\",\"url\":\"https:\\/\\/axiomsystems.systems\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"contentUrl\":\"https:\\/\\/axiomsystems.systems\\/wp-content\\/uploads\\/2026\\/01\\/AxiomLogo2.webp\",\"width\":1536,\"height\":1024,\"caption\":\"Axiom Systems\"},\"image\":{\"@id\":\"https:\\/\\/axiomsystems.systems\\/#\\/schema\\/logo\\/image\\/\"},\"telephone\":\"+1-727-591-7527\",\"description\":\"Axiom Systems designs, builds and manages professional websites for small businesses, with digital marketing, Google Ads management and lead automation. Based in St. Petersburg, Florida, serving businesses across the United States.\",\"email\":\"axiom.systems.co@gmail.com\",\"founder\":{\"@type\":\"Person\",\"name\":\"Michael Hinkle\"},\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Uncategorized Archives - Axiom Systems",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Uncategorized Archives - Axiom Systems",
+   "og_url": "https://axiomsystems.systems/product-category/uncategorized/",
+   "og_site_name": "Axiom Systems",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://axiomsystems.systems/product-category/uncategorized/",
+      "url": "https://axiomsystems.systems/product-category/uncategorized/",
+      "name": "Uncategorized Archives - Axiom Systems",
+      "isPartOf": {
+       "@id": "https://axiomsystems.systems/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://axiomsystems.systems/product-category/uncategorized/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://axiomsystems.systems/product-category/uncategorized/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://axiomsystems.systems/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Uncategorized"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://axiomsystems.systems/#website",
+      "url": "https://axiomsystems.systems/",
+      "name": "Axiom Systems",
+      "description": "Website design, digital marketing and lead automation for small businesses",
+      "publisher": {
+       "@id": "https://axiomsystems.systems/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://axiomsystems.systems/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://axiomsystems.systems/#organization",
+      "name": "Axiom Systems",
+      "url": "https://axiomsystems.systems/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://axiomsystems.systems/#/schema/logo/image/",
+       "url": "https://axiomsystems.systems/wp-content/uploads/2026/01/AxiomLogo2.webp",
+       "contentUrl": "https://axiomsystems.systems/wp-content/uploads/2026/01/AxiomLogo2.webp",
+       "width": 1536,
+       "height": 1024,
+       "caption": "Axiom Systems"
+      },
+      "image": {
+       "@id": "https://axiomsystems.systems/#/schema/logo/image/"
+      },
+      "telephone": "+1-727-591-7527",
+      "description": "Axiom Systems designs, builds and manages professional websites for small businesses, with digital marketing, Google Ads management and lead automation. Based in St. Petersburg, Florida, serving businesses across the United States.",
+      "email": "axiom.systems.co@gmail.com",
+      "founder": {
+       "@type": "Person",
+       "name": "Michael Hinkle"
+      },
+      "areaServed": {
+       "@type": "Country",
+       "name": "United States"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wc/v3/products/categories/17",
+     "targetHints": {
+      "allow": [
+       "GET",
+       "POST",
+       "PUT",
+       "PATCH",
+       "DELETE"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://axiomsystems.systems/wp-json/wc/v3/products/categories"
+    }
+   ]
+  }
+ }
+]

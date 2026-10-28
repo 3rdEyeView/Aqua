@@ -1,0 +1,43 @@
+/how-axiom-systems-builds-revenue-maps-that-actually-convert/                      410  | noindex, follow | Page not found - Axiom Systems
+/?p=393                                                                            404  | noindex, follow | Page not found - Axiom Systems
+/shop/                                                                             301 https://axiomsystems.systems/pricing/ |  | 
+/shop/page/2/                                                                      301 https://axiomsystems.systems/pricing/ |  | 
+/?post_type=product                                                                301 https://axiomsystems.systems/pricing/ |  | 
+/?post_type=product&p=371                                                          410  | noindex, follow | Page not found - Axiom Systems
+/product-category/uncategorized/                                                   410  | noindex, follow | Page not found - Axiom Systems
+/https:/axiomsystems.systems/shop/sample-product/axiom-launch/                     410  | noindex, follow | Page not found - Axiom Systems
+/https:/axiomsystems.systems/shop/sample-product/axiom-platinum/                   410  | noindex, follow | Page not found - Axiom Systems
+/https:/axiomsystems.systems/shop/sample-product/axiom-revenue-systems-audit/      410  | noindex, follow | Page not found - Axiom Systems
+/https:/axiomsystems.systems/shop/sample-product/funnels-conversion-systems/       410  | noindex, follow | Page not found - Axiom Systems
+/https:/axiomsystems.systems/shop/sample-product/%f0%9f%93%b1-meta-ads-facebook-instagram/ 410  | noindex, follow | Page not found - Axiom Systems
+/https:/axiomsystems.systems/shop/sample-product/digital-graphic-design/           410  | noindex, follow | Page not found - Axiom Systems
+/https:/axiomsystems.systems/shop/sample-product/website-builder/                  301 https://axiomsystems.systems/pricing/ |  | 
+/https:/axiomsystems.systems/shop/sample-product/google-ppc-ads/                   301 https://axiomsystems.systems/add-ons/ |  | 
+/https:/axiomsystems.systems/shop/sample-product/%f0%9f%a7%a0-crm-automation/      301 https://axiomsystems.systems/add-ons/ |  | 
+/product/axiom-platinum/                                                           410  | noindex, follow | Page not found - Axiom Systems
+/author/axiomsystems/                                                              404  | noindex, follow | Page not found - Axiom Systems
+/?author=1                                                                         404  | noindex, follow | Page not found - Axiom Systems
+/2026/                                                                             404  | noindex, follow | Page not found - Axiom Systems
+/2026/10/                                                                          404  | noindex, follow | Page not found - Axiom Systems
+/category/uncategorized/                                                           200  | noindex, follow | Uncategorized Archives - Axiom Systems
+/cart/                                                                             404  | noindex, follow | Page not found - Axiom Systems
+/checkout/                                                                         404  | noindex, follow | Page not found - Axiom Systems
+/my-account/                                                                       404  | noindex, follow | Page not found - Axiom Systems
+/services/                                                                         301 https://axiomsystems.systems/pricing/ |  | 
+/about-us/                                                                         301 https://axiomsystems.systems/#about |  | 
+/elementor-9/                                                                      301 https://axiomsystems.systems/ |  | 
+/contact-axiom-systems/                                                            301 https://axiomsystems.systems/get-started/ |  | 
+/feed/                                                                             200  |  | Axiom Systems
+/                                                                                  200  | index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1 | Axiom Systems | Website Design &amp; Digital Marketin
+/how-it-works/                                                                     200  | index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1 | How It Works: Managed Website Design | Axiom Systems
+/our-work/                                                                         200  | index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1 | Our Work: Small Business Website Design | Axiom Syste
+/pricing/                                                                          200  | index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1 | Website Plans &amp; Pricing from $299/month | Axiom S
+/add-ons/                                                                          200  | index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1 | Lead Automation &amp; Google Ads Management | Axiom S
+/faq/                                                                              200  | index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1 | FAQ: Managed Website Plans &amp; Pricing | Axiom Syst
+/get-started/                                                                      200  | index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1 | Get Started with Axiom Systems | Request Your Website
+/privacy-policy/                                                                   200  | index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1 | Privacy Policy | Axiom Systems
+/myrtle-beach-ink-demo/                                                            200  | noindex, nofollow | Myrtle Beach Ink — Website Concept - Axiom Systems
+/pierce-it-or-ink-it-demo/                                                         200  | noindex, nofollow | Pierce It Or Ink It — Website Concept - Axiom Syste
+/sitemap_index.xml                                                                 200  |  | 
+/page-sitemap.xml                                                                  200  |  | 
+/post-sitemap.xml                                                                  200  |  | 

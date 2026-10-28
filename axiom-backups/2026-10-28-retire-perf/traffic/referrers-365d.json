@@ -1,0 +1,3779 @@
+{
+ "date": "2026-10-28",
+ "utc_offset": "+00:00",
+ "days": {
+  "2026-10-28": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-27": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 20,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 20
+      }
+     ]
+    },
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 22
+  },
+  "2026-10-26": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 14,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 14
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 14
+  },
+  "2026-10-25": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-10-24": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-23": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 6,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "facebook.com",
+       "url": "http://facebook.com/",
+       "views": 4
+      },
+      {
+       "name": "facebook.com",
+       "url": "https://facebook.com/",
+       "views": 2
+      }
+     ]
+    },
+    {
+     "group": "tagassistant.google.com",
+     "name": "tagassistant.google.com",
+     "url": "https://tagassistant.google.com/",
+     "icon": null,
+     "total": 5,
+     "follow_data": null,
+     "results": {
+      "views": 5
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 11
+  },
+  "2026-10-22": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 15,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "facebook.com",
+       "url": "http://facebook.com/",
+       "views": 14
+      },
+      {
+       "name": "facebook.com",
+       "url": "https://facebook.com/",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 15
+  },
+  "2026-10-21": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-20": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-10-19": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-18": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-17": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-16": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-15": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-14": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-10-13": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-12": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-11": {
+   "groups": [
+    {
+     "group": "wnnkd.com",
+     "name": "wnnkd.com",
+     "url": "https://www.wnnkd.com/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-10-10": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-09": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-10-08": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 4,
+     "follow_data": null,
+     "results": {
+      "views": 4
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 4
+  },
+  "2026-10-07": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-06": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-05": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-04": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-03": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-02": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-10-01": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    },
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-09-30": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-29": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-28": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "https://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-09-27": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-26": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 3,
+     "follow_data": null,
+     "results": {
+      "views": 3
+     }
+    },
+    {
+     "group": "axiomsystems.kinsta.cloud",
+     "name": "axiomsystems.kinsta.cloud",
+     "url": "https://axiomsystems.kinsta.cloud/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 4
+  },
+  "2026-09-25": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-24": {
+   "groups": [
+    {
+     "group": "webdig.asia",
+     "name": "webdig.asia",
+     "url": "https://www.webdig.asia/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-09-23": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-22": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-21": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-20": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-19": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-18": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-17": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-16": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-15": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-14": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-13": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-12": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-11": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-10": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-09": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-08": {
+   "groups": [
+    {
+     "group": "blog2026.online",
+     "name": "blog2026.online",
+     "url": "https://www.blog2026.online/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-09-07": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-06": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-05": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-04": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-03": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 3,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 2
+      },
+      {
+       "name": "duckduckgo.com",
+       "url": "https://duckduckgo.com/",
+       "icon": null,
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 3
+  },
+  "2026-09-02": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-09-01": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-31": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-08-30": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 3,
+     "follow_data": null,
+     "results": {
+      "views": 3
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 3
+  },
+  "2026-08-29": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-28": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-27": {
+   "groups": [
+    {
+     "group": "sunblog.asia",
+     "name": "sunblog.asia",
+     "url": "https://www.sunblog.asia/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-08-26": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-25": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-24": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-23": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-22": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-08-21": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-20": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-08-19": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-18": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-17": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-16": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-15": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "https://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-08-14": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "https://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-08-13": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-12": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-11": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-10": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-08-09": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-08": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-07": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-06": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-05": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-04": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-03": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-02": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-08-01": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-07-31": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-30": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-29": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-28": {
+   "groups": [
+    {
+     "group": "osdzc.com",
+     "name": "osdzc.com",
+     "url": "https://www.osdzc.com/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-07-27": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-26": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-25": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-24": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-23": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-22": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-21": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-20": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-19": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-18": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-17": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-07-16": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Bing",
+       "url": "https://www.bing.com/",
+       "icon": "https://secure.gravatar.com/blavatar/3c77f261a156a5308fee53720276395ef78d2e7367e4225a3d3d93f4accd1dd3?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-07-15": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 2,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 2
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-07-14": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-13": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Bing",
+       "url": "https://www.bing.com/",
+       "icon": "https://secure.gravatar.com/blavatar/3c77f261a156a5308fee53720276395ef78d2e7367e4225a3d3d93f4accd1dd3?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-07-12": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-11": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-10": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-09": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-08": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Bing",
+       "url": "https://bing.com/",
+       "icon": "https://secure.gravatar.com/blavatar/3c77f261a156a5308fee53720276395ef78d2e7367e4225a3d3d93f4accd1dd3?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-07-07": {
+   "groups": [
+    {
+     "group": "zeyao.net",
+     "name": "zeyao.net",
+     "url": "https://www.zeyao.net/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-07-06": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Bing",
+       "url": "https://bing.com/",
+       "icon": "https://secure.gravatar.com/blavatar/3c77f261a156a5308fee53720276395ef78d2e7367e4225a3d3d93f4accd1dd3?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-07-05": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-04": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Bing",
+       "url": "https://bing.com/",
+       "icon": "https://secure.gravatar.com/blavatar/3c77f261a156a5308fee53720276395ef78d2e7367e4225a3d3d93f4accd1dd3?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-07-03": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-02": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-07-01": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 2,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 2
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-06-30": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-29": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-28": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-27": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-26": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Bing",
+       "url": "https://bing.com/",
+       "icon": "https://secure.gravatar.com/blavatar/3c77f261a156a5308fee53720276395ef78d2e7367e4225a3d3d93f4accd1dd3?s=48",
+       "views": 1
+      }
+     ]
+    },
+    {
+     "group": "woduc.com",
+     "name": "woduc.com",
+     "url": "https://www.woduc.com/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-06-25": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-24": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-23": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-22": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-21": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-20": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-19": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-06-18": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-17": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-16": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-15": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Bing",
+       "url": "https://www.bing.com/",
+       "icon": "https://secure.gravatar.com/blavatar/3c77f261a156a5308fee53720276395ef78d2e7367e4225a3d3d93f4accd1dd3?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-06-14": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Bing",
+       "url": "https://www.bing.com/",
+       "icon": "https://secure.gravatar.com/blavatar/3c77f261a156a5308fee53720276395ef78d2e7367e4225a3d3d93f4accd1dd3?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-06-13": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-12": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-11": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-10": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-09": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-08": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-07": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-06": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-05": {
+   "groups": [
+    {
+     "group": "antonyhome.com",
+     "name": "antonyhome.com",
+     "url": "http://www.antonyhome.com/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-06-04": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-06-03": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-06-02": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Bing",
+       "url": "https://www.bing.com/",
+       "icon": "https://secure.gravatar.com/blavatar/3c77f261a156a5308fee53720276395ef78d2e7367e4225a3d3d93f4accd1dd3?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-06-01": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-05-31": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-30": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-29": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-28": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-27": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-26": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-25": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-24": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-23": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-05-22": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-21": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-20": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-19": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-18": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-17": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-16": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-15": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-14": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-13": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    },
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-05-12": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-11": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-10": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-09": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-08": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-07": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-05-06": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-05": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-04": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-03": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-02": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-05-01": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-30": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "https://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-04-29": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-28": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-27": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 4,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "facebook.com",
+       "url": "http://facebook.com/",
+       "views": 2
+      },
+      {
+       "name": "facebook.com",
+       "url": "https://facebook.com/",
+       "views": 2
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 4
+  },
+  "2026-04-26": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-25": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-24": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 2,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 2
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-04-23": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-22": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-21": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-20": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-19": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-18": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-17": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-16": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-15": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-14": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-04-13": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-04-12": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-04-11": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-10": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-09": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-04-08": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-07": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-06": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-04-05": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-04-04": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-03": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-02": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-04-01": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-31": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-30": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-29": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-03-28": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-27": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-26": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-25": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-03-24": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-23": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-03-22": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-21": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-20": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-19": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-18": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-17": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Bing",
+       "url": "https://bing.com/",
+       "icon": "https://secure.gravatar.com/blavatar/3c77f261a156a5308fee53720276395ef78d2e7367e4225a3d3d93f4accd1dd3?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-03-16": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-15": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-14": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-13": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-12": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 2,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 2
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-03-11": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-10": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-09": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-08": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-07": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-06": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-05": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-04": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-03": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-02": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-03-01": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-02-28": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-02-27": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-02-26": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-02-25": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-02-24": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-02-23": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 5,
+     "follow_data": null,
+     "results": {
+      "views": 5
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 5
+  },
+  "2026-02-22": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-02-21": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-02-20": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    },
+    {
+     "group": "axiomsystems.kinsta.cloud",
+     "name": "axiomsystems.kinsta.cloud",
+     "url": "https://axiomsystems.kinsta.cloud/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-02-19": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-02-18": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-02-17": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-02-16": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    },
+    {
+     "group": "axiomsystems.kinsta.cloud",
+     "name": "axiomsystems.kinsta.cloud",
+     "url": "https://axiomsystems.kinsta.cloud/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 3
+  },
+  "2026-02-15": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-02-14": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-02-13": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-02-12": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-02-11": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-02-10": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 2
+  },
+  "2026-02-09": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 11,
+     "follow_data": null,
+     "results": {
+      "views": 11
+     }
+    },
+    {
+     "group": "axiomsystems.kinsta.cloud",
+     "name": "axiomsystems.kinsta.cloud",
+     "url": "https://axiomsystems.kinsta.cloud/",
+     "icon": null,
+     "total": 3,
+     "follow_data": null,
+     "results": {
+      "views": 3
+     }
+    },
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 15
+  },
+  "2026-02-08": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 15,
+     "follow_data": null,
+     "results": {
+      "views": 15
+     }
+    },
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 4,
+     "follow_data": null,
+     "results": {
+      "views": 4
+     }
+    },
+    {
+     "group": "googleads.g.doubleclick.net",
+     "name": "googleads.g.doubleclick.net",
+     "url": "https://googleads.g.doubleclick.net/",
+     "icon": null,
+     "total": 3,
+     "follow_data": null,
+     "results": {
+      "views": 3
+     }
+    },
+    {
+     "group": "axiomsystems.kinsta.cloud",
+     "name": "axiomsystems.kinsta.cloud",
+     "url": "https://axiomsystems.kinsta.cloud/",
+     "icon": null,
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    },
+    {
+     "group": "news.noticiasnews.net.br",
+     "name": "news.noticiasnews.net.br",
+     "url": "https://news.noticiasnews.net.br/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    },
+    {
+     "group": "glints.solderpanas.com",
+     "name": "glints.solderpanas.com",
+     "url": "https://glints.solderpanas.com/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 26
+  },
+  "2026-02-07": {
+   "groups": [
+    {
+     "group": "axiomsystems.kinsta.cloud",
+     "name": "axiomsystems.kinsta.cloud",
+     "url": "https://axiomsystems.kinsta.cloud/",
+     "icon": null,
+     "total": 8,
+     "follow_data": null,
+     "results": {
+      "views": 8
+     }
+    },
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 5,
+     "follow_data": null,
+     "results": {
+      "views": 5
+     }
+    },
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 3,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 3
+      }
+     ]
+    },
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    },
+    {
+     "group": "googleads.g.doubleclick.net",
+     "name": "googleads.g.doubleclick.net",
+     "url": "https://googleads.g.doubleclick.net/",
+     "icon": null,
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    },
+    {
+     "group": "crmautomationhub.com",
+     "name": "crmautomationhub.com",
+     "url": "https://crmautomationhub.com/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 21
+  },
+  "2026-02-06": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 25,
+     "follow_data": null,
+     "results": {
+      "views": 25
+     }
+    },
+    {
+     "group": "googleads.g.doubleclick.net",
+     "name": "googleads.g.doubleclick.net",
+     "url": "https://googleads.g.doubleclick.net/",
+     "icon": null,
+     "total": 5,
+     "follow_data": null,
+     "results": {
+      "views": 5
+     }
+    },
+    {
+     "group": "news.noticiasnews.net.br",
+     "name": "news.noticiasnews.net.br",
+     "url": "https://news.noticiasnews.net.br/",
+     "icon": null,
+     "total": 3,
+     "follow_data": null,
+     "results": {
+      "views": 3
+     }
+    },
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 3,
+     "follow_data": null,
+     "results": {
+      "views": 3
+     }
+    },
+    {
+     "group": "erp-wave.discovermyev.com",
+     "name": "erp-wave.discovermyev.com",
+     "url": "https://erp-wave.discovermyev.com/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    },
+    {
+     "group": "axiomsystems.kinsta.cloud",
+     "name": "axiomsystems.kinsta.cloud",
+     "url": "https://axiomsystems.kinsta.cloud/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 38
+  },
+  "2026-02-05": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 17,
+     "follow_data": null,
+     "results": {
+      "views": 17
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 17
+  },
+  "2026-02-04": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 6,
+     "follow_data": null,
+     "results": {
+      "views": 6
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 6
+  },
+  "2026-02-03": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 7,
+     "follow_data": null,
+     "results": {
+      "views": 7
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 7
+  },
+  "2026-02-02": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 8,
+     "follow_data": null,
+     "results": {
+      "views": 8
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 8
+  },
+  "2026-02-01": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 20,
+     "follow_data": null,
+     "results": {
+      "views": 20
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 20
+  },
+  "2026-01-31": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 5,
+     "follow_data": null,
+     "results": {
+      "views": 5
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 5
+  },
+  "2026-01-30": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 4,
+     "follow_data": null,
+     "results": {
+      "views": 4
+     }
+    },
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 4,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 4
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 8
+  },
+  "2026-01-29": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 4,
+     "follow_data": null,
+     "results": {
+      "views": 4
+     }
+    },
+    {
+     "group": "axiomsystems.kinsta.cloud",
+     "name": "axiomsystems.kinsta.cloud",
+     "url": "https://axiomsystems.kinsta.cloud/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 5
+  },
+  "2026-01-28": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 5,
+     "follow_data": null,
+     "results": {
+      "views": 5
+     }
+    },
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 2,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 2
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 7
+  },
+  "2026-01-27": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 6,
+     "follow_data": null,
+     "results": {
+      "views": 6
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 6
+  },
+  "2026-01-26": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 5,
+     "follow_data": null,
+     "results": {
+      "views": 5
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 5
+  },
+  "2026-01-25": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 21,
+     "follow_data": null,
+     "results": {
+      "views": 21
+     }
+    },
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    },
+    {
+     "group": "googleads.g.doubleclick.net",
+     "name": "googleads.g.doubleclick.net",
+     "url": "https://googleads.g.doubleclick.net/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 23
+  },
+  "2026-01-24": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 19,
+     "follow_data": null,
+     "results": {
+      "views": 19
+     }
+    },
+    {
+     "group": "emiten.joglonesia.com",
+     "name": "emiten.joglonesia.com",
+     "url": "https://emiten.joglonesia.com/",
+     "icon": null,
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    },
+    {
+     "group": "youwithcredit.com",
+     "name": "youwithcredit.com",
+     "url": "https://youwithcredit.com/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    },
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 23
+  },
+  "2026-01-23": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 19,
+     "follow_data": null,
+     "results": {
+      "views": 19
+     }
+    },
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 15,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 15
+      }
+     ]
+    },
+    {
+     "group": "learnlyspace.com",
+     "name": "learnlyspace.com",
+     "url": "https://www.learnlyspace.com/",
+     "icon": null,
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 36
+  },
+  "2026-01-22": {
+   "groups": [
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 19,
+     "follow_data": null,
+     "results": {
+      "views": 19
+     }
+    },
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 2,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 2
+      }
+     ]
+    },
+    {
+     "group": "axiomsystems.kinsta.cloud",
+     "name": "axiomsystems.kinsta.cloud",
+     "url": "https://axiomsystems.kinsta.cloud/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    },
+    {
+     "group": "googleads.g.doubleclick.net",
+     "name": "googleads.g.doubleclick.net",
+     "url": "https://googleads.g.doubleclick.net/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    },
+    {
+     "group": "hotdealsweb.com",
+     "name": "hotdealsweb.com",
+     "url": "https://hotdealsweb.com/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 24
+  },
+  "2026-01-21": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 3,
+     "follow_data": null,
+     "results": {
+      "views": 3
+     }
+    },
+    {
+     "group": "axiomsystems.kinsta.cloud",
+     "name": "axiomsystems.kinsta.cloud",
+     "url": "https://axiomsystems.kinsta.cloud/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 4
+  },
+  "2026-01-20": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 6,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 6
+      }
+     ]
+    },
+    {
+     "group": "axiomsystems.kinsta.cloud",
+     "name": "axiomsystems.kinsta.cloud",
+     "url": "https://axiomsystems.kinsta.cloud/",
+     "icon": null,
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    },
+    {
+     "group": "syndicatedsearch.goog",
+     "name": "syndicatedsearch.goog",
+     "url": "https://syndicatedsearch.goog/",
+     "icon": null,
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 9
+  },
+  "2026-01-19": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-01-18": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 2,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 2
+      }
+     ]
+    },
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 3
+  },
+  "2026-01-17": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 1
+  },
+  "2026-01-16": {
+   "groups": [
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 2,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 2
+      }
+     ]
+    },
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 3
+  },
+  "2026-01-15": {
+   "groups": [
+    {
+     "group": "axiomsystems.systems",
+     "name": "axiomsystems.systems",
+     "url": "https://axiomsystems.systems/",
+     "icon": "https://secure.gravatar.com/blavatar/4d384b3219a7614b45d0a7cc8784d7b157dbff0a10e2123471f6effe112e5e73?s=48",
+     "total": 5,
+     "follow_data": null,
+     "results": {
+      "views": 5
+     }
+    },
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 4,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 3
+      },
+      {
+       "name": "Bing",
+       "url": "https://bing.com/",
+       "icon": "https://secure.gravatar.com/blavatar/3c77f261a156a5308fee53720276395ef78d2e7367e4225a3d3d93f4accd1dd3?s=48",
+       "views": 1
+      }
+     ]
+    },
+    {
+     "group": "axiomsystems.kinsta.cloud",
+     "name": "axiomsystems.kinsta.cloud",
+     "url": "https://axiomsystems.kinsta.cloud/",
+     "icon": null,
+     "total": 2,
+     "follow_data": null,
+     "results": {
+      "views": 2
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 11
+  },
+  "2026-01-14": {
+   "groups": [
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 10,
+     "follow_data": null,
+     "results": {
+      "views": 10
+     }
+    },
+    {
+     "group": "axiomsystems.systems",
+     "name": "axiomsystems.systems",
+     "url": "https://axiomsystems.systems/",
+     "icon": "https://secure.gravatar.com/blavatar/4d384b3219a7614b45d0a7cc8784d7b157dbff0a10e2123471f6effe112e5e73?s=48",
+     "total": 1,
+     "follow_data": null,
+     "results": {
+      "views": 1
+     }
+    },
+    {
+     "group": "Search Engines",
+     "name": "Search Engines",
+     "icon": "https://wordpress.com/i/stats/search-engine.png",
+     "total": 1,
+     "follow_data": null,
+     "results": [
+      {
+       "name": "Google Search",
+       "url": "http://www.google.com/",
+       "icon": "https://secure.gravatar.com/blavatar/426d27def7eef69afd58ab5280173a02e50c3a2f9d0b9ebce3fb453a69af2b44?s=48",
+       "views": 1
+      }
+     ]
+    }
+   ],
+   "other_views": 0,
+   "total_views": 12
+  },
+  "2026-01-13": {
+   "groups": [
+    {
+     "group": "axiomsystems.systems",
+     "name": "axiomsystems.systems",
+     "url": "https://axiomsystems.systems/",
+     "icon": "https://secure.gravatar.com/blavatar/4d384b3219a7614b45d0a7cc8784d7b157dbff0a10e2123471f6effe112e5e73?s=48",
+     "total": 11,
+     "follow_data": null,
+     "results": {
+      "views": 11
+     }
+    },
+    {
+     "group": "facebook.com",
+     "name": "Facebook",
+     "url": "http://facebook.com/",
+     "icon": "https://secure.gravatar.com/blavatar/31193328f8e21dfb6c99f322d22d7b0b508778e64ffbba86e52293379031b874?s=48",
+     "total": 5,
+     "follow_data": null,
+     "results": {
+      "views": 5
+     }
+    }
+   ],
+   "other_views": 0,
+   "total_views": 16
+  },
+  "2026-01-12": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-01-11": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-01-10": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-01-09": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-01-08": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-01-07": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-01-06": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-01-05": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-01-04": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-01-03": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-01-02": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2026-01-01": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-31": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-30": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-29": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-28": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-27": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-26": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-25": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-24": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-23": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-22": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-21": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-20": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-19": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-18": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-17": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-16": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-15": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-14": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-13": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-12": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-11": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-10": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-09": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-08": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-07": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-06": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-05": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-04": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-03": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-02": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-12-01": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-30": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-29": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-28": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-27": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-26": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-25": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-24": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-23": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-22": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-21": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-20": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-19": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-18": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-17": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-16": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-15": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-14": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-13": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-12": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-11": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-10": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-09": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-08": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-07": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-06": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-05": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-04": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-03": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-02": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-11-01": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-10-31": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-10-30": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  },
+  "2025-10-29": {
+   "groups": [],
+   "other_views": 0,
+   "total_views": 0
+  }
+ },
+ "period": "day"
+}

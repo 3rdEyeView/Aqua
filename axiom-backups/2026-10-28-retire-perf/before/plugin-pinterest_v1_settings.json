@@ -1,0 +1,13 @@
+{
+ "pinterest_for_woocommerce": {
+  "account_data": {
+   "currency_credit_info": {
+    "spendRequire": "$15",
+    "creditsGiven": "$125"
+   },
+   "is_billing_setup": false,
+   "id": ""
+  },
+  "ads_campaign_is_active": true
+ }
+}

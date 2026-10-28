@@ -1,0 +1,222 @@
+{
+ "1440 /": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "Small business websites that turn leads into customers."
+  ],
+  "getStarted": 6,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": []
+ },
+ "1440 /how-it-works/": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "We build it. We launch it."
+  ],
+  "getStarted": 4,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": []
+ },
+ "1440 /our-work/": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "The work is the pitch."
+  ],
+  "getStarted": 4,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": []
+ },
+ "1440 /pricing/": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "Plans that grow with your business."
+  ],
+  "getStarted": 6,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": []
+ },
+ "1440 /add-ons/": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "Build the system your business needs."
+  ],
+  "getStarted": 7,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": []
+ },
+ "1440 /faq/": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "Questions? We've got answers."
+  ],
+  "getStarted": 3,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": []
+ },
+ "1440 /get-started/": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "Let's grow your business."
+  ],
+  "getStarted": 3,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": []
+ },
+ "1440 /privacy-policy/": {
+  "overflow": false,
+  "tel": 5,
+  "h1": [
+   "Privacy Policy"
+  ],
+  "getStarted": 2,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": []
+ },
+ "390 /": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "Small business websites that turn leads into customers."
+  ],
+  "getStarted": 6,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": [],
+  "menuOpen": 6
+ },
+ "390 /how-it-works/": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "We build it. We launch it."
+  ],
+  "getStarted": 4,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": [],
+  "menuOpen": 6
+ },
+ "390 /our-work/": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "The work is the pitch."
+  ],
+  "getStarted": 4,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": [],
+  "menuOpen": 6
+ },
+ "390 /pricing/": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "Plans that grow with your business."
+  ],
+  "getStarted": 6,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": [],
+  "menuOpen": 6
+ },
+ "390 /add-ons/": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "Build the system your business needs."
+  ],
+  "getStarted": 7,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": [],
+  "menuOpen": 6
+ },
+ "390 /faq/": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "Questions? We've got answers."
+  ],
+  "getStarted": 3,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": [],
+  "menuOpen": 6
+ },
+ "390 /get-started/": {
+  "overflow": false,
+  "tel": 4,
+  "h1": [
+   "Let's grow your business."
+  ],
+  "getStarted": 3,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": [],
+  "menuOpen": 6
+ },
+ "390 /privacy-policy/": {
+  "overflow": false,
+  "tel": 5,
+  "h1": [
+   "Privacy Policy"
+  ],
+  "getStarted": 2,
+  "gtag": true,
+  "chat": 1,
+  "lead": false,
+  "errors": [],
+  "menuOpen": 6
+ },
+ "plan essential": {
+  "fields": 7,
+  "label": "Axiom Essential — $299/month"
+ },
+ "plan growth": {
+  "fields": 7,
+  "label": "Axiom Growth — $599/month"
+ },
+ "plan lead-automation": {
+  "fields": 7,
+  "label": "Axiom Lead Automation — +$349/month"
+ },
+ "plan marketing": {
+  "fields": 7,
+  "label": "Axiom Marketing — Starting at $1,500/month"
+ },
+ "empty submit": {
+  "posts": [],
+  "stillOnPage": true
+ }
+}

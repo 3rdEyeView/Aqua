@@ -1,0 +1,134 @@
+/ @1440 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/ @390 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/pricing/ @1440 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/pricing/ @390 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/add-ons/ @1440 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/add-ons/ @390 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/faq/ @1440 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/faq/ @390 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/get-started/ @1440 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/get-started/ @390 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/how-it-works/ @1440 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/how-it-works/ @390 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/our-work/ @1440 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/our-work/ @390 200 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/privacy-policy/ @1440 200 18
+    text | GoHighLevel |  customer relationship management (CRM) system, which is built on the GoHighLevel (LeadConnector) platform. Conversations started in our cha
+    text | LeadConnector | ationship management (CRM) system, which is built on the GoHighLevel (LeadConnector) platform. Conversations started in our chat widget are 
+    text | Jetpack | ds conversion tracking, to measure whether our ads lead to inquiries. Jetpack Stats and WooCommerce Analytics (Automattic), for website stat
+    text | WooCommerce | king, to measure whether our ads lead to inquiries. Jetpack Stats and WooCommerce Analytics (Automattic), for website statistics. WooCommerc
+    text | WooCommerce | Stats and WooCommerce Analytics (Automattic), for website statistics. WooCommerce visitor-source cookies, which record how you arrived at ou
+    text | Cloudflare | n link). Security cookies set through our hosting provider’s network (Cloudflare) to distinguish people from automated traffic. Our LeadConn
+    text | LeadConnector | etwork (Cloudflare) to distinguish people from automated traffic. Our LeadConnector chat widget, which may store information in your browser
+    text | Kinsta | r own privacy and security obligations: our website hosting provider (Kinsta, delivered through Cloudflare’s network); our website platform 
+    text | Cloudflare |  obligations: our website hosting provider (Kinsta, delivered through Cloudflare’s network); our website platform and its plugins (WordPress
+    text | WordPress |  through Cloudflare’s network); our website platform and its plugins (WordPress, and Jetpack by Automattic for forms and statistics); our CR
+    text | Jetpack | lare’s network); our website platform and its plugins (WordPress, and Jetpack by Automattic for forms and statistics); our CRM and communica
+    text | GoHighLevel | attic for forms and statistics); our CRM and communications platform (GoHighLevel / LeadConnector) and the telecommunications and email prov
+    text | LeadConnector | s and statistics); our CRM and communications platform (GoHighLevel / LeadConnector) and the telecommunications and email providers used to 
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/privacy-policy/ @390 200 18
+    text | GoHighLevel |  customer relationship management (CRM) system, which is built on the GoHighLevel (LeadConnector) platform. Conversations started in our cha
+    text | LeadConnector | ationship management (CRM) system, which is built on the GoHighLevel (LeadConnector) platform. Conversations started in our chat widget are 
+    text | Jetpack | ds conversion tracking, to measure whether our ads lead to inquiries. Jetpack Stats and WooCommerce Analytics (Automattic), for website stat
+    text | WooCommerce | king, to measure whether our ads lead to inquiries. Jetpack Stats and WooCommerce Analytics (Automattic), for website statistics. WooCommerc
+    text | WooCommerce | Stats and WooCommerce Analytics (Automattic), for website statistics. WooCommerce visitor-source cookies, which record how you arrived at ou
+    text | Cloudflare | n link). Security cookies set through our hosting provider’s network (Cloudflare) to distinguish people from automated traffic. Our LeadConn
+    text | LeadConnector | etwork (Cloudflare) to distinguish people from automated traffic. Our LeadConnector chat widget, which may store information in your browser
+    text | Kinsta | r own privacy and security obligations: our website hosting provider (Kinsta, delivered through Cloudflare’s network); our website platform 
+    text | Cloudflare |  obligations: our website hosting provider (Kinsta, delivered through Cloudflare’s network); our website platform and its plugins (WordPress
+    text | WordPress |  through Cloudflare’s network); our website platform and its plugins (WordPress, and Jetpack by Automattic for forms and statistics); our CR
+    text | Jetpack | lare’s network); our website platform and its plugins (WordPress, and Jetpack by Automattic for forms and statistics); our CRM and communica
+    text | GoHighLevel | attic for forms and statistics); our CRM and communications platform (GoHighLevel / LeadConnector) and the telecommunications and email prov
+    text | LeadConnector | s and statistics); our CRM and communications platform (GoHighLevel / LeadConnector) and the telecommunications and email providers used to 
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/no-such-page-xyz/ @1440 404 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+/no-such-page-xyz/ @390 404 5
+    meta:generator | WordPress | WordPress 7.1.4
+    meta:generator | WooCommerce | WooCommerce 11.2.1
+    meta:generator | Site Kit | Site Kit by Google 1.190.0
+    meta:generator | Elementor | Elementor 4.3.5; features: e_font_icon_svg, additional_custom_breakpoi
+    noscript | woocommerce | <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>

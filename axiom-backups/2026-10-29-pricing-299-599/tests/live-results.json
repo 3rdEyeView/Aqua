@@ -1,0 +1,562 @@
+{
+ "pages": {
+  "/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "htmlOld": [],
+   "gt": 1,
+   "adsCfg": 1,
+   "ghl": 1,
+   "tel": true,
+   "ogImage": "https://axiomsystems.systems/wp-content/uploads/2026/10/axiom-systems-share.jpg",
+   "desc": "Managed websites, Google Ads and automated follow-up for small businesses. Essentials $299/month; Growth $599/month with Google Ads management. $0 setup.",
+   "title": "Axiom Systems | Small Business Websites, Google Ads & Automation",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "https://bragspressurewashing.com/",
+    "https://jetskiadventureclearwater.com/",
+    "https://xtremestpete.com/",
+    "/get-started/?plan=essential",
+    "/get-started/?plan=growth",
+    "mailto:axiom.systems.co@gmail.com?subject=Question%20about%20Website%20as%20a%20Service",
+    "/privacy-policy/"
+   ],
+   "prices": [
+    "$299",
+    "$599",
+    "$0 setup"
+   ],
+   "disclaimer": 1,
+   "faqSchema": 1
+  },
+  "/pricing/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "htmlOld": [],
+   "gt": 1,
+   "adsCfg": 1,
+   "ghl": 1,
+   "tel": true,
+   "ogImage": "https://axiomsystems.systems/wp-content/uploads/2026/10/axiom-systems-share.jpg",
+   "desc": "Compare Axiom Essentials ($299/month) and Growth ($599/month, includes Google Ads management). $0 setup fee, first month due at signup, ad spend separate.",
+   "title": "Pricing: Essentials $299/mo & Growth $599/mo | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "/get-started/?plan=essential",
+    "/get-started/?plan=growth",
+    "/privacy-policy/"
+   ],
+   "prices": [
+    "$299",
+    "$599",
+    "$0 setup"
+   ],
+   "disclaimer": 2,
+   "faqSchema": 0
+  },
+  "/add-ons/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "htmlOld": [],
+   "gt": 1,
+   "adsCfg": 1,
+   "ghl": 1,
+   "tel": true,
+   "ogImage": "https://axiomsystems.systems/wp-content/uploads/2026/10/axiom-systems-share.jpg",
+   "desc": "Optional enhancements beyond Essentials and Growth: extra Google Ads campaigns, social ads, custom automations and website development, by custom quote.",
+   "title": "Optional Add-Ons & Custom Solutions | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "/get-started/?plan=essential",
+    "/get-started/?plan=growth",
+    "/get-started/?plan=custom-quote",
+    "/privacy-policy/"
+   ],
+   "prices": [
+    "$299",
+    "$599",
+    "$0 setup"
+   ],
+   "disclaimer": 1,
+   "faqSchema": 0
+  },
+  "/faq/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "htmlOld": [],
+   "gt": 1,
+   "adsCfg": 1,
+   "ghl": 1,
+   "tel": true,
+   "ogImage": "https://axiomsystems.systems/wp-content/uploads/2026/10/axiom-systems-share.jpg",
+   "desc": "Answers about Axiom Essentials ($299/month) and Growth ($599/month): what's included, Google Ads management and budget, setup fees, SMS charges and cancellation.",
+   "title": "FAQ: Managed Website Plans & Pricing | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "/privacy-policy/"
+   ],
+   "prices": [
+    "$299",
+    "$599",
+    "$0 setup"
+   ],
+   "disclaimer": 0,
+   "faqSchema": 1
+  },
+  "/get-started/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "htmlOld": [],
+   "gt": 1,
+   "adsCfg": 1,
+   "ghl": 1,
+   "tel": true,
+   "ogImage": "https://axiomsystems.systems/wp-content/uploads/2026/10/axiom-systems-share.jpg",
+   "desc": "Tell us about your business in a short form and we'll recommend the right plan. Nothing is charged to submit. Essentials $299/month, Growth $599/month.",
+   "title": "Get Started with Axiom Systems | Request Your Website Plan",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "/get-started/?nc=1793215094846",
+    "/privacy-policy/"
+   ],
+   "prices": [
+    "$299",
+    "$599",
+    "$0 setup"
+   ],
+   "disclaimer": 0,
+   "faqSchema": 0
+  },
+  "/how-it-works/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "htmlOld": [],
+   "gt": 1,
+   "adsCfg": 1,
+   "ghl": 1,
+   "tel": true,
+   "ogImage": "https://axiomsystems.systems/wp-content/uploads/2026/10/axiom-systems-share.jpg",
+   "desc": "How Axiom Systems designs, builds and launches a custom website for your small business, then hosts, updates, backs up and supports it every month.",
+   "title": "How It Works: Managed Website Design | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "#process",
+    "/privacy-policy/"
+   ],
+   "prices": [
+    "$299",
+    "$599"
+   ],
+   "disclaimer": 0,
+   "faqSchema": 0
+  },
+  "/our-work/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [],
+   "htmlOld": [],
+   "gt": 1,
+   "adsCfg": 1,
+   "ghl": 1,
+   "tel": true,
+   "ogImage": "https://axiomsystems.systems/wp-content/uploads/2026/10/axiom-systems-share.jpg",
+   "desc": "Live websites Axiom Systems designed and built for small businesses around St. Petersburg and Tampa Bay. Every site is custom-designed, never a template.",
+   "title": "Our Work: Small Business Website Design | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "#get-started",
+    "#brags",
+    "#xtreme",
+    "#aqua-safari",
+    "#tile-father",
+    "https://bragspressurewashing.com/",
+    "https://xtremestpete.com/",
+    "https://jetskiadventureclearwater.com/",
+    "https://thetilefather.com/",
+    "/get-started/?plan=essential",
+    "/privacy-policy/"
+   ],
+   "prices": [
+    "$299",
+    "$599"
+   ],
+   "disclaimer": 0,
+   "faqSchema": 0
+  },
+  "/privacy-policy/": {
+   "widths": {
+    "390": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "768": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1024": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    },
+    "1440": {
+     "status": 200,
+     "overflow": false,
+     "jsErrors": []
+    }
+   },
+   "oldRefs": [
+    "GoHighLevel"
+   ],
+   "htmlOld": [],
+   "gt": 1,
+   "adsCfg": 1,
+   "ghl": 1,
+   "tel": true,
+   "ogImage": "https://axiomsystems.systems/wp-content/uploads/2026/09/axiom-mark-300x253.webp",
+   "desc": "How Axiom Systems collects, uses and protects information from our website, Google Ads, CRM, and email and text message communications, and how to opt out.",
+   "title": "Privacy Policy | Axiom Systems",
+   "links": [
+    "/",
+    "/how-it-works/",
+    "/our-work/",
+    "/pricing/",
+    "/add-ons/",
+    "/faq/",
+    "tel:+17275917527",
+    "/get-started/",
+    "https://axiomsystems.systems/",
+    "https://policies.google.com/privacy",
+    "https://adssettings.google.com",
+    "https://tools.google.com/dlpage/gaoptout",
+    "mailto:axiom.systems.co@gmail.com",
+    "/privacy-policy/"
+   ],
+   "prices": [],
+   "disclaimer": 0,
+   "faqSchema": 0
+  }
+ },
+ "links": {
+  "/": 200,
+  "/how-it-works/": 200,
+  "/our-work/": 200,
+  "/pricing/": 200,
+  "/add-ons/": 200,
+  "/faq/": 200,
+  "/get-started/": 200,
+  "/get-started/?plan=essential": 200,
+  "/get-started/?plan=growth": 200,
+  "/privacy-policy/": 200,
+  "/get-started/?plan=custom-quote": 200,
+  "/get-started/?nc=1793215094846": 200,
+  "https://axiomsystems.systems/": 200
+ },
+ "form": {
+  "essential": {
+   "label": "INTERESTED IN Axiom Essentials — $299/month",
+   "hidden": [
+    "Axiom Essentials — $299/month (plan=essential)"
+   ],
+   "url": true,
+   "leadJs": true,
+   "sendTo": true,
+   "fields": 7
+  },
+  "essentials": {
+   "label": "INTERESTED IN Axiom Essentials — $299/month",
+   "hidden": [
+    "Axiom Essentials — $299/month (plan=essentials)"
+   ],
+   "url": true,
+   "leadJs": true,
+   "sendTo": true,
+   "fields": 7
+  },
+  "growth": {
+   "label": "INTERESTED IN Axiom Growth — $599/month",
+   "hidden": [
+    "Axiom Growth — $599/month (plan=growth)"
+   ],
+   "url": true,
+   "leadJs": true,
+   "sendTo": true,
+   "fields": 7,
+   "ajaxOnEmptySubmit": 0
+  },
+  "custom-quote": {
+   "label": "INTERESTED IN Add-On or Custom Solution — Custom quote",
+   "hidden": [
+    "Add-On or Custom Solution — Custom quote (plan=custom-quote)"
+   ],
+   "url": true,
+   "leadJs": true,
+   "sendTo": true,
+   "fields": 7
+  },
+  "marketing": {
+   "label": "INTERESTED IN Advanced Marketing — Custom quote",
+   "hidden": [
+    "Advanced Marketing — Custom quote (plan=marketing)"
+   ],
+   "url": true,
+   "leadJs": true,
+   "sendTo": true,
+   "fields": 7
+  },
+  "lead-automation": {
+   "label": "INTERESTED IN Axiom Growth — $599/month",
+   "hidden": [
+    "Axiom Growth — $599/month (plan=lead-automation)"
+   ],
+   "url": true,
+   "leadJs": true,
+   "sendTo": true,
+   "fields": 7
+  },
+  "lead-response": {
+   "label": "INTERESTED IN Axiom Growth — $599/month",
+   "hidden": [
+    "Axiom Growth — $599/month (plan=lead-response)"
+   ],
+   "url": true,
+   "leadJs": true,
+   "sendTo": true,
+   "fields": 7
+  },
+  "follow-up-automation": {
+   "label": "INTERESTED IN Axiom Growth — $599/month",
+   "hidden": [
+    "Axiom Growth — $599/month (plan=follow-up-automation)"
+   ],
+   "url": true,
+   "leadJs": true,
+   "sendTo": true,
+   "fields": 7
+  },
+  "review-automation": {
+   "label": "INTERESTED IN Axiom Essentials — $299/month",
+   "hidden": [
+    "Axiom Essentials — $299/month (plan=review-automation)"
+   ],
+   "url": true,
+   "leadJs": true,
+   "sendTo": true,
+   "fields": 7
+  },
+  "bogus": {
+   "hidden": [
+    "Website (no plan selected)"
+   ],
+   "url": true,
+   "leadJs": true,
+   "sendTo": true,
+   "fields": 7
+  },
+  "(none)": {
+   "hidden": [
+    "Website (no plan selected)"
+   ],
+   "url": true,
+   "leadJs": true,
+   "sendTo": true,
+   "fields": 7
+  }
+ }
+}

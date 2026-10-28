@@ -1,0 +1,30 @@
+[
+ {
+  "action": "update",
+  "element_id": "1d5f28a7",
+  "settings": {
+   "paragraph": "$299"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "748dd511",
+  "settings": {
+   "paragraph": "$599"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1a720fb3",
+  "settings": {
+   "paragraph": "Growth includes management of one standard Google Search advertising program. Usage-based charges for SMS, calls, and applicable communication services may be billed separately, as disclosed in the service agreement. Automations are activated after the required registration, approval and successful configuration. Results are not guaranteed."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "df2995f",
+  "settings": {
+   "paragraph": "Essentials $299/month · Growth $599/month · Add-ons by custom quote"
+  }
+ }
+]

@@ -1,0 +1,51 @@
+[
+ {
+  "action": "update",
+  "element_id": "5bd9860e",
+  "settings": {
+   "paragraph": "Axiom Essentials is $299 a month and Axiom Growth is $599 a month. Both plans have a $0 setup fee. With Growth, advertising spend is not included and is paid separately to Google and/or Meta. Optional add-ons and advanced marketing solutions are available by custom quote. Submitting the Get Started form doesn't charge you anything."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "639f7a31",
+  "settings": {
+   "title": "Is the advertising budget included?"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "213ba1d",
+  "settings": {
+   "paragraph": "No. Advertising spend is not included. We recommend considering approximately $500/month to start, but your advertising budget is flexible and paid separately to Google and/or Meta. Your $599 Growth subscription covers the setup and standard ongoing management of one Google Search advertising program."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "374c7a1c",
+  "settings": {
+   "paragraph": "Essentials ($299/month) includes a professionally designed, mobile-responsive website; website hosting, SSL and ongoing maintenance; website updates and technical support within our standard service scope; foundational on-page SEO; contact forms and lead capture; plus automated Google review requests, instant new-lead response and missed-call text-back automation. Automations are activated during onboarding."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6317b72a",
+  "settings": {
+   "paragraph": "Growth ($599/month) includes everything in Essentials, plus the Axiom CRM &amp; Lead Management Pipeline, advanced automated SMS and email follow-up sequences, appointment scheduling and reminders, and lead nurturing workflows (seven standardized business automations in total). It also includes Google Search Ads campaign setup and ongoing management, campaign performance monitoring and optimization, monthly advertising and lead performance reporting, and priority support."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6a103e47",
+  "settings": {
+   "paragraph": "Yes. Growth includes the setup and ongoing management of one standard Google Search advertising program, with campaign performance monitoring, optimization and monthly advertising and lead performance reporting. Additional campaigns, other advertising platforms, extensive creative work and custom marketing requirements are quoted separately. Advertising spend is not included. We recommend considering approximately $500/month to start, but your advertising budget is flexible and paid separately to Google and/or Meta."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "12ffe3d8",
+  "settings": {
+   "paragraph": "Essentials $299/month · Growth $599/month · $0 setup fee · Submit your business details and we'll guide you through the next steps."
+  }
+ }
+]

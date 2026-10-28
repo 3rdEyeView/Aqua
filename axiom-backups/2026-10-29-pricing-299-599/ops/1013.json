@@ -1,0 +1,44 @@
+[
+ {
+  "action": "update",
+  "element_id": "5b3a3db9",
+  "settings": {
+   "paragraph": "$299"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "32c56866",
+  "settings": {
+   "paragraph": "Design, build, hosting, updates and support, plus essential automations. One monthly price. Growth ($599/month) adds Google Ads management."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6bef5618",
+  "settings": {
+   "paragraph": "$299"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3afd915e",
+  "settings": {
+   "paragraph": "Everything in this stage is part of your plan, from $299 a month. Growth ($599/month) also includes Google Ads management, a CRM and automated follow-up."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5518c9eb",
+  "settings": {
+   "paragraph": "From $299/month, managed the whole time"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5e1f9d6c",
+  "settings": {
+   "paragraph": "Instead of separate bills for a designer, a host and whoever fixes things when they break, it's one plan, from $299 a month."
+  }
+ }
+]

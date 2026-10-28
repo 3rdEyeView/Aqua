@@ -1,0 +1,65 @@
+[
+ {
+  "action": "update",
+  "element_id": "5630fa9f",
+  "settings": {
+   "paragraph": "$299"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "794b76b3",
+  "settings": {
+   "paragraph": "$599"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4aa219b8",
+  "settings": {
+   "paragraph": "The $599 subscription covers setup and standard management only. 3-month minimum commitment; cancellation terms are set out in your service agreement."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "37c4c1ff",
+  "settings": {
+   "paragraph": "Essentials<br>$299/mo"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "16dab188",
+  "settings": {
+   "paragraph": "Growth<br>$599/mo"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "2d707ba5",
+  "settings": {
+   "paragraph": "Not included · paid separately"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3f79b119",
+  "settings": {
+   "paragraph": "Advertising spend is not included. We recommend considering approximately $500/month to start, but your advertising budget is flexible and paid separately to Google and/or Meta. Growth includes management of one standard Google Search advertising program; additional campaigns, other advertising platforms, extensive creative work and custom marketing requirements are quoted separately. Advanced marketing solutions available by custom quote. Usage-based charges for SMS, calls, and applicable communication services may be billed separately, as disclosed in the service agreement. SMS automations are activated after the required carrier registration, approval and successful configuration, so timing varies by business. Website updates and support are provided within our standard service scope. Review requests are neutral invitations; reviews and ratings are never guaranteed. We do not guarantee leads, sales, revenue or specific advertising results."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "20d9252e",
+  "settings": {
+   "paragraph": "Custom websites usually start with a large invoice. With Axiom, your website is part of a monthly plan instead: $299 a month for Essentials or $599 a month for Growth, with no setup fee. Your first month is due at signup."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "361ed3f8",
+  "settings": {
+   "paragraph": "Essentials $299/month · Growth $599/month · $0 setup fee · First month due at signup"
+  }
+ }
+]

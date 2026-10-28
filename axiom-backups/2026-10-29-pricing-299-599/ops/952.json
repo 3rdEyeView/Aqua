@@ -1,0 +1,51 @@
+[
+ {
+  "action": "update",
+  "element_id": "5a448490",
+  "settings": {
+   "paragraph": "$299"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5c06111b",
+  "settings": {
+   "paragraph": "Essentials: your website plus essential automations. Growth ($599/month) adds Google Ads management, a CRM and automated follow-up."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "486d10a5",
+  "settings": {
+   "paragraph": "Designed, built and looked after by us, with plans from $299 a month."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4374595b",
+  "settings": {
+   "paragraph": "$299"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "2b0de8be",
+  "settings": {
+   "paragraph": "$599"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "705da915",
+  "settings": {
+   "paragraph": "$0 setup fee · First month due at signup · Advertising spend not included"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "515a1ed2",
+  "settings": {
+   "paragraph": "Essentials ($299/month) is your professionally designed website with hosting, SSL, maintenance, updates, support and foundational on-page SEO, plus automated review requests, instant new-lead response and missed-call text-back. Growth ($599/month) adds access to the Axiom CRM, advanced lead follow-up automations, appointment scheduling and Google Search Ads setup and ongoing management with monthly reporting. Advertising spend is not included and is paid separately to Google and/or Meta."
+  }
+ }
+]

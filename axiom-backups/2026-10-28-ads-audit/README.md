@@ -47,3 +47,15 @@ label reaches them — confirm which account runs the ads.
 Test after: logged out of WordPress, Tag Assistant on /get-started/, one real test submission with a test email (it will
 sync to GHL as a contact), look for the `conversion` event after the success message. Conversions to an action can take
 up to ~3 hours to show as recorded in Google Ads.
+
+## Label → conversion action mapping (2026-10-28, read-only)
+Owner confirmed in Google Ads: Primary "Submit lead form" = conversion type ID 7865039897 (Website, Manual event);
+"Submit lead form (axiomsystems.systems/)" set to Secondary (page loads).
+No prior record contains 7865039897. Decoding the labels (base64url → protobuf varints, 3-byte prefix skipped):
+| Label | field 1 (conversion action ID) | field 2 (conversion ID) |
+|---|---|---|
+| C8k6CJn4q6YdEJuFoNJC (live tracker) | **7865039897** | 17889231515 |
+| 6i7MCMaIsqYdEJuFoNJC (old) | 7865140294 | 17889231515 |
+→ The live label belongs to the Primary manual-event action 7865039897. The label format is undocumented by Google, so
+confirm once in the UI: Goals → Conversions → Summary → "Submit lead form" (URL shows ctId=7865039897) → Tag setup →
+"Use Google Tag Manager": Conversion ID 17889231515, Conversion label C8k6CJn4q6YdEJuFoNJC.

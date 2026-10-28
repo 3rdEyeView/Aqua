@@ -1,0 +1,30 @@
+[
+ {
+  "action": "update",
+  "element_id": "742dac61",
+  "settings": {
+   "paragraph": "Axiom Essentials"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "58e09094",
+  "settings": {
+   "paragraph": "$297"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6a249323",
+  "settings": {
+   "paragraph": "Design, build, hosting, updates and support, plus essential automations. Need Google Ads too? Growth is $597/month."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "334379aa",
+  "settings": {
+   "text": "Get Started"
+  }
+ }
+]

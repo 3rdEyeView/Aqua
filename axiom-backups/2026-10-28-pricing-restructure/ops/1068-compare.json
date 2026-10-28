@@ -1,0 +1,263 @@
+{
+ "xml_structure": "<e-flexbox configuration-id=\"cmp\"><e-paragraph configuration-id=\"cmp-k\"></e-paragraph><e-heading configuration-id=\"cmp-h\"></e-heading><e-flexbox configuration-id=\"cmp-head\"><e-paragraph configuration-id=\"cmp-head-0\"></e-paragraph><e-paragraph configuration-id=\"cmp-head-1\"></e-paragraph><e-paragraph configuration-id=\"cmp-head-2\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r0\"><e-paragraph configuration-id=\"cmp-r0-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r0-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r0-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r1\"><e-paragraph configuration-id=\"cmp-r1-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r1-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r1-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r2\"><e-paragraph configuration-id=\"cmp-r2-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r2-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r2-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r3\"><e-paragraph configuration-id=\"cmp-r3-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r3-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r3-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r4\"><e-paragraph configuration-id=\"cmp-r4-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r4-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r4-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r5\"><e-paragraph configuration-id=\"cmp-r5-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r5-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r5-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r6\"><e-paragraph configuration-id=\"cmp-r6-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r6-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r6-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r7\"><e-paragraph configuration-id=\"cmp-r7-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r7-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r7-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r8\"><e-paragraph configuration-id=\"cmp-r8-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r8-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r8-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r9\"><e-paragraph configuration-id=\"cmp-r9-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r9-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r9-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r10\"><e-paragraph configuration-id=\"cmp-r10-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r10-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r10-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r11\"><e-paragraph configuration-id=\"cmp-r11-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r11-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r11-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r12\"><e-paragraph configuration-id=\"cmp-r12-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r12-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r12-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r13\"><e-paragraph configuration-id=\"cmp-r13-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r13-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r13-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-r14\"><e-paragraph configuration-id=\"cmp-r14-l\"></e-paragraph><e-paragraph configuration-id=\"cmp-r14-e\"></e-paragraph><e-paragraph configuration-id=\"cmp-r14-g\"></e-paragraph></e-flexbox><e-flexbox configuration-id=\"cmp-cta\"><e-paragraph configuration-id=\"cmp-cta-0\"></e-paragraph><e-button configuration-id=\"cmp-cta-e\"></e-button><e-button configuration-id=\"cmp-cta-g\"></e-button></e-flexbox></e-flexbox>",
+ "element_config": {
+  "cmp-k": {
+   "paragraph": "Compare plans"
+  },
+  "cmp-h": {
+   "title": "What each plan includes",
+   "tag": "h2"
+  },
+  "cmp-head-0": {
+   "paragraph": "&nbsp;"
+  },
+  "cmp-head-1": {
+   "paragraph": "Essentials<br>$297/mo"
+  },
+  "cmp-head-2": {
+   "paragraph": "Growth<br>$597/mo"
+  },
+  "cmp-r0-l": {
+   "paragraph": "Professionally designed, mobile-responsive website"
+  },
+  "cmp-r0-e": {
+   "paragraph": "✓"
+  },
+  "cmp-r0-g": {
+   "paragraph": "✓"
+  },
+  "cmp-r1-l": {
+   "paragraph": "Hosting, SSL &amp; ongoing maintenance"
+  },
+  "cmp-r1-e": {
+   "paragraph": "✓"
+  },
+  "cmp-r1-g": {
+   "paragraph": "✓"
+  },
+  "cmp-r2-l": {
+   "paragraph": "Website updates &amp; technical support"
+  },
+  "cmp-r2-e": {
+   "paragraph": "Standard"
+  },
+  "cmp-r2-g": {
+   "paragraph": "Priority"
+  },
+  "cmp-r3-l": {
+   "paragraph": "Foundational on-page SEO, contact forms &amp; lead capture"
+  },
+  "cmp-r3-e": {
+   "paragraph": "✓"
+  },
+  "cmp-r3-g": {
+   "paragraph": "✓"
+  },
+  "cmp-r4-l": {
+   "paragraph": "Google review requests, instant lead response &amp; missed-call text-back"
+  },
+  "cmp-r4-e": {
+   "paragraph": "✓"
+  },
+  "cmp-r4-g": {
+   "paragraph": "✓"
+  },
+  "cmp-r5-l": {
+   "paragraph": "GoHighLevel CRM &amp; lead management pipeline"
+  },
+  "cmp-r5-e": {
+   "paragraph": "—"
+  },
+  "cmp-r5-g": {
+   "paragraph": "✓"
+  },
+  "cmp-r6-l": {
+   "paragraph": "Advanced SMS &amp; email follow-up, scheduling, reminders &amp; nurturing"
+  },
+  "cmp-r6-e": {
+   "paragraph": "—"
+  },
+  "cmp-r6-g": {
+   "paragraph": "✓"
+  },
+  "cmp-r7-l": {
+   "paragraph": "Standardized business automations"
+  },
+  "cmp-r7-e": {
+   "paragraph": "Essential set"
+  },
+  "cmp-r7-g": {
+   "paragraph": "7 in total"
+  },
+  "cmp-r8-l": {
+   "paragraph": "Google Search Ads setup &amp; ongoing management"
+  },
+  "cmp-r8-e": {
+   "paragraph": "—"
+  },
+  "cmp-r8-g": {
+   "paragraph": "1 standard program"
+  },
+  "cmp-r9-l": {
+   "paragraph": "Monthly advertising &amp; lead performance reporting"
+  },
+  "cmp-r9-e": {
+   "paragraph": "—"
+  },
+  "cmp-r9-g": {
+   "paragraph": "✓"
+  },
+  "cmp-r10-l": {
+   "paragraph": "Setup fee"
+  },
+  "cmp-r10-e": {
+   "paragraph": "$0"
+  },
+  "cmp-r10-g": {
+   "paragraph": "$0"
+  },
+  "cmp-r11-l": {
+   "paragraph": "First payment"
+  },
+  "cmp-r11-e": {
+   "paragraph": "First month at signup"
+  },
+  "cmp-r11-g": {
+   "paragraph": "First month at signup"
+  },
+  "cmp-r12-l": {
+   "paragraph": "Google Ads advertising spend"
+  },
+  "cmp-r12-e": {
+   "paragraph": "Not applicable"
+  },
+  "cmp-r12-g": {
+   "paragraph": "Paid separately to Google"
+  },
+  "cmp-r13-l": {
+   "paragraph": "SMS, call &amp; communication usage"
+  },
+  "cmp-r13-e": {
+   "paragraph": "May be billed separately"
+  },
+  "cmp-r13-g": {
+   "paragraph": "May be billed separately"
+  },
+  "cmp-r14-l": {
+   "paragraph": "Commitment"
+  },
+  "cmp-r14-e": {
+   "paragraph": "Cancel anytime"
+  },
+  "cmp-r14-g": {
+   "paragraph": "3-month minimum"
+  },
+  "cmp-cta-0": {
+   "paragraph": "Ready to start? Choose a plan and we will guide you through the next steps."
+  },
+  "cmp-cta-e": {
+   "text": "Get Started",
+   "link": {
+    "destination": "/get-started/?plan=essential",
+    "isTargetBlank": false,
+    "tag": "a"
+   }
+  },
+  "cmp-cta-g": {
+   "text": "Get Started",
+   "link": {
+    "destination": "/get-started/?plan=growth",
+    "isTargetBlank": false,
+    "tag": "a"
+   }
+  }
+ },
+ "style": {
+  "cmp": "width: 100%; max-width: 62rem; display: flex; flex-direction: column; gap: 0.5rem; padding: 2rem; @media(--mobile){ padding: 1.25rem; }",
+  "cmp-head": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; border-bottom: 2px solid #0A1628; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-head-0": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-head-1": "font-family: var(--ax-display, Manrope), sans-serif; font-weight: 800; font-size: 1rem; text-align: center; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-head-2": "font-family: var(--ax-display, Manrope), sans-serif; font-weight: 800; font-size: 1rem; text-align: center; color: #1D6CE2; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r0": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r0-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r0-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r0-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r1": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r1-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r1-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r1-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r2": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r2-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r2-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r2-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r3": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r3-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r3-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r3-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r4": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r4-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r4-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r4-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r5": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r5-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r5-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r5-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r6": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r6-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r6-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r6-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r7": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r7-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r7-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r7-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r8": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r8-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r8-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r8-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r9": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r9-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r9-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r9-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r10": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r10-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r10-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r10-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r11": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r11-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r11-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r11-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r12": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r12-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r12-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r12-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r13": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r13-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r13-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r13-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r14": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; align-items: center; width: 100%; padding: 0.85rem 0; border-bottom: 1px solid #E2E7EE; @media(--mobile){ grid-template-columns: 1.5fr 1fr 1fr; gap: 0.5rem; }",
+  "cmp-r14-l": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r14-e": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-r14-g": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; text-align: center; font-weight: 600; color: #1D6CE2; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-cta": "display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; width: 100%; padding-block-start: 1.25rem; @media(--mobile){ grid-template-columns: 1fr; gap: 0.75rem; }",
+  "cmp-cta-0": "font-family: var(--ax-body, Inter), sans-serif; font-size: 0.9375rem; line-height: 1.4; color: #0A1628; margin: 0; @media(--mobile){ font-size: 0.8125rem; }",
+  "cmp-cta-e": "width: 100%; justify-content: center; text-align: center;",
+  "cmp-cta-g": "width: 100%; justify-content: center; text-align: center;"
+ },
+ "classes": {
+  "cmp": [
+   "ax-card"
+  ],
+  "cmp-k": [
+   "ax-eyebrow"
+  ],
+  "cmp-h": [
+   "ax-h3"
+  ],
+  "cmp-cta-e": [
+   "ax-btn-ghost"
+  ],
+  "cmp-cta-g": [
+   "ax-btn"
+  ]
+ }
+}

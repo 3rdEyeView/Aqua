@@ -1,0 +1,65 @@
+[
+ {
+  "action": "update",
+  "element_id": "6508d7ca",
+  "settings": {
+   "paragraph": "Essentials $297/mo \u00b7 Growth $597/mo (includes Google Ads management) \u00b7 $0 setup fee"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "565f219",
+  "settings": {
+   "paragraph": "Submit your business details and we'll guide you through the next steps. Nothing is charged when you send this form; your first month is due only when you sign up."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "53d5371a",
+  "settings": {
+   "paragraph": "Every Axiom plan includes"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3427e0aa",
+  "settings": {
+   "paragraph": "Professionally designed, mobile-responsive website"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "7468b2f8",
+  "settings": {
+   "paragraph": "Hosting, SSL &amp; ongoing maintenance"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3166505b",
+  "settings": {
+   "paragraph": "Website updates &amp; technical support"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "78994aa0",
+  "settings": {
+   "paragraph": "Foundational on-page SEO &amp; lead capture"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6a56e065",
+  "settings": {
+   "paragraph": "Review requests, instant lead response &amp; missed-call text-back"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "39decd9c",
+  "settings": {
+   "paragraph": "Growth adds Google Ads management, a CRM &amp; follow-up"
+  }
+ }
+]

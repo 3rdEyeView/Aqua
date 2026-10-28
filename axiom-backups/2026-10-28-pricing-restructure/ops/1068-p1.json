@@ -1,0 +1,279 @@
+[
+ {
+  "action": "duplicate",
+  "element_id": "1a7aaa11"
+ },
+ {
+  "action": "duplicate",
+  "element_id": "4f288362"
+ },
+ {
+  "action": "duplicate",
+  "element_id": "569b83c2"
+ },
+ {
+  "action": "duplicate",
+  "element_id": "569b83c2"
+ },
+ {
+  "action": "update",
+  "element_id": "2fde0e1e",
+  "settings": {
+   "paragraph": "Simple monthly plans"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1196128b",
+  "settings": {
+   "title": "Two plans.<br>Everything managed."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4eb97eec",
+  "settings": {
+   "paragraph": "Choose Essentials for a professional website with essential business automations built in, or Growth for a complete customer acquisition system with Google Ads management. Both plans have a $0 setup fee; your first month is due at signup."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6800ff3b",
+  "settings": {
+   "paragraph": "Included with every plan"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "28ad0480",
+  "settings": {
+   "paragraph": "Your website plus essential automations"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "2bca7cb3",
+  "settings": {
+   "paragraph": "Every Axiom plan includes automated Google review requests, instant new-lead response and missed-call text-back, so you respond faster without extra software."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4eba32ac",
+  "settings": {
+   "paragraph": "Automations go live after registration, approval and setup are complete."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "76353f67",
+  "settings": {
+   "paragraph": "Axiom Essentials"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5630fa9f",
+  "settings": {
+   "paragraph": "$297"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4b7a09e2",
+  "settings": {
+   "paragraph": "Your professional website and essential business automations, all in one affordable monthly package."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "16108913",
+  "settings": {
+   "paragraph": "Professionally designed, mobile-responsive website"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "2caced19",
+  "settings": {
+   "paragraph": "Website hosting, SSL &amp; ongoing maintenance"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "7ce7c2e3",
+  "settings": {
+   "paragraph": "Website updates &amp; technical support"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4b43aee9",
+  "settings": {
+   "paragraph": "Foundational on-page SEO"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "28c1eeb5",
+  "settings": {
+   "paragraph": "Contact forms &amp; lead capture"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "7449181f",
+  "settings": {
+   "paragraph": "Included automations \u00b7 Upon activation"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4a87d996",
+  "settings": {
+   "paragraph": "Automated Google review requests"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1a7aaa11",
+  "settings": {
+   "paragraph": "Instant new-lead response"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "794b76b3",
+  "settings": {
+   "paragraph": "$597"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "20099b6f",
+  "settings": {
+   "paragraph": "3-month minimum"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3359b2ba",
+  "settings": {
+   "paragraph": "Your complete customer acquisition and business growth system: Google Ads brings in new inquiries, and your CRM and automations follow up on every one."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4f288362",
+  "settings": {
+   "paragraph": "Everything in Essentials, plus"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1d2346d3",
+  "settings": {
+   "paragraph": "GoHighLevel CRM &amp; lead management pipeline"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1b73ded9",
+  "settings": {
+   "paragraph": "Advanced automated SMS &amp; email follow-up sequences"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5e162213",
+  "settings": {
+   "paragraph": "Appointment scheduling &amp; reminders"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "f10a255",
+  "settings": {
+   "paragraph": "Lead nurturing workflows"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "42df896f",
+  "settings": {
+   "paragraph": "Seven standardized business automations in total"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6ec3518e",
+  "settings": {
+   "paragraph": "Google Search Ads campaign setup &amp; ongoing management"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "569b83c2",
+  "settings": {
+   "paragraph": "Campaign performance monitoring &amp; optimization"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4aa219b8",
+  "settings": {
+   "paragraph": "Google Ads advertising spend is not included in the $597 subscription. You pay your advertising budget directly to Google. 3-month minimum commitment; cancellation terms are set out in your service agreement."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "2c4b03c9",
+  "settings": {
+   "text": "Get Started"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3f79b119",
+  "settings": {
+   "paragraph": "Advertising spend is billed separately and paid directly by you through Google Ads. Growth includes management of one standard Google Search advertising program; additional campaigns, other advertising platforms, extensive creative work and custom marketing requirements are quoted separately. Advanced marketing solutions available by custom quote. Usage-based charges for SMS, calls, and applicable communication services may be billed separately, as disclosed in the service agreement. SMS automations are activated after the required carrier registration, approval and successful configuration, so timing varies by business. Website updates and support are provided within our standard service scope. Review requests are neutral invitations; reviews and ratings are never guaranteed. We do not guarantee leads, sales, revenue or specific advertising results."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "20d9252e",
+  "settings": {
+   "paragraph": "Custom websites usually start with a large invoice. With Axiom, your website is part of a monthly plan instead: $297 a month for Essentials or $597 a month for Growth, with no setup fee. Your first month is due at signup."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "51a2234a",
+  "settings": {
+   "paragraph": "Need more than the standard plans?"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5a597acc",
+  "settings": {
+   "paragraph": "Additional ad campaigns, other advertising platforms, advanced automations and custom website work are available as optional add-ons. Advanced marketing solutions available by custom quote."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "361ed3f8",
+  "settings": {
+   "paragraph": "Essentials $297/month \u00b7 Growth $597/month \u00b7 $0 setup fee \u00b7 First month due at signup"
+  }
+ },
+ {
+  "action": "delete",
+  "element_id": "5384ebbd"
+ },
+ {
+  "action": "update",
+  "element_id": "1779b0fd",
+  "style": "grid-template-columns: 1fr 1fr; max-width: 62rem;"
+ }
+]

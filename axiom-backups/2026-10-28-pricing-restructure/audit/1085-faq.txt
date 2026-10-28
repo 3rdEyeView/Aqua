@@ -1,0 +1,78 @@
+46470ace | 5f516468 | None | href | /
+46470ace | a7df854 | e-paragraph | paragraph | Axiom
+46470ace | 6a4f45c5 | e-paragraph | paragraph | Systems
+46470ace | 29e0d579 | e-button | text | How It Works
+46470ace | 29e0d579 | e-button | href | /how-it-works/
+46470ace | 5064b93a | e-button | text | Our Work
+46470ace | 5064b93a | e-button | href | /our-work/
+46470ace | 4c138db7 | e-button | text | Pricing
+46470ace | 4c138db7 | e-button | href | /pricing/
+46470ace | 705fd088 | e-button | text | Add-Ons
+46470ace | 705fd088 | e-button | href | /add-ons/
+46470ace | 3831788f | e-button | text | FAQ
+46470ace | 3831788f | e-button | href | /faq/
+46470ace | 5b48eff6 | e-button | text | Get Started
+46470ace | 5b48eff6 | e-button | href | /get-started/
+top | 4c4889be | e-paragraph | paragraph | FAQ
+top | 21bc7ba1 | e-heading | title | Questions?<br>We've got answers.
+top | 3931f4e9 | e-paragraph | paragraph | Straight answers about pricing, what's included and how it works, so you know exactly what you're signing up for.
+questions | 4af02706 | e-heading | title | Pricing &amp; billing
+questions | 753499ff | e-heading | title | How much does it cost?
+questions | 5bd9860e | e-paragraph | paragraph | Axiom Essential is $299 a month and Axiom Growth is $599 a month, both with a $0 setup fee. Axiom Marketing starts at $1,500 a month, plus advertising spend that you pay directly; a custom setup fee may apply depending on complexity. Submitting the Get Started form doesn't charge you anything: we'll guide you through the next steps first.
+questions | 933e131 | e-heading | title | Is there really no setup fee?
+questions | 6adba616 | e-paragraph | paragraph | Really, for Axiom Essential and Axiom Growth. There's no separate charge for designing or building your website; you simply pay your monthly plan. Axiom Marketing may include a custom setup fee depending on campaign complexity, and we'll tell you before you sign.
+questions | 19140eb8 | e-heading | title | Can I cancel anytime?
+questions | 60d4e023 | e-paragraph | paragraph | Axiom Essential is a monthly subscription you can cancel anytime. Axiom Growth has no long-term contract: you can cancel anytime with 30 days' written notice. Axiom Marketing starts with an initial three-month agreement, and its renewal and cancellation terms are shared before you sign.
+questions | 5fe0e5bf | e-heading | title | Why is it monthly instead of one big website payment?
+questions | 6abaf79b | e-paragraph | paragraph | Because a website isn't finished the day it launches. It needs hosting, security, software updates and changes as your business grows. Instead of charging thousands upfront and leaving all of that to you, we build your website and then keep hosting, maintaining, updating and supporting it for one monthly price.
+questions | 5ace7647 | e-heading | title | What's included
+questions | 197889eb | e-heading | title | What's included in Axiom Essential?
+questions | 374c7a1c | e-paragraph | paragraph | A professionally designed, conversion-focused website that works on phones, plus managed hosting, SSL and security, maintenance and updates, backups, on-page SEO fundamentals, contact forms, analytics, ongoing support, instant acknowledgment of website inquiries and FREE automated Google review requests. Automation features are available upon activation.
+questions | 14cc3966 | e-heading | title | Can you update my website after it launches?
+questions | 33fd163 | e-paragraph | paragraph | Yes. Standard updates are part of the service, like changing text, photos, hours, services or contact details. Bigger projects, like a complete redesign or new custom features, go beyond standard updates, and we'll talk those through with you first.
+questions | 20632a2f | e-heading | title | Will my website work on phones?
+questions | 58796184 | e-paragraph | paragraph | Yes. Every Axiom website is built to work on phones, tablets and computers. Most of your customers will see it on a phone first, so we design with that in mind.
+questions | 15a68d65 | e-heading | title | Do you handle hosting, security and backups?
+questions | 5972d9c8 | e-paragraph | paragraph | Yes. Managed hosting, SSL, security, software updates and regular backups are all included. You don't need to buy or manage any of it yourself.
+questions | 4977cfaf | e-heading | title | Can you help with Google and local search?
+questions | 6f9636f7 | e-paragraph | paragraph | Every website is built with local-search fundamentals: a clean structure, mobile-friendly pages and clear information about your services and service area. Nobody can honestly guarantee rankings, and we don't, but your site starts on a solid foundation.
+questions | 4fd4883 | e-heading | title | Can you connect forms, reviews or booking tools?
+questions | 7a7c53b5 | e-paragraph | paragraph | Usually, yes. Contact and lead forms are included, and we can bring in things like your reviews or an existing booking tool when it makes sense for your business. Every platform is different, so we'll confirm what's possible for your setup.
+questions | 25f6be41 | e-heading | title | Do you offer more than websites?
+questions | 6317b72a | e-paragraph | paragraph | Yes. Axiom Growth ($599/month) is our complete business system: your website plus Axiom CRM, missed-call text-back, automated lead follow-up, a sales pipeline and appointment reminders. Axiom Marketing (from $1,500/month) adds Google Ads management and landing pages, and works with your existing website. Axiom Lead Automation ($349/month) can also be added to Axiom Essential. See the Pricing and Add-Ons pages for details.
+questions | 790f840d | e-heading | title | What is Axiom CRM?
+questions | 16efd0f6 | e-paragraph | paragraph | Axiom CRM is the customer management system we set up and manage for Axiom Growth and Axiom Marketing clients. It brings your leads, conversations, appointments and sales pipeline into one place, with automated follow-up running in the background. It's our branded, managed setup of an established third-party CRM platform, so you get proven software without having to configure it yourself.
+questions | 72a646e1 | e-heading | title | Ownership
+questions | 3728f22 | e-heading | title | Who owns my domain and business content?
+questions | e8bbde5 | e-paragraph | paragraph | You do. Your business, domain, brand, logo, customer data and any content or materials you give us always belong to you.
+questions | 60154ea9 | e-heading | title | Who owns the website?
+questions | 7cbced26 | e-paragraph | paragraph | The website design and build are provided by Axiom as part of your active subscription. That's what makes a professional website possible without a big upfront cost. Your domain, brand and content stay yours throughout.
+questions | 18941ac6 | e-heading | title | Getting started
+questions | 69d230f | e-heading | title | What if I already have a website?
+questions | 93ab63b | e-paragraph | paragraph | That's common. Tell us about your current site and we'll take an honest look at what you have, then let you know whether rebuilding it as an Axiom managed website makes sense for your business.
+questions | 6acf79bd | e-heading | title | How do I get started?
+questions | 2c422ea9 | e-paragraph | paragraph | Click Get Started and fill out a short form about your business. We'll review what you send and follow up with you. You don't need to book a call first.
+get-started | 7a68504c | e-paragraph | paragraph | Still thinking it over?
+get-started | 3c248c96 | e-heading | title | Getting started<br>is simple.
+get-started | 3251241 | e-paragraph | paragraph | No long sales process. Tell us about your business in a short form, and we'll review it and follow up with you.
+get-started | 444a2686 | e-button | text | Get Started →
+get-started | 444a2686 | e-button | href | /get-started/
+get-started | 12ffe3d8 | e-paragraph | paragraph | Plans from $299/month · Submit your business details and we'll guide you through the next steps.
+get-started | 3bfd269f | e-paragraph | paragraph | Prefer email? axiom.systems.co@gmail.com
+86309a1 | 370b5ae6 | e-paragraph | paragraph | Axiom Systems
+86309a1 | 3239db95 | e-paragraph | paragraph | Managed websites, automation and lead generation for local businesses.
+86309a1 | 4d7f363 | e-button | text | How It Works
+86309a1 | 4d7f363 | e-button | href | /how-it-works/
+86309a1 | 300aaf9b | e-button | text | Our Work
+86309a1 | 300aaf9b | e-button | href | /our-work/
+86309a1 | 158d0257 | e-button | text | Pricing
+86309a1 | 158d0257 | e-button | href | /pricing/
+86309a1 | 48171b40 | e-button | text | Add-Ons
+86309a1 | 48171b40 | e-button | href | /add-ons/
+86309a1 | 7e4e5b09 | e-button | text | FAQ
+86309a1 | 7e4e5b09 | e-button | href | /faq/
+86309a1 | 8675cea | e-button | text | Privacy Policy
+86309a1 | 8675cea | e-button | href | /privacy-policy/
+86309a1 | 46dfe8ec | e-button | text | Get Started
+86309a1 | 46dfe8ec | e-button | href | /get-started/
+86309a1 | 7f990582 | e-paragraph | paragraph | © 2026 Axiom Systems. All rights reserved.

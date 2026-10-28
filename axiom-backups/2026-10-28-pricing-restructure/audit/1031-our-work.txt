@@ -1,0 +1,188 @@
+4e012dc2 | 5181fdf8 | None | href | /
+4e012dc2 | 25cdf7c4 | e-paragraph | paragraph | Axiom
+4e012dc2 | 62baa10a | e-paragraph | paragraph | Systems
+4e012dc2 | 41ac72fe | e-button | text | How It Works
+4e012dc2 | 41ac72fe | e-button | href | /how-it-works/
+4e012dc2 | 24134a81 | e-button | text | Our Work
+4e012dc2 | 24134a81 | e-button | href | /our-work/
+4e012dc2 | 3ee9a246 | e-button | text | Pricing
+4e012dc2 | 3ee9a246 | e-button | href | /pricing/
+4e012dc2 | 6551697c | e-button | text | Add-Ons
+4e012dc2 | 6551697c | e-button | href | /add-ons/
+4e012dc2 | 20e21afe | e-button | text | FAQ
+4e012dc2 | 20e21afe | e-button | href | /faq/
+4e012dc2 | e09c90a | e-button | text | Get Started
+4e012dc2 | e09c90a | e-button | href | /get-started/
+top | 6e0c91c3 | e-paragraph | paragraph | Website design portfolio
+top | 42246394 | e-heading | title | The work is<br>the pitch.
+top | fb2ded6 | e-paragraph | paragraph | Every site<br>here is live.
+top | 1daf17a9 | e-paragraph | paragraph | A pressure washing and coatings company in Pinellas County. A custom tile contractor in Tampa Bay. Two jet ski tour operators on Florida's Gulf Coast. Real businesses with real customers, and websites you can open and use right now.
+top | 23c8eaa4 | e-button | text | What would yours look like? ↓
+top | 23c8eaa4 | e-button | href | #get-started
+top | 54bb531b | e-paragraph | paragraph | In this showroom
+top | 23a3658c | None | href | #brags
+top | 25e865fc | e-paragraph | paragraph | 01
+top | 6397289c | e-paragraph | paragraph | Brags Global
+top | c28fe9b | e-paragraph | paragraph | Pressure washing &amp; coatings · Pinellas County
+top | 43a200de | e-paragraph | paragraph | ↓
+top | 1525b0a7 | None | href | #xtreme
+top | 48db5478 | e-paragraph | paragraph | 02
+top | 4e59e04b | e-paragraph | paragraph | Xtreme Jet Ski Watersports
+top | 603f2be9 | e-paragraph | paragraph | Guided jet ski tours · St. Petersburg
+top | 2e051620 | e-paragraph | paragraph | ↓
+top | 122c827b | None | href | #aqua-safari
+top | 64e1e13b | e-paragraph | paragraph | 03
+top | 31aed66b | e-paragraph | paragraph | Aqua Safari Jet Ski Adventures
+top | 152d7104 | e-paragraph | paragraph | jetskiadventureclearwater.com · Tarpon Springs
+top | 111e2c68 | e-paragraph | paragraph | ↓
+top | 1c5e41b4 | None | href | #tile-father
+top | 3f46d456 | e-paragraph | paragraph | 04
+top | 393c721a | e-paragraph | paragraph | The Tile Father
+top | 3905d862 | e-paragraph | paragraph | Custom tile · Tampa Bay
+top | 1a8066af | e-paragraph | paragraph | ↓
+brags | 3d71995d | e-paragraph | paragraph | 01
+brags | 261adac7 | e-paragraph | paragraph | Local service business
+brags | 3276b304 | e-heading | title | Brags Global
+brags | 4159ac8d | e-paragraph | paragraph | Trade
+brags | 2ae06ad5 | e-paragraph | paragraph | Pressure washing, epoxy &amp; flake floors, concrete coatings
+brags | 2c472d14 | e-paragraph | paragraph | Service area
+brags | 465ee1ac | e-paragraph | paragraph | Pinellas County, Florida
+brags | 20b153a4 | e-paragraph | paragraph | bragspressurewashing.com
+brags | bec8dad | e-paragraph | paragraph | The first screen does the selling: every service listed, quote and call buttons, and the trust signals customers look for before they pick up the phone.
+brags | 5e014a7a | e-paragraph | paragraph | The business
+brags | 48e4e933 | e-paragraph | paragraph | Brags Global cleans, coats and refinishes concrete for homes and businesses across Pinellas County. Pressure washing, epoxy and flake floors, stains and protective coatings.
+brags | 4a931577 | e-paragraph | paragraph | What mattered
+brags | 4ba677e2 | e-paragraph | paragraph | Six different services had to make sense at a glance. And asking for a price had to take one tap, whether a customer wants to call, text or send a request.
+brags | 1dfe5c94 | e-paragraph | paragraph | What we built
+brags | 1423d69f | e-paragraph | paragraph | A dark, confident site with the full service list on the first screen, a photo card for every service, a simple three-step process and quote buttons throughout. Licensed &amp; Insured and Locally Owned sit right under the headline.
+brags | 3d0bbd02 | e-paragraph | paragraph | Local service business · Call, text or request a quote · Residential &amp; commercial
+brags | 50583219 | e-button | text | Visit the live site ↗
+brags | 50583219 | e-button | href | https://bragspressurewashing.com/
+brags | 52d43894 | e-paragraph | paragraph | Live client website: bragspressurewashing.com. Opens in a new tab.
+xtreme | 4a7f63e | e-paragraph | paragraph | 02
+xtreme | 3ed383c7 | e-paragraph | paragraph | Tours &amp; experiences
+xtreme | 25f6b611 | e-heading | title | Xtreme Jet Ski Watersports
+xtreme | 126b9c2d | e-paragraph | paragraph | Business
+xtreme | 53f14a1b | e-paragraph | paragraph | Guided jet ski expeditions around Tampa Bay
+xtreme | 784a02d5 | e-paragraph | paragraph | Location
+xtreme | 73a34697 | e-paragraph | paragraph | St. Petersburg, Florida
+xtreme | 69cd9469 | e-paragraph | paragraph | The business
+xtreme | 482868c0 | e-paragraph | paragraph | Xtreme takes riders out of St. Petersburg on guided jet ski expeditions to sandbars, hidden islands and dolphin spots, with Captain Mike leading the way.
+xtreme | 315bc73 | e-paragraph | paragraph | What mattered
+xtreme | 293c0285 | e-paragraph | paragraph | Someone looking at a jet ski tour wants three answers fast: are you open, is there a spot, and how do I book? The site had to answer all three before anyone scrolls.
+xtreme | 6415c406 | e-paragraph | paragraph | What we built
+xtreme | 13a5b560 | e-paragraph | paragraph | A bright, high-energy site over a full-screen water backdrop. Opening hours, Check Availability &amp; Book and Call Now come first, then Captain Mike's guided expedition, then Google reviews. Tours, boating license info and FAQs are one click away.
+xtreme | 29c02d70 | e-paragraph | paragraph | xtremestpete.com
+xtreme | 348f779a | e-paragraph | paragraph | Hours, booking and a call button, all on the first screen.
+xtreme | 62a68eb0 | e-paragraph | paragraph | The guided expedition gets its own spotlight, sold by the captain who leads it, with a button that books the 2-hour tour directly.
+xtreme | 797a0426 | e-paragraph | paragraph | Tours &amp; experiences · Online booking · Google reviews on the homepage
+xtreme | 14528d89 | e-button | text | Visit the live site ↗
+xtreme | 14528d89 | e-button | href | https://xtremestpete.com/
+xtreme | 6d8cc71f | e-paragraph | paragraph | Live client website: xtremestpete.com. Opens in a new tab.
+not-a-template | 17eb7b53 | e-paragraph | paragraph | Not a template
+not-a-template | 300d315f | e-heading | title | Same industry. Same coast. Look again.
+not-a-template | 52a33ec4 | e-paragraph | paragraph | Xtreme and Aqua Safari both take people out on guided jet ski tours along Florida's Gulf Coast. On paper, they're the same kind of business. Here's how differently their websites introduce them.
+not-a-template | 460dc640 | e-paragraph | paragraph | Xtreme Jet Ski Watersports
+not-a-template | 539e13e | e-paragraph | paragraph | Aqua Safari Jet Ski Adventures
+not-a-template | 66c4cae4 | e-paragraph | paragraph | Headline
+not-a-template | 5546f2f6 | e-paragraph | paragraph | A rounded, glowing all-caps wordmark
+not-a-template | 251d5686 | e-paragraph | paragraph | Towering condensed capitals
+not-a-template | 2e1ef919 | e-paragraph | paragraph | Palette
+not-a-template | 11f2074b | e-paragraph | paragraph | First words
+not-a-template | 66dc241 | e-paragraph | paragraph | Open Daily, Check Availability &amp; Book, Call Now
+not-a-template | 43b65dc7 | e-paragraph | paragraph | “Clearwater Jet Ski Adventures Beyond the Ordinary”
+not-a-template | 2dc69bbb | e-paragraph | paragraph | What it sells
+not-a-template | 96af186 | e-paragraph | paragraph | Captain Mike's guided expeditions
+not-a-template | 79ac40a1 | e-paragraph | paragraph | The islands: Three Rooker and Anclote Key
+not-a-template | 169fdeeb | e-paragraph | paragraph | Trust
+not-a-template | 5afa51cf | e-paragraph | paragraph | Google reviews right on the homepage
+not-a-template | 2d57458b | e-paragraph | paragraph | Real photos from their own tours and a meet-the-owner intro
+not-a-template | 7e185d7 | e-paragraph | paragraph | Neither site could be swapped for the other.
+not-a-template | f83b8fa | e-paragraph | paragraph | That's the point.
+aqua-safari | 457f916f | e-paragraph | paragraph | 03
+aqua-safari | 70e36183 | e-paragraph | paragraph | Tours &amp; experiences
+aqua-safari | 9d1db4e | e-heading | title | Aqua Safari Jet Ski Adventures
+aqua-safari | 3bb5cbe2 | e-paragraph | paragraph | Business
+aqua-safari | 1a7f5753 | e-paragraph | paragraph | Guided island tours by jet ski
+aqua-safari | 2a481de2 | e-paragraph | paragraph | Launches from
+aqua-safari | 4f892da5 | e-paragraph | paragraph | The Anclote area, Tarpon Springs, Florida
+aqua-safari | 174aeb45 | e-paragraph | paragraph | Aqua Safari takes riders across the Gulf from Tarpon Springs to Three Rooker Island and Anclote Key. Its website had one job: make a first-timer want the trip, then get them booked.
+aqua-safari | 1657e95 | e-paragraph | paragraph | 03 · jetskiadventureclearwater.com
+aqua-safari | 4388c35 | e-heading | title | An adventure site that sells the islands
+aqua-safari | 3f389fd5 | e-paragraph | paragraph | Built to sell the destination, not just the ride. Huge condensed headlines, photography from Aqua Safari's own tours, an introduction to the owner and guide, and a straight answer to “how far is it from Clearwater Beach?”
+aqua-safari | 79b5afc1 | e-paragraph | paragraph | Dedicated sections for Three Rooker Island and Anclote Key
+aqua-safari | 13213225 | e-paragraph | paragraph | Book buttons throughout, connected to live online booking
+aqua-safari | 7968981d | e-paragraph | paragraph | First-timer questions answered before anyone has to call
+aqua-safari | 71408d5a | e-button | text | Visit the live site ↗
+aqua-safari | 71408d5a | e-button | href | https://jetskiadventureclearwater.com/
+aqua-safari | 6a1c2e31 | e-paragraph | paragraph | Live client website: jetskiadventureclearwater.com. Opens in a new tab.
+tile-father | 31198c2a | e-paragraph | paragraph | 04
+tile-father | 130c7b87 | e-paragraph | paragraph | Skilled trades · Custom tile
+tile-father | 13702899 | e-heading | title | The Tile Father
+tile-father | 3b2c0e1a | e-paragraph | paragraph | Business
+tile-father | 3cfebe0f | e-paragraph | paragraph | Owner-operated custom tile installation
+tile-father | a98730d | e-paragraph | paragraph | Service area
+tile-father | 96784c | e-paragraph | paragraph | Tampa Bay, Pinellas, Sarasota &amp; Manatee
+tile-father | 6733f358 | e-paragraph | paragraph | The business
+tile-father | 375ae60f | e-paragraph | paragraph | Lucas França runs The Tile Father and sets the tile himself: floors, kitchen backsplashes and custom feature work like marble inlay bands and hand-painted mural insets, across Tampa Bay.
+tile-father | 518751c6 | e-paragraph | paragraph | What mattered
+tile-father | 4ae2c75b | e-paragraph | paragraph | Craftsmanship deserves a website that looks as good as the finished work. People hiring for tile want to see real jobs, know exactly who will be in their home, and ask for an estimate without a runaround.
+tile-father | 2f5b455d | e-paragraph | paragraph | What we built
+tile-father | 38809adb | e-paragraph | paragraph | A calm, craftsmanship-first site that opens on a grid of Lucas's own project photos. Recent work lists the room, the location and the exact tile used, Lucas introduces himself as the one point of contact, and Get My Quote and Call Now appear from the first screen to the last.
+tile-father | 62aaa08 | e-paragraph | paragraph | thetilefather.com
+tile-father | 59641b78 | e-paragraph | paragraph | Recent work reads like a job sheet: the room, where it is and the exact tile used, from real jobs Lucas has posted.
+tile-father | 7c7c56cd | e-paragraph | paragraph | On a phone, the headline, Get My Quote and a call link all fit on the first screen.
+tile-father | 73cb4b6f | e-paragraph | paragraph | Skilled trades · Owner-operated · Quote &amp; call from the first screen
+tile-father | 54048b37 | e-button | text | Visit the live site ↗
+tile-father | 54048b37 | e-button | href | https://thetilefather.com/
+tile-father | 6f3d052e | e-paragraph | paragraph | Live client website: thetilefather.com. Opens in a new tab.
+website-as-a-service | 3982423b | e-paragraph | paragraph | Website as a Service
+website-as-a-service | 7bccff2f | e-heading | title | Every Axiom website. One high standard.
+website-as-a-service | 326ee983 | e-paragraph | paragraph | Every Axiom website starts here: a professionally built website for your business, designed around how your business actually works.
+website-as-a-service | 71a190c | e-paragraph | paragraph | We design it, build it and launch it. Then we stay on as the team responsible for it, so you never have to think about hosting, updates or backups again.
+website-as-a-service | 742dac61 | e-paragraph | paragraph | Axiom Essential
+website-as-a-service | 58e09094 | e-paragraph | paragraph | $299
+website-as-a-service | 3aeefe0 | e-paragraph | paragraph | /month
+website-as-a-service | 6a249323 | e-paragraph | paragraph | Design, build, hosting, updates and support, plus FREE automated Google review follow-ups.
+website-as-a-service | 3f69a59b | e-paragraph | paragraph | Designed around your business
+website-as-a-service | 760352e2 | e-paragraph | paragraph | Built and launched by us
+website-as-a-service | 3f66cc89 | e-paragraph | paragraph | Hosted, updated and backed up
+website-as-a-service | 7634d4f8 | e-paragraph | paragraph | Content updates as your business changes
+website-as-a-service | 334379aa | e-button | text | Start my website
+website-as-a-service | 334379aa | e-button | href | /get-started/?plan=essential
+website-as-a-service | 37080bf8 | e-button | text | How it works
+website-as-a-service | 37080bf8 | e-button | href | /how-it-works/
+get-started | 30e4b9e4 | e-paragraph | paragraph | Your turn
+get-started | 1081fd0 | e-heading | title | So what would yours look like?
+get-started | 239c2095 | e-paragraph | paragraph | Tell us what you do, who you do it for and where you work. We'll talk through what your website needs and show you what's possible before you commit to anything.
+get-started | 2c785a43 | e-paragraph | paragraph | 1
+get-started | 795ddee2 | e-paragraph | paragraph | Tell us about your business in a short form
+get-started | 4e30ac59 | e-paragraph | paragraph | 2
+get-started | 5683efff | e-paragraph | paragraph | We talk through what your site needs
+get-started | 32434fc6 | e-paragraph | paragraph | 3
+get-started | 545cd446 | e-paragraph | paragraph | You decide. No pressure, no obligation
+get-started | 696a4a8b | e-paragraph | paragraph | Start the conversation
+get-started | 503fb91b | e-heading | title | Tell us about your business
+get-started | ee1d569 | e-paragraph | paragraph | A few lines is plenty: your business name, what you do and where. We'll review it and reach out personally with the next step.
+get-started | 4c7f4cd1 | e-button | text | Get Started
+get-started | 4c7f4cd1 | e-button | href | /get-started/
+get-started | 439becbb | e-button | text | See how it works
+get-started | 439becbb | e-button | href | /how-it-works/
+get-started | 3f2e1c20 | e-paragraph | paragraph | Or write to us directly at axiom.systems.co@gmail.com
+23717205 | 45ece168 | e-paragraph | paragraph | Axiom Systems
+23717205 | 3c5855cf | e-paragraph | paragraph | Managed websites, automation and lead generation for local businesses.
+23717205 | 758c724e | e-button | text | How It Works
+23717205 | 758c724e | e-button | href | /how-it-works/
+23717205 | 1a69051c | e-button | text | Our Work
+23717205 | 1a69051c | e-button | href | /our-work/
+23717205 | 748ef3ce | e-button | text | Pricing
+23717205 | 748ef3ce | e-button | href | /pricing/
+23717205 | 6c960c73 | e-button | text | Add-Ons
+23717205 | 6c960c73 | e-button | href | /add-ons/
+23717205 | 36420428 | e-button | text | FAQ
+23717205 | 36420428 | e-button | href | /faq/
+23717205 | 6c06233d | e-button | text | Privacy Policy
+23717205 | 6c06233d | e-button | href | /privacy-policy/
+23717205 | 56b13b3a | e-button | text | Get Started
+23717205 | 56b13b3a | e-button | href | /get-started/
+23717205 | 2e8d1bf1 | e-paragraph | paragraph | © 2026 Axiom Systems. All rights reserved.

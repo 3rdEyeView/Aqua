@@ -48,3 +48,7 @@ every other count unchanged.
 
 Toggle the same snippet's Status back on in HFCM, then purge the same caches.
 If a snippet's code was ever lost, recreate it as HTML, footer, all pages, all devices, pasting the backup file.
+
+## Verification
+
+Post-deactivation results (2026-10-30): see `VERIFICATION.md`, `post-scan-markers.txt`, `post-browser-check.json`.

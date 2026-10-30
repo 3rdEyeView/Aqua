@@ -1,0 +1,546 @@
+[
+ {
+  "label": "desktop",
+  "p": "/",
+  "status": 200,
+  "title": "Jet Ski Tours & Rentals St. Petersburg FL | Xtreme",
+  "dl": 7,
+  "gtm": false,
+  "wr": 8,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "static.cloudflareinsights.com",
+   "www.clickcease.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "embed.tawk.to",
+   "monitor.fraudblocker.com",
+   "stats.wp.com"
+  ]
+ },
+ {
+  "label": "desktop",
+  "p": "/jet-ski-rentals-st-petersburg-fl-xtreme-jetski-watersports/",
+  "status": 200,
+  "title": "Jet Ski Rental Prices in St. Petersburg FL | Xtrem",
+  "dl": 5,
+  "gtm": false,
+  "wr": 0,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "www.clickcease.com",
+   "static.cloudflareinsights.com",
+   "www.googletagmanager.com",
+   "stats.wp.com",
+   "challenges.cloudflare.com",
+   "embed.tawk.to",
+   "monitor.fraudblocker.com"
+  ]
+ },
+ {
+  "label": "desktop",
+  "p": "/jet-ski-rentals-st-petersburg-fl/",
+  "status": 200,
+  "title": "St. Petersburg Jet Ski Guide: Shell Key & Egmont K",
+  "dl": 5,
+  "gtm": false,
+  "wr": 0,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "static.cloudflareinsights.com",
+   "www.visitstpeteclearwater.com",
+   "images.openai.com",
+   "www.clickcease.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "embed.tawk.to",
+   "monitor.fraudblocker.com",
+   "stats.wp.com"
+  ]
+ },
+ {
+  "label": "desktop",
+  "p": "/egmont-key-st-petersburg-jet-ski-tours/",
+  "status": 200,
+  "title": "Egmont Key & St. Petersburg Jet Ski Tours | Xtreme",
+  "dl": 5,
+  "gtm": false,
+  "wr": 8,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "www.clickcease.com",
+   "static.cloudflareinsights.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "embed.tawk.to",
+   "monitor.fraudblocker.com",
+   "stats.wp.com"
+  ]
+ },
+ {
+  "label": "desktop",
+  "p": "/tampa-bay-jet-ski-rentals/",
+  "status": 200,
+  "title": "Jet Ski Rentals Tampa Bay | Xtreme Jetski Waterspo",
+  "dl": 5,
+  "gtm": false,
+  "wr": 3,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "www.clickcease.com",
+   "static.cloudflareinsights.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "stats.wp.com",
+   "monitor.fraudblocker.com",
+   "embed.tawk.to"
+  ]
+ },
+ {
+  "label": "desktop",
+  "p": "/st-pete-beach-jet-ski-rental/",
+  "status": 200,
+  "title": "St Pete Beach Jet Ski Rental & Guided Tours | Xtre",
+  "dl": 5,
+  "gtm": false,
+  "wr": 0,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "www.clickcease.com",
+   "static.cloudflareinsights.com",
+   "www.googletagmanager.com",
+   "monitor.fraudblocker.com",
+   "challenges.cloudflare.com",
+   "embed.tawk.to",
+   "stats.wp.com"
+  ]
+ },
+ {
+  "label": "desktop",
+  "p": "/contact/",
+  "status": 200,
+  "title": "Contact Xtreme Jetski Watersports | St. Petersburg",
+  "dl": 5,
+  "gtm": false,
+  "wr": 1,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "www.clickcease.com",
+   "static.cloudflareinsights.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "embed.tawk.to",
+   "monitor.fraudblocker.com",
+   "stats.wp.com",
+   "maps.google.com"
+  ]
+ },
+ {
+  "label": "desktop",
+  "p": "/shop/",
+  "status": 200,
+  "title": "Xtreme Jetski Merch | Official Gear",
+  "dl": 5,
+  "gtm": false,
+  "wr": 0,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "www.clickcease.com",
+   "static.cloudflareinsights.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "stats.wp.com",
+   "monitor.fraudblocker.com",
+   "embed.tawk.to"
+  ]
+ },
+ {
+  "label": "desktop",
+  "p": "/cart/",
+  "status": 403,
+  "title": "Just a moment...",
+  "dl": 0,
+  "gtm": false,
+  "wr": 0,
+  "ts": 0,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: the server responded with a status of 403 (Forbidden)",
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "console: Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "blockedHosts": [
+   "challenges.cloudflare.com"
+  ]
+ },
+ {
+  "label": "desktop",
+  "p": "/checkout/",
+  "status": 403,
+  "title": "Just a moment...",
+  "dl": 0,
+  "gtm": false,
+  "wr": 0,
+  "ts": 0,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: the server responded with a status of 403 (Forbidden)",
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "console: Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "blockedHosts": [
+   "challenges.cloudflare.com"
+  ]
+ },
+ {
+  "label": "iphone",
+  "p": "/",
+  "status": 200,
+  "title": "Jet Ski Tours & Rentals St. Petersburg FL | Xtreme",
+  "dl": 7,
+  "gtm": false,
+  "wr": 8,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "www.clickcease.com",
+   "static.cloudflareinsights.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "monitor.fraudblocker.com",
+   "embed.tawk.to",
+   "stats.wp.com"
+  ]
+ },
+ {
+  "label": "iphone",
+  "p": "/jet-ski-rentals-st-petersburg-fl-xtreme-jetski-watersports/",
+  "status": 200,
+  "title": "Jet Ski Rental Prices in St. Petersburg FL | Xtrem",
+  "dl": 5,
+  "gtm": false,
+  "wr": 0,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "www.clickcease.com",
+   "static.cloudflareinsights.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "monitor.fraudblocker.com",
+   "stats.wp.com",
+   "embed.tawk.to"
+  ]
+ },
+ {
+  "label": "iphone",
+  "p": "/jet-ski-rentals-st-petersburg-fl/",
+  "status": 200,
+  "title": "St. Petersburg Jet Ski Guide: Shell Key & Egmont K",
+  "dl": 5,
+  "gtm": false,
+  "wr": 0,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "static.cloudflareinsights.com",
+   "www.clickcease.com",
+   "images.openai.com",
+   "www.visitstpeteclearwater.com",
+   "challenges.cloudflare.com",
+   "www.googletagmanager.com",
+   "monitor.fraudblocker.com",
+   "embed.tawk.to",
+   "stats.wp.com"
+  ]
+ },
+ {
+  "label": "iphone",
+  "p": "/egmont-key-st-petersburg-jet-ski-tours/",
+  "status": 200,
+  "title": "Egmont Key & St. Petersburg Jet Ski Tours | Xtreme",
+  "dl": 5,
+  "gtm": false,
+  "wr": 8,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "static.cloudflareinsights.com",
+   "www.clickcease.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "embed.tawk.to",
+   "monitor.fraudblocker.com",
+   "stats.wp.com"
+  ]
+ },
+ {
+  "label": "iphone",
+  "p": "/tampa-bay-jet-ski-rentals/",
+  "status": 200,
+  "title": "Jet Ski Rentals Tampa Bay | Xtreme Jetski Waterspo",
+  "dl": 5,
+  "gtm": false,
+  "wr": 3,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "www.clickcease.com",
+   "static.cloudflareinsights.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "embed.tawk.to",
+   "stats.wp.com",
+   "monitor.fraudblocker.com"
+  ]
+ },
+ {
+  "label": "iphone",
+  "p": "/st-pete-beach-jet-ski-rental/",
+  "status": 200,
+  "title": "St Pete Beach Jet Ski Rental & Guided Tours | Xtre",
+  "dl": 5,
+  "gtm": false,
+  "wr": 0,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "static.cloudflareinsights.com",
+   "www.clickcease.com",
+   "www.googletagmanager.com",
+   "embed.tawk.to",
+   "monitor.fraudblocker.com",
+   "challenges.cloudflare.com",
+   "stats.wp.com"
+  ]
+ },
+ {
+  "label": "iphone",
+  "p": "/contact/",
+  "status": 200,
+  "title": "Contact Xtreme Jetski Watersports | St. Petersburg",
+  "dl": 5,
+  "gtm": false,
+  "wr": 1,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "www.clickcease.com",
+   "static.cloudflareinsights.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "monitor.fraudblocker.com",
+   "embed.tawk.to",
+   "maps.google.com",
+   "stats.wp.com"
+  ]
+ },
+ {
+  "label": "iphone",
+  "p": "/shop/",
+  "status": 200,
+  "title": "Xtreme Jetski Merch | Official Gear",
+  "dl": 5,
+  "gtm": false,
+  "wr": 0,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function"
+  ],
+  "blockedHosts": [
+   "static.cloudflareinsights.com",
+   "www.clickcease.com",
+   "www.googletagmanager.com",
+   "challenges.cloudflare.com",
+   "monitor.fraudblocker.com",
+   "stats.wp.com",
+   "embed.tawk.to"
+  ]
+ },
+ {
+  "label": "iphone",
+  "p": "/cart/",
+  "status": 200,
+  "title": "Cart - Xtreme Jetski Watersports Cart | Jet Ski Re",
+  "dl": 7,
+  "gtm": false,
+  "wr": 0,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "console: [ppcp-sdk-v6] eligibility check failed Error: Failed to load script: https://www.paypal.com/web-sdk/v6/core\n    at i.onerror (https://xtremestpete.com/wp-conten",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function",
+   "console: Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+  ],
+  "blockedHosts": [
+   "www.clickcease.com",
+   "static.cloudflareinsights.com",
+   "www.googletagmanager.com",
+   "js.stripe.com",
+   "monitor.fraudblocker.com",
+   "challenges.cloudflare.com",
+   "embed.tawk.to",
+   "www.paypal.com",
+   "stats.wp.com",
+   "pay.woo.com",
+   "cdn.sift.com"
+  ]
+ },
+ {
+  "label": "iphone",
+  "p": "/checkout/",
+  "status": 200,
+  "title": "Cart - Xtreme Jetski Watersports Cart | Jet Ski Re",
+  "dl": 7,
+  "gtm": false,
+  "wr": 0,
+  "ts": 1,
+  "legacy": [],
+  "firstPartyFail": [],
+  "errs": [
+   "console: Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "pageerror: Function rdt not implemented.",
+   "pageerror: Function snaptr not implemented.",
+   "pageerror: n[e] is not a function",
+   "console: [ppcp-sdk-v6] eligibility check failed Error: Failed to load script: https://www.paypal.com/web-sdk/v6/core\n    at i.onerror (https://xtremestpete.com/wp-conten",
+   "console: Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+  ],
+  "blockedHosts": [
+   "www.googletagmanager.com",
+   "www.clickcease.com",
+   "challenges.cloudflare.com",
+   "monitor.fraudblocker.com",
+   "embed.tawk.to",
+   "js.stripe.com",
+   "static.cloudflareinsights.com",
+   "www.paypal.com",
+   "stats.wp.com",
+   "pay.woo.com",
+   "cdn.sift.com"
+  ]
+ }
+]

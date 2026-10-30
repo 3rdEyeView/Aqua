@@ -1,0 +1,34 @@
+<script>
+window.addEventListener('load', function () {
+
+  // Initialize FingerprintJS Pro
+  import('https://fpjscdn.net/v3/V9oJlGTf7shW4oZXarpj')
+    .then(FingerprintJS => FingerprintJS.load())
+    .then(fp => fp.get())
+    .then(result => {
+
+      const data = {
+        visitorId: result.visitorId,
+        userAgent: navigator.userAgent,
+        screen: {
+          width: window.screen.width,
+          height: window.screen.height
+        },
+        url: window.location.href,
+        timestamp: new Date().toISOString()
+      };
+
+      // Send visitor data
+      fetch('https://eoz1rpkvo7hk1c1.m.pipedream.net/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+
+    })
+    .catch(err => {
+      console.error('FingerprintJS Pro failed to load:', err);
+    });
+
+});
+</script>

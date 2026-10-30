@@ -1,0 +1,94 @@
+<a href="#" id="honeypot-link" style="display: none;" aria-hidden="true">Click Me</a>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const honeypotLink = document.getElementById('honeypot-link');
+
+    honeypotLink.addEventListener('click', function (e) {
+      // Prevent any action on click
+      e.preventDefault();
+
+      // 1. Log to browser console (for initial testing)
+      console.warn('🚨 Honeypot link was clicked! Possible bot detected.');
+
+      // 2. OPTIONAL: Send to your server or analytics endpoint
+      fetch('/honeypot-log', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          timestamp: new Date().toISOString(),
+          userAgent: navigator.userAgent,
+          page: window.location.pathname,
+          screen: { width: screen.width, height: screen.height }
+        })
+      });
+    });
+  });
+</script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    let botScore = 0;
+
+    // Check for headless browser traits
+    if (!navigator.plugins.length || !window.chrome) botScore++;
+    if (navigator.webdriver) botScore++;
+    if (!window.Notification || typeof Notification.permission === 'undefined') botScore++;
+    if (!window.outerWidth || !window.outerHeight) botScore++;
+
+    // Audio fingerprint test (bots fail this often)
+    try {
+      const ctx = new (window.AudioContext || window.webkitAudioContext)();
+      const oscillator = ctx.createOscillator();
+      oscillator.type = 'triangle';
+      oscillator.frequency.setValueAtTime(10000, ctx.currentTime);
+      oscillator.connect(ctx.destination);
+      oscillator.start();
+      oscillator.stop();
+    } catch (e) {
+      botScore++;
+    }
+
+    // Mouse movement test
+    let mouseMoved = false;
+    window.addEventListener('mousemove', () => {
+      mouseMoved = true;
+    });
+
+    // Hidden honeypot link
+    const honeypot = document.createElement('a');
+    honeypot.href = "#";
+    honeypot.style.position = "absolute";
+    honeypot.style.left = "-9999px";
+    honeypot.textContent = "Invisible Link";
+    honeypot.id = "trap-link";
+    document.body.appendChild(honeypot);
+
+    honeypot.addEventListener('click', function (e) {
+      e.preventDefault();
+      sendBotLog("Honeypot clicked");
+    });
+
+    // Delay analysis after 7 seconds
+    setTimeout(() => {
+      if (!mouseMoved) botScore++;
+      if (botScore >= 3) {
+        sendBotLog("High bot score: " + botScore);
+      }
+    }, 7000);
+
+    function sendBotLog(reason) {
+      fetch('https://eoz1rpkvo7hk1c1.m.pipedream.net', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          reason: reason,
+          timestamp: new Date().toISOString(),
+          userAgent: navigator.userAgent,
+          url: window.location.href,
+          screen: { width: screen.width, height: screen.height },
+          plugins: navigator.plugins.length,
+          headless: navigator.webdriver || false
+        })
+      });
+    }
+  });
+</script>

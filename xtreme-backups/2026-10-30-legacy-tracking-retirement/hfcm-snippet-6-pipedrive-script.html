@@ -1,0 +1,50 @@
+<script>
+window.addEventListener('load', function () {
+
+  (async function () {
+    try {
+      // 1. Get client IP and geolocation
+      const geoRes = await fetch("https://ipapi.co/json/");
+      const geoData = await geoRes.json();
+
+      // 2. Fingerprint (non-invasive)
+      const fingerprint = {
+        screen_resolution: screen.width + "x" + screen.height,
+        language: navigator.language,
+        platform: navigator.platform,
+        timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+        user_agent: navigator.userAgent
+      };
+
+      // 3. Prepare payload
+      const payload = {
+        event: "page_view",
+        url: window.location.href,
+        referrer: document.referrer,
+        timestamp: new Date().toISOString(),
+        client_ip: geoData.ip,
+        geolocation: {
+          city: geoData.city,
+          region: geoData.region,
+          country: geoData.country_name,
+          latitude: geoData.latitude,
+          longitude: geoData.longitude,
+          org: geoData.org
+        },
+        fingerprint: fingerprint
+      };
+
+      // 4. Send to Pipedream
+      fetch("https://eoz1rpkvo7hk1c1.m.pipedream.net/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+
+    } catch (err) {
+      console.error("Tracking failed", err);
+    }
+  })();
+
+});
+</script>

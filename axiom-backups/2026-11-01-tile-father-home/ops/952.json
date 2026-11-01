@@ -1,0 +1,72 @@
+[
+ {
+  "action": "update",
+  "element_id": "6854cc42",
+  "settings": {
+   "paragraph": "thetilefather.com"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6a069fcc",
+  "settings": {
+   "image": {
+    "src": {
+     "id": 1146
+    },
+    "size": "full"
+   },
+   "link": {
+    "destination": "https://thetilefather.com/",
+    "isTargetBlank": true,
+    "tag": "a"
+   }
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "7372f1c7",
+  "settings": {
+   "paragraph": "Client website · Custom tile · Tampa Bay, FL"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6f569cda",
+  "settings": {
+   "title": "The Tile Father"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "72afff43",
+  "settings": {
+   "paragraph": "Calm and craftsmanship-first. It opens on a grid of Lucas's own project photos, shows the room, location and exact tile for each recent job, and keeps Get My Quote and Call Now in reach from the first screen to the last."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "19482278",
+  "settings": {
+   "link": {
+    "destination": "https://thetilefather.com/",
+    "isTargetBlank": true,
+    "tag": "a"
+   }
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3970fb67",
+  "settings": {
+   "paragraph": "A custom tile contractor needs its finished work to do the talking. A pressure washing company needs six services to make sense at a glance. Neither site looks like Xtreme, or like each other. Your website should look like your business, not like a template."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "48d59077",
+  "settings": {
+   "paragraph": "No. Every site is designed for the business it belongs to. Compare Xtreme, The Tile Father and Brags Global above: three different businesses, three completely different websites."
+  }
+ }
+]

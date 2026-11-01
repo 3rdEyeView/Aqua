@@ -1,0 +1,210 @@
+{
+ "home-1440": {
+  "sw": 1440,
+  "aquaText": 0,
+  "aquaHtml": 0,
+  "order": {
+   "xtreme": 1290,
+   "brags": 2511,
+   "tile": 2163,
+   "aqua": -1
+  },
+  "nums": "121234",
+  "broken": 0,
+  "links": [
+   "[img] -> https://xtremestpete.com/",
+   "View Website ↗ -> https://xtremestpete.com/",
+   "[img] -> https://thetilefather.com/",
+   "View Website ↗ -> https://thetilefather.com/",
+   "[img] -> https://bragspressurewashing.com/",
+   "View Website ↗ -> https://bragspressurewashing.com/"
+  ],
+  "tileImgs": [
+   "tile-father-site-desktop.webp"
+  ],
+  "status": 200,
+  "errors": 0
+ },
+ "home-1024": {
+  "sw": 1024,
+  "aquaText": 0,
+  "aquaHtml": 0,
+  "order": {
+   "xtreme": 1248,
+   "brags": 2469,
+   "tile": 2121,
+   "aqua": -1
+  },
+  "nums": "121234",
+  "broken": 0,
+  "links": [
+   "[img] -> https://xtremestpete.com/",
+   "View Website ↗ -> https://xtremestpete.com/",
+   "[img] -> https://thetilefather.com/",
+   "View Website ↗ -> https://thetilefather.com/",
+   "[img] -> https://bragspressurewashing.com/",
+   "View Website ↗ -> https://bragspressurewashing.com/"
+  ],
+  "tileImgs": [
+   "tile-father-site-desktop-1024x640.webp"
+  ],
+  "status": 200,
+  "errors": 0
+ },
+ "home-768": {
+  "sw": 768,
+  "aquaText": 0,
+  "aquaHtml": 0,
+  "order": {
+   "xtreme": 1248,
+   "brags": 2469,
+   "tile": 2121,
+   "aqua": -1
+  },
+  "nums": "121234",
+  "broken": 0,
+  "links": [
+   "[img] -> https://xtremestpete.com/",
+   "View Website ↗ -> https://xtremestpete.com/",
+   "[img] -> https://thetilefather.com/",
+   "View Website ↗ -> https://thetilefather.com/",
+   "[img] -> https://bragspressurewashing.com/",
+   "View Website ↗ -> https://bragspressurewashing.com/"
+  ],
+  "tileImgs": [
+   "tile-father-site-desktop-768x480.webp"
+  ],
+  "status": 200,
+  "errors": 0
+ },
+ "home-390": {
+  "sw": 390,
+  "aquaText": 0,
+  "aquaHtml": 0,
+  "order": {
+   "xtreme": 1248,
+   "brags": 2469,
+   "tile": 2121,
+   "aqua": -1
+  },
+  "nums": "121234",
+  "broken": 0,
+  "links": [
+   "[img] -> https://xtremestpete.com/",
+   "View Website ↗ -> https://xtremestpete.com/",
+   "[img] -> https://thetilefather.com/",
+   "View Website ↗ -> https://thetilefather.com/",
+   "[img] -> https://bragspressurewashing.com/",
+   "View Website ↗ -> https://bragspressurewashing.com/"
+  ],
+  "tileImgs": [
+   "tile-father-site-desktop-600x375.webp"
+  ],
+  "status": 200,
+  "errors": 0
+ },
+ "our-work-1440": {
+  "sw": 1440,
+  "aquaText": 17,
+  "aquaHtml": 27,
+  "order": {
+   "xtreme": 171,
+   "brags": 639,
+   "tile": 703,
+   "aqua": 748
+  },
+  "nums": "12341234",
+  "broken": 0,
+  "links": [
+   "View Website ↗ -> https://xtremestpete.com/",
+   "Visit the live site ↗ -> https://bragspressurewashing.com/",
+   "Visit the live site ↗ -> https://thetilefather.com/",
+   "View Website ↗ -> https://jetskiadventureclearwater.com/"
+  ],
+  "tileImgs": [
+   "tile-father-site-desktop.webp",
+   "tile-father-site-recent-work.webp",
+   "tile-father-site-mobile.webp"
+  ],
+  "status": 200,
+  "errors": 0
+ },
+ "our-work-1024": {
+  "sw": 1024,
+  "aquaText": 17,
+  "aquaHtml": 27,
+  "order": {
+   "xtreme": 129,
+   "brags": 597,
+   "tile": 661,
+   "aqua": 706
+  },
+  "nums": "12341234",
+  "broken": 0,
+  "links": [
+   "View Website ↗ -> https://xtremestpete.com/",
+   "Visit the live site ↗ -> https://bragspressurewashing.com/",
+   "Visit the live site ↗ -> https://thetilefather.com/",
+   "View Website ↗ -> https://jetskiadventureclearwater.com/"
+  ],
+  "tileImgs": [
+   "tile-father-site-desktop-1024x640.webp",
+   "tile-father-site-recent-work-1024x704.webp",
+   "tile-father-site-mobile.webp"
+  ],
+  "status": 200,
+  "errors": 0
+ },
+ "our-work-768": {
+  "sw": 768,
+  "aquaText": 17,
+  "aquaHtml": 27,
+  "order": {
+   "xtreme": 129,
+   "brags": 597,
+   "tile": 661,
+   "aqua": 706
+  },
+  "nums": "12341234",
+  "broken": 0,
+  "links": [
+   "View Website ↗ -> https://xtremestpete.com/",
+   "Visit the live site ↗ -> https://bragspressurewashing.com/",
+   "Visit the live site ↗ -> https://thetilefather.com/",
+   "View Website ↗ -> https://jetskiadventureclearwater.com/"
+  ],
+  "tileImgs": [
+   "tile-father-site-desktop-768x480.webp",
+   "tile-father-site-recent-work-768x528.webp",
+   "tile-father-site-mobile-768x1536.webp"
+  ],
+  "status": 200,
+  "errors": 0
+ },
+ "our-work-390": {
+  "sw": 390,
+  "aquaText": 17,
+  "aquaHtml": 27,
+  "order": {
+   "xtreme": 129,
+   "brags": 597,
+   "tile": 661,
+   "aqua": 706
+  },
+  "nums": "12341234",
+  "broken": 0,
+  "links": [
+   "View Website ↗ -> https://xtremestpete.com/",
+   "Visit the live site ↗ -> https://bragspressurewashing.com/",
+   "Visit the live site ↗ -> https://thetilefather.com/",
+   "View Website ↗ -> https://jetskiadventureclearwater.com/"
+  ],
+  "tileImgs": [
+   "tile-father-site-desktop-600x375.webp",
+   "tile-father-site-recent-work-600x413.webp",
+   "tile-father-site-mobile-512x1024.webp"
+  ],
+  "status": 200,
+  "errors": 0
+ }
+}

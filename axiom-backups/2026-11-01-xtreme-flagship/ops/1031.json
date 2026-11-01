@@ -1,0 +1,291 @@
+[
+ {
+  "action": "update",
+  "element_id": "1daf17a9",
+  "settings": {
+   "paragraph": "Xtreme Jet Ski Watersports, the St. Petersburg tour company our founder owns and runs on Axiom's own systems. Aqua Safari, a guided jet ski tour operator in Tarpon Springs. A pressure washing and coatings company in Pinellas County. A custom tile contractor in Tampa Bay. Real businesses with real customers, and websites you can open and use right now."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "48db5478",
+  "settings": {
+   "paragraph": "01"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "64e1e13b",
+  "settings": {
+   "paragraph": "02"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "25e865fc",
+  "settings": {
+   "paragraph": "03"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "603f2be9",
+  "settings": {
+   "paragraph": "Founder-owned · St. Petersburg"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4a7f63e",
+  "settings": {
+   "paragraph": "01"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3ed383c7",
+  "settings": {
+   "paragraph": "Founder-owned · Our flagship"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "53f14a1b",
+  "settings": {
+   "paragraph": "Jet ski rentals and guided Gulf tours"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "482868c0",
+  "settings": {
+   "paragraph": "Xtreme is owned and run by Axiom's founder. It takes riders from St. Petersburg into open Gulf water: Egmont Key, Shell Key, Fort De Soto, sandbars and dolphins, with a local guide out front. It's where we use the website, marketing and follow-up systems we offer through Axiom, on a business we run ourselves."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "293c0285",
+  "settings": {
+   "paragraph": "Someone looking at a jet ski tour wants three answers fast: where does it go, is there a spot, and how do I book? The site had to answer all three before anyone scrolls, and every inquiry needed a reply, even on a busy day on the water."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "13a5b560",
+  "settings": {
+   "paragraph": "A bold site over real ride footage. Where the ride goes, Check Availability and a call button come first. Every tour has its length, its price and a Book button that opens online booking. Behind the site, inquiries are captured and followed up with the same automations Axiom plans include."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "348f779a",
+  "settings": {
+   "paragraph": "Where the ride goes, Check Availability and a call button, all on the first screen."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "62a68eb0",
+  "settings": {
+   "paragraph": "Every tour shows its length and price, with a Book button that goes straight to online booking."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "797a0426",
+  "settings": {
+   "paragraph": "Founder-owned · Online booking · Inquiry follow-up"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "14528d89",
+  "settings": {
+   "text": "View Website ↗"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6d8cc71f",
+  "settings": {
+   "paragraph": "Our founder's own business: xtremestpete.com. Opens in a new tab."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5546f2f6",
+  "settings": {
+   "paragraph": "A short, punchy promise over live ride footage"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "66dc241",
+  "settings": {
+   "paragraph": "“Jet Ski the Gulf. Land on an Island.”"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "96af186",
+  "settings": {
+   "paragraph": "Guided tours to Egmont Key, Shell Key and open Gulf water"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5afa51cf",
+  "settings": {
+   "paragraph": "Google reviews and an owner-operated guide, up front"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "457f916f",
+  "settings": {
+   "paragraph": "02"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "70e36183",
+  "settings": {
+   "paragraph": "Client website · Tours &amp; experiences"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1657e95",
+  "settings": {
+   "paragraph": "02 · jetskiadventureclearwater.com"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "71408d5a",
+  "settings": {
+   "text": "View Website ↗"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3d71995d",
+  "settings": {
+   "paragraph": "03"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "1df5542",
+  "settings": {
+   "image": {
+    "src": {
+     "id": 1491
+    },
+    "size": "full"
+   }
+  },
+  "style": "object-position: 50% 100%; @media(--mobile){ object-position: 50% 60%; }"
+ },
+ {
+  "action": "update",
+  "element_id": "7fb1be76",
+  "settings": {
+   "image": {
+    "src": {
+     "id": 1492
+    },
+    "size": "full"
+   }
+  },
+  "style_apply_mode": "replace",
+  "style": "width: 100%; inset-block-start: 0; inset-inline-start: 0;"
+ },
+ {
+  "action": "update",
+  "element_id": "688cbb05",
+  "style": "aspect-ratio: 2460 / 1008;"
+ },
+ {
+  "action": "update",
+  "element_id": "6eff2b7b",
+  "settings": {
+   "image": {
+    "src": {
+     "id": 1493
+    },
+    "size": "full"
+   }
+  },
+  "style_apply_mode": "replace",
+  "style": "width: 100%; inset-block-start: 0; inset-inline-start: 0;"
+ },
+ {
+  "action": "update",
+  "element_id": "307e53e0",
+  "style": "aspect-ratio: 2304 / 1008;"
+ },
+ {
+  "action": "update",
+  "element_id": "5f52cbc2",
+  "settings": {
+   "image": {
+    "src": {
+     "id": 1491
+    },
+    "size": "large"
+   }
+  },
+  "style": "object-position: 50% 100%;"
+ },
+ {
+  "action": "update",
+  "element_id": "6017435c",
+  "style": "background: #FF6123;"
+ },
+ {
+  "action": "update",
+  "element_id": "574dcc8c",
+  "style": "background: #04293A;"
+ },
+ {
+  "action": "update",
+  "element_id": "1577e326",
+  "style": "background: #F7F2EA; border: 1px solid rgba(10,22,40,0.12);"
+ },
+ {
+  "action": "update",
+  "element_id": "75e7d067",
+  "style": "background: #00B5A6;"
+ },
+ {
+  "action": "move",
+  "element_id": "1525b0a7",
+  "new_parent_id": "254508ff",
+  "index": 1
+ },
+ {
+  "action": "move",
+  "element_id": "122c827b",
+  "new_parent_id": "254508ff",
+  "index": 2
+ },
+ {
+  "action": "move",
+  "element_id": "1257a6db",
+  "new_parent_id": "document",
+  "index": 2
+ },
+ {
+  "action": "move",
+  "element_id": "4a2a2cc",
+  "new_parent_id": "document",
+  "index": 3
+ },
+ {
+  "action": "move",
+  "element_id": "69b631c5",
+  "new_parent_id": "document",
+  "index": 4
+ }
+]

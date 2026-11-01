@@ -1,0 +1,321 @@
+4e012dc2 e-flexbox ''  {"$$type": "classes", "value": ["e-7222a0db-bcd8"]}
+  524f2ce8 e-flexbox ''  {"$$type": "classes", "value": ["e-64a51cda-930f"]}
+    5181fdf8 e-flexbox ''  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/"}}} {"$$type": "classes", "value": ["e-3f85ffc6-473b"]}
+      24f6123 e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 950}, "alt": {"$$type": "string", "value": "Axiom Systems"}}}, "size": {"$$type" {"$$type": "classes", "value": ["e-27fd4a73-365e"]}
+      731cfd2 e-flexbox ''  {"$$type": "classes", "value": ["e-9bd62bc-c8f9"]}
+        25cdf7c4 e-paragraph 'Axiom'  {"$$type": "classes", "value": ["e-48e7ff2f-aa47"]}
+        62baa10a e-paragraph 'Systems'  {"$$type": "classes", "value": ["e-33373144-8572"]}
+    665891f8 e-flexbox ''  {"$$type": "classes", "value": ["e-3a4cc6b0-6387"]}
+      41ac72fe e-button 'How It Works'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/how-it-works/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$typ {"$$type": "classes", "value": ["g-c7275e6", "e-cf2e075-9873"]}
+      24134a81 e-button 'Our Work'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/our-work/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$type":  {"$$type": "classes", "value": ["g-c7275e6", "e-2ebdf914-672e"]}
+      3ee9a246 e-button 'Pricing'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/pricing/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$type": " {"$$type": "classes", "value": ["g-c7275e6", "e-657e204f-2208"]}
+      6551697c e-button 'Add-Ons'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/add-ons/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$type": " {"$$type": "classes", "value": ["g-c7275e6", "e-176782f2-3d3a"]}
+      20e21afe e-button 'FAQ'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/faq/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$type": "stri {"$$type": "classes", "value": ["g-c7275e6", "e-7c39d5de-a6ec"]}
+    e09c90a e-button 'Get Started'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/get-started/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$type {"$$type": "classes", "value": ["g-6b54c1a", "e-26256326-e098"]}
+4ae47aef e-flexbox ''  {"$$type": "classes", "value": ["e-1f9cba34-8fa2"]}
+  641bc67b e-grid ''  {"$$type": "classes", "value": ["e-162c1a78-fe73"]}
+    3eca84b5 e-flexbox ''  {"$$type": "classes", "value": ["e-eb7f699-4e4e"]}
+      6e0c91c3 e-paragraph 'Website design portfolio'  {"$$type": "classes", "value": ["g-1fae549"]}
+      42246394 e-heading 'The work is<br>the pitch.'  {"$$type": "classes", "value": ["e-1ad89ea1-6897"]}
+      fb2ded6 e-paragraph 'Every site<br>here is live.'  {"$$type": "classes", "value": ["e-5fedbe69-aa6a"]}
+      1daf17a9 e-paragraph "Xtreme Jet Ski Watersports, the St. Petersburg tour company our founder owns and runs on Axiom's own systems. "  {"$$type": "classes", "value": ["g-c0fadc0", "e-6fc5a571-8815"]}
+      23c8eaa4 e-button 'What would yours look like? ↓'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "#get-started"}}} {"$$type": "classes", "value": ["g-c7275e6", "e-7e593868-78e9"]}
+    254508ff e-flexbox ''  {"$$type": "classes", "value": ["e-3e3c1f07-524b"]}
+      54bb531b e-paragraph 'In this showroom'  {"$$type": "classes", "value": ["g-eb6ceef", "e-26fec5db-48ac"]}
+      1525b0a7 e-flexbox ''  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "#xtreme"}}} {"$$type": "classes", "value": ["e-1dfb26fb-63fd"]}
+        48db5478 e-paragraph '01'  {"$$type": "classes", "value": ["e-c50f5f1-88af"]}
+        2ff53690 e-flexbox ''  {"$$type": "classes", "value": ["e-2d53585-a100"]}
+          4e59e04b e-paragraph 'Xtreme Jet Ski Watersports'  {"$$type": "classes", "value": ["e-64fd47d8-66a0"]}
+          603f2be9 e-paragraph 'Founder-owned · St. Petersburg'  {"$$type": "classes", "value": ["e-7649c61b-d89c"]}
+        2e051620 e-paragraph '↓'  {"$$type": "classes", "value": ["e-53ce53ef-510c"]}
+      122c827b e-flexbox ''  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "#aqua-safari"}}} {"$$type": "classes", "value": ["e-2a11b1fe-1145"]}
+        64e1e13b e-paragraph '02'  {"$$type": "classes", "value": ["e-2bc9c12e-3749"]}
+        422e3678 e-flexbox ''  {"$$type": "classes", "value": ["e-73e5bafb-98a7"]}
+          31aed66b e-paragraph 'Aqua Safari Jet Ski Adventures'  {"$$type": "classes", "value": ["e-699ced83-12d8"]}
+          152d7104 e-paragraph 'jetskiadventureclearwater.com · Tarpon Springs'  {"$$type": "classes", "value": ["e-6016b45a-7352"]}
+        111e2c68 e-paragraph '↓'  {"$$type": "classes", "value": ["e-25179794-eebf"]}
+      23a3658c e-flexbox ''  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "#brags"}}} {"$$type": "classes", "value": ["e-10071de9-d879"]}
+        25e865fc e-paragraph '03'  {"$$type": "classes", "value": ["e-24161ca3-dfba"]}
+        74d7376c e-flexbox ''  {"$$type": "classes", "value": ["e-58ceebac-65e5"]}
+          6397289c e-paragraph 'Brags Global'  {"$$type": "classes", "value": ["e-5eda595d-b777"]}
+          c28fe9b e-paragraph 'Pressure washing &amp; coatings · Pinellas County'  {"$$type": "classes", "value": ["e-68836a85-67fc"]}
+        43a200de e-paragraph '↓'  {"$$type": "classes", "value": ["e-26e53a6f-58da"]}
+      1c5e41b4 e-flexbox ''  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "#tile-father"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$type" {"$$type": "classes", "value": ["e-76ea30c-f115"]}
+        3f46d456 e-paragraph '04'  {"$$type": "classes", "value": ["e-111349b4-9fe0"]}
+        463ab5a1 e-flexbox ''  {"$$type": "classes", "value": ["e-1fe10c5d-110a"]}
+          393c721a e-paragraph 'The Tile Father'  {"$$type": "classes", "value": ["e-25658f88-ca15"]}
+          3905d862 e-paragraph 'Custom tile · Tampa Bay'  {"$$type": "classes", "value": ["e-17e33c50-59af"]}
+        1a8066af e-paragraph '↓'  {"$$type": "classes", "value": ["e-54a105f8-5245"]}
+1257a6db e-flexbox ''  {"$$type": "classes", "value": ["g-3d2f875", "e-a058826-4423"]}
+  504f8ab7 e-flexbox ''  {"$$type": "classes", "value": ["g-be2d6ea", "e-774b38cf-eb64"]}
+    384b19a3 e-grid ''  {"$$type": "classes", "value": ["e-7d3b3361-e71c"]}
+      4a7f63e e-paragraph '01'  {"$$type": "classes", "value": ["g-5fc7b36", "e-51a17903-9472"]}
+      1c1b6fc7 e-flexbox ''  {"$$type": "classes", "value": ["e-79d02b88-7da6"]}
+        3ed383c7 e-paragraph 'Founder-owned · Our flagship'  {"$$type": "classes", "value": ["g-1fae549", "e-6d87dfb1-27dc"]}
+        25f6b611 e-heading 'Xtreme Jet Ski Watersports'  {"$$type": "classes", "value": ["g-fffdfc1", "e-10b62e3a-a64a"]}
+      426d65ec e-grid ''  {"$$type": "classes", "value": ["e-1ade7122-b2f3"]}
+        5427ad3 e-flexbox ''  {"$$type": "classes", "value": ["e-5b0c3422-158b"]}
+          126b9c2d e-paragraph 'Business'  {"$$type": "classes", "value": ["g-eb6ceef", "e-20cb07de-e986"]}
+          53f14a1b e-paragraph 'Jet ski rentals and guided Gulf tours'  {"$$type": "classes", "value": ["g-56fe15d", "e-5018ebe7-2a3e"]}
+        6d0f2bf4 e-flexbox ''  {"$$type": "classes", "value": ["e-7adfc265-8dfd"]}
+          784a02d5 e-paragraph 'Location'  {"$$type": "classes", "value": ["g-eb6ceef", "e-71d2dcfd-7da9"]}
+          73a34697 e-paragraph 'St. Petersburg, Florida'  {"$$type": "classes", "value": ["g-56fe15d", "e-58b96396-8bd2"]}
+    2f6f3afa e-grid ''  {"$$type": "classes", "value": ["e-11e04f94-76ba"]}
+      f2f5dbd e-flexbox ''  {"$$type": "classes", "value": ["e-6fd0bb3d-f838"]}
+        2b787e11 e-flexbox ''  {"$$type": "classes", "value": ["e-4261ba22-5b7a"]}
+          69cd9469 e-paragraph 'The business'  {"$$type": "classes", "value": ["g-5a62446", "e-39c49406-29d4"]}
+          482868c0 e-paragraph "Xtreme is owned and run by Axiom's founder. It takes riders from St. Petersburg into open Gulf water: Egmont K"  {"$$type": "classes", "value": ["g-7d56c40", "e-56e4f0fd-e95e"]}
+        21d962fa e-flexbox ''  {"$$type": "classes", "value": ["e-3ca79fcc-895b"]}
+          315bc73 e-paragraph 'What mattered'  {"$$type": "classes", "value": ["g-5a62446", "e-59579b31-9f7c"]}
+          293c0285 e-paragraph 'Someone looking at a jet ski tour wants three answers fast: where does it go, is there a spot, and how do I bo'  {"$$type": "classes", "value": ["g-7d56c40", "e-4f89ee09-732d"]}
+        598bb8d4 e-flexbox ''  {"$$type": "classes", "value": ["e-32b091fc-cf96"]}
+          6415c406 e-paragraph 'What we built'  {"$$type": "classes", "value": ["g-5a62446", "e-7b50ca46-7136"]}
+          13a5b560 e-paragraph 'A bold site over real ride footage. Where the ride goes, Check Availability and a call button come first. Ever'  {"$$type": "classes", "value": ["g-7d56c40", "e-432fb269-c97c"]}
+      7ddca63 e-flexbox ''  {"$$type": "classes", "value": ["g-ab36faf", "e-1f33e83e-7349"]}
+        1ed4d212 e-flexbox ''  {"$$type": "classes", "value": ["g-00bae35", "e-3d31d42f-c723"]}
+          130a5bdb e-div-block ''  {"$$type": "classes", "value": ["g-15ca80c"]}
+          11819477 e-div-block ''  {"$$type": "classes", "value": ["g-15ca80c"]}
+          7d4bb715 e-div-block ''  {"$$type": "classes", "value": ["g-15ca80c"]}
+          29c02d70 e-paragraph 'xtremestpete.com'  {"$$type": "classes", "value": ["e-765e1028-77f0"]}
+        1df5542 e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 1491}}}, "size": {"$$type": "string", "value": "full"}}} {"$$type": "classes", "value": ["g-1abec81", "e-1110675e-bbc6"]}
+    54783bed e-grid ''  {"$$type": "classes", "value": ["e-b6a1f33-fd85"]}
+      1a51e8f5 e-flexbox ''  {"$$type": "classes", "value": ["e-3b8938db-838d"]}
+        688cbb05 e-flexbox ''  {"$$type": "classes", "value": ["g-2043543", "e-110e212f-a0de"]}
+          7fb1be76 e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 1492}}}, "size": {"$$type": "string", "value": "full"}}} {"$$type": "classes", "value": ["g-61c9559", "e-666c37d9-95aa"]}
+        348f779a e-paragraph 'Where the ride goes, Check Availability and a call button, all on the first screen.'  {"$$type": "classes", "value": ["g-0d211ac", "e-1c1d243-c2fa"]}
+      3d94cdfb e-flexbox ''  {"$$type": "classes", "value": ["e-37b0f455-b658"]}
+        307e53e0 e-flexbox ''  {"$$type": "classes", "value": ["g-2043543", "e-40d72e0-9fd3"]}
+          6eff2b7b e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 1493}}}, "size": {"$$type": "string", "value": "full"}}} {"$$type": "classes", "value": ["g-61c9559", "e-368b3c03-1d58"]}
+        62a68eb0 e-paragraph 'Every tour shows its length and price, with a Book button that goes straight to online booking.'  {"$$type": "classes", "value": ["g-0d211ac", "e-5d5f1c0f-1042"]}
+    5c59c9ef e-flexbox ''  {"$$type": "classes", "value": ["e-28b70f84-3b7d"]}
+      797a0426 e-paragraph 'Founder-owned · Online booking · Inquiry follow-up'  {"$$type": "classes", "value": ["e-60feebbe-2b3a"]}
+      1408e482 e-flexbox ''  {"$$type": "classes", "value": ["e-694b4180-11ea"]}
+        14528d89 e-button 'View Website ↗'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "https://xtremestpete.com/"}, "isTargetBlank": {"$$type": "boolean", "value": true}}} {"$$type": "classes", "value": ["g-4b96a53", "e-57e8a72d-a08e"]}
+        6d8cc71f e-paragraph "Our founder's own business: xtremestpete.com. Opens in a new tab."  {"$$type": "classes", "value": ["g-19092f0", "e-180b4fea-d37f"]}
+4a2a2cc e-flexbox ''  {"$$type": "classes", "value": ["g-3d2f875", "e-5a491e6b-7197"]}
+  6d05ada0 e-flexbox ''  {"$$type": "classes", "value": ["g-be2d6ea", "e-5aba082-c7c7"]}
+    7cdd81d7 e-grid ''  {"$$type": "classes", "value": ["e-4657fda0-4c8c"]}
+      457f916f e-paragraph '02'  {"$$type": "classes", "value": ["g-5fc7b36"]}
+      71b71dd3 e-flexbox ''  {"$$type": "classes", "value": ["e-3f35e163-1746"]}
+        70e36183 e-paragraph 'Client website · Tours &amp; experiences'  {"$$type": "classes", "value": ["g-1fae549"]}
+        9d1db4e e-heading 'Aqua Safari Jet Ski Adventures'  {"$$type": "classes", "value": ["g-fffdfc1"]}
+      214b0403 e-grid ''  {"$$type": "classes", "value": ["e-2bdbdfe3-32a5"]}
+        533bec53 e-flexbox ''  {"$$type": "classes", "value": ["e-7c9157a8-5365"]}
+          3bb5cbe2 e-paragraph 'Business'  {"$$type": "classes", "value": ["g-eb6ceef"]}
+          1a7f5753 e-paragraph 'Guided island tours by jet ski'  {"$$type": "classes", "value": ["g-56fe15d"]}
+        326d3d9 e-flexbox ''  {"$$type": "classes", "value": ["e-3412de6-563a"]}
+          2a481de2 e-paragraph 'Launches from'  {"$$type": "classes", "value": ["g-eb6ceef"]}
+          4f892da5 e-paragraph 'The Anclote area, Tarpon Springs, Florida'  {"$$type": "classes", "value": ["g-56fe15d"]}
+    174aeb45 e-paragraph 'Aqua Safari takes riders across the Gulf from Tarpon Springs to Three Rooker Island and Anclote Key. Its websi'  {"$$type": "classes", "value": ["g-c0fadc0", "e-48ba575b-38f3"]}
+    2edd9155 e-grid ''  {"$$type": "classes", "value": ["e-69c6c5a2-a894"]}
+      3fcde5e e-flexbox ''  {"$$type": "classes", "value": ["e-6534acc3-65fc"]}
+        3ae1b57d e-flexbox ''  {"$$type": "classes", "value": ["e-10d3a1e-1336"]}
+          2420afd4 e-flexbox ''  {"$$type": "classes", "value": ["g-8525b3a", "e-73959886-12b8"]}
+            14b8adc7 e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 948}}}, "size": {"$$type": "string", "value": "full"}}} {"$$type": "classes", "value": ["g-d83055b"]}
+        7227c03a e-flexbox ''  {"$$type": "classes", "value": ["e-37cb47f1-c175"]}
+          1657e95 e-paragraph '02 · jetskiadventureclearwater.com'  {"$$type": "classes", "value": ["g-5a62446"]}
+          4388c35 e-heading 'An adventure site that sells the islands'  {"$$type": "classes", "value": ["g-b0321ed"]}
+          3f389fd5 e-paragraph "Built to sell the destination, not just the ride. Huge condensed headlines, photography from Aqua Safari's own"  {"$$type": "classes", "value": ["g-7d56c40"]}
+          1e05c88b e-flexbox ''  {"$$type": "classes", "value": ["e-2d280291-f310"]}
+            79b5afc1 e-paragraph 'Dedicated sections for Three Rooker Island and Anclote Key'  {"$$type": "classes", "value": ["g-e3a3466"]}
+            13213225 e-paragraph 'Book buttons throughout, connected to live online booking'  {"$$type": "classes", "value": ["g-e3a3466"]}
+            7968981d e-paragraph 'First-timer questions answered before anyone has to call'  {"$$type": "classes", "value": ["g-e3a3466"]}
+          29249c6 e-flexbox ''  {"$$type": "classes", "value": ["e-39016c9-17df"]}
+            71408d5a e-button 'View Website ↗'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "https://jetskiadventureclearwater.com/"}, "isTargetBlank": {"$$type": "boolean", "value" {"$$type": "classes", "value": ["g-4b96a53"]}
+            6a1c2e31 e-paragraph 'Live client website: jetskiadventureclearwater.com. Opens in a new tab.'  {"$$type": "classes", "value": ["g-19092f0", "e-6fe3c43b-a9ca"]}
+69b631c5 e-flexbox ''  {"$$type": "classes", "value": ["g-3d2f875", "e-3a60797a-a9e9"]}
+  60af5512 e-flexbox ''  {"$$type": "classes", "value": ["g-be2d6ea", "e-b7fdaf3-28a8"]}
+    3177a4e8 e-flexbox ''  {"$$type": "classes", "value": ["e-198d0ad1-f62a"]}
+      17eb7b53 e-paragraph 'Not a template'  {"$$type": "classes", "value": ["g-1fae549"]}
+      300d315f e-heading 'Same industry. Same coast. Look again.'  {"$$type": "classes", "value": ["g-1be5e43", "e-3e766e7c-1539"]}
+      52a33ec4 e-paragraph "Xtreme and Aqua Safari both take people out on guided jet ski tours along Florida's Gulf Coast. On paper, they"  {"$$type": "classes", "value": ["g-c0fadc0"]}
+    6333a999 e-flexbox ''  {"$$type": "classes", "value": ["e-678a9f0c-4ab3"]}
+      f17d1ef e-flexbox ''  {"$$type": "classes", "value": ["e-644c9eb6-588d"]}
+        7512012b e-div-block ''  {"$$type": "classes", "value": ["e-3e2ffa41-d3c6"]}
+        70df029f e-flexbox ''  {"$$type": "classes", "value": ["e-7f9e5f73-d374"]}
+          4a45f781 e-flexbox ''  {"$$type": "classes", "value": ["g-2043543", "e-e474e82-7ea7"]}
+            5f52cbc2 e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 1491}}}, "size": {"$$type": "string", "value": "large"}}} {"$$type": "classes", "value": ["g-1abec81", "e-fe50f88-1cc1"]}
+          460dc640 e-paragraph 'Xtreme Jet Ski Watersports'  {"$$type": "classes", "value": ["e-2c808feb-f5d3"]}
+        6813f439 e-flexbox ''  {"$$type": "classes", "value": ["e-1b1dfb76-151b"]}
+          297959a e-flexbox ''  {"$$type": "classes", "value": ["g-2043543", "e-44f547d1-3bbf"]}
+            ecdb099 e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 947}}}, "size": {"$$type": "string", "value": "large"}}} {"$$type": "classes", "value": ["g-1abec81", "e-3ff74b1-62ec"]}
+          539e13e e-paragraph 'Aqua Safari Jet Ski Adventures'  {"$$type": "classes", "value": ["e-1a9b2508-30d8"]}
+      580f012f e-flexbox ''  {"$$type": "classes", "value": ["e-59d342aa-e3b7"]}
+        66c4cae4 e-paragraph 'Headline'  {"$$type": "classes", "value": ["g-eb6ceef", "e-6084ad22-7f12"]}
+        5546f2f6 e-paragraph 'A short, punchy promise over live ride footage'  {"$$type": "classes", "value": ["e-6871634-690f"]}
+        251d5686 e-paragraph 'Towering condensed capitals'  {"$$type": "classes", "value": ["e-782b2085-1aad"]}
+      4b80b5d5 e-flexbox ''  {"$$type": "classes", "value": ["e-35fbf852-bb7c"]}
+        2e1ef919 e-paragraph 'Palette'  {"$$type": "classes", "value": ["g-eb6ceef", "e-4bb36f0d-8b37"]}
+        1a4d7c0a e-flexbox ''  {"$$type": "classes", "value": ["e-496ae195-e649"]}
+          6017435c e-div-block ''  {"$$type": "classes", "value": ["e-40339113-55db"]}
+          574dcc8c e-div-block ''  {"$$type": "classes", "value": ["e-156a620c-da66"]}
+          1577e326 e-div-block ''  {"$$type": "classes", "value": ["e-6fb63114-c9a1"]}
+          75e7d067 e-div-block ''  {"$$type": "classes", "value": ["e-3c79dcc8-e82b"]}
+        15f97cf6 e-flexbox ''  {"$$type": "classes", "value": ["e-36a007da-8f7e"]}
+          50f3d879 e-div-block ''  {"$$type": "classes", "value": ["e-74cff353-e05f"]}
+          32c89798 e-div-block ''  {"$$type": "classes", "value": ["e-2ef4c7df-f1cb"]}
+          7d444a36 e-div-block ''  {"$$type": "classes", "value": ["e-350cf435-9f49"]}
+          5196737c e-div-block ''  {"$$type": "classes", "value": ["e-fc6f9cd-b7a8"]}
+      46cccac2 e-flexbox ''  {"$$type": "classes", "value": ["e-3bdd6fb5-7ba8"]}
+        11f2074b e-paragraph 'First words'  {"$$type": "classes", "value": ["g-eb6ceef", "e-2f0494af-3e11"]}
+        66dc241 e-paragraph '“Jet Ski the Gulf. Land on an Island.”'  {"$$type": "classes", "value": ["e-773e8cc-d9bd"]}
+        43b65dc7 e-paragraph '“Clearwater Jet Ski Adventures Beyond the Ordinary”'  {"$$type": "classes", "value": ["e-2dc0c315-7e23"]}
+      652d60d1 e-flexbox ''  {"$$type": "classes", "value": ["e-2e91aa4c-b205"]}
+        2dc69bbb e-paragraph 'What it sells'  {"$$type": "classes", "value": ["g-eb6ceef", "e-428e1f63-1e00"]}
+        96af186 e-paragraph 'Guided tours to Egmont Key, Shell Key and open Gulf water'  {"$$type": "classes", "value": ["e-1a35eae7-9977"]}
+        79ac40a1 e-paragraph 'The islands: Three Rooker and Anclote Key'  {"$$type": "classes", "value": ["e-231ca3af-7d29"]}
+      50f1ca80 e-flexbox ''  {"$$type": "classes", "value": ["e-25df2f32-e659"]}
+        169fdeeb e-paragraph 'Trust'  {"$$type": "classes", "value": ["g-eb6ceef", "e-274bf205-b0c4"]}
+        5afa51cf e-paragraph 'Google reviews and an owner-operated guide, up front'  {"$$type": "classes", "value": ["e-4d601b5f-a75e"]}
+        2d57458b e-paragraph 'Real photos from their own tours and a meet-the-owner intro'  {"$$type": "classes", "value": ["e-cbefa12-d5cf"]}
+    7e185d7 e-paragraph 'Neither site could be swapped for the other.'  {"$$type": "classes", "value": ["e-1f6b4bc0-4d8e"]}
+    f83b8fa e-paragraph "That's the point."  {"$$type": "classes", "value": ["e-d5611a0-8d8d"]}
+1fdcdd36 e-flexbox ''  {"$$type": "classes", "value": ["g-3d2f875", "e-1486bf13-650f"]}
+  1e0775c6 e-flexbox ''  {"$$type": "classes", "value": ["g-be2d6ea", "e-7f8d92ae-f2c8"]}
+    3a07a55c e-grid ''  {"$$type": "classes", "value": ["e-7ed77ea8-4abc"]}
+      3d71995d e-paragraph '03'  {"$$type": "classes", "value": ["g-5fc7b36"]}
+      111d76f3 e-flexbox ''  {"$$type": "classes", "value": ["e-75edb14a-8cec"]}
+        261adac7 e-paragraph 'Local service business'  {"$$type": "classes", "value": ["g-1fae549"]}
+        3276b304 e-heading 'Brags Global'  {"$$type": "classes", "value": ["g-fffdfc1"]}
+      30900caa e-grid ''  {"$$type": "classes", "value": ["e-4d83922b-f445"]}
+        2785548e e-flexbox ''  {"$$type": "classes", "value": ["e-3bea0e71-f197"]}
+          4159ac8d e-paragraph 'Trade'  {"$$type": "classes", "value": ["g-eb6ceef"]}
+          2ae06ad5 e-paragraph 'Pressure washing, epoxy &amp; flake floors, concrete coatings'  {"$$type": "classes", "value": ["g-56fe15d"]}
+        498c2d76 e-flexbox ''  {"$$type": "classes", "value": ["e-7c8dd4c7-c727"]}
+          2c472d14 e-paragraph 'Service area'  {"$$type": "classes", "value": ["g-eb6ceef"]}
+          465ee1ac e-paragraph 'Pinellas County, Florida'  {"$$type": "classes", "value": ["g-56fe15d"]}
+    7d71d3dc e-grid ''  {"$$type": "classes", "value": ["e-6277626c-ad8a"]}
+      480e9a54 e-flexbox ''  {"$$type": "classes", "value": ["g-ab36faf", "e-dd2c9ee-5cd6"]}
+        7d2887c4 e-flexbox ''  {"$$type": "classes", "value": ["g-00bae35"]}
+          40ba9e4 e-div-block ''  {"$$type": "classes", "value": ["g-15ca80c"]}
+          54accb5a e-div-block ''  {"$$type": "classes", "value": ["g-15ca80c"]}
+          c3d4a00 e-div-block ''  {"$$type": "classes", "value": ["g-15ca80c"]}
+          20b153a4 e-paragraph 'bragspressurewashing.com'  {"$$type": "classes", "value": ["e-62c9c93d-24ca"]}
+        1f5fe953 e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 945}, "alt": {"$$type": "string", "value": "Brags Global website: a photo card f {"$$type": "classes", "value": ["g-1abec81", "e-12b2f5b8-423d"]}
+      31712e79 e-flexbox ''  {"$$type": "classes", "value": ["e-7318e199-a960"]}
+        605053f4 e-flexbox ''  {"$$type": "classes", "value": ["g-2043543", "e-25b0a1ba-e620"]}
+          2653adbc e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 944}, "alt": {"$$type": "string", "value": "Detail of the Brags Global homepage: {"$$type": "classes", "value": ["g-61c9559", "e-1b255f90-2d7e"]}
+        c206bd5 e-flexbox ''  {"$$type": "classes", "value": ["g-2043543", "e-10200b7a-6a76"]}
+          507168c9 e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 944}, "alt": {"$$type": "string", "value": "Detail of the Brags Global homepage: {"$$type": "classes", "value": ["g-61c9559", "e-56f10b51-19f9"]}
+        bec8dad e-paragraph 'The first screen does the selling: every service listed, quote and call buttons, and the trust signals custome'  {"$$type": "classes", "value": ["g-0d211ac", "e-d4ca211-8a76"]}
+    42aa519 e-grid ''  {"$$type": "classes", "value": ["e-552d231-7e8c"]}
+      12744e38 e-flexbox ''  {"$$type": "classes", "value": ["e-39ea8174-2d08"]}
+        5e014a7a e-paragraph 'The business'  {"$$type": "classes", "value": ["g-5a62446"]}
+        48e4e933 e-paragraph 'Brags Global cleans, coats and refinishes concrete for homes and businesses across Pinellas County. Pressure w'  {"$$type": "classes", "value": ["g-7d56c40"]}
+      7f374db4 e-flexbox ''  {"$$type": "classes", "value": ["e-77636842-133a"]}
+        4a931577 e-paragraph 'What mattered'  {"$$type": "classes", "value": ["g-5a62446"]}
+        4ba677e2 e-paragraph 'Six different services had to make sense at a glance. And asking for a price had to take one tap, whether a cu'  {"$$type": "classes", "value": ["g-7d56c40"]}
+      fcde837 e-flexbox ''  {"$$type": "classes", "value": ["e-19362031-5e7a"]}
+        1dfe5c94 e-paragraph 'What we built'  {"$$type": "classes", "value": ["g-5a62446"]}
+        1423d69f e-paragraph 'A dark, confident site with the full service list on the first screen, a photo card for every service, a simpl'  {"$$type": "classes", "value": ["g-7d56c40", "e-36c54280-e036"]}
+    23282d20 e-flexbox ''  {"$$type": "classes", "value": ["e-24073d26-4e53"]}
+      3d0bbd02 e-paragraph 'Local service business · Call, text or request a quote · Residential &amp; commercial'  {"$$type": "classes", "value": ["e-561c3721-4bda"]}
+      783bb82a e-flexbox ''  {"$$type": "classes", "value": ["e-4f693fe5-2d02"]}
+        50583219 e-button 'Visit the live site ↗'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "https://bragspressurewashing.com/"}, "isTargetBlank": {"$$type": "boolean", "value": tru {"$$type": "classes", "value": ["g-4b96a53"]}
+        52d43894 e-paragraph 'Live client website: bragspressurewashing.com. Opens in a new tab.'  {"$$type": "classes", "value": ["g-19092f0", "e-60a6495-63c9"]}
+7a8e9bbc e-flexbox ''  {"$$type": "classes", "value": ["g-3d2f875", "e-3a8d743f-263f"]}
+  6faa236a e-flexbox ''  {"$$type": "classes", "value": ["g-be2d6ea", "e-4c25035a-6468"]}
+    7c54e457 e-grid ''  {"$$type": "classes", "value": ["e-52449e63-4555"]}
+      31198c2a e-paragraph '04'  {"$$type": "classes", "value": ["g-5fc7b36", "e-3abfff6a-69a1"]}
+      800b99f e-flexbox ''  {"$$type": "classes", "value": ["e-4b808b34-7417"]}
+        130c7b87 e-paragraph 'Skilled trades · Custom tile'  {"$$type": "classes", "value": ["g-1fae549", "e-50b9c09-ce32"]}
+        13702899 e-heading 'The Tile Father'  {"$$type": "classes", "value": ["g-fffdfc1", "e-6d17726c-93d4"]}
+      25d3c4b9 e-grid ''  {"$$type": "classes", "value": ["e-198bbe40-78cc"]}
+        55e283e4 e-flexbox ''  {"$$type": "classes", "value": ["e-56aa3ad1-f494"]}
+          3b2c0e1a e-paragraph 'Business'  {"$$type": "classes", "value": ["g-eb6ceef", "e-2b542879-77ad"]}
+          3cfebe0f e-paragraph 'Owner-operated custom tile installation'  {"$$type": "classes", "value": ["g-56fe15d", "e-1705f3fe-58bb"]}
+        3fa97dad e-flexbox ''  {"$$type": "classes", "value": ["e-187feb75-cf3a"]}
+          a98730d e-paragraph 'Service area'  {"$$type": "classes", "value": ["g-eb6ceef", "e-5c38555a-141f"]}
+          96784c e-paragraph 'Tampa Bay, Pinellas, Sarasota &amp; Manatee'  {"$$type": "classes", "value": ["g-56fe15d", "e-5633a47b-b7a3"]}
+    1feb80ec e-grid ''  {"$$type": "classes", "value": ["e-1d41c86c-fb47"]}
+      5d6b258a e-flexbox ''  {"$$type": "classes", "value": ["e-4238ca3f-949d"]}
+        59590f38 e-flexbox ''  {"$$type": "classes", "value": ["e-68757acb-6f51"]}
+          6733f358 e-paragraph 'The business'  {"$$type": "classes", "value": ["g-5a62446", "e-2981e039-cde0"]}
+          375ae60f e-paragraph 'Lucas França runs The Tile Father and sets the tile himself: floors, kitchen backsplashes and custom feature w'  {"$$type": "classes", "value": ["g-7d56c40", "e-344e9949-9060"]}
+        3ea674a7 e-flexbox ''  {"$$type": "classes", "value": ["e-6cf4a072-90eb"]}
+          518751c6 e-paragraph 'What mattered'  {"$$type": "classes", "value": ["g-5a62446", "e-68239141-a944"]}
+          4ae2c75b e-paragraph 'Craftsmanship deserves a website that looks as good as the finished work. People hiring for tile want to see r'  {"$$type": "classes", "value": ["g-7d56c40", "e-53b5fe7e-8fe8"]}
+        768a1e62 e-flexbox ''  {"$$type": "classes", "value": ["e-6ce44fce-bb1c"]}
+          2f5b455d e-paragraph 'What we built'  {"$$type": "classes", "value": ["g-5a62446", "e-d5247e8-2667"]}
+          38809adb e-paragraph "A calm, craftsmanship-first site that opens on a grid of Lucas's own project photos. Recent work lists the roo"  {"$$type": "classes", "value": ["g-7d56c40", "e-a4d78b7-44a4"]}
+      11f4f6f8 e-flexbox ''  {"$$type": "classes", "value": ["g-ab36faf", "e-3b11474d-27e0"]}
+        266550e2 e-flexbox ''  {"$$type": "classes", "value": ["g-00bae35", "e-2b298000-7c0d"]}
+          14277d20 e-div-block ''  {"$$type": "classes", "value": ["g-15ca80c"]}
+          63388e55 e-div-block ''  {"$$type": "classes", "value": ["g-15ca80c"]}
+          2fae97e e-div-block ''  {"$$type": "classes", "value": ["g-15ca80c"]}
+          62aaa08 e-paragraph 'thetilefather.com'  {"$$type": "classes", "value": ["e-259eb0dc-7ea8"]}
+        62c98db3 e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 1146}}}, "size": {"$$type": "string", "value": "full"}}} {"$$type": "classes", "value": ["g-1abec81", "e-1abab6a3-ae89"]}
+    7309bc21 e-grid ''  {"$$type": "classes", "value": ["e-7bbe3593-a0bd"]}
+      6d77dd09 e-flexbox ''  {"$$type": "classes", "value": ["e-79275f99-15b7"]}
+        3eb93e9c e-flexbox ''  {"$$type": "classes", "value": ["g-2043543", "e-dee4925-903d"]}
+          1701adab e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 1148}}}, "size": {"$$type": "string", "value": "full"}}} {"$$type": "classes", "value": ["g-61c9559", "e-177a0f46-cf08"]}
+        59641b78 e-paragraph 'Recent work reads like a job sheet: the room, where it is and the exact tile used, from real jobs Lucas has po'  {"$$type": "classes", "value": ["g-0d211ac", "e-754b28fc-6389"]}
+      849dacf e-flexbox ''  {"$$type": "classes", "value": ["e-1b8d38f4-5c74"]}
+        1bd0fc4a e-flexbox ''  {"$$type": "classes", "value": ["g-2043543", "e-26453668-ae2a"]}
+          111c0775 e-image ''  IMG={"$$type": "image", "value": {"src": {"$$type": "image-src", "value": {"id": {"$$type": "image-attachment-id", "value": 1147}}}, "size": {"$$type": "string", "value": "full"}}} {"$$type": "classes", "value": ["g-61c9559", "e-54096fb2-cc28"]}
+        7c7c56cd e-paragraph 'On a phone, the headline, Get My Quote and a call link all fit on the first screen.'  {"$$type": "classes", "value": ["g-0d211ac", "e-578c7aad-9846"]}
+    7aa13dbc e-flexbox ''  {"$$type": "classes", "value": ["e-3c2e7d16-7fe0"]}
+      73cb4b6f e-paragraph 'Skilled trades · Owner-operated · Quote &amp; call from the first screen'  {"$$type": "classes", "value": ["e-7f1f8bc7-9811"]}
+      7e139883 e-flexbox ''  {"$$type": "classes", "value": ["e-1225bd43-f49e"]}
+        54048b37 e-button 'Visit the live site ↗'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "https://thetilefather.com/"}, "isTargetBlank": {"$$type": "boolean", "value": true}, "ta {"$$type": "classes", "value": ["g-4b96a53", "e-3149e029-6f48"]}
+        6f3d052e e-paragraph 'Live client website: thetilefather.com. Opens in a new tab.'  {"$$type": "classes", "value": ["g-19092f0", "e-14bdb63b-6a2b"]}
+4f5f0b7f e-flexbox ''  {"$$type": "classes", "value": ["g-3d2f875", "e-1f1695e2-3324"]}
+  6ecdb152 e-grid ''  {"$$type": "classes", "value": ["e-1a7126a1-db82"]}
+    3fcb6a7 e-flexbox ''  {"$$type": "classes", "value": ["e-4ab5a7ca-41b4"]}
+      3982423b e-paragraph 'Website as a Service'  {"$$type": "classes", "value": ["g-1fae549"]}
+      7bccff2f e-heading 'Every Axiom website. One high standard.'  {"$$type": "classes", "value": ["g-1be5e43"]}
+      326ee983 e-paragraph 'Every Axiom website starts here: a professionally built website for your business, designed around how your bu'  {"$$type": "classes", "value": ["g-c0fadc0"]}
+      71a190c e-paragraph 'We design it, build it and launch it. Then we stay on as the team responsible for it, so you never have to thi'  {"$$type": "classes", "value": ["g-7d56c40", "e-4267c0e3-7308"]}
+    538ca1df e-flexbox ''  {"$$type": "classes", "value": ["g-112b111", "e-599dceb8-6248"]}
+      742dac61 e-paragraph 'Axiom Essentials'  {"$$type": "classes", "value": ["g-5068ab3"]}
+      7ef5 e-flexbox ''  {"$$type": "classes", "value": ["e-765f36ff-b596"]}
+        58e09094 e-paragraph '$299'  {"$$type": "classes", "value": ["e-43ff8059-659a"]}
+        3aeefe0 e-paragraph '/month'  {"$$type": "classes", "value": ["e-51b4b40c-f9e4"]}
+      6a249323 e-paragraph 'Design, build, hosting, updates and support, plus essential automations. Need Google Ads too? Growth is $599/m'  {"$$type": "classes", "value": ["e-1f228e8a-464a"]}
+      587bc59 e-flexbox ''  {"$$type": "classes", "value": ["e-7ed3242c-227d"]}
+        3f69a59b e-paragraph 'Designed around your business'  {"$$type": "classes", "value": ["g-e3a3466"]}
+        760352e2 e-paragraph 'Built and launched by us'  {"$$type": "classes", "value": ["g-e3a3466"]}
+        3f66cc89 e-paragraph 'Hosted, updated and backed up'  {"$$type": "classes", "value": ["g-e3a3466"]}
+        7634d4f8 e-paragraph 'Content updates as your business changes'  {"$$type": "classes", "value": ["g-e3a3466"]}
+      692ed5bb e-flexbox ''  {"$$type": "classes", "value": ["e-249b2955-7c9d"]}
+        334379aa e-button 'Get Started'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/get-started/?plan=essential"}, "isTargetBlank": {"$$type": "boolean", "value": false},  {"$$type": "classes", "value": ["g-6b54c1a", "e-7258359c-9a81"]}
+        37080bf8 e-button 'How it works'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/how-it-works/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$typ {"$$type": "classes", "value": ["g-6b54c1a", "g-f644b3d", "e-42e7f6fc-9ea4"]}
+c1c5ca5 e-flexbox ''  {"$$type": "classes", "value": ["g-3d2f875", "e-c1a081c-d173"]}
+  10e90d66 e-flexbox ''  {"$$type": "classes", "value": ["e-1161e241-fd7d"]}
+    678ff082 e-flexbox ''  {"$$type": "classes", "value": ["e-51edb635-6705"]}
+      30e4b9e4 e-paragraph 'Your turn'  {"$$type": "classes", "value": ["g-1fae549", "e-2d2224d2-a619"]}
+      1081fd0 e-heading 'So what would yours look like?'  {"$$type": "classes", "value": ["g-1be5e43", "e-6502cd65-1ff6"]}
+      239c2095 e-paragraph "Tell us what you do, who you do it for and where you work. We'll talk through what your website needs and show"  {"$$type": "classes", "value": ["g-c0fadc0", "e-3658d649-7460"]}
+      148d5676 e-grid ''  {"$$type": "classes", "value": ["e-17416226-b77b"]}
+        71923903 e-flexbox ''  {"$$type": "classes", "value": ["e-46c5600c-ad91"]}
+          2c785a43 e-paragraph '1'  {"$$type": "classes", "value": ["e-4bf4f633-8015"]}
+          795ddee2 e-paragraph 'Tell us about your business in a short form'  {"$$type": "classes", "value": ["e-3d88d734-6a65"]}
+        599a712d e-flexbox ''  {"$$type": "classes", "value": ["e-71665ae9-d17b"]}
+          4e30ac59 e-paragraph '2'  {"$$type": "classes", "value": ["e-456cd7d0-a7b0"]}
+          5683efff e-paragraph 'We talk through what your site needs'  {"$$type": "classes", "value": ["e-69cf1a-9529"]}
+        32a2502b e-flexbox ''  {"$$type": "classes", "value": ["e-8c28247-fac4"]}
+          32434fc6 e-paragraph '3'  {"$$type": "classes", "value": ["e-ff59f30-b4a4"]}
+          545cd446 e-paragraph 'You decide. No pressure, no obligation'  {"$$type": "classes", "value": ["e-270f0bb-efce"]}
+    4148c5a6 e-flexbox ''  {"$$type": "classes", "value": ["e-7c2a3c8-f6dc"]}
+      71136d8c e-flexbox ''  {"$$type": "classes", "value": ["e-1a02dfca-78a4"]}
+        696a4a8b e-paragraph 'Start the conversation'  {"$$type": "classes", "value": ["e-3371045b-88fe"]}
+        503fb91b e-heading 'Tell us about your business'  {"$$type": "classes", "value": ["e-4e3e7c79-96ce"]}
+        ee1d569 e-paragraph "A few lines is plenty: your business name, what you do and where. We'll review it and reach out personally wit"  {"$$type": "classes", "value": ["e-10d7da6d-6413"]}
+      1a85d806 e-flexbox ''  {"$$type": "classes", "value": ["e-3f8470e2-51b2"]}
+        4c7f4cd1 e-button 'Get Started'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/get-started/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$type {"$$type": "classes", "value": ["g-6b54c1a", "e-5e4d43e9-40d7"]}
+        439becbb e-button 'See how it works'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/how-it-works/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$typ {"$$type": "classes", "value": ["g-6b54c1a", "g-f644b3d", "e-303adfa2-236c"]}
+      3f2e1c20 e-paragraph 'Or write to us directly at axiom.systems.co@gmail.com'  {"$$type": "classes", "value": ["e-3470c34d-5169"]}
+23717205 e-flexbox ''  {"$$type": "classes", "value": ["e-2736ed9-d09a"]}
+  4e62a52a e-flexbox ''  {"$$type": "classes", "value": ["e-45b9e28d-89e2"]}
+    15efd77d e-flexbox ''  {"$$type": "classes", "value": ["e-73eb1054-8c2d"]}
+      45ece168 e-paragraph 'Axiom Systems'  {"$$type": "classes", "value": ["e-47627394-7a72"]}
+      3c5855cf e-paragraph 'Managed websites, automation and lead generation for local businesses.'  {"$$type": "classes", "value": ["e-61c40867-bd43"]}
+    61cc1e24 e-flexbox ''  {"$$type": "classes", "value": ["e-2674411a-52e4"]}
+      758c724e e-button 'How It Works'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/how-it-works/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$typ {"$$type": "classes", "value": ["g-c7275e6", "e-bfe3173-40b1"]}
+      1a69051c e-button 'Our Work'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/our-work/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$type":  {"$$type": "classes", "value": ["g-c7275e6", "e-1f2b6600-dd55"]}
+      748ef3ce e-button 'Pricing'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/pricing/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$type": " {"$$type": "classes", "value": ["g-c7275e6", "e-44b50d03-ddd0"]}
+      6c960c73 e-button 'Add-Ons'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/add-ons/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$type": " {"$$type": "classes", "value": ["g-c7275e6", "e-6e08884e-9b87"]}
+      36420428 e-button 'FAQ'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/faq/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$type": "stri {"$$type": "classes", "value": ["g-c7275e6", "e-2508eb43-66b3"]}
+      6c06233d e-button 'Privacy Policy'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/privacy-policy/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$t {"$$type": "classes", "value": ["g-c7275e6", "e-31a6d204-fdf9"]}
+      56b13b3a e-button 'Get Started'  LINK={"$$type": "link", "value": {"destination": {"$$type": "url", "value": "/get-started/"}, "isTargetBlank": {"$$type": "boolean", "value": false}, "tag": {"$$type {"$$type": "classes", "value": ["g-c7275e6", "e-54588dbf-eaf5"]}
+    2e8d1bf1 e-paragraph '© 2026 Axiom Systems. All rights reserved.'  {"$$type": "classes", "value": ["e-7f7a8271-459d"]}

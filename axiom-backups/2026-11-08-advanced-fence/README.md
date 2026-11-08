@@ -3,7 +3,53 @@
 Page **1632** "Advanced Fence Service — Website Concept": Elementor Canvas, Yoast noindex + nofollow, published.
 Built the same way as the Branham demo (`../2026-11-08-branham-demo/`): Elementor MCP with native V4 widgets, no Angie.
 
-## v2 (current): originals only, Branham as the quality bar
+## v3 (current): 26 job photos from the owner's own uploads, photo hero
+The user uploaded 84 photos straight from Advanced Fence's own files (Facebook still blocks logged-out access,
+so nothing was scraped). Selection, in `native/photos_v3.py`:
+- **Dropped 10 exact duplicates** found by pixel hash: #16, #21, #22, #41–46, #56.
+- **Dropped as too dark or backlit:** #25, #26. **Dropped as AI-smoothed (wood-and-wire job):** #58, #59.
+- **Dropped as off-subject:** #28 (core drilling), #57 (pool is the subject), #81 (cluttered deck railing).
+- Kept one strong shot per job plus workmanship details, and checked each at its 4:3 card crop.
+  #2 and #66 were swapped for #3 and #68, where the fence fills the frame.
+- 10 more photos the user sent came through as previews only, not files, so they couldn't be uploaded.
+
+**26 gallery photos**, each used once, plus the hero (#83, 2000×1500 scalloped privacy) and an owner photo of Chris
+(#84) in About. Uploaded as media 1674–1701 (`advanced-demo-<slug>.jpg`, long edge ≤1600px; hero 2000px; q80).
+
+| Tab | Photos |
+|---|---|
+| Wood privacy | 11 |
+| Gates & arbors | 4 |
+| Vinyl | 3 |
+| Aluminum & pool | 3 |
+| Rail & farm | 2 |
+| Chain link & commercial | 3 |
+
+The 8 Angi photos from v2 (700px) were dropped in favor of these higher-resolution originals.
+
+**Build.** `native/gen3.py` → `v3-*.json`. Only the hero, gallery, fence types and About were rebuilt (appended, then
+moved into place with manage-elements). Cards reuse the `afs-card*` kit classes, with only a per-card `object-position`
+inline, which keeps the payloads small. Header, spec, estimate, band, footer and mobile bar are unchanged from v2.
+After publishing, page settings were re-saved to clear Elementor's element cache (see the v2 gotcha below).
+
+### Live verification (`native/verify-v3.js`)
+Desktop 1440, iPhone 13, Pixel 7 and iPad Mini:
+- no horizontal scroll;
+- 28 photos, all unique, 0 broken, 0 screenshot or Angi images;
+- tabs 11/4/3/3/2/3, all loaded; links open in a new tab;
+- `noindex, nofollow`; Canvas; the chat bubble doesn't overlap the mobile bar.
+
+Sharpness is source pixels over device pixels:
+
+| Device | Cards | Hero |
+|---|---|---|
+| Desktop | ≥2.0 | 1.39 |
+| iPad | ≥1.09 | 1.25 |
+| Phones (3× screens) | ≥0.67 | 0.96–1.1 |
+
+On phones, the 720px originals still give 2× density. Screenshots: `preview/v3-*`.
+
+## v2 (superseded): originals only, Branham as the quality bar
 All screenshot-sourced photos were removed: the 14 Facebook crops and the Angi "hero" (enhanced/upscaled).
 The 17 Angi originals in `src/` (all 700×700) were reviewed at card size (≈330–380 CSS px) and hero size.
 

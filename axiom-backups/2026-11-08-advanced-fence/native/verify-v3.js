@@ -1,6 +1,7 @@
 // v2 check: originals only, each photo once, tabs + counts, no overflow, cards <= 400px, mobile bar vs chat bubble.
 const { chromium, devices } = require('playwright');
 const URL_ = process.argv[2], OUT = process.argv[3];
+// v3: also reports per-tab sharpness (source px / device px, >=1 means no upscaling), hero and owner photo.
 const VIEWS = [['desktop', { viewport: { width: 1440, height: 900 } }], ['iphone13', devices['iPhone 13']], ['pixel7', devices['Pixel 7']], ['ipadmini', devices['iPad Mini']]];
 (async () => {
   const b = await chromium.launch(); const res = {};
@@ -28,9 +29,12 @@ const VIEWS = [['desktop', { viewport: { width: 1440, height: 900 } }], ['iphone
     const tabs = p.locator('[role=tab]'); r.cardW = []; r.tabRes = [];
     for (let i = 0; i < await tabs.count(); i++) {
       await tabs.nth(i).click(); await p.waitForTimeout(500);
-      r.tabRes.push(await p.evaluate(() => { const v = [...document.querySelectorAll('[role=tabpanel]')].find(x => x.offsetHeight > 0); const im = [...v.querySelectorAll('img')]; return im.length + ' shown, ' + im.filter(i => i.naturalWidth).length + ' loaded, maxW ' + Math.max(...im.map(i => Math.round(i.getBoundingClientRect().width))) + ', href ' + (v.querySelector('a') || {}).target; }));
+      r.tabRes.push(await p.evaluate(() => { const v = [...document.querySelectorAll('[role=tabpanel]')].find(x => x.offsetHeight > 0); const im = [...v.querySelectorAll('img')]; const r = im.map(i => { const b = i.getBoundingClientRect(); const sc = Math.max(b.width / i.naturalWidth, b.height / i.naturalHeight) * devicePixelRatio; return Math.round(100 / sc) / 100; });
+      return im.length + ' shown, ' + im.filter(i => i.naturalWidth).length + ' loaded, maxW ' + Math.max(...im.map(i => Math.round(i.getBoundingClientRect().width))) + ', minSharp ' + Math.min(...r) + ', href ' + (v.querySelector('a') || {}).target; }));
     }
     await tabs.nth(0).click();
+    r.hero = await p.evaluate(() => { const i = [...document.images].find(i => i.src.includes('hero-')); if (!i) return null; const b = i.getBoundingClientRect(); return { w: Math.round(b.width), h: Math.round(b.height), sharp: Math.round(100 * i.naturalWidth / (Math.max(b.width, b.height * i.naturalWidth / i.naturalHeight) * devicePixelRatio)) / 100 }; });
+    r.owner = await p.evaluate(() => { const i = [...document.images].find(i => i.src.includes('owner-')); if (!i) return null; const b = i.getBoundingClientRect(); return { w: Math.round(b.width), h: Math.round(b.height), loaded: i.naturalWidth > 0 }; });
     await p.waitForTimeout(1500);
     r.bar = await p.evaluate(() => {
       const n = [...document.querySelectorAll('nav')].find(n => getComputedStyle(n).position === 'fixed' && n.offsetHeight > 0);

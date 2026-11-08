@@ -1,0 +1,614 @@
+{
+ "home-1440": {
+  "status": 200,
+  "sw": 1440,
+  "firstX": 1290,
+  "firstAqua": 1838,
+  "firstBrags": 1950,
+  "aquaHtml": 11,
+  "xtremeHtml": 26,
+  "stale": [],
+  "broken": [],
+  "gtm": 2,
+  "getStarted": 7,
+  "links": [
+   [
+    "",
+    "https://xtremestpete.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://xtremestpete.com/",
+    "_blank"
+   ],
+   [
+    "",
+    "https://jetskiadventureclearwater.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://jetskiadventureclearwater.com/",
+    "_blank"
+   ],
+   [
+    "",
+    "https://bragspressurewashing.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://bragspressurewashing.com/",
+    "_blank"
+   ]
+  ],
+  "imgs": [
+   [
+    "brags-site-portfolio-preview-2026-09-24.webp",
+    "Brags Global pressure washing and concrete coating",
+    true
+   ],
+   [
+    "axiom-portfolio-xtreme-jet-ski-mobile.webp",
+    "Xtreme Jet Ski Watersports website on a phone: \"Je",
+    true
+   ],
+   [
+    "axiom-portfolio-xtreme-jet-ski-desktop-2026-11-1536x960.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersb",
+    true
+   ],
+   [
+    "axiom-portfolio-aqua-safari-desktop.webp",
+    "Aqua Safari Jet Ski Adventures homepage designed b",
+    true
+   ],
+   [
+    "brags-website-services-showcase-2026-09-24-1.jpg",
+    "Brags Global website services section with photo c",
+    true
+   ]
+  ],
+  "errors": 0
+ },
+ "home-1024": {
+  "status": 200,
+  "sw": 1024,
+  "firstX": 1248,
+  "firstAqua": 1796,
+  "firstBrags": 1908,
+  "aquaHtml": 11,
+  "xtremeHtml": 26,
+  "stale": [],
+  "broken": [],
+  "gtm": 2,
+  "getStarted": 7,
+  "links": [
+   [
+    "",
+    "https://xtremestpete.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://xtremestpete.com/",
+    "_blank"
+   ],
+   [
+    "",
+    "https://jetskiadventureclearwater.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://jetskiadventureclearwater.com/",
+    "_blank"
+   ],
+   [
+    "",
+    "https://bragspressurewashing.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://bragspressurewashing.com/",
+    "_blank"
+   ]
+  ],
+  "imgs": [
+   [
+    "brags-site-portfolio-preview-2026-09-24-1024x676.webp",
+    "Brags Global pressure washing and concrete coating",
+    true
+   ],
+   [
+    "axiom-portfolio-xtreme-jet-ski-mobile.webp",
+    "Xtreme Jet Ski Watersports website on a phone: \"Je",
+    true
+   ],
+   [
+    "axiom-portfolio-xtreme-jet-ski-desktop-2026-11-1024x640.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersb",
+    true
+   ],
+   [
+    "axiom-portfolio-aqua-safari-desktop-1024x640.webp",
+    "Aqua Safari Jet Ski Adventures homepage designed b",
+    true
+   ],
+   [
+    "brags-website-services-showcase-2026-09-24-1-1024x1015.jpg",
+    "Brags Global website services section with photo c",
+    true
+   ]
+  ],
+  "errors": 0
+ },
+ "home-768": {
+  "status": 200,
+  "sw": 768,
+  "firstX": 1248,
+  "firstAqua": 1796,
+  "firstBrags": 1908,
+  "aquaHtml": 11,
+  "xtremeHtml": 26,
+  "stale": [],
+  "broken": [],
+  "gtm": 2,
+  "getStarted": 7,
+  "links": [
+   [
+    "",
+    "https://xtremestpete.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://xtremestpete.com/",
+    "_blank"
+   ],
+   [
+    "",
+    "https://jetskiadventureclearwater.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://jetskiadventureclearwater.com/",
+    "_blank"
+   ],
+   [
+    "",
+    "https://bragspressurewashing.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://bragspressurewashing.com/",
+    "_blank"
+   ]
+  ],
+  "imgs": [
+   [
+    "brags-site-portfolio-preview-2026-09-24-768x507.webp",
+    "Brags Global pressure washing and concrete coating",
+    true
+   ],
+   [
+    "axiom-portfolio-xtreme-jet-ski-mobile-768x1536.webp",
+    "Xtreme Jet Ski Watersports website on a phone: \"Je",
+    true
+   ],
+   [
+    "axiom-portfolio-xtreme-jet-ski-desktop-2026-11-768x480.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersb",
+    true
+   ],
+   [
+    "axiom-portfolio-aqua-safari-desktop-768x480.webp",
+    "Aqua Safari Jet Ski Adventures homepage designed b",
+    true
+   ],
+   [
+    "brags-website-services-showcase-2026-09-24-1-768x761.jpg",
+    "Brags Global website services section with photo c",
+    true
+   ]
+  ],
+  "errors": 0
+ },
+ "home-390": {
+  "status": 200,
+  "sw": 390,
+  "firstX": 1248,
+  "firstAqua": 1796,
+  "firstBrags": 1908,
+  "aquaHtml": 11,
+  "xtremeHtml": 26,
+  "stale": [],
+  "broken": [],
+  "gtm": 2,
+  "getStarted": 7,
+  "links": [
+   [
+    "",
+    "https://xtremestpete.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://xtremestpete.com/",
+    "_blank"
+   ],
+   [
+    "",
+    "https://jetskiadventureclearwater.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://jetskiadventureclearwater.com/",
+    "_blank"
+   ],
+   [
+    "",
+    "https://bragspressurewashing.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://bragspressurewashing.com/",
+    "_blank"
+   ]
+  ],
+  "imgs": [
+   [
+    "brags-site-portfolio-preview-2026-09-24-600x396.jpg",
+    "Brags Global pressure washing and concrete coating",
+    true
+   ],
+   [
+    "axiom-portfolio-xtreme-jet-ski-mobile-512x1024.webp",
+    "Xtreme Jet Ski Watersports website on a phone: \"Je",
+    true
+   ],
+   [
+    "axiom-portfolio-xtreme-jet-ski-desktop-2026-11-600x375.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersb",
+    true
+   ],
+   [
+    "axiom-portfolio-aqua-safari-desktop-600x375.webp",
+    "Aqua Safari Jet Ski Adventures homepage designed b",
+    true
+   ],
+   [
+    "brags-website-services-showcase-2026-09-24-1-600x595.jpg",
+    "Brags Global website services section with photo c",
+    true
+   ]
+  ],
+  "errors": 0
+ },
+ "our-work-1440": {
+  "status": 200,
+  "sw": 1440,
+  "firstX": 171,
+  "firstAqua": 281,
+  "firstBrags": 722,
+  "aquaHtml": 23,
+  "xtremeHtml": 45,
+  "stale": [
+   "axiom-portfolio-aqua-safari-mobile"
+  ],
+  "broken": [],
+  "gtm": 2,
+  "getStarted": 5,
+  "links": [
+   [
+    "View Website ↗",
+    "https://xtremestpete.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://jetskiadventureclearwater.com/",
+    "_blank"
+   ],
+   [
+    "Visit the live site ↗",
+    "https://bragspressurewashing.com/",
+    "_blank"
+   ]
+  ],
+  "imgs": [
+   [
+    "axiom-portfolio-xtreme-jet-ski-desktop-2026-11-1536x960.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersb",
+    true
+   ],
+   [
+    "xtreme-detail-first-screen-1536x629.webp",
+    "Detail of the Xtreme Jet Ski Watersports first scr",
+    true
+   ],
+   [
+    "xtreme-detail-tours-1536x672.webp",
+    "Detail of the Xtreme Jet Ski Watersports tour card",
+    true
+   ],
+   [
+    "axiom-portfolio-aqua-safari-mobile.webp",
+    "Aqua Safari Jet Ski Adventures website on a phone,",
+    true
+   ],
+   [
+    "axiom-portfolio-xtreme-jet-ski-desktop-2026-11-1536x960.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersb",
+    true
+   ],
+   [
+    "axiom-portfolio-aqua-safari-desktop.webp",
+    "Aqua Safari Jet Ski Adventures homepage designed b",
+    true
+   ],
+   [
+    "brags-website-services-showcase-2026-09-24-1.jpg",
+    "Brags Global website services section with photo c",
+    true
+   ],
+   [
+    "brags-site-portfolio-preview-2026-09-24.webp",
+    "Brags Global pressure washing and concrete coating",
+    true
+   ],
+   [
+    "brags-site-portfolio-preview-2026-09-24.webp",
+    "Brags Global pressure washing and concrete coating",
+    true
+   ]
+  ],
+  "errors": 0
+ },
+ "our-work-1024": {
+  "status": 200,
+  "sw": 1024,
+  "firstX": 129,
+  "firstAqua": 239,
+  "firstBrags": 680,
+  "aquaHtml": 23,
+  "xtremeHtml": 45,
+  "stale": [
+   "axiom-portfolio-aqua-safari-mobile"
+  ],
+  "broken": [],
+  "gtm": 2,
+  "getStarted": 5,
+  "links": [
+   [
+    "View Website ↗",
+    "https://xtremestpete.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://jetskiadventureclearwater.com/",
+    "_blank"
+   ],
+   [
+    "Visit the live site ↗",
+    "https://bragspressurewashing.com/",
+    "_blank"
+   ]
+  ],
+  "imgs": [
+   [
+    "axiom-portfolio-xtreme-jet-ski-desktop-2026-11-1024x640.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersb",
+    true
+   ],
+   [
+    "xtreme-detail-first-screen-1024x420.webp",
+    "Detail of the Xtreme Jet Ski Watersports first scr",
+    true
+   ],
+   [
+    "xtreme-detail-tours-1024x448.webp",
+    "Detail of the Xtreme Jet Ski Watersports tour card",
+    true
+   ],
+   [
+    "axiom-portfolio-aqua-safari-mobile.webp",
+    "Aqua Safari Jet Ski Adventures website on a phone,",
+    true
+   ],
+   [
+    "axiom-portfolio-xtreme-jet-ski-desktop-2026-11-1024x640.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersb",
+    true
+   ],
+   [
+    "axiom-portfolio-aqua-safari-desktop-1024x640.webp",
+    "Aqua Safari Jet Ski Adventures homepage designed b",
+    true
+   ],
+   [
+    "brags-website-services-showcase-2026-09-24-1-1024x1015.jpg",
+    "Brags Global website services section with photo c",
+    true
+   ],
+   [
+    "brags-site-portfolio-preview-2026-09-24-1024x676.webp",
+    "Brags Global pressure washing and concrete coating",
+    true
+   ],
+   [
+    "brags-site-portfolio-preview-2026-09-24-1024x676.webp",
+    "Brags Global pressure washing and concrete coating",
+    true
+   ]
+  ],
+  "errors": 0
+ },
+ "our-work-768": {
+  "status": 200,
+  "sw": 768,
+  "firstX": 129,
+  "firstAqua": 239,
+  "firstBrags": 680,
+  "aquaHtml": 23,
+  "xtremeHtml": 45,
+  "stale": [
+   "axiom-portfolio-aqua-safari-mobile"
+  ],
+  "broken": [],
+  "gtm": 2,
+  "getStarted": 5,
+  "links": [
+   [
+    "View Website ↗",
+    "https://xtremestpete.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://jetskiadventureclearwater.com/",
+    "_blank"
+   ],
+   [
+    "Visit the live site ↗",
+    "https://bragspressurewashing.com/",
+    "_blank"
+   ]
+  ],
+  "imgs": [
+   [
+    "axiom-portfolio-xtreme-jet-ski-desktop-2026-11-768x480.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersb",
+    true
+   ],
+   [
+    "xtreme-detail-first-screen-768x315.webp",
+    "Detail of the Xtreme Jet Ski Watersports first scr",
+    true
+   ],
+   [
+    "xtreme-detail-tours-768x336.webp",
+    "Detail of the Xtreme Jet Ski Watersports tour card",
+    true
+   ],
+   [
+    "axiom-portfolio-aqua-safari-mobile-768x1536.webp",
+    "Aqua Safari Jet Ski Adventures website on a phone,",
+    true
+   ],
+   [
+    "axiom-portfolio-xtreme-jet-ski-desktop-2026-11-768x480.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersb",
+    true
+   ],
+   [
+    "axiom-portfolio-aqua-safari-desktop-768x480.webp",
+    "Aqua Safari Jet Ski Adventures homepage designed b",
+    true
+   ],
+   [
+    "brags-website-services-showcase-2026-09-24-1-768x761.jpg",
+    "Brags Global website services section with photo c",
+    true
+   ],
+   [
+    "brags-site-portfolio-preview-2026-09-24-768x507.webp",
+    "Brags Global pressure washing and concrete coating",
+    true
+   ],
+   [
+    "brags-site-portfolio-preview-2026-09-24-768x507.webp",
+    "Brags Global pressure washing and concrete coating",
+    true
+   ]
+  ],
+  "errors": 0
+ },
+ "our-work-390": {
+  "status": 200,
+  "sw": 390,
+  "firstX": 129,
+  "firstAqua": 239,
+  "firstBrags": 680,
+  "aquaHtml": 23,
+  "xtremeHtml": 45,
+  "stale": [
+   "axiom-portfolio-aqua-safari-mobile"
+  ],
+  "broken": [],
+  "gtm": 2,
+  "getStarted": 5,
+  "links": [
+   [
+    "View Website ↗",
+    "https://xtremestpete.com/",
+    "_blank"
+   ],
+   [
+    "View Website ↗",
+    "https://jetskiadventureclearwater.com/",
+    "_blank"
+   ],
+   [
+    "Visit the live site ↗",
+    "https://bragspressurewashing.com/",
+    "_blank"
+   ]
+  ],
+  "imgs": [
+   [
+    "axiom-portfolio-xtreme-jet-ski-desktop-2026-11-600x375.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersb",
+    true
+   ],
+   [
+    "xtreme-detail-first-screen-600x246.webp",
+    "Detail of the Xtreme Jet Ski Watersports first scr",
+    true
+   ],
+   [
+    "xtreme-detail-tours-600x263.webp",
+    "Detail of the Xtreme Jet Ski Watersports tour card",
+    true
+   ],
+   [
+    "axiom-portfolio-aqua-safari-mobile-512x1024.webp",
+    "Aqua Safari Jet Ski Adventures website on a phone,",
+    true
+   ],
+   [
+    "axiom-portfolio-xtreme-jet-ski-desktop-2026-11-600x375.webp",
+    "Xtreme Jet Ski Watersports homepage in St. Petersb",
+    true
+   ],
+   [
+    "axiom-portfolio-aqua-safari-desktop-600x375.webp",
+    "Aqua Safari Jet Ski Adventures homepage designed b",
+    true
+   ],
+   [
+    "brags-website-services-showcase-2026-09-24-1-600x595.jpg",
+    "Brags Global website services section with photo c",
+    true
+   ],
+   [
+    "brags-site-portfolio-preview-2026-09-24-600x396.jpg",
+    "Brags Global pressure washing and concrete coating",
+    true
+   ],
+   [
+    "brags-site-portfolio-preview-2026-09-24-600x396.jpg",
+    "Brags Global pressure washing and concrete coating",
+    true
+   ]
+  ],
+  "errors": 0
+ }
+}

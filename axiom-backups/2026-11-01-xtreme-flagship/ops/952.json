@@ -1,0 +1,206 @@
+[
+ {
+  "action": "update",
+  "element_id": "6476ebf",
+  "settings": {
+   "paragraph": "Every Axiom site is designed from scratch around the business it belongs to. We start with our own: the business our founder owns and runs on the same systems we offer you. Every site here is live. Click through and see for yourself."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6f3ff5d5",
+  "settings": {
+   "paragraph": "xtremestpete.com"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4f8335fe",
+  "settings": {
+   "paragraph": "Founder-owned · Jet ski rentals &amp; guided tours · St. Petersburg, FL"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5173da27",
+  "settings": {
+   "title": "Xtreme Jet Ski Watersports"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5196d46b",
+  "settings": {
+   "paragraph": "Our flagship. Xtreme is owned and run by Axiom's founder, and it runs on the same website, marketing and follow-up systems we offer through Axiom. The site is built to turn visitors into booked tours, and inquiries get followed up instead of sitting in an inbox."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "4b398afe",
+  "settings": {
+   "paragraph": "Check Availability and a call button on the very first screen"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "ebe72f",
+  "settings": {
+   "paragraph": "Every tour shows its length, its price and a Book button"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "d158e38",
+  "settings": {
+   "paragraph": "Inquiries captured and followed up with the same automations Axiom plans include"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3d2e5045",
+  "settings": {
+   "text": "View Website ↗",
+   "link": {
+    "destination": "https://xtremestpete.com/",
+    "isTargetBlank": true,
+    "tag": "a"
+   }
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5c6e1eeb",
+  "settings": {
+   "title": "Every business gets its own website."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "3970fb67",
+  "settings": {
+   "paragraph": "Aqua Safari sells guided jet ski tours on the same Gulf Coast as Xtreme, yet its website looks nothing like it. Brags Global needed six services to make sense at a glance. Your website should look like your business, not like a template."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "7372f1c7",
+  "settings": {
+   "paragraph": "Client website · Guided jet ski tours · Tarpon Springs, FL"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "19482278",
+  "settings": {
+   "text": "View Website ↗"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "52d1635e",
+  "settings": {
+   "paragraph": "bragspressurewashing.com"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "50a26dbb",
+  "settings": {
+   "paragraph": "Client website · Pressure washing &amp; coatings · Pinellas County, FL"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "77fe7d1e",
+  "settings": {
+   "title": "Brags Global"
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "6d2314de",
+  "settings": {
+   "paragraph": "A clean, confident website for a pressure washing and coatings company. Six services are easy to understand at a glance, and a free quote or a phone call is always one tap away."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "486d10a5",
+  "settings": {
+   "paragraph": "Get the same website, marketing and follow-up systems we run Xtreme on, with plans from $299 a month."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "45bba0fb",
+  "settings": {
+   "paragraph": "That's why Axiom works the way it does. Xtreme runs on the same website, marketing and follow-up systems we offer you, so we use everything we recommend. We build your site, we take care of it, and when you need something, you talk to a real person who already knows your business."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "48d59077",
+  "settings": {
+   "paragraph": "No. Every site is designed for the business it belongs to. Compare Xtreme and Aqua Safari above: same industry, same coastline, completely different websites."
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "68295952",
+  "settings": {
+   "image": {
+    "src": {
+     "id": 1490
+    },
+    "size": "full"
+   }
+  }
+ },
+ {
+  "action": "update",
+  "element_id": "5be028aa",
+  "settings": {
+   "image": {
+    "src": {
+     "id": 1491
+    },
+    "size": "full"
+   },
+   "link": {
+    "destination": "https://xtremestpete.com/",
+    "isTargetBlank": true,
+    "tag": "a"
+   }
+  },
+  "style": "object-position: 50% 100%;"
+ },
+ {
+  "action": "update",
+  "element_id": "429526b9",
+  "settings": {
+   "image": {
+    "src": {
+     "id": 945
+    },
+    "size": "full"
+   },
+   "link": {
+    "destination": "https://bragspressurewashing.com/",
+    "isTargetBlank": true,
+    "tag": "a"
+   }
+  },
+  "style": "object-position: 50% 0%;"
+ },
+ {
+  "action": "update",
+  "element_id": "5d1a23b6",
+  "settings": {
+   "link": {
+    "destination": "https://bragspressurewashing.com/",
+    "isTargetBlank": true,
+    "tag": "a"
+   }
+  }
+ }
+]

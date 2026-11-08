@@ -1,0 +1,6 @@
+{
+ "afs-gallery": "padding: 0px; grid-template-columns: repeat(4, minmax(0,1fr)); grid-auto-rows: auto; gap: 10px; @media(--tablet) { grid-template-columns: repeat(3, minmax(0,1fr)); } @media(--mobile) { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px; }",
+ "afs-tile": "position: relative; overflow: hidden; display: block; aspect-ratio: 1 / 1; max-width: 408px; width: 100%; padding: 0px; cursor: zoom-in; background-color: #DDD6CC; border-radius: 3px; &:focus { outline-width: 3px; outline-color: #C9803F; outline-style: solid; outline-offset: 3px; }",
+ "afs-tile-img": "position: absolute; width: 100%; height: 100%; object-fit: cover; display: block; inset-block-start: 0px; inset-block-end: 0px; inset-inline-start: 0px; inset-inline-end: 0px;",
+ "afs-tile-cat": "display: block; margin: 0px; position: absolute; inset-block-start: 0.5rem; inset-inline-start: 0.5rem; padding-block-start: 0.2rem; padding-block-end: 0.2rem; padding-inline-start: 0.45rem; padding-inline-end: 0.45rem; font-family: \"IBM Plex Mono\"; font-weight: 500; font-size: 0.64rem; line-height: 1.2; letter-spacing: 0.06em; text-transform: uppercase; background-color: rgba(22,20,18,0.8); color: #F4F1EC;"
+}

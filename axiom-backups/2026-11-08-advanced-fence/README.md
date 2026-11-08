@@ -13,12 +13,12 @@ so nothing was scraped). Selection, in `native/photos_v3.py`:
   #2 and #66 were swapped for #3 and #68, where the fence fills the frame.
 - 10 more photos the user sent came through as previews only, not files, so they couldn't be uploaded.
 
-**26 gallery photos**, each used once, plus the hero (#83, 2000×1500 scalloped privacy) and an owner photo of Chris
-(#84) in About. Uploaded as media 1674–1701 (`advanced-demo-<slug>.jpg`, long edge ≤1600px; hero 2000px; q80).
+**27 gallery photos** (26 + #89, a scalloped-top run added from a later upload; #85–88 were repeats of #81–84), each used once, plus the hero (#83, 2000×1500 scalloped privacy) and an owner photo of Chris
+(#84) in About. Uploaded as media 1674–1701 and 1717 (`advanced-demo-<slug>.jpg`, long edge ≤1600px; hero 2000px; q80).
 
 | Tab | Photos |
 |---|---|
-| Wood privacy | 11 |
+| Wood privacy | 12 |
 | Gates & arbors | 4 |
 | Vinyl | 3 |
 | Aluminum & pool | 3 |
@@ -35,8 +35,8 @@ After publishing, page settings were re-saved to clear Elementor's element cache
 ### Live verification (`native/verify-v3.js`)
 Desktop 1440, iPhone 13, Pixel 7 and iPad Mini:
 - no horizontal scroll;
-- 28 photos, all unique, 0 broken, 0 screenshot or Angi images;
-- tabs 11/4/3/3/2/3, all loaded; links open in a new tab;
+- 29 photos, all unique, 0 broken, 0 screenshot or Angi images;
+- tabs 12/4/3/3/2/3, all loaded; links open in a new tab;
 - `noindex, nofollow`; Canvas; the chat bubble doesn't overlap the mobile bar.
 
 Sharpness is source pixels over device pixels:

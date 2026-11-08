@@ -7,7 +7,7 @@ import gen, gen2
 from gen import N, payload, L, P, H, FX, DV, GR, IMG, PH, SEC, HEAD, EYEBROW, LEDE, H2, INK, MUTED, CARD, LINE, COPPER_D, BODY, TAG, U
 from photos_v3 import SEL, CATS, HERO, OWNER
 HERE = os.path.dirname(os.path.abspath(__file__))
-assert len(SEL) == 26 and len({s[1] for s in SEL}) == 26 and {s[2] for s in SEL} == set(CATS)
+assert len(SEL) == 27 and len({s[1] for s in SEL}) == 27 and {s[2] for s in SEL} == set(CATS)
 for s in SEL + [HERO, OWNER]: assert os.path.exists(os.path.join(HERE, "..", "img", f"advanced-demo-{s[1]}.jpg")), s
 
 def hero():

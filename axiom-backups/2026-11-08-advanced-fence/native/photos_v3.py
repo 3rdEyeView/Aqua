@@ -2,6 +2,8 @@
 SEL = [
  (3,  "privacy-backyard-wide", "Wood privacy", 50, "Backyard privacy run", "Pressure-treated wood privacy fence enclosing a wide backyard under tall trees",
       [("Style","Board-on-rail privacy"),("Material","Pressure-treated pine"),("Setting","Wooded backyard")]),
+ (89, "scalloped-privacy-pines", "Wood privacy", 62, "Scalloped privacy in the pines", "Scalloped-top wood privacy fence with post caps running through a stand of pines",
+      [("Style","Scalloped top, post caps"),("Material","Pressure-treated pine"),("Setting","Wooded side line")]),
  (6,  "privacy-red-clay", "Wood privacy", 50, "Privacy on a long sloped line", "New wood privacy fence following a long line across red clay",
       [("Style","Stepped privacy"),("Material","Pressure-treated pine"),("Setting","Sloped back line")]),
  (10, "privacy-shrub-line", "Wood privacy", 50, "Straight run behind the shrubs", "Wood privacy fence set straight behind a row of shrubs",

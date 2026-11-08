@@ -4,6 +4,7 @@
 usage: python3 -I tools/optimize.py shortlist.tsv
 
 shortlist.tsv columns (tab-separated, header row):
+  id (inventory id or a path such as crops/x.png)
   id      role    slug                    start   len
   P004    hero    white-vinyl-privacy
   P001    photo   black-aluminum-pool
@@ -30,13 +31,15 @@ def main(sl):
     SITE.mkdir(exist_ok=True)
     inv = {r["id"]: r for r in csv.DictReader(open(ROOT / "inventory.tsv"), delimiter="\t") if r["id"]}
     for r in csv.DictReader(open(sl), delimiter="\t"):
-        src = ROOT / inv[r["id"]]["file"]
+        src = ROOT / (inv[r["id"]]["file"] if r["id"] in inv else r["id"])  # an inventory id or a path (e.g. crops/*.png)
         name = f"fenceitup-demo-{r['slug']}"
         if r["role"] in ("hero", "photo"):
             im = ImageOps.exif_transpose(Image.open(src)).convert("RGB")
             im.thumbnail((2000, 2000) if r["role"] == "hero" else (1200, 1200), Image.LANCZOS)
             out = SITE / f"{name}.jpg"
-            im.save(out, quality=80 if r["role"] == "hero" else 82, optimize=True, progressive=True)
+            # sources already recompressed by Instagram (screenshot crops) get q86 so artifacts don't stack
+            q = 86 if max(im.size) <= 1000 else (80 if r["role"] == "hero" else 82)
+            im.save(out, quality=q, optimize=True, progressive=True)
         else:
             out = SITE / f"{name}.mp4"
             cut = (["-ss", r["start"]] if r.get("start") else []) + (["-t", r["len"]] if r.get("len") else [])

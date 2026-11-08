@@ -20,7 +20,7 @@ def _fix(d):
     if "inset" in d:
         v = d.pop("inset")
         for x in SIDES: d.setdefault(f"inset-{x}", v)
-    if "row-gap" in d or "column-gap" in d:
+    if "row-gap" in d:  # row-gap is rejected by the MCP parser; a lone column-gap is accepted and kept as-is
         r = d.pop("row-gap", None); c = d.pop("column-gap", None)
         d["gap"] = r or c
         if c and r and c != r: d["column-gap"] = c

@@ -3,26 +3,47 @@
 Page **1632** "Advanced Fence Service — Website Concept": Elementor Canvas, Yoast noindex + nofollow, published.
 Built the same way as the Branham demo (`../2026-11-08-branham-demo/`): Elementor MCP with native V4 widgets, no Angie.
 
-## Photos (`src/` = the supplied ZIP; `img/` = the 16 files uploaded)
-- Facebook could not be scraped from here (logged-out visitors get the login wall; `scrape/`), so the owner supplied the ZIP.
-- Uploaded via WordPress REST (`native/upload.py`, same method as Branham) → media **1616–1631**, exact names in `2026/11/`.
-  14 Facebook crops `advanced-demo-fb-*.jpg` (408×408, kept at card size — never rendered wider than 408 CSS px),
-  logo `advanced-demo-logo-facebook.jpg` (720×720), hero `advanced-demo-hero-wood-privacy.jpg` (Angi, 700×700).
-  The other Angi photos and `advanced-demo-logo.png` in `src/` were not used.
-- Slug set via REST (`native/set_slug.py`) — the publish created `advanced-fence-service-website-concept` first.
+## v2 (current): originals only, Branham as the quality bar
+All screenshot-sourced photos were removed: the 14 Facebook crops and the Angi "hero" (enhanced/upscaled).
+The 17 Angi originals in `src/` (all 700×700) were reviewed at card size (≈330–380 CSS px) and hero size.
 
-## Page (`native/gen.py` → `native/split.py` batches; reuses Branham's builder helpers)
-Header (`#top`, sticky, logo + "Menu" accordion ≤ tablet) · full-width hero (Angi photo + dark gradient) · spec strip ·
-`#featured` 3 project cards · `#types` 6 fence types · `#work` gallery tabs All 14 · Wood privacy 5 · Vinyl 2 ·
-Metal & gates 3 · Chain link 2 · Rail & farm 2 (tiles open the photo in a new tab) · `#about` ("Call Chris") ·
-`#estimate` steps + preview-only form · CTA band · footer "Website concept by Axiom Systems. Demo only." · fixed mobile bar
-(84px right padding so the site chat bubble sits beside the buttons). Copy uses only what the photos and the ZIP README
-support (Columbia, SC; fence types seen in the photos; Chris as the contact) — no phone number, years or licence claims.
-Kit classes added: `afs-gallery`, `afs-tile`, `afs-tile-img`, `afs-tile-cat`.
+**Kept: 8 photos, each used once** (media 1654–1661, exact names in `2026/11/`):
 
-## Live verification (`native/verify-live.js`, `native/chat-check.js`)
-Desktop 1440 + iPhone 13: no horizontal scroll; 42 image refs, 0 broken; logo loads; All tab 14/14; tabs 14/5/2/3/2/2;
-tiles → photo in new tab; anchors present; robots `noindex, nofollow`; Canvas; mobile menu opens (5 links); largest
-Facebook crop on screen 408px (desktop) / 358px (phone). Chat bubble vs mobile bar: no overlap on iPhone 13, Pixel 7,
-iPad Mini. Only console error: chat widget's `stcdn.leadconnectorhq.com` phone-input script, blocked by this
-environment's network rules (same on the other demos). Screenshots in `preview/`.
+| Tab | Photos |
+|---|---|
+| Wood privacy · 3 | wood-fence-corner, wood-privacy-fence, wood-fence-backyard |
+| Metal & pool · 4 | black-pool-fence, black-fence-stone-columns, metal-fence-poolside, metal-fence-garden |
+| Vinyl · 1 | white-vinyl-yard |
+
+Rejected: wood-fence-roadside, wood-double-gate, wood-privacy-corner, hero-wood-privacy (soft or visibly enhanced);
+black-metal-gate (branch across the frame), wood-rail-fence (tilted, hard shadow); white-vinyl-detail and
+white-vinyl-privacy (catalog-looking, may not be his work); all `advanced-demo-fb-*` crops (screenshots).
+
+**Hero is text-led.** No original holds up full-width (700px source), so the hero is the headline and CTAs, with the AFS
+logo emblem (720px, crisp) at 320/240/160px.
+
+The gallery has no "All" tab, so every photo appears exactly once. The empty categories Chain link, Rail & farm,
+Gates & arbors and Metal & gates were removed. The "Featured" cards and the photo band were folded into the gallery cards,
+which are 4:3, at most 400px wide, and open the full photo in a new tab. Fence Types is text-only.
+
+Generator: `native/gen2.py` → `v2-A..E.json`, plus `native/split2.py` for the work shell and the card grids.
+New kit classes: `afs-card*`. The v1 classes `afs-gallery` and `afs-tile*` are now unused, and the FB and hero media
+1616–1630 are still in the library, unused.
+
+**Gotcha.** After publish-document the front end kept serving v1, even with Kinsta's cache bypassed, because of
+Elementor's rendered-element cache. Saving page settings (`template: elementor_canvas`) cleared it.
+
+### Live verification (`native/verify-v2.js`)
+Desktop 1440, iPhone 13, Pixel 7 and iPad Mini:
+- no horizontal scroll;
+- 8 photos, 8 unique, 0 FB/hero crops, 0 broken; 3 logo instances;
+- tabs 3/4/1, all loaded; largest card image 355–378px; links open in a new tab;
+- anchors present; `noindex, nofollow`; Canvas;
+- chat bubble beside the mobile bar buttons with no overlap.
+
+The only console error is the chat widget's phone-input script, which this environment's network blocks.
+Screenshots: `preview/v2-*`.
+
+## v1 (superseded)
+Used the 14 Facebook crops (408×408) plus the Angi hero, with a 6-tab gallery (All 14). `native/gen.py`, `split.py`,
+`verify-live.js` and the `preview/*.png` screenshots without the v2 prefix belong to v1.

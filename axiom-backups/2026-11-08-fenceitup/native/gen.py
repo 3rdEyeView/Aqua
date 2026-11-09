@@ -107,43 +107,61 @@ def hero():
     tag = FX("hr-tag", [DV("hr-tag-d", [], f"width: 8px; height: 8px; border-radius: 50%; background-color: {GOLD}; flex: none;"),
                         P("hr-tag-t", "Vinyl privacy · Orlando", "color: inherit;", tag="span")],
              f"position: absolute; width: auto; inset-inline-start: 14px; inset-block-end: 14px; align-items: center; gap: 0.5rem; font-family: {BODY}; font-weight: 600; font-size: 0.85rem; line-height: 1; color: {INK}; background-color: rgba(255,255,255,0.94); border-radius: 999px; padding-block-start: 0.5rem; padding-block-end: 0.5rem; padding-inline-start: 0.75rem; padding-inline-end: 0.9rem; box-shadow: 0px 6px 18px -8px rgba(15,28,46,0.5);")
-    frame = DV("hr-ph", [IMG("hr-img", "vinyl-privacy-corner.jpg", FILL + " object-position: 50% 50%;"), tag],
+    frame = DV("hr-ph", [IMG("Hero photo - Jenny vinyl corner", "vinyl-privacy-corner.jpg", FILL + " object-position: 50% 50%;"), tag],
                f"position: relative; width: 100%; max-width: 440px; aspect-ratio: 706 / 840; border-radius: 22px; overflow: hidden; background-color: {NAVY2}; box-shadow: 0px 40px 80px -30px rgba(0,0,0,0.65); border-width: 1px; border-style: solid; border-color: {DLINE}; margin-inline-start: auto; @media(--tablet) {{ max-width: 520px; margin-inline-start: 0px; }} @media(--mobile) {{ max-width: 100%; border-radius: 18px; }}")
     g = GR("hr-g", [copy, frame], "grid-template-columns: minmax(0,1.25fr) minmax(0,1fr); grid-template-rows: auto; gap: 4rem; align-items: center; @media(--tablet) { grid-template-columns: minmax(0,1fr); grid-template-rows: auto auto; gap: 2.5rem; }")
     n = FX("hr", [FX("hr-w", [g], WRAP + " flex-direction: column; padding-block-start: 5rem; padding-block-end: 5.5rem; @media(--tablet) { padding-block-start: 3.5rem; padding-block-end: 4rem; } @media(--mobile) { padding-block-start: 2.25rem; padding-block-end: 2.75rem; }")],
            f"width: 100%; flex-direction: column; background-color: {INK}; background-image: radial-gradient(circle at 85% 20%, rgba(91,180,236,0.22) 0%, rgba(91,180,236,0) 45%), radial-gradient(circle at 0% 100%, rgba(232,185,49,0.12) 0%, rgba(232,185,49,0) 35%);", tag="section")
     n.cfg["_cssid"] = "hero"; return n
 
-# ---------- 3. services ----------
-SERVICES = [("vinyl", "01", "Vinyl privacy", "White PVC privacy fencing with clean lines, for backyards, side yards and pool areas.", "Vinyl estimate"),
-            ("wood", "02", "Wood", "Pine privacy fencing with matching walk gates, for a classic backyard look.", "Wood estimate"),
-            ("chain", "03", "Chain link", "Black chain-link fencing that marks the property line and keeps the view open.", "Chain-link estimate"),
-            ("gates", "04", "Gates", "Single walk gates and wide double gates, on a new fence or added to one you have, so bigger items fit through.", "Gate estimate")]
+# ---------- 3. services: one photo per fence style ----------
+# Three cards borrow sharp photos from the Branham Fencing demo (TJ OK'd it for this mockup). They carry an
+# "Example fence style" chip, and their Navigator titles start with "SWAP" so they're easy to find and replace in
+# Elementor when Jenny sends originals: click the image → choose the new photo, then delete the "Example label" element.
+# Chain link has no Branham equivalent, so it uses Jenny's own chain-link job (labelled as her work).
+BRANHAM = json.load(open(os.path.join(HERE, "..", "..", "2026-11-08-branham-demo", "native", "media-ids.json")))
+def bmid(num): return BRANHAM[f"branham-demo-fence-{num}.jpg"]["id"]
+SERVICES = [("vinyl", "01", "Vinyl privacy", "White and tan PVC privacy fencing with clean lines, for backyards, side yards and pool areas.", "Vinyl estimate",
+             ("branham", "027", "50% 62%"), None),
+            ("wood", "02", "Wood", "Pine privacy fencing with capped posts and matching walk gates, for a classic backyard look.", "Wood estimate",
+             ("branham", "155", "50% 52%"), None),
+            ("chain", "03", "Chain link", "Black chain-link fencing that marks the property line and keeps the view open.", "Chain-link estimate",
+             ("jenny", "black-chain-link.jpg", "50% 42%"), "Our work · Orlando"),
+            ("gates", "04", "Gates", "Single walk gates and wide double gates, on a new fence or added to one you have, so bigger items fit through.", "Gate estimate",
+             ("branham", "151", "50% 60%"), None)]
 def services():
     cards = []
-    for i, (key, num, t, d, cta) in enumerate(SERVICES):
-        cards.append(FX(f"sv{i}", [
+    for i, (key, num, t, d, cta, (src, ref, pos), own) in enumerate(SERVICES):
+        borrowed = src == "branham"
+        img_cid = f"SWAP {t} photo - Branham example" if borrowed else f"{t} photo - Fence It Up"
+        img = N("e-image", img_cid, {"image": {"src": {"id": bmid(ref) if borrowed else mid(ref)}, "size": "full"}}, FILL + f" object-position: {pos};")
+        chip_text = "Example fence style" if borrowed else own
+        chip = P(f"Example label - {t} - delete after swap" if borrowed else f"{t} label", chip_text,
+                 f"position: absolute; width: auto; inset-inline-start: 10px; inset-block-end: 10px; font-family: {BODY}; font-weight: 600; font-size: 0.76rem; line-height: 1; letter-spacing: 0.01em; "
+                 f"color: {INK if borrowed else ONDARK}; background-color: {'rgba(255,255,255,0.92)' if borrowed else 'rgba(15,28,46,0.85)'}; border-radius: 999px; padding-block-start: 0.4rem; padding-block-end: 0.4rem; padding-inline-start: 0.65rem; padding-inline-end: 0.65rem; box-shadow: 0px 4px 12px -6px rgba(15,28,46,0.5);", tag="span")
+        ph = DV(f"sv{i}-ph", [img, chip], f"position: relative; overflow: hidden; aspect-ratio: 4 / 3; width: 100%; background-color: {LINE}; flex: none;")
+        body = FX(f"sv{i}-b", [
             FX(f"sv{i}-top", [P(f"sv{i}-n", num, f"font-family: {DISP}; font-weight: 800; font-size: 0.95rem; color: {SKY_D};"),
                               DV(f"sv{i}-ln", [], f"flex: 1 1 auto; height: 2px; background-color: {LINE};")], "align-items: center; gap: 0.75rem;"),
-            H(f"sv{i}-h", t, "h3", "font-size: 1.55rem;"),
-            P(f"sv{i}-p", d, f"font-family: {BODY}; font-size: 0.98rem; line-height: 1.55; color: {MUTED}; flex: 1 1 auto;"),
+            H(f"sv{i}-h", t, "h3", "font-size: 1.5rem;"),
+            P(f"sv{i}-p", d, f"font-family: {BODY}; font-size: 0.97rem; line-height: 1.55; color: {MUTED}; flex: 1 1 auto;"),
             # _cssid q-<type> lets the page snippet preselect this fence type in the form
-            P(f"sv{i}-q", cta + " →", f"font-family: {BODY}; font-weight: 700; font-size: 0.95rem; color: {SKY_D}; text-decoration: none; margin-block-start: 0.4rem; &:hover {{ color: {INK}; }} {FOCUS}", tag="span", link=L(QUOTE))],
-            f"flex-direction: column; gap: 0.75rem; padding: 1.5rem; background-color: {CARD}; border-radius: 16px; border-width: 1px; border-style: solid; border-color: {LINE}; min-width: 0px; transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s; &:hover {{ border-color: {SKY}; transform: translateY(-2px); box-shadow: 0px 18px 36px -24px rgba(15,28,46,0.45); }}"))
-        cards[-1].kids[-1].cfg["_cssid"] = f"q-{key}"
-    g = GR("sv-g", cards, "grid-template-columns: repeat(4, minmax(0,1fr)); grid-template-rows: auto; gap: 1rem; @media(--tablet) { grid-template-columns: repeat(2, minmax(0,1fr)); grid-template-rows: auto auto; } @media(--mobile) { grid-template-columns: minmax(0,1fr); grid-template-rows: repeat(4, auto); gap: 0.75rem; }")
+            P(f"sv{i}-q", cta + " →", f"font-family: {BODY}; font-weight: 700; font-size: 0.95rem; color: {SKY_D}; text-decoration: none; margin-block-start: 0.3rem; &:hover {{ color: {INK}; }} {FOCUS}", tag="span", link=L(QUOTE))],
+            "flex-direction: column; gap: 0.7rem; padding: 1.3rem; padding-block-end: 1.4rem; flex: 1 1 auto;")
+        body.kids[-1].cfg["_cssid"] = f"q-{key}"
+        cards.append(FX(f"sv{i}", [ph, body],
+            f"flex-direction: column; gap: 0px; background-color: {CARD}; border-radius: 16px; overflow: hidden; border-width: 1px; border-style: solid; border-color: {LINE}; min-width: 0px; transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s; &:hover {{ border-color: {SKY}; transform: translateY(-2px); box-shadow: 0px 18px 36px -24px rgba(15,28,46,0.45); }}"))
+    g = GR("sv-g", cards, "grid-template-columns: repeat(4, minmax(0,1fr)); grid-template-rows: auto; gap: 1rem; @media(--tablet) { grid-template-columns: repeat(2, minmax(0,1fr)); grid-template-rows: auto auto; } @media(--mobile) { grid-template-columns: minmax(0,1fr); grid-template-rows: repeat(4, auto); gap: 0.85rem; }")
+    note = P("sv-note", "Photos marked “Example fence style” show the style only. Fence It Up’s own jobs are in Recent projects below.",
+             f"font-family: {BODY}; font-size: 0.86rem; line-height: 1.5; color: {MUTED}; margin-block-start: 1.1rem;")
     return SEC("sv", "services", [HEAD("sv-hd", "What we install", "Fencing and gates for Central Florida homes",
-                                       "Four fence styles you can see in our recent projects. Pick one, or tell us about your yard and we’ll help you choose."), g])
+                                       "Vinyl, wood, chain link and gates. Pick a style, or tell us about your yard and we’ll help you choose."), g, note])
 
-# ---------- 4. work: compact gallery, one photo per card, type + post location ----------
+# ---------- 4. work: Jenny's own jobs, one photo per card, type + post location ----------
 WORK = [("pool-backyard-vinyl.jpg", "Vinyl privacy", "Orlando", "50% 50%"),
-        ("wood-privacy-gate.jpg", "Wood privacy", "Orlando", "50% 50%"),
         ("double-gate-sunset.jpg", "Double gate", "Kissimmee", "50% 55%"),
-        ("black-chain-link.jpg", "Chain link", "Orlando", "50% 45%"),
-        ("side-yard-walkway.jpg", "Vinyl privacy", "Orlando", "50% 60%"),
-        ("new-build-backyard.jpg", "Vinyl privacy &amp; gate", "Altamonte Springs", "45% 50%"),
-        ("pvc-double-gate.jpg", "Double gate", "Kissimmee", "50% 50%"),
-        ("pvc-side-yard.jpg", "Vinyl privacy", "Kissimmee", "50% 60%")]
+        ("wood-privacy-gate.jpg", "Wood privacy &amp; walk gate", "Orlando", "50% 50%"),
+        ("side-yard-walkway.jpg", "Vinyl privacy", "Orlando", "50% 60%")]
 def work():
     cards = []
     for i, (img, t, loc, pos) in enumerate(WORK):
@@ -153,7 +171,7 @@ def work():
                               P(f"wk{i}-l", loc + ", FL", f"font-family: {BODY}; font-size: 0.86rem; line-height: 1.3; color: {MUTED}; @media(--mobile) {{ font-size: 0.8rem; }}")],
                  "flex-direction: column; gap: 0.2rem; padding-block-start: 0.85rem; padding-block-end: 1rem; padding-inline-start: 1rem; padding-inline-end: 1rem; @media(--mobile) { padding-inline-start: 0.75rem; padding-inline-end: 0.75rem; padding-block-start: 0.65rem; padding-block-end: 0.8rem; }")
         cards.append(FX(f"wk{i}", [ph, cap], f"flex-direction: column; background-color: {CARD}; border-radius: 14px; overflow: hidden; border-width: 1px; border-style: solid; border-color: {LINE}; min-width: 0px;"))
-    g = GR("wk-g", cards, "grid-template-columns: repeat(4, minmax(0,1fr)); grid-template-rows: auto auto; gap: 1.25rem; @media(--tablet) { grid-template-columns: repeat(2, minmax(0,1fr)); grid-template-rows: repeat(4, auto); gap: 1rem; } @media(--mobile) { grid-template-columns: repeat(2, minmax(0,1fr)); grid-template-rows: repeat(4, auto); gap: 0.65rem; }")
+    g = GR("wk-g", cards, "grid-template-columns: repeat(4, minmax(0,1fr)); grid-template-rows: auto; gap: 1.25rem; @media(--tablet) { grid-template-columns: repeat(2, minmax(0,1fr)); grid-template-rows: auto auto; gap: 1rem; } @media(--mobile) { grid-template-columns: repeat(2, minmax(0,1fr)); grid-template-rows: auto auto; gap: 0.65rem; }")
     foot = FX("wk-ft", [P("wk-ig", "See more on Instagram: @fenceitupllc ↗", f"font-family: {BODY}; font-weight: 700; font-size: 1rem; color: {SKY_D}; text-decoration: none; &:hover {{ color: {INK}; }} {FOCUS}", link=L(IG, True)),
                         BTN("wk-cta", "Request a Free Estimate", QUOTE, kind="navy", css="@media(--mobile) { width: 100%; }")],
                "justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-block-start: 2rem; @media(--mobile) { flex-direction: column; align-items: flex-start; }")

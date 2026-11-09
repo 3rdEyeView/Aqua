@@ -58,7 +58,20 @@ const ok = (c, m) => console.log((c ? '  ✓ ' : '  ✗ ') + m);
     ok(s.anchors.length === 0, 'anchors present' + (s.anchors.length ? ' — missing ' + s.anchors : ''));
     const broken = s.imgs.filter(i => !i.nw);
     const uniq = new Set(s.imgs.map(i => i.f.replace(/-\d+x\d+(?=\.jpg)/, '')));
-    ok(s.imgs.length === 9 && !broken.length && uniq.size === 9, `${s.imgs.length} photos, ${uniq.size} unique, ${broken.length} broken, alt on all: ${s.imgs.every(i => i.alt)}`);
+    ok(s.imgs.length === uniq.size && !broken.length, `${s.imgs.length} photos, ${uniq.size} unique, ${broken.length} broken, alt on all: ${s.imgs.every(i => i.alt)}`);
+    const mix = await p.evaluate(() => {
+      const f = i => i.currentSrc.split('/').pop();
+      const work = [...document.querySelectorAll('#work img')].map(f), svc = [...document.querySelectorAll('#services img')].map(f);
+      const cards = [...document.querySelectorAll('#services [id^="q-"]')].map(q => { let c = q; while (c && !c.querySelector('img')) c = c.parentElement; return c; });
+      return { work, svc, all: document.querySelectorAll('[data-elementor-id="1764"] img').length,
+        chips: cards.map(c => { const img = f(c.querySelector('img')); const chip = [...c.querySelectorAll('span,p')].map(e => e.textContent.trim()).find(t => /Example fence style|Our work/.test(t)) || ''; return [c.querySelector('h3').textContent.trim(), img.startsWith('branham') ? 'borrowed' : 'jenny', chip]; }),
+        note: /show the style only/.test(document.getElementById('services').innerText) };
+    });
+    ok(mix.all >= 6 && mix.all <= 9, `photo total ${mix.all} (6–9)`);
+    ok(mix.work.length === 4 && mix.work.every(x => x.startsWith('fenceitup-demo-')), `Our Work: ${mix.work.length} photos, all Jenny's`);
+    ok(mix.chips.every(([h, src, chip]) => src === 'borrowed' ? chip === 'Example fence style' : /Our work/.test(chip)) && mix.chips.filter(c => c[1] === 'borrowed').length === 3,
+       `service cards: ${mix.chips.map(c => c.join(' / ')).join(' | ')}`);
+    ok(mix.note, 'example-photo footnote present');
     const dpr = prof.deviceScaleFactor || 1;
     const dens = s.imgs.map(i => ({ f: i.f, d: +(i.fw / (i.w * dpr)).toFixed(2), css: i.w }));
     console.log(`    density (file px / device px): min ${Math.min(...dens.map(x => x.d))} · ` + dens.map(x => `${x.f.replace('fenceitup-demo-', '').replace('.jpg', '')} ${x.css}css→${x.d}`).join(' · '));

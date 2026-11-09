@@ -4,6 +4,37 @@ Business: Fence It Up, LLC, Orlando FL (Instagram @fenceitupllc; posts tagged Or
 Directory listings: Yelp `fence-it-up-orlando` / `fence-it-up-orlando-2`, Angi `fence-it-up-llc-reviews-1`, MapQuest 422370714.
 Phones listed as (407) 738-0904 and (407) 887-4520; confirm with Jenny before using either.
 
+## v2 (2026-11-09): 9 photos — Jenny's strongest + 3 borrowed Branham style examples
+**Photos on the page: 9** (hero 1 · service cards 4 · Our Work 4), each used once.
+
+| Where | Photo | Source |
+|---|---|---|
+| Hero (split, ≤440 CSS px) | vinyl-privacy-corner (Jan 3) | Jenny |
+| Services · Vinyl privacy | branham-demo-fence-027 (media 1582), tan vinyl side yard | **Branham, "Example fence style"** |
+| Services · Wood | branham-demo-fence-155 (media 1607), capped flat-top privacy | **Branham, "Example fence style"** |
+| Services · Chain link | black-chain-link | Jenny, chip "Our work · Orlando" (Branham has no chain link) |
+| Services · Gates | branham-demo-fence-151 (media 1605), arch-top privacy with double gate | **Branham, "Example fence style"** |
+| Our Work | pool-backyard-vinyl (Orlando), double-gate-sunset (Kissimmee), wood-privacy-gate (Orlando), side-yard-walkway (Orlando) | Jenny |
+
+- TJ (Branham Fencing) OK'd using his photos for this mockup. They reuse the media already in the library (no re-upload), so
+  their alt text stays "Fence built by Branham Fencing Co." — accurate credit, and unchanged so the Branham page isn't touched.
+- Not used: Branham #113 (sharpest vinyl, but it has a "LUGOFF South Carolina" overlay) and #150 (too close to #151).
+  Jenny's new-build-backyard, pvc-double-gate and pvc-side-yard stay in the library (1757, 1759, 1760), unused.
+- A footnote under the cards says example photos show the style only and points to Recent projects for Fence It Up's jobs.
+
+### Swapping a borrowed photo when Jenny sends originals (Elementor editor)
+1. Upload the new photo to the Media Library.
+2. Open the Navigator and find the elements that start with **SWAP**: "SWAP Vinyl privacy photo - Branham example",
+   "SWAP Wood photo - Branham example", "SWAP Gates photo - Branham example". Select one → Image → choose the new photo.
+   The frame is a fixed 4:3 crop (`object-fit: cover`), so any size or orientation works.
+3. Delete the matching **"Example label - … - delete after swap"** element (or edit it to "Our work · Orlando").
+4. Once all three are swapped, delete the "sv-note" footnote and Update.
+The hero image is "Hero photo - Jenny vinyl corner". In code: `native/gen.py` `SERVICES` (`("branham", "027", …)` → `("jenny", "<file>.jpg", …)`).
+
+Live check (`native/verify.js`): **103 passed, 0 failed** on desktop, iPhone 13, Pixel 7 and iPad Mini — every check from v1 plus:
+photo total 9 (6–9), Our Work = 4 photos all Jenny's, the 3 borrowed photos all carry "Example fence style", chain link
+labelled as Jenny's own, footnote present. Image density: service cards 1.27–2.26 on desktop, ≥0.63 on phones.
+
 ## Page build (2026-11-09) — page 1764, published, noindex
 "Fence It Up LLC — Website Concept": Elementor Canvas, Yoast noindex + nofollow, slug `fence-it-up-demo`.
 Built like Branham / Advanced Fence / Arroyo's: native Elementor V4 widgets via the Elementor MCP (`native/axmcp.py`

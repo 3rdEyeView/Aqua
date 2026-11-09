@@ -1,4 +1,5 @@
-{"arroyos-demo-logo.webp": "Arroyo’s Lawn Care LLC",
+{
+ "arroyos-demo-logo.webp": "Arroyo’s Lawn Care LLC",
  "arroyos-demo-hero-poster.jpg": "Drone view of a palm-lined Florida front yard landscaped by Arroyo’s Lawn Care",
  "arroyos-demo-lakeside-palm-bed.jpg": "Lakeside palm bed: palm cluster with boulders and agave",
  "arroyos-demo-paver-driveway-entry.jpg": "Paver driveway entry: palms and planting beds",
@@ -8,4 +9,7 @@
  "arroyos-demo-bottle-palms-entry.jpg": "Entry bottle palms and ti plants: bottle palms, red ti plants, and black rock",
  "arroyos-demo-circular-driveway-lawn.jpg": "Circular driveway lawn: wide lawn and an island bed",
  "arroyos-demo-ba-before.jpg": "Before: the lawn uneven and overgrown",
- "arroyos-demo-ba-after-visualization.jpg": "Visualization: the same lawn freshly mowed, with only the grass edited"}
+ "arroyos-demo-ba-after-visualization.jpg": "Visualization: the same lawn freshly mowed, with only the grass edited",
+ "arroyos-demo-ba2-after.jpg": "After: a circular-driveway home with a freshly cut lawn, photo from Arroyo’s Lawn Care",
+ "arroyos-demo-ba2-before-visualization.jpg": "Before, demo visualization: the same yard with only the lawn shown overgrown"
+}

@@ -206,25 +206,31 @@ def process():
 
 # ---------- 6. before & after (the standout) ----------
 def results():
-    after = IMG("ba-after", "ba-after-visualization.jpg", "Visualization: the same lawn freshly mowed, with only the grass edited", FILL + " object-position: 50% 50%;")
-    before = DV("ba-before", [IMG("ba-before-i", "ba-before.jpg", "Before: the lawn uneven and overgrown", FILL + " object-position: 50% 50%;")],
+    BAIMG = FILL + " object-position: 50% 100%; @media(--mobile) { transform: scale(1.32); transform-origin: 46% 100%; }"
+    after = IMG("ba-after", "ba2-after.jpg", "After", BAIMG)
+    before = DV("ba-before", [IMG("ba-before-i", "ba2-before-visualization.jpg", "Before, demo visualization", BAIMG)],
                 "position: absolute; inset: 0px; z-index: 1; clip-path: inset(0px 50% 0px 0px);")
     before.cfg = {"_cssid": "ba-before"}
     TAGCSS = f"position: absolute; z-index: 3; inset-block-start: 1rem; font-family: {BODY}; font-weight: 700; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; line-height: 1; padding-block-start: 0.55rem; padding-block-end: 0.55rem; padding-inline-start: 0.8rem; padding-inline-end: 0.8rem; border-radius: 999px; @media(--mobile) {{ font-size: 0.68rem; inset-block-start: 0.75rem; }}"
-    t_before = P("ba-tb", "Before", TAGCSS + f" inset-inline-start: 1rem; color: {ONDARK}; background-color: rgba(12,21,9,0.72); @media(--mobile) {{ inset-inline-start: 0.75rem; }}", tag="span")
-    t_after = P("ba-ta", "After · Visualization", TAGCSS + f" inset-inline-end: 1rem; color: {INK}; background-color: {LIME}; @media(--mobile) {{ inset-inline-end: 0.75rem; }}", tag="span")
+    t_before = P("ba-tb", "Before · Demo visualization", TAGCSS + f" inset-inline-start: 1rem; color: {ONDARK}; background-color: rgba(12,21,9,0.72); @media(--mobile) {{ inset-inline-start: 0.75rem; }}", tag="span")
+    t_after = P("ba-ta", "After", TAGCSS + f" inset-inline-end: 1rem; color: {INK}; background-color: {LIME}; @media(--mobile) {{ inset-inline-end: 0.75rem; }}", tag="span")
     knob = FX("ba-knob", [P("ba-knob-t", "‹ ›", f"font-family: {BODY}; font-weight: 700; font-size: 1.15rem; line-height: 1; color: {INK}; letter-spacing: 0.1em;", tag="span")],
               f"position: absolute; inset-block-start: 50%; inset-inline-start: 50%; transform: translate(-50%, -50%); width: 56px; height: 56px; border-radius: 50%; background-color: #ffffff; align-items: center; justify-content: center; box-shadow: 0px 6px 24px rgba(0,0,0,0.45); border-width: 3px; border-style: solid; border-color: {LIME};")
     handle = DV("ba-handle", [knob], "position: absolute; z-index: 2; inset-block-start: 0px; inset-block-end: 0px; inset-inline-start: 50%; width: 3px; margin-inline-start: -1.5px; background-color: #ffffff; box-shadow: 0px 0px 12px rgba(0,0,0,0.35);")
     handle.cfg = {"_cssid": "ba-handle"}
     stage = DV("ba", [after, before, handle, t_before, t_after],
-               f"position: relative; width: 100%; aspect-ratio: 1600 / 691; overflow: hidden; border-radius: 20px; background-color: {FOREST}; box-shadow: 0px 30px 80px -30px rgba(0,0,0,0.8); @media(--tablet) {{ aspect-ratio: 16 / 10; }} @media(--mobile) {{ aspect-ratio: 4 / 3; border-radius: 14px; }}")
+               f"position: relative; width: 100%; aspect-ratio: 1597 / 760; overflow: hidden; border-radius: 20px; background-color: {FOREST}; box-shadow: 0px 30px 80px -30px rgba(0,0,0,0.8); @media(--tablet) {{ aspect-ratio: 16 / 9; }} @media(--mobile) {{ aspect-ratio: 4 / 3; border-radius: 14px; }}")
     stage.cfg = {"_cssid": "ba"}
-    note = FX("ba-nt", [P("ba-nt-t", "Before: the original photo. After: a visualization of the same frame. Only the grass was edited, to show a fresh cut. The beds, plants, shadows and light are unchanged.",
+    CAPTION = ('<strong>Demo visualization.</strong> After: a real yard photo from Arroyo’s Lawn Care, unedited. '
+               'Before: the same photo with only the lawn replaced by real overgrown-grass texture, to show a typical starting point. '
+               'The house, beds, driveway, light and camera angle are identical. '
+               'Grass texture: <a href="https://www.flickr.com/photos/34764035@N00/50001408903" target="_blank" rel="noopener">“Unmowed lawn!”</a> '
+               'by Rhian de Kerhiec, <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a>, modified.')
+    note = FX("ba-nt", [P("ba-nt-t", CAPTION,
                           f"font-family: {BODY}; font-size: 0.92rem; line-height: 1.55; color: {ONDARK_M}; max-width: 70ch;"),
                         BTN("ba-cta", "Get an Estimate for Your Lawn", QUOTE, css="flex: none; @media(--mobile) { width: 100%; }")],
               "justify-content: space-between; align-items: center; gap: 1.5rem; margin-block-start: 1.5rem; @media(--mobile) { flex-direction: column; align-items: stretch; }")
-    hint = P("ba-hint", "Drag the handle to compare the same lawn before and after maintenance.", f"font-family: {BODY}; font-size: 1.05rem; line-height: 1.6; color: {ONDARK_M};")
+    hint = P("ba-hint", "Drag the handle to compare an overgrown lawn with the same yard freshly maintained.", f"font-family: {BODY}; font-size: 1.05rem; line-height: 1.6; color: {ONDARK_M};")
     head = FX("ba-hd", [EYEBROW("ba-eb", "Before &amp; After", dark=True), HL("ba-h", "See the ", "difference", css=H2, dark=True), hint], "flex-direction: column; gap: 1rem; margin-block-start: 0px; margin-block-end: 2.5rem; @media(--mobile) { margin-block-end: 1.75rem; }")
     return SEC("ba-s", "results", [head, stage, note], f"background-color: {INK}; background-image: radial-gradient(circle at 85% 0%, rgba(35,117,26,0.38) 0%, rgba(12,21,9,0) 45%);")
 

@@ -64,3 +64,36 @@ gallery serves 600 px files on desktop. The logo is their original WebP. Gallery
 - Note: on phones the Axiom chat widget's greeting bubble covers the right edge of the hero buttons until it's dismissed. It's
   site-wide and set in GHL, not part of the demo.
 Screenshots: `preview/final-*`, `preview/live-*`.
+
+## Slider v2 (2026-11-09): demo visualization on a real Arroyo photo — `ba2/`
+v1's after was a grass edit on their original before, which itself looks AI-generated, and the result read as AI. Replaced:
+- **After = their own photo `clean-1008` (circular-driveway home), unedited.** It's the clearest real photo they have with a large, simple lawn.
+- **Before = the same photo; only the lawn is changed** (`ba2/mask1008.png`). Check: 0 pixels differ outside the lawn mask
+  (house, beds, shrubs, pavers, sky, framing identical) → both frames align exactly.
+- **Grass texture with permission:** “Unmowed lawn!” by Rhian de Kerhiec, CC BY 2.0
+  (https://www.flickr.com/photos/34764035@N00/50001408903), modified. It was found via Openverse with a CC0/CC BY filter (`ba2/ov.py`,
+  `ba2/ov.json`). The credit with links is in the slider caption, as CC BY requires.
+  Wikimedia Commons was tried first, but it rate-limits this cloud IP (429). Share-alike (BY-SA) photos were skipped.
+- Method:
+  - `ba2/quilt.py`: image quilting (overlap-SSD patch choice + min-error cut) of the texture's lawn rows into a seamless
+    2600×1900 sheet. The source light is flattened and the dead leaves are excluded, so nothing visibly repeats.
+  - `ba2/compose.py`: the sheet is laid on this yard's ground plane (horizon y≈536, from the front door's height). It's rendered in
+    overlapping bands so blades stay upright, with distance-matched anti-aliasing.
+  - Tone and colour are mapped per distance band to the photo's sunlit lawn. The photo's own broad light and tree shadows are re-applied,
+    plus soft natural colour variation and a ragged edge spill at pavers and beds.
+  - Command: `python3 -I quilt.py ovfull/21_b.jpg 60,330,1024,600 sheet.png 2600 1900 72 24` then
+    `python3 -I compose.py sheet.png 0.9 bv-b.png "536,800"`.
+- Media **1749** (after) and **1750** (before visualization). Labels: "Before · Demo visualization" and "After". The caption states that
+  only the lawn was edited.
+- Frame: aspect 1597:760 on desktop, 16:9 on tablet, 4:3 on phone; images anchored to the bottom. On phones both images get the same 1.32× zoom
+  toward the lawn, so they stay aligned.
+- Page changes: only the slider elements, via `manage-elements` (images, aspect, labels, hint, caption). `gen.py` is synced.
+- Snippet 1733 is now closure-only, because named functions made the validator fail while the live copy was loaded. It also adds readable
+  caption link colours. Read back identical.
+- Live checks (desktop 1440, iPhone 13, Pixel 7):
+  - no horizontal scroll, 0 broken images;
+  - both frames at identical rects;
+  - mouse drag 50→20%, keyboard arrows move the divider, touch swipe 50→86%, tap 50→20→75%;
+  - a vertical swipe on the slider scrolls the page and leaves the divider where it was;
+  - credit links visible; video still playing; noindex, nofollow.
+- `preview/ba2-before-vs-after.jpg`: the full frames compared.

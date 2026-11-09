@@ -1,8 +1,62 @@
-# Fence It Up LLC demo (2026-11-08) — media ready (photos); waiting on Reel videos
+# Fence It Up LLC demo (2026-11-08) — https://axiomsystems.systems/fence-it-up-demo/
 
 Business: Fence It Up, LLC, Orlando FL (Instagram @fenceitupllc; posts tagged Orlando, Kissimmee and Altamonte Springs).
 Directory listings: Yelp `fence-it-up-orlando` / `fence-it-up-orlando-2`, Angi `fence-it-up-llc-reviews-1`, MapQuest 422370714.
 Phones listed as (407) 738-0904 and (407) 887-4520; confirm with Jenny before using either.
+
+## Page build (2026-11-09) — page 1764, published, noindex
+"Fence It Up LLC — Website Concept": Elementor Canvas, Yoast noindex + nofollow, slug `fence-it-up-demo`.
+Built like Branham / Advanced Fence / Arroyo's: native Elementor V4 widgets via the Elementor MCP (`native/axmcp.py`
+JSON-RPC), media via WordPress REST, plus one page-scoped snippet.
+
+- **Media 1755–1763**: the 9 `site/` JPEGs at their exact names (`native/upload.py`, `native/alts.json`, ids in `native/media-ids.json`).
+- **Generator**: `python3 -I native/gen.py` → `A..D.json`, then `python3 -I native/build.py` (replaces the document), publish,
+  `native/set_slug.py`, then re-save page settings (`template: elementor_canvas`) to clear Elementor's render cache.
+- **Sections**: sticky header (`#top`) → hero (`#hero`: H1 "Fence Installation in Orlando", vinyl/wood/chain-link/gates line,
+  "Request a Free Estimate"; Jan 3 vinyl corner beside the copy, capped at 440 CSS px, stacked on tablet/phone) →
+  Services (`#services`: vinyl privacy, wood, chain link, gates; each card's "… estimate →" link preselects that type) →
+  Recent projects (`#work`: 8 square cards, 4-up desktop / 2-up tablet and phone; each labelled with fence type + the post's
+  location tag; no dates) → Why (`#why`: three points paraphrased from their captions: permits, quality materials / clean
+  installation, the added double gate) → Estimate (`#estimate`, form mount `#fiu-form`) → footer → phone/tablet bar (`#fiu-bar`).
+- **Content rules**: no phone number (unconfirmed, 0 `tel:` links), no reviews, ratings, years, licensing or warranty claims.
+  Palette navy / sky / gold from the logo watermark; Archivo + Figtree.
+
+### Snippet 1774 "Axiom Demo – Fence It Up Page Enhancements" (`snippet/main.php`)
+Outputs only on page 1764 and its Elementor previews. Read back identical after every update. Rollback: unpublish 1774.
+- **Demo estimate form**: name, phone, ZIP, fence type, optional description (400 chars). Inline validation (errors appear after
+  a submit attempt or once something is typed); phone formatted to (xxx) xxx-xxxx; ZIP digits only; "Fill in sample details"
+  for quick demos (fictional 555-01xx number). The confirmation repeats the entries, says "Demo preview … nothing was sent",
+  and "Start a new request" resets it.
+- **Sends nothing**: no `<form>` element, no submit event, no fetch/XHR/beacon. Field names avoid name/phone/email.
+  Axiom CRM Sync (1398) and Form Protection (1411) only handle Jetpack form 1096 on page 1095, server-side. Verified: 0 network requests
+  during the whole form flow, on every device.
+- Smooth scroll to `#estimate` (72 px under the sticky header); desktop focuses the first empty field.
+- Hero `<em>` accent in gold. `#top` is forced to navy because the site's Additional CSS paints every `<header>` charcoal with `!important`.
+- **Phone/tablet bar vs. the site chat (GHL)**: the chat's invisible greeting box (fixed, z-index 99999999, 301×150) swallowed taps
+  on a normal bottom bar. The bar now sits above it (z-index 100000000) and ends 84 px from the right edge, so the chat bubble
+  keeps its corner, uncovered and on top. The snippet hides the bar while the estimate form is on screen and while the chat is
+  open (`chat-widget[data-active]`), so it never covers the chat's input.
+
+### Live verification (`node native/verify.js` → `preview/verify-log.txt`): 87 passed, 0 failed
+Desktop 1440, iPhone 13, Pixel 7, iPad Mini:
+- no horizontal scroll; `noindex, nofollow`; Canvas; fonts loaded; all anchors present;
+- 9 photos, all unique, 0 broken, alt text on all; hero beside the copy on desktop, stacked elsewhere;
+- every visible estimate link (8 desktop / 9 mobile, including a real tap on the bar) lands on `#estimate`; type preselect 4/4;
+- empty submit → 4 errors and focus on name; no errors from tabbing past; short phone flagged; ZIP digits only;
+  sample → confirmation; 0 network requests; reset works;
+- bar: button receives taps at its center and corners, chat bubble clear, hidden at the form and while chat is open.
+
+Image density (file px / device px): desktop cards 1.07–1.34, hero 0.81 at 2×; phones cards 1.2–1.47, hero 0.66–0.71
+(706 px source; the same range accepted on Advanced v3).
+The only console error is the chat's phone-input script. Failed loads are all site-wide third parties this sandbox blocks
+(stcdn.leadconnectorhq.com, services.msgsndr.com, GTM, Facebook, ClickCease, stats.wp.com), not the page.
+Screenshots: `preview/*-fold.png`, `*-confirmation.png`, `*-bar.png`, `desktop-overview.jpg`, `iphone13-overview.jpg`,
+`confirmation-pair.jpg`.
+
+Known, site-wide (not this page): on phones the Axiom chat greeting covers part of the hero buttons until it's dismissed
+(same as the Arroyo's demo).
+
+Later: a muted walkthrough clip can go in if Jenny sends the original Reel (pipeline in `tools/`).
 
 ## Jenny's ZIP (`Fence_It_Up_Demo_Media.zip`, 11 files) — what it actually is
 `originals/Fence_It_Up_Demo_Media/IMG_0343–0353.jpeg` are **Instagram app screenshots** (706×1536, no camera EXIF,

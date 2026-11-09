@@ -149,7 +149,7 @@ def hero():
 WHY = ["Licensed and fully insured", "Owner-operated, with over 15 years of experience", "Free estimates and same-day communication",
        "Commercial and residential properties", "Trees and palms trimmed for their health, not just their looks", "Craftsmanship you can count on"]
 def about():
-    photo = DV("ab-ph", [IMG("ab-img", "lakeside-palm-bed.jpg", "Lakeside palm bed: palm cluster with boulders and agave", FILL + " object-position: 50% 60%;"),
+    photo = DV("ab-ph", [IMG("ab-img", "lakeside-palm-bed-v2.jpg", "Lakeside palm bed: palm cluster with boulders and agave", FILL + " object-position: 50% 60%;"),
                          FX("ab-yr", [P("ab-yr-n", "15+", f"font-family: {DISP}; font-weight: 700; font-size: 3.2rem; line-height: 0.9; color: {LIME};"),
                                       P("ab-yr-t", "years of landscaping experience", f"font-family: {BODY}; font-size: 0.9rem; line-height: 1.4; color: {ONDARK}; max-width: 12ch;")],
                             f"position: absolute; width: auto; inset-block-end: -1.5rem; inset-inline-end: 1.5rem; flex-direction: column; gap: 0.4rem; background-color: {INK}; border-radius: 16px; padding: 1.25rem; box-shadow: 0px 20px 40px -16px rgba(12,21,9,0.6); @media(--mobile) {{ inset-inline-end: 1rem; inset-block-end: -1.25rem; padding: 1rem; }}")],
@@ -322,7 +322,9 @@ def footer():
     d = FX("fo-d4", hrs, "flex-direction: column; gap: 0.2rem; min-width: 0px;")
     g = GR("fo-g", [a, b, c, d], "grid-template-columns: minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr); grid-template-rows: auto; gap: 2.5rem; @media(--tablet) { grid-template-columns: repeat(3, minmax(0,1fr)); grid-template-rows: auto auto; } @media(--mobile) { grid-template-columns: minmax(0,1fr); grid-template-rows: repeat(4, auto); gap: 2rem; }")
     fine = FX("fo-fine", [P("fo-cp", "Copyright © 2026 Arroyo’s Lawn Care LLC. All Rights Reserved.", T + " font-size: 0.82rem;"),
-                          P("fo-ax", "Website concept by Axiom Systems. Demo only.", T + " font-size: 0.82rem;")],
+                          P("fo-ax", 'Website concept by Axiom Systems. Demo only. About photo lawn texture: '
+                          '<a href="https://www.flickr.com/photos/97499887@N06/24343142244" target="_blank" rel="noopener">St. Augustine grass</a> '
+                          'by Forest &amp; Kim Starr (Starr Environmental), <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a>, modified.', T + " font-size: 0.82rem;")],
               f"justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-block-start: 3rem; padding-block-start: 1.5rem; border-width: 1px 0px 0px 0px; border-style: solid; border-color: {DLINE};")
     return FX("fo", [FX("fo-w", [g, fine], WRAP + " flex-direction: column;")],
               f"width: 100%; background-color: {INK}; padding-block-start: 4.5rem; padding-block-end: 3rem; flex-direction: column; @media(--tablet) {{ padding-block-end: 7.5rem; }}", tag="footer")

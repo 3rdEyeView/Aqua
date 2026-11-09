@@ -8,7 +8,7 @@ src = T[y0:y1, x0:x1].astype(np.float32)
 # flatten the photo's own light (shade gradient) so patches have even brightness; this yard's light is applied later
 low = cv2.GaussianBlur(src, (0, 0), 35); src = src / np.maximum(low, 1) * low.reshape(-1, 3).mean(0)
 # debris in the source (dead leaves) must not be repeated: skip any patch that touches these points (texture coords)
-AVOID = [(720, 540), (920, 380), (905, 400), (790, 240)]
+AVOID = [tuple(map(int, p.split(':'))) for p in (sys.argv[8].split(';') if len(sys.argv) > 8 and sys.argv[8] else [])]
 W, H, P, O = (int(v) for v in (sys.argv[4:8] if len(sys.argv) > 7 else (2600, 1900, 150, 46)))
 # candidate patches: every 6 px, plus horizontally flipped copies (grass has no handedness; light is flattened later)
 cands = []

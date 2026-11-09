@@ -97,3 +97,16 @@ v1's after was a grass edit on their original before, which itself looks AI-gene
   - a vertical swipe on the slider scrolls the page and leaves the divider where it was;
   - credit links visible; video still playing; noindex, nofollow.
 - `preview/ba2-before-vs-after.jpg`: the full frames compared.
+
+## About photo lawn (2026-11-09) — `ab2/`
+The "15+ years" About image (their `project-2001`) had AI-looking turf. Only its lawn was replaced; 0 pixels changed outside
+`ab2/mask.png` (house, palms, bed, rocks, lake and sky are identical).
+- Texture: “starr-090922-5230 Stenotaphrum secundatum, habit in lawn, Oakwood Lakes, Boynton Beach, Florida” by Forest & Kim Starr
+  (Starr Environmental), CC BY 2.0 (https://www.flickr.com/photos/97499887@N06/24343142244), modified: a top-down photo of a
+  mowed St. Augustine lawn in Florida. Credit with links is in the footer fine print.
+- `ab2/quilt2.py`: fallen leaves inpainted, then large-patch quilting with all 8 rotations/flips into a seamless 2600×1900 sheet
+  (no visible repetition). `ab2/compose.py` (variant of `ba2/compose.py`): ground-plane projection (horizon y≈1165), tone and colour
+  matched to the original lawn, and the original palm shadows re-applied.
+  Command: `python3 -I quilt2.py ../ba2/ovfull/m5_b.jpg sheet.png 2600 1900 280 70 20` then `python3 -I compose.py sheet.png 0.75 out.png "1165,800"`.
+- Media **1781** (`arroyos-demo-lakeside-palm-bed-v2.jpg`, 1000×1250) replaces 1711 in element `ab-img`. Live on desktop, iPhone 13
+  and Pixel 7: loads, no horizontal scroll, 0 broken images, slider and video unchanged. Screenshots: `preview/about-v2-*.png`.

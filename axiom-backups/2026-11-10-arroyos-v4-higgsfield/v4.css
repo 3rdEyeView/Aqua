@@ -1,0 +1,20 @@
+/* V4 hero only. Everything else on the page is the live page's own CSS. */
+#hero .v4-still{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;z-index:0;opacity:0;transition:opacity .7s ease;pointer-events:none}
+#hero.v4-settled .v4-still{opacity:1}
+#hero .e-background-video__media{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+#hero .e-background-video__content{position:relative;z-index:1}
+#hero .v4-chip{position:absolute;z-index:2;right:1.25rem;bottom:1.25rem;margin:0;display:flex;align-items:center;gap:.5rem;max-width:calc(100% - 2.5rem);padding:.5rem .85rem;border-radius:999px;
+  background:rgba(12,21,9,.72);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(244,245,239,.28);color:#f4f5ef;font:600 .8rem/1.25 Figtree,system-ui,sans-serif}
+#hero .v4-chip i{flex:none;width:8px;height:8px;border-radius:50%;background:#8edc1e}
+#hero .v4-chip[data-kind="ai"]{background:rgba(248,152,29,.94);border-color:#f8981d;color:#0c1509}
+#hero .v4-chip[data-kind="ai"] i{background:#0c1509}
+#hero .e-background-video__play{display:none}
+#hero.v4-paused .e-background-video__play{display:flex}
+#hero.v4-paused .e-background-video__pause{display:none}
+#hero .v4-chip{bottom:auto;top:1.25rem;right:8.6rem;min-height:44px}
+/* extra shade behind the copy once the generated part starts, so the headline and button stay readable over the bright wall */
+#hero .v4-shade{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:0;transition:opacity .8s ease;background:linear-gradient(90deg,rgba(12,21,9,.86) 0%,rgba(12,21,9,.68) 40%,rgba(12,21,9,.2) 64%,rgba(12,21,9,0) 80%)}
+#hero.v4-late .v4-shade{opacity:1}
+@media (max-width:1024px){ #hero .v4-chip{right:auto;left:1rem;top:1rem;font-size:.72rem;max-width:calc(100% - 9.5rem)}
+  #hero .v4-shade{background:linear-gradient(180deg,rgba(12,21,9,.25) 0%,rgba(12,21,9,.6) 38%,rgba(12,21,9,.9) 100%)} }
+@media (prefers-reduced-motion:reduce){ #hero .v4-still,#hero .v4-shade{transition:none} #hero .e-background-video__controls{display:none} }

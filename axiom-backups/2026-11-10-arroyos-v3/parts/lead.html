@@ -1,0 +1,106 @@
+<div class="view-lead" id="lead-view">
+  <header class="ld__top">
+    <div>
+      <p class="ld__kicker">Axiom Systems · simulated · sample data</p>
+      <h1 class="disp">See What Happens to a Lead</h1>
+    </div>
+    <div class="ld__clock" aria-live="polite"><span>Demo clock</span><b id="ld-clock">Tue · 10:41 AM</b></div>
+  </header>
+
+  <div class="ld__steps" role="toolbar" aria-label="Demo controls">
+    <button class="ld__step ld__step--go" type="button" id="ld-start">Start Sample Ad Visit</button>
+    <button class="ld__step" type="button" id="ld-s1" disabled><i>1</i>New estimate request</button>
+    <button class="ld__step" type="button" id="ld-s2" disabled><i>2</i>No reply yet · advance clock</button>
+    <button class="ld__step" type="button" id="ld-s3a" disabled><i>3</i>Homeowner replies</button>
+    <button class="ld__step" type="button" id="ld-s3b" disabled><i>3</i>Homeowner books</button>
+    <button class="ld__step ld__step--reset" type="button" id="ld-reset">Reset demo</button>
+  </div>
+
+  <div class="ld__grid">
+    <!-- homeowner side -->
+    <section class="ld__phone" aria-label="Homeowner’s side">
+      <p class="ld__label">Homeowner’s phone</p>
+      <div class="ph">
+        <div class="ph__bar" id="ph-url">Search results · sample</div>
+
+        <div class="ph__pane" id="ph-ad">
+          <p class="ph__q">landscaper near me</p>
+          <div class="ad">
+            <p class="ad__tag"><b>Sponsored</b> · sample ad</p>
+            <p class="ad__h">Arroyo’s Lawn Care — Landscaping in Bradenton</p>
+            <p class="ad__d">Licensed &amp; insured. Free estimates. Same-day reply. Serving Manatee &amp; Sarasota counties.</p>
+            <button class="btn btn--lime" type="button" id="ph-start">Start Sample Ad Visit</button>
+          </div>
+          <p class="ph__hint">This simulates a homeowner tapping a Google ad. No ad account is touched.</p>
+        </div>
+
+        <form class="ph__pane" id="ph-form" novalidate hidden>
+          <p class="ph__src"><b>Source captured</b> Google Ads · cpc · “landscaper near me”</p>
+          <h2 class="disp">Request a free estimate</h2>
+          <div class="row2">
+            <div class="fld"><label for="l-first">First name</label><input class="inp" id="l-first" name="first" value="Jordan" required><p class="err" role="alert">Enter a first name.</p></div>
+            <div class="fld"><label for="l-last">Last name</label><input class="inp" id="l-last" name="last" value="Sample" required><p class="err" role="alert">Enter a last name.</p></div>
+          </div>
+          <div class="fld"><label for="l-phone">Phone</label><input class="inp" id="l-phone" name="phone" type="tel" inputmode="tel" value="(941) 555-0142" required><p class="err" role="alert">Enter a 10-digit phone number.</p></div>
+          <div class="fld"><label for="l-email">Email</label><input class="inp" id="l-email" name="email" type="email" value="jordan.sample@example.com" required><p class="err" role="alert">Enter a valid email address.</p></div>
+          <div class="fld"><label for="l-svc">Service requested</label>
+            <select class="inp" id="l-svc" name="service">
+              <option>Landscape Design &amp; Installation</option><option>Landscape Lighting Installation &amp; Repair</option><option>Tree &amp; Palm Services</option><option>Pavers, Hardscapes &amp; Fencing</option><option>Drainage Installation &amp; Repair</option><option>Irrigation &amp; Sprinkler Services</option><option selected>Lawn Maintenance</option><option>Property &amp; Storm Cleanup</option><option>Shrub, Hedge &amp; Flower Bed Care</option><option>Pressure Washing &amp; Surface Sealing</option>
+            </select></div>
+          <label class="optin"><input type="checkbox" name="sms" id="l-sms" checked><span>Text me about my estimate. <small>Optional. Uncheck to see the email-only path.</small></span></label>
+          <button class="btn btn--lime" type="submit">Send Sample Request</button>
+          <p class="ph__hint">Sample lead. Nothing is sent, stored, or tracked.</p>
+        </form>
+
+        <div class="ph__pane" id="ph-inbox" hidden>
+          <p class="ph__ok">Request received. Thanks, <span id="ph-name"></span>.</p>
+          <p class="ph__sub">What the homeowner sees next</p>
+          <div id="ph-msgs" class="msgs" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CRM side -->
+    <section class="crm" aria-label="Axiom CRM, sample view">
+      <div class="crm__hd"><b>Axiom CRM</b><span>sample view · Arroyo’s Lawn Care</span><em id="crm-live">Waiting for a visitor</em></div>
+
+      <div class="crm__pipe" id="crm-pipe">
+        <div class="col" data-stage="new"><h3>New Lead</h3><div class="slot"></div></div>
+        <div class="col" data-stage="follow"><h3>Follow-Up</h3><div class="slot"></div></div>
+        <div class="col" data-stage="replied"><h3>Replied</h3><div class="slot"></div></div>
+        <div class="col" data-stage="booked"><h3>Walkthrough Booked</h3><div class="slot"></div></div>
+      </div>
+
+      <div class="crm__empty" id="crm-empty">
+        <p><b>No lead yet.</b> Press <u>Start Sample Ad Visit</u>, then send the sample request. The same lead will appear here with its ad source.</p>
+      </div>
+
+      <div class="crm__body" id="crm-body" hidden>
+        <div class="crm__side">
+          <div class="card">
+            <h3>Lead</h3>
+            <dl id="crm-lead"></dl>
+          </div>
+          <div class="card">
+            <h3>Ad source</h3>
+            <dl id="crm-src"></dl>
+          </div>
+          <div class="card card--auto" id="crm-auto">
+            <h3>Automated follow-up</h3>
+            <p class="auto__state" id="auto-state"></p>
+            <p class="auto__next" id="auto-next"></p>
+          </div>
+          <div class="card card--owner">
+            <h3>Owner’s phone</h3>
+            <div id="crm-owner" class="msgs" aria-live="polite"></div>
+          </div>
+        </div>
+        <div class="card crm__tl">
+          <h3>Activity timeline</h3>
+          <ol id="crm-tl" aria-live="polite"></ol>
+        </div>
+      </div>
+    </section>
+  </div>
+  <p class="ld__fine">Self-contained simulation. Names, numbers, campaign, click ID, times and cadence are sample values. No WordPress, CRM, messaging, ad account or tracking system is contacted.</p>
+</div>

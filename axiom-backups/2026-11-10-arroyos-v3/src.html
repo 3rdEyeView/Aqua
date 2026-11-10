@@ -1,0 +1,1160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Arroyo’s Lawn Care — V3 sales demo (not live)</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root{
+  --ink:#0c1509; --forest:#12300f; --deep:#17401a; --green:#23751a; --lime:#8edc1e; --lime-b:#a8f032; --sun:#f8981d;
+  --paper:#f6f2e9; --sand:#ece5d6; --card:#fffdf8; --line:#ddd5c3; --muted:#565f4e;
+  --on:#f6f2e9; --on-m:#c9cfbf; --dline:rgba(246,242,233,.16);
+  --disp:"Barlow Condensed","Arial Narrow",Impact,sans-serif; --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --hd:76px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3,p,ul,ol,fieldset,legend{margin:0;padding:0}
+ul,ol{list-style:none}
+fieldset{border:0;min-width:0}
+:focus-visible{outline:3px solid var(--lime);outline-offset:3px;border-radius:4px}
+.wrap{width:100%;max-width:1240px;margin-inline:auto;padding-inline:40px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.disp{font-family:var(--disp);font-weight:700;text-transform:uppercase;line-height:.98;letter-spacing:.005em}
+
+/* preview ribbon */
+.ribbon{background:var(--sun);color:var(--ink);font-size:.8rem;font-weight:600;text-align:center;padding:.45rem 16px;line-height:1.35}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;min-height:54px;padding:.85rem 1.7rem;border-radius:999px;border:2px solid transparent;
+  font:600 1.04rem/1 var(--body);text-decoration:none;cursor:pointer;transition:background-color .2s,color .2s,border-color .2s,transform .2s}
+.btn svg{width:1.1em;height:1.1em;flex:none}
+.btn--lime{background:var(--lime);border-color:var(--lime);color:var(--ink);box-shadow:0 12px 30px -12px rgba(142,220,30,.75)}
+.btn--lime:hover{background:var(--lime-b);border-color:var(--lime-b);transform:translateY(-1px)}
+.btn--ghost{background:rgba(12,21,9,.38);border-color:rgba(246,242,233,.75);color:var(--on);backdrop-filter:blur(6px)}
+.btn--ghost:hover{background:var(--on);border-color:var(--on);color:var(--ink)}
+.btn--dark{background:var(--ink);border-color:var(--ink);color:var(--on)}
+.btn--dark:hover{background:var(--forest);border-color:var(--forest)}
+.btn--lg{min-height:62px;padding-inline:2.1rem;font-size:1.14rem}
+
+/* header */
+.hd{position:sticky;top:0;z-index:50;height:var(--hd);margin-bottom:calc(var(--hd) * -1);transition:background-color .25s,box-shadow .25s;
+  background:linear-gradient(180deg,rgba(12,21,9,.72),rgba(12,21,9,0))}
+.hd.is-solid,.hd.is-open{background:rgba(12,21,9,.94);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--dline)}
+.hd__in{display:flex;align-items:center;gap:1.6rem;height:100%}
+.hd__logo{margin-right:auto;flex:none}
+.hd__logo img{width:142px;height:auto}
+.hd__nav{display:flex;gap:1.7rem}
+.hd__nav a{color:var(--on);text-decoration:none;font-weight:500;font-size:.98rem;padding:.45rem 0;border-bottom:2px solid transparent}
+.hd__nav a:hover{color:var(--lime);border-color:var(--lime)}
+.hd__tel{color:var(--on);text-decoration:none;font-weight:600;white-space:nowrap}
+.hd__tel:hover{color:var(--lime)}
+.hd .btn{min-height:46px;padding:.6rem 1.25rem;font-size:.96rem}
+.hd__burger{display:none;width:46px;height:46px;border-radius:50%;border:1.5px solid rgba(246,242,233,.7);background:rgba(12,21,9,.4);color:var(--on);cursor:pointer;align-items:center;justify-content:center;flex:none}
+.hd__burger svg{width:22px;height:22px}
+.mnav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--ink);border-bottom:1px solid var(--dline);padding:.25rem 20px 1.25rem;box-shadow:0 30px 60px rgba(0,0,0,.5)}
+.mnav a.lnk{display:block;color:var(--on);text-decoration:none;font-weight:500;font-size:1.1rem;padding:.9rem 0;border-bottom:1px solid var(--dline)}
+.mnav .btn{width:100%;margin-top:.8rem;min-height:52px;font-size:1.02rem}
+.hd.is-open .mnav{display:block}
+
+/* hero */
+.hero{position:relative;min-height:min(100svh,980px);display:flex;align-items:flex-end;background:var(--ink) center/cover no-repeat;color:var(--on);overflow:hidden;isolation:isolate}
+.hero__media{position:absolute;inset:0;z-index:-2}
+.hero__media img,.hero__media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:42% 50%}
+.hero__media video{opacity:0;transition:opacity .8s}
+.hero__media video.is-on{opacity:1}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(90deg,rgba(12,21,9,.88) 0%,rgba(12,21,9,.62) 38%,rgba(12,21,9,.08) 72%),linear-gradient(0deg,rgba(12,21,9,.82) 0%,rgba(12,21,9,0) 42%)}
+.hero__in{padding-block:calc(var(--hd) + 3.5rem) 0;display:flex;flex-direction:column;gap:3.25rem;width:100%}
+.hero__copy{display:flex;flex-direction:column;gap:1.5rem;max-width:820px}
+.eyebrow{display:inline-flex;align-items:center;gap:.6rem;align-self:flex-start;font-weight:600;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--lime)}
+.hero .eyebrow{color:var(--on)}
+.hero h1{font-size:clamp(3rem,7.4vw,6.6rem);line-height:.92;text-wrap:balance;text-shadow:0 2px 30px rgba(0,0,0,.35)}
+.hero h1 em,.h2 em{font-style:normal;color:var(--lime)}
+.hero__lede{font-size:clamp(1.1rem,1.5vw,1.32rem);line-height:1.5;max-width:44ch;color:var(--on)}
+.hero__act{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:.25rem}
+.trust{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid rgba(246,242,233,.28)}
+.trust li{padding:1.15rem 1.25rem 1.5rem 0;display:flex;flex-direction:column;gap:.15rem}
+.trust li+li{padding-left:1.25rem;border-left:1px solid rgba(246,242,233,.18)}
+.trust b{font-family:var(--disp);font-weight:700;font-size:1.3rem;line-height:1.05;text-transform:uppercase;letter-spacing:.02em}
+.trust span{font-size:.88rem;color:var(--on-m);line-height:1.35}
+.vtoggle{position:absolute;right:20px;top:calc(var(--hd) + 14px);z-index:2;display:none;align-items:center;gap:.4rem;min-height:40px;padding:0 .95rem;border-radius:999px;
+  border:1px solid rgba(246,242,233,.45);background:rgba(12,21,9,.5);color:var(--on);font:600 .8rem var(--body);cursor:pointer;backdrop-filter:blur(6px)}
+.vtoggle.is-on{display:inline-flex}
+
+/* sections */
+.sec{padding-block:6.5rem;scroll-margin-top:var(--hd)}
+.sec--sand{background:var(--sand)}
+.sec--dark{background:var(--ink);color:var(--on)}
+.head{display:flex;align-items:flex-end;justify-content:space-between;gap:2rem;margin-bottom:3rem}
+.head .btn{flex:none;white-space:nowrap}
+.head__l{display:flex;flex-direction:column;gap:1rem;min-width:0}
+.eyebrow--g{color:var(--green)} .eyebrow--g::before{background:var(--sun)}
+.h2{font-size:clamp(2.4rem,4.6vw,4rem)}
+.sec:not(.sec--dark) .h2 em{color:var(--green)}
+.lede{font-size:1.12rem;color:var(--muted);max-width:58ch}
+.sec--dark .lede{color:var(--on-m)}
+
+/* services */
+.svc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:3.5rem;border-top:2px solid var(--ink)}
+.svc li{display:grid;grid-template-columns:3rem minmax(0,1fr);gap:.25rem 1rem;padding:1.35rem 0;border-bottom:1px solid var(--line);align-items:baseline}
+.svc .n{font-family:var(--disp);font-weight:700;font-size:1.05rem;color:var(--green)}
+.svc h3{font-family:var(--disp);font-weight:700;font-size:1.55rem;line-height:1.05;text-transform:uppercase}
+.svc p{grid-column:2;font-size:.97rem;color:var(--muted);line-height:1.55}
+
+/* about */
+.about{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:5rem;align-items:center}
+.about__ph{position:relative;aspect-ratio:4/5;border-radius:24px;overflow:hidden;background:var(--line)}
+.about__ph img{width:100%;height:100%;object-fit:cover;object-position:50% 60%}
+.about__yr{position:absolute;left:0;bottom:0;background:var(--ink);color:var(--on);padding:1.2rem 1.5rem 1.3rem;border-top-right-radius:24px;display:flex;align-items:center;gap:.9rem}
+.about__yr b{font-family:var(--disp);font-size:3.4rem;line-height:.85;color:var(--lime)}
+.about__yr span{font-size:.9rem;line-height:1.35;max-width:13ch}
+.about__c{display:flex;flex-direction:column;gap:1.3rem}
+.checks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem 1.5rem;margin-block:.4rem .6rem}
+.checks li{display:flex;gap:.6rem;font-size:1rem;line-height:1.4}
+.checks li::before{content:"";flex:none;width:1.25rem;height:1.25rem;margin-top:.1rem;border-radius:50%;background:var(--green) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5.5 10.5l3 3 6-7' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/100% no-repeat}
+
+/* work */
+.work{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));grid-auto-rows:clamp(260px,27vw,380px);gap:1rem}
+.work figure{position:relative;margin:0;border-radius:18px;overflow:hidden;background:#1b2a17;grid-column:span 4}
+.work figure:nth-child(1),.work figure:nth-child(4){grid-column:span 8}
+.work figure:nth-child(5),.work figure:nth-child(6){grid-column:span 6}
+.work img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.work figure:hover img{transform:scale(1.03)}
+.work figcaption{position:absolute;inset:auto 0 0 0;padding:3.5rem 1.25rem 1.1rem;background:linear-gradient(0deg,rgba(12,21,9,.88),rgba(12,21,9,0));color:var(--on)}
+.work figcaption b{display:block;font-family:var(--disp);font-size:1.45rem;line-height:1.05;text-transform:uppercase}
+.work figcaption span{font-size:.9rem;color:var(--on-m)}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1.5rem;counter-reset:s}
+.steps li{counter-increment:s;border-top:2px solid var(--ink);padding-top:1.1rem;display:flex;flex-direction:column;gap:.5rem}
+.steps li::before{content:"0" counter(s);font-family:var(--disp);font-weight:700;font-size:2.4rem;line-height:1;color:var(--green)}
+.steps h3{font-family:var(--disp);font-size:1.35rem;line-height:1.05;text-transform:uppercase}
+.steps p{font-size:.95rem;color:var(--muted);line-height:1.55}
+
+/* areas */
+.areas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.areas li{background:var(--card);border-radius:16px;border-left:4px solid var(--lime);padding:1.6rem}
+.areas small{font-weight:600;font-size:.78rem;letter-spacing:.12em;color:var(--green)}
+.areas h3{font-family:var(--disp);font-size:2rem;line-height:1.05;text-transform:uppercase;margin-block:.2rem .4rem}
+.areas p{font-size:.98rem;color:var(--muted);line-height:1.55}
+.areas-note{margin-top:1.5rem;font-weight:600}
+.areas-note a{color:var(--green)}
+
+/* estimate */
+.est{background:var(--forest);background-image:radial-gradient(circle at 100% 0%,rgba(248,152,29,.4),rgba(248,152,29,0) 30%),radial-gradient(circle at 0% 100%,rgba(35,117,26,.6),rgba(35,117,26,0) 45%);color:var(--on)}
+.est__g{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:4rem;align-items:start}
+.est__c{display:flex;flex-direction:column;gap:1.25rem;position:sticky;top:calc(var(--hd) + 2rem)}
+.est__c .lede{color:var(--on)}
+.ways{display:flex;flex-direction:column;margin-top:.75rem;border-top:1px solid var(--dline)}
+.ways a{display:flex;align-items:center;gap:1rem;padding:1.05rem 0;border-bottom:1px solid var(--dline);text-decoration:none;color:var(--on)}
+.ways a:hover b{color:var(--lime)}
+.ways i{flex:none;width:46px;height:46px;border-radius:50%;background:rgba(246,242,233,.1);display:flex;align-items:center;justify-content:center;color:var(--lime)}
+.ways svg{width:20px;height:20px}
+.ways b{display:block;font-size:1.12rem;line-height:1.25;overflow-wrap:anywhere}
+.ways span{font-size:.88rem;color:var(--on-m)}
+.form{scroll-margin-top:calc(var(--hd) + 1rem);background:var(--card);color:var(--ink);border-radius:24px;padding:2.25rem;box-shadow:0 40px 80px -40px rgba(0,0,0,.7)}
+.form h3{font-family:var(--disp);font-size:1.9rem;line-height:1;text-transform:uppercase}
+.form__note{font-size:.85rem;color:var(--muted);margin:.35rem 0 1.5rem}
+.fld{display:flex;flex-direction:column;gap:.4rem;margin-bottom:1.15rem;min-width:0}
+.fld>label,.fld>legend{font-weight:600;font-size:.92rem}
+.req{color:#b3401a}
+.row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 1rem}
+.inp{width:100%;min-height:50px;padding:.7rem .9rem;border:1.5px solid var(--line);border-radius:12px;background:#fff;font:inherit;font-size:1rem;color:var(--ink)}
+textarea.inp{min-height:104px;resize:vertical}
+.inp:focus{outline:none;border-color:var(--green);box-shadow:0 0 0 3px rgba(35,117,26,.2)}
+.inp[aria-invalid="true"],.is-bad .chips{border-color:#b3401a}
+.err{display:none;font-size:.85rem;font-weight:600;color:#b3401a}
+.is-bad .err{display:block}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;border:1.5px solid transparent;border-radius:12px}
+.is-bad .chips{padding:.5rem}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;inset:0;width:100%;height:100%;margin:0;cursor:pointer}
+.chip span{display:inline-flex;align-items:center;min-height:42px;padding:.45rem .95rem;border:1.5px solid var(--line);border-radius:999px;background:#fff;font-size:.93rem;font-weight:500;transition:all .15s}
+.chip input:checked+span{background:var(--ink);border-color:var(--ink);color:var(--on)}
+.chip input:focus-visible+span{outline:3px solid var(--lime);outline-offset:2px}
+.form .btn{width:100%;margin-top:.4rem}
+.form__fine{font-size:.82rem;color:var(--muted);text-align:center;margin-top:.9rem}
+.done{display:none;text-align:left}
+.done.is-on{display:block}
+.done__ic{width:60px;height:60px;border-radius:50%;background:var(--lime);display:flex;align-items:center;justify-content:center;margin-bottom:1.1rem}
+.done__ic svg{width:30px;height:30px}
+.done p{margin-top:.6rem;color:var(--muted)}
+.done dl{margin:1.4rem 0;border-top:1px solid var(--line)}
+.done dl div{display:grid;grid-template-columns:8.5rem minmax(0,1fr);gap:1rem;padding:.6rem 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.done dt{color:var(--muted)} .done dd{margin:0;font-weight:600;overflow-wrap:anywhere}
+.demo-tag{display:inline-block;background:#fdebd0;color:#7a4300;border-radius:8px;padding:.5rem .75rem;font-size:.86rem;font-weight:600}
+
+/* footer */
+.ft{background:var(--ink);color:var(--on-m);padding-block:3.5rem 2.5rem;font-size:.93rem}
+.ft__g{display:flex;flex-wrap:wrap;gap:2rem 4rem;justify-content:space-between;align-items:flex-start}
+.ft img{width:150px;height:auto;margin-bottom:1rem}
+.ft p{max-width:42ch}
+.ft h4{margin:0 0 .5rem;font:600 .75rem var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--lime)}
+.ft a{color:var(--on);text-decoration:none} .ft a:hover{color:var(--lime)}
+.ft li{padding:.12rem 0}
+.ft__fine{margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid var(--dline);font-size:.82rem;display:flex;flex-wrap:wrap;gap:.5rem 2rem;justify-content:space-between}
+
+/* mobile bar */
+.mbar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:40;gap:8px;padding:8px 8px calc(8px + env(safe-area-inset-bottom));background:rgba(12,21,9,.95);backdrop-filter:blur(10px);border-top:1px solid var(--dline);transform:translateY(110%);transition:transform .3s}
+.mbar.is-on{transform:none}
+.mbar .btn{flex:1 1 0;min-height:52px;padding-inline:.5rem;font-size:1rem;box-shadow:none}
+.mbar .btn--ghost{background:var(--deep);border-color:var(--deep)}
+
+@media (max-width:1100px){
+  .hd__nav,.hd__tel,.hd__cta{display:none}
+  .hd__burger{display:inline-flex}
+  .about{grid-template-columns:minmax(0,1fr);gap:3rem} .about__ph{aspect-ratio:4/3}
+  .steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem}
+  .est__g{grid-template-columns:minmax(0,1fr);gap:2.5rem} .est__c{position:static}
+  .mbar{display:flex} .ft{padding-bottom:6.5rem}
+}
+@media (max-width:760px){
+  :root{--hd:64px}
+  body{font-size:16px}
+  .wrap{padding-inline:20px}
+  .hd__logo img{width:112px}
+  .sec{padding-block:4rem}
+  .head{flex-direction:column;align-items:flex-start;margin-bottom:2rem}
+  .hero{min-height:min(100svh,860px)}
+  .hero::before{background:linear-gradient(180deg,rgba(12,21,9,.5) 0%,rgba(12,21,9,.3) 28%,rgba(12,21,9,.82) 62%,rgba(12,21,9,.96) 100%)}
+  .hero__media img,.hero__media video{object-position:36% 50%}
+  .hero__in{gap:1.5rem;padding-top:calc(var(--hd) + 3.2rem)}
+  .hero__copy{gap:.9rem}
+  .hero h1{font-size:clamp(2.6rem,12.4vw,3.4rem)}
+  .hero__lede{font-size:1.04rem;line-height:1.45}
+  .hero .eyebrow{font-size:.68rem;letter-spacing:.1em;gap:.45rem} .hero .eyebrow::before{width:18px}
+  .hero__act{gap:.6rem;margin-top:.15rem}
+  .vtoggle{top:calc(var(--hd) + 6px);min-height:36px;padding:0 .8rem;font-size:.74rem}
+  .ribbon{font-size:.72rem;padding:.35rem 12px}
+  .hero__act{flex-direction:column} .hero__act .btn{width:100%}
+  .btn--lg{min-height:54px;font-size:1.06rem}
+  .trust{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .trust li{padding:.85rem .75rem .85rem 0} .trust li+li{padding-left:0;border-left:0}
+  .trust li:nth-child(even){padding-left:.9rem;border-left:1px solid rgba(246,242,233,.18)}
+  .trust li:nth-child(n+3){border-top:1px solid rgba(246,242,233,.18)}
+  .trust b{font-size:1.1rem} .trust span{font-size:.8rem}
+  .svc{grid-template-columns:minmax(0,1fr)} .svc li{grid-template-columns:2.4rem minmax(0,1fr)} .svc h3{font-size:1.35rem}
+  .checks{grid-template-columns:minmax(0,1fr)}
+  .work{gap:.75rem;grid-auto-rows:auto} .work figure:nth-child(n){grid-column:span 12;aspect-ratio:4/3}
+  .steps{grid-template-columns:minmax(0,1fr);gap:1.5rem}
+  .areas{grid-template-columns:minmax(0,1fr)}
+  .form{padding:1.4rem;border-radius:18px} .row{grid-template-columns:minmax(0,1fr)}
+  .head .btn{width:100%}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+/* ===== V3 additions ===== */
+:root{--pb:38px}
+.ribbon{display:none}
+body[data-view="home"] .view-lead,body[data-view="lead"] .view-home{display:none}
+
+/* presenter bar */
+.pbar{position:sticky;top:0;z-index:70;height:var(--pb);display:flex;align-items:center;justify-content:center;gap:.35rem;padding:0 10px;background:#060a04;border-bottom:1px solid var(--dline);font-size:.8rem;color:var(--on-m)}
+.pbar span{margin-right:.5rem;white-space:nowrap}
+.pbar button{height:28px;padding:0 .8rem;border-radius:999px;border:1px solid var(--dline);background:transparent;color:var(--on);font:600 .78rem var(--body);cursor:pointer;white-space:nowrap}
+.pbar button[aria-pressed="true"]{background:var(--lime);border-color:var(--lime);color:var(--ink)}
+.hd{top:var(--pb)}
+.sec{scroll-margin-top:calc(var(--hd) + var(--pb))}
+.form{scroll-margin-top:calc(var(--hd) + var(--pb) + 1rem)}
+.mbar{transform:none!important}
+
+/* ---------- reveal: base = stacked, natural scroll (phones, reduced motion) ---------- */
+.rv{position:relative;background:var(--ink);color:var(--on)}
+.rv__stage{position:relative}
+.rv__bg{position:sticky;top:var(--pb);height:calc(100svh - var(--pb));overflow:hidden;z-index:0}
+.rv__bg img,.rv__bg video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:36% 50%}
+.rv__bg video{opacity:0;transition:opacity .8s}
+.rv__bg video.is-on{opacity:1}
+.rv__shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,21,9,.55) 0%,rgba(12,21,9,.28) 30%,rgba(12,21,9,.8) 66%,rgba(12,21,9,.96) 100%)}
+.rv .vtoggle{position:absolute;right:20px;top:calc(var(--hd) + 8px);z-index:3;min-height:36px;padding:0 .8rem;font-size:.74rem}
+.rv__intro{position:relative;z-index:1;margin-top:calc(var(--pb) - 100svh);min-height:calc(100svh - var(--pb));display:flex;flex-direction:column;justify-content:flex-end;gap:.8rem;padding:calc(var(--hd) + 3rem) 20px 6.3rem}
+.rv__intro h1{font-size:clamp(2.6rem,12.4vw,3.4rem);line-height:.92;text-wrap:balance;text-shadow:0 2px 30px rgba(0,0,0,.35)}
+.rv h1 em,.rv h2 em{font-style:normal;color:var(--lime)}
+.rv .eyebrow{color:var(--on);font-size:.68rem;letter-spacing:.1em;gap:.45rem}
+.rv .eyebrow::before{width:18px}
+.rv__lede{font-size:1.04rem;line-height:1.45;max-width:44ch}
+.rv__act{display:flex;flex-direction:column;gap:.6rem}
+.rv__cue{display:none}
+.rv__type{position:relative;z-index:1;min-height:88svh;display:flex;flex-direction:column;justify-content:center;gap:.06em;padding:0 20px;overflow:hidden;font-size:17.5vw}
+.rv__line{font-family:var(--disp);font-weight:700;line-height:.9;text-transform:uppercase;white-space:nowrap;letter-spacing:-.005em;text-shadow:0 4px 40px rgba(0,0,0,.35)}
+.rv__line--o{color:transparent;-webkit-text-stroke:2px var(--on);text-shadow:none}
+.rv__line--l{color:var(--lime)}
+.rv__cut{position:relative;z-index:1;margin:0;height:44svh;overflow:hidden;background:var(--ink)}
+.rv__cut img{width:100%;height:100%;object-fit:cover}
+.rv__cut figcaption{position:absolute;left:20px;bottom:16px;font-family:var(--disp);font-weight:700;font-size:1.5rem;line-height:1;text-transform:uppercase;text-shadow:0 2px 16px rgba(0,0,0,.6)}
+.rv__cut figcaption span{display:block;font:600 .7rem var(--body);letter-spacing:.14em;margin-bottom:.35rem;color:var(--lime)}
+.rv__proj{position:relative;z-index:1;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;background:var(--ink)}
+.rv__proj>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:40% 50%}
+.rv__proj::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(12,21,9,.98) 0%,rgba(12,21,9,.9) 42%,rgba(12,21,9,.12) 78%)}
+.rv__card{position:relative;z-index:2;width:100%;display:flex;flex-direction:column;gap:.85rem;padding:2rem 20px 6.5rem}
+.rv__card h2{font-size:clamp(2.5rem,11vw,3.2rem);line-height:.94}
+.rv__card h2 em{display:block}
+.rv__desc{font-size:1.06rem;color:var(--on)}
+.rv__facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid rgba(246,242,233,.28);margin-top:.2rem}
+.rv__facts li{padding:.8rem .6rem .5rem 0;display:flex;flex-direction:column;gap:.15rem}
+.rv__facts li+li{padding-left:.7rem;border-left:1px solid rgba(246,242,233,.18)}
+.rv__facts b{font:600 .66rem var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--lime)}
+.rv__facts span{font-size:.9rem;line-height:1.3}
+.rv__rail,.rv__pill{display:none}
+
+/* gentle enter transitions on phones (not in reduced motion) */
+html.lite .io{opacity:0;transform:translate3d(calc(var(--dx,0) * 1px),26px,0);transition:opacity .7s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+html.lite .rv__line[data-dir="1"]{--dx:60} html.lite .rv__line[data-dir="-1"]{--dx:-60}
+html.lite .rv__line:nth-child(2){transition-delay:.12s} html.lite .rv__line:nth-child(3){transition-delay:.24s}
+html.lite .io.in{opacity:1;transform:none}
+/* reduced motion: fully static */
+html.static .rv__bg{position:relative}
+html.static .rv__type{background:var(--forest);min-height:0;padding-block:4.5rem}
+html.static .vtoggle{display:none}
+
+/* ---------- desktop: pinned, scroll-scrubbed scene ---------- */
+html.fx .rv{height:560vh}
+html.fx .rv__stage{position:sticky;top:0;height:100vh;overflow:hidden}
+html.fx .rv__bg{position:absolute;inset:0;top:0;height:auto;will-change:transform}
+html.fx .rv__bg img,html.fx .rv__bg video{object-position:42% 50%}
+html.fx .rv__shade{background:linear-gradient(90deg,rgba(12,21,9,.88) 0%,rgba(12,21,9,.6) 38%,rgba(12,21,9,.06) 72%),linear-gradient(0deg,rgba(12,21,9,.7) 0%,rgba(12,21,9,0) 40%)}
+html.fx .rv__dim{position:absolute;inset:0;background:var(--ink);opacity:0}
+html.fx .rv .vtoggle{top:calc(var(--pb) + var(--hd) + 14px);right:40px}
+html.fx .rv__intro,html.fx .rv__type,html.fx .rv__cut,html.fx .rv__proj{position:absolute;inset:0;margin:0;min-height:0;height:auto}
+html.fx .rv__intro{justify-content:center;gap:1.5rem;padding:var(--hd) max(40px,calc((100vw - 1240px)/2 + 40px)) 0;will-change:transform,opacity}
+html.fx .rv__intro h1{font-size:clamp(3rem,7.4vw,6.6rem);max-width:820px}
+html.fx .rv .eyebrow{font-size:.82rem;letter-spacing:.14em;gap:.6rem} html.fx .rv .eyebrow::before{width:28px}
+html.fx .rv__lede{font-size:clamp(1.1rem,1.5vw,1.32rem);line-height:1.5}
+html.fx .rv__act{flex-direction:row;flex-wrap:wrap;gap:.8rem}
+html.fx .rv__cue{display:flex;align-items:center;gap:.8rem;position:absolute;left:max(40px,calc((100vw - 1240px)/2 + 40px));bottom:2.2rem;font:600 .78rem var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--on-m)}
+html.fx .rv__cue span{width:1px;height:44px;background:linear-gradient(var(--lime),transparent);animation:cue 1.8s ease-in-out infinite;transform-origin:top}
+@keyframes cue{0%{transform:scaleY(0)}60%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+html.fx .rv__type{padding:0;font-size:27vh;gap:0;justify-content:center;pointer-events:none}
+html.fx .rv__line{width:max-content;line-height:.86;will-change:transform;transform:translate3d(110vw,0,0)}
+html.fx .rv__line--o{-webkit-text-stroke:3px var(--on)}
+html.fx .rv__cut{clip-path:inset(0 50% 0 50%);will-change:clip-path}
+html.fx .rv__cut img{will-change:transform}
+html.fx .rv__cut figcaption{left:max(40px,calc((100vw - 1240px)/2 + 40px));bottom:2.4rem;font-size:2.6rem}
+html.fx .rv__cut figcaption span{font-size:.8rem}
+html.fx .rv__proj{clip-path:inset(100% 0 0 0);will-change:clip-path;align-items:center}
+html.fx .rv__proj>img{object-position:50% 58%;will-change:transform}
+html.fx .rv__proj::after{background:linear-gradient(90deg,rgba(12,21,9,.92) 0%,rgba(12,21,9,.7) 34%,rgba(12,21,9,0) 66%),linear-gradient(0deg,rgba(12,21,9,.55),rgba(12,21,9,0) 35%)}
+html.fx .rv__card{width:auto;max-width:560px;gap:1.2rem;margin-left:max(40px,calc((100vw - 1240px)/2 + 40px));padding:var(--hd) 0 0;will-change:transform,opacity}
+html.fx .rv__card h2{font-size:clamp(3.2rem,6.2vw,5.6rem);line-height:.9}
+html.fx .rv__desc{font-size:1.25rem}
+html.fx .rv__facts span{font-size:1rem} html.fx .rv__facts b{font-size:.7rem}
+html.fx .rv__facts li{padding:1rem 1rem .8rem 0} html.fx .rv__facts li+li{padding-left:1rem}
+html.fx .rv__pill{display:inline-flex;position:absolute;z-index:4;left:max(40px,calc((100vw - 1240px)/2 + 40px));bottom:2rem;min-height:48px;padding:.6rem 1.3rem;font-size:.98rem;opacity:0;visibility:hidden}
+html.fx .rv__rail{display:flex;flex-direction:column;gap:.35rem;position:absolute;z-index:4;right:40px;top:50%;transform:translateY(-50%)}
+html.fx .rv__rail button{display:flex;align-items:center;justify-content:flex-end;gap:.6rem;width:100%;padding:.35rem 0 .35rem .6rem;border:0;border-right:2px solid rgba(246,242,233,.3);padding-right:.75rem;background:none;color:var(--on-m);font:700 .95rem var(--disp);letter-spacing:.06em;cursor:pointer;transition:color .2s,border-color .2s}
+html.fx .rv__rail span{font:600 .7rem var(--body);letter-spacing:.14em;text-transform:uppercase}
+html.fx .rv__rail .is-on button{color:var(--on);border-color:var(--lime)}
+
+.band{background:var(--ink);color:var(--on)}
+.band .trust{border-top:0}
+
+/* ---------- lead view ---------- */
+.view-lead{--bg:#eef0ea;--pn:#fff;--bd:#d9ddd2;--tx:#131a10;--mt:#5c6556;background:var(--bg);color:var(--tx);min-height:calc(100vh - var(--pb));padding:1.5rem clamp(14px,2.5vw,36px) 2rem;font-size:15px;line-height:1.45}
+.ld__top{display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;margin-bottom:1rem}
+.ld__kicker{font-size:.74rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--green)}
+.ld__top h1{font-size:clamp(2rem,4vw,3.1rem)}
+.ld__clock{flex:none;text-align:right;background:var(--tx);color:var(--on);border-radius:12px;padding:.45rem .9rem}
+.ld__clock span{display:block;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--on-m)}
+.ld__clock b{font:700 1.35rem var(--disp);letter-spacing:.03em;white-space:nowrap}
+.ld__steps{position:sticky;top:var(--pb);z-index:20;display:flex;gap:.5rem;overflow-x:auto;padding:.6rem 0;margin-bottom:.6rem;background:var(--bg);scrollbar-width:none}
+.ld__steps::-webkit-scrollbar{display:none}
+.ld__step{flex:none;display:inline-flex;align-items:center;gap:.5rem;min-height:44px;padding:0 1rem;border-radius:999px;border:1.5px solid var(--bd);background:var(--pn);color:var(--tx);font:600 .9rem var(--body);cursor:pointer;white-space:nowrap}
+.ld__step i{font-style:normal;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:var(--tx);color:#fff;font-size:.72rem}
+.ld__step:disabled{opacity:.42;cursor:not-allowed}
+.ld__step.is-next{border-color:var(--green);box-shadow:0 0 0 3px rgba(35,117,26,.18)}
+.ld__step.is-done{background:#e3f1d6;border-color:#b9d79f}
+.ld__step.is-done i{background:var(--green)}
+.ld__step--go{background:var(--lime);border-color:var(--lime)}
+.ld__step--reset{margin-left:auto;background:transparent}
+.ld__grid{display:grid;grid-template-columns:minmax(300px,360px) minmax(0,1fr);gap:1.25rem;align-items:start}
+.ld__label{font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--mt);margin-bottom:.5rem}
+.ld__fine{margin-top:1.25rem;font-size:.78rem;color:var(--mt);max-width:90ch}
+
+.ph{background:#fff;border:8px solid #10160d;border-radius:34px;overflow:hidden;box-shadow:0 30px 60px -30px rgba(0,0,0,.45)}
+.ph__bar{background:#10160d;color:#cfd6c6;font-size:.7rem;padding:.35rem .9rem .6rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ph__pane{padding:1rem;display:flex;flex-direction:column;gap:.7rem;min-height:420px}
+.ph__pane[hidden]{display:none}
+.ph__q{border:1.5px solid var(--bd);border-radius:999px;padding:.55rem 1rem;color:var(--mt);font-size:.92rem}
+.ad{border:1.5px solid var(--bd);border-radius:16px;padding:1rem;display:flex;flex-direction:column;gap:.45rem}
+.ad__tag{font-size:.74rem;color:var(--mt)} .ad__tag b{color:var(--tx)}
+.ad__h{font-weight:700;font-size:1.08rem;line-height:1.25;color:#17401a}
+.ad__d{font-size:.9rem;color:var(--mt)}
+.ad .btn,.ph__pane>.btn{min-height:48px;font-size:.98rem;margin-top:.3rem;box-shadow:none}
+.ph__hint{font-size:.76rem;color:var(--mt)}
+.ph__src{font-size:.76rem;background:#fdf1dc;color:#6d3f00;border-radius:8px;padding:.45rem .6rem}
+.ph__src b{display:block;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase}
+.ph__pane h2{font-size:1.7rem}
+.row2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 .6rem}
+.view-lead .fld{margin-bottom:.1rem;gap:.25rem}
+.view-lead .fld>label{font-size:.78rem}
+.view-lead .inp{min-height:42px;padding:.45rem .7rem;font-size:.95rem;border-radius:10px}
+.optin{display:flex;gap:.6rem;align-items:flex-start;font-size:.88rem;font-weight:600;cursor:pointer}
+.optin input{width:20px;height:20px;margin-top:.1rem;accent-color:var(--green);flex:none}
+.optin small{display:block;font-weight:400;color:var(--mt)}
+.ph__ok{font-weight:700;font-size:1.05rem}
+.ph__sub{font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--mt)}
+.msgs{display:flex;flex-direction:column;gap:.5rem}
+.msg{border-radius:14px;padding:.6rem .75rem;font-size:.86rem;line-height:1.4;background:#f1f3ec;border:1px solid var(--bd)}
+.msg b{display:flex;justify-content:space-between;gap:.5rem;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mt);margin-bottom:.2rem}
+.msg--sms{background:#e6f4d6;border-color:#bfdca2}
+.msg--out{background:#17401a;border-color:#17401a;color:#fff;align-self:flex-end;max-width:88%}
+.msg--out b{color:#bfe39a}
+.msg--push{background:#10160d;border-color:#10160d;color:#f3f1e8}
+.msg--push b{color:#a8f032}
+.msg--off{background:transparent;border-style:dashed;color:var(--mt)}
+
+.crm{background:var(--pn);border:1px solid var(--bd);border-radius:18px;overflow:hidden}
+.crm__hd{display:flex;align-items:center;gap:.7rem;padding:.7rem 1rem;background:#10160d;color:#f3f1e8}
+.crm__hd b{font:700 1.15rem var(--disp);letter-spacing:.05em;text-transform:uppercase}
+.crm__hd span{font-size:.78rem;color:#b9c1ae}
+.crm__hd em{margin-left:auto;font-style:normal;font-size:.74rem;font-weight:600;background:rgba(255,255,255,.1);border-radius:999px;padding:.25rem .7rem;white-space:nowrap}
+.crm__hd em.is-live{background:var(--lime);color:#10160d}
+.crm__pipe{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.6rem;padding:.8rem 1rem;background:#f6f7f2;border-bottom:1px solid var(--bd)}
+.col h3{font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--mt);margin-bottom:.4rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.slot{min-height:64px;border:1.5px dashed var(--bd);border-radius:12px;padding:4px}
+.col.is-on .slot{border-style:solid;border-color:var(--green);background:#eaf5df}
+.lcard{background:#fff;border-radius:9px;padding:.45rem .55rem;box-shadow:0 2px 8px rgba(0,0,0,.12);font-size:.8rem;line-height:1.25}
+.lcard b{display:block;font-size:.9rem}
+.lcard span{color:var(--mt)}
+.lcard i{font-style:normal;display:inline-block;margin-top:.25rem;font-size:.64rem;font-weight:700;letter-spacing:.06em;background:#fdf1dc;color:#6d3f00;border-radius:5px;padding:.1rem .35rem}
+.crm__empty{padding:2.5rem 1.25rem;color:var(--mt);text-align:center}
+.crm__body{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:.8rem;padding:1rem}
+.crm__body[hidden]{display:none}
+.crm__side{display:flex;flex-direction:column;gap:.8rem;min-width:0}
+.card{border:1px solid var(--bd);border-radius:14px;padding:.8rem .9rem;min-width:0}
+.card h3{font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--mt);margin-bottom:.5rem}
+.card dl{margin:0}
+.card dl div{display:grid;grid-template-columns:6.2rem minmax(0,1fr);gap:.6rem;padding:.28rem 0;border-top:1px solid #eceee6;font-size:.86rem}
+.card dl div:first-child{border-top:0}
+.card dt{color:var(--mt)} .card dd{margin:0;font-weight:600;overflow-wrap:anywhere}
+.tag{display:inline-block;border-radius:6px;padding:.05rem .4rem;font-size:.74rem;font-weight:700}
+.tag--y{background:#e3f1d6;color:#1c5a15} .tag--n{background:#f1e4e0;color:#8a3415}
+.card--auto{border-left:4px solid var(--green)}
+.card--auto.is-stop{border-left-color:#8a3415;background:#fbf4f1}
+.auto__state{font-weight:700;font-size:1rem}
+.auto__next{font-size:.84rem;color:var(--mt);margin-top:.15rem}
+.crm__tl ol{display:flex;flex-direction:column}
+.ev{position:relative;padding:0 0 .85rem 1.5rem;border-left:2px solid var(--bd);margin-left:.4rem;font-size:.86rem}
+.ev:last-child{border-left-color:transparent}
+.ev::before{content:"";position:absolute;left:-7px;top:.2rem;width:12px;height:12px;border-radius:50%;background:var(--green);border:2px solid #fff;box-shadow:0 0 0 1px var(--green)}
+.ev--warn::before{background:#f8981d;box-shadow:0 0 0 1px #f8981d}
+.ev--stop::before{background:#8a3415;box-shadow:0 0 0 1px #8a3415}
+.ev--mute::before{background:#fff;box-shadow:0 0 0 1px var(--mt)}
+.ev time{display:block;font-size:.68rem;font-weight:600;letter-spacing:.06em;color:var(--mt)}
+.ev b{display:block;font-size:.93rem}
+.ev p{color:var(--mt);margin-top:.1rem}
+.ev.is-new{animation:evin .5s ease both}
+.lcard.is-new,.msg.is-new{animation:evin .45s ease both}
+@keyframes evin{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.mgroup{font-size:.64rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--mt);margin:.5rem 0 .1rem}
+
+@media (max-width:1100px){
+  .ld__grid{grid-template-columns:minmax(0,1fr)}
+  .ld__phone{max-width:420px;width:100%;margin-inline:auto}
+  .ph__pane{min-height:0}
+}
+@media (max-width:760px){
+  :root{--pb:34px}
+  .pbar span{display:none}
+  .view-lead{padding:1rem 12px 2rem}
+  .ld__top{align-items:flex-start}
+  .ld__clock b{font-size:1.1rem}
+  .crm__pipe{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .crm__body{grid-template-columns:minmax(0,1fr);padding:.75rem}
+  .crm__hd span{display:none}
+  .ld__step--reset{margin-left:0}
+  .band .trust li{padding-block:1rem}
+}
+@media (prefers-reduced-motion:reduce){ .ev.is-new,.lcard.is-new,.msg.is-new{animation:none} }
+</style>
+</head>
+<body data-view="home">
+<div class="pbar" role="toolbar" aria-label="Presenter"><span>Arroyo V3 demo · not published</span><button type="button" data-view="home" aria-pressed="true">Homeowner page</button><button type="button" data-view="lead" aria-pressed="false">See What Happens to a Lead</button></div>
+<div class="view-home">
+
+<header class="hd" id="top">
+  <div class="wrap hd__in">
+    <a class="hd__logo" href="#top" aria-label="Arroyo’s Lawn Care LLC — back to top"><img src="assets/logo.webp" alt="Arroyo’s Lawn Care LLC" width="749" height="306"></a>
+    <nav class="hd__nav" aria-label="Primary">
+      <a href="#services">Services</a><a href="#about">About</a><a href="#work">Projects</a><a href="#process">Process</a><a href="#areas">Areas</a>
+    </nav>
+    <a class="hd__tel" href="tel:+19419621124">(941) 962-1124</a>
+    <a class="btn btn--lime hd__cta" href="#estimate">Request an Estimate</a>
+    <button class="hd__burger" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+  <nav class="mnav" id="mnav" aria-label="Mobile">
+    <a class="lnk" href="#services">Services</a><a class="lnk" href="#about">About</a><a class="lnk" href="#work">Projects</a><a class="lnk" href="#process">Process</a><a class="lnk" href="#areas">Areas</a>
+    <a class="btn btn--lime" href="#estimate">Request an Estimate</a>
+    <a class="btn btn--ghost" href="tel:+19419621124">Call Arroyo · (941) 962-1124</a>
+  </nav>
+</header>
+
+<main>
+<section class="rv" id="reveal" aria-label="Project reveal">
+  <div class="rv__stage">
+    <div class="rv__bg" aria-hidden="true">
+      <img src="assets/hero-poster.jpg" alt="" width="1920" height="1080" fetchpriority="high">
+      <video muted loop playsinline preload="none" poster="assets/hero-poster.jpg" data-src="assets/hero-loop.mp4" tabindex="-1"></video>
+      <div class="rv__shade"></div>
+      <div class="rv__dim"></div>
+    </div>
+    <button class="vtoggle" type="button" aria-pressed="false">Pause video</button>
+
+    <!-- 01 beginning -->
+    <div class="rv__intro">
+      <p class="eyebrow">Bradenton · Lakewood Ranch · Sarasota</p>
+      <h1 class="disp">Your whole landscape, handled by <em>one team.</em></h1>
+      <p class="rv__lede">Arroyo’s Lawn Care designs, builds, and maintains landscapes for homes and businesses across Manatee and Sarasota counties.</p>
+      <div class="rv__act">
+        <a class="btn btn--lime btn--lg" href="#estimate">Request an Estimate
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg></a>
+        <a class="btn btn--ghost btn--lg" href="tel:+19419621124">
+          <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.2 2.5h2.3l1.2 3.6-1.6 1.3a9.5 9.5 0 0 0 5.5 5.5l1.3-1.6 3.6 1.2v2.3a1.7 1.7 0 0 1-1.8 1.7A14.3 14.3 0 0 1 3.5 4.3 1.7 1.7 0 0 1 5.2 2.5z"/></svg>
+          Call Arroyo</a>
+      </div>
+      <p class="rv__cue" aria-hidden="true"><span></span>Scroll to see a project</p>
+    </div>
+
+    <!-- 02 reveal: oversized type passes over the footage -->
+    <div class="rv__type" aria-label="Designed. Built. Maintained.">
+      <p class="rv__line io" data-dir="1" aria-hidden="true">Designed.</p>
+      <p class="rv__line rv__line--o io" data-dir="-1" aria-hidden="true">Built.</p>
+      <p class="rv__line rv__line--l io" data-dir="1" aria-hidden="true">Maintained.</p>
+    </div>
+
+    <!-- montage cut: a different Arroyo property -->
+    <figure class="rv__cut">
+      <img src="assets/reveal-island.jpg" alt="Driveway island planting: palms, agave, and a hedge border" loading="lazy" width="1600" height="1195">
+      <figcaption><span>Next project</span>Driveway Island Planting</figcaption>
+    </figure>
+
+    <!-- 03 finish: full-screen close-up settles, details come in -->
+    <div class="rv__proj">
+      <img src="assets/reveal-closeup.jpg" alt="Entry planting close-up: bottle palms, red ti plants, and black rock beside a paver walk" loading="lazy" width="1448" height="1086">
+      <div class="rv__card io">
+        <p class="eyebrow">Project close-up · Entry</p>
+        <h2 class="disp">Bottle Palms &amp; <em>Ti Plants</em></h2>
+        <p class="rv__desc">Bottle palms, red ti plants, and black rock.</p>
+        <ul class="rv__facts">
+          <li><b>Area</b><span>Front entry</span></li>
+          <li><b>Planting</b><span>Bottle palms, red ti plants</span></li>
+          <li><b>Ground cover</b><span>Black rock</span></li>
+        </ul>
+        <div class="rv__act">
+          <a class="btn btn--lime btn--lg" href="#estimate">Request an Estimate
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg></a>
+          <a class="btn btn--ghost btn--lg" href="#work">See more projects</a>
+        </div>
+      </div>
+    </div>
+
+    <a class="btn btn--lime rv__pill" href="#estimate">Request an Estimate</a>
+    <ol class="rv__rail" aria-label="Sequence">
+      <li><button type="button" data-to="0">01<span>Aerial</span></button></li>
+      <li><button type="button" data-to="0.36">02<span>Reveal</span></button></li>
+      <li><button type="button" data-to="1">03<span>Project</span></button></li>
+    </ol>
+  </div>
+</section>
+
+<section class="band" aria-label="Why Arroyo’s">
+  <div class="wrap">
+    <ul class="trust">
+      <li><b>15+ Years</b><span>of landscaping experience</span></li>
+      <li><b>Licensed &amp; Insured</b><span>Residential and commercial</span></li>
+      <li><b>Free Estimates</b><span>On every project</span></li>
+      <li><b>Same-Day Reply</b><span>On every request</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="services">
+  <div class="wrap">
+    <div class="head">
+      <div class="head__l">
+        <p class="eyebrow eyebrow--g">Our Services</p>
+        <h2 class="disp h2">Landscaping, hardscaping, and <em>everything in between</em></h2>
+        <p class="lede">From new landscapes and lighting to irrigation, drainage, tree work, and routine upkeep.</p>
+      </div>
+      <a class="btn btn--dark" href="#estimate">Request an Estimate</a>
+    </div>
+    <ol class="svc">
+      <li><span class="n">01</span><h3>Landscape Design &amp; Installation</h3><p>Landscape design, grading, plant installation, sod, topsoil, mulch, decorative stone, and landscape edging.</p></li>
+      <li><span class="n">02</span><h3>Landscape Lighting Installation &amp; Repair</h3><p>Landscape lighting installation and repair for lanais, driveways, palms, beds, and other outdoor areas.</p></li>
+      <li><span class="n">03</span><h3>Tree &amp; Palm Services</h3><p>Tree and palm trimming, tree and palm removal, and stump grinding.</p></li>
+      <li><span class="n">04</span><h3>Pavers, Hardscapes &amp; Fencing</h3><p>Paver and hardscape installation, plus fence removal and installation.</p></li>
+      <li><span class="n">05</span><h3>Drainage Installation &amp; Repair</h3><p>Drain pipe and catch basin installation, plus gutter repair and installation.</p></li>
+      <li><span class="n">06</span><h3>Irrigation &amp; Sprinkler Services</h3><p>Irrigation system installation and expansion, Rain Bird programming, drip irrigation, and filter cleaning and maintenance.</p></li>
+      <li><span class="n">07</span><h3>Lawn Maintenance</h3><p>Basic to full-service lawn maintenance, including mowing, edging, trimming, and blowing, with weed control available.</p></li>
+      <li><span class="n">08</span><h3>Property &amp; Storm Cleanup</h3><p>Seasonal cleanups, one-time deep cleans, and hurricane and storm debris removal.</p></li>
+      <li><span class="n">09</span><h3>Shrub, Hedge &amp; Flower Bed Care</h3><p>Shrub and hedge trimming, pruning, shaping, and spot weeding in beds.</p></li>
+      <li><span class="n">10</span><h3>Pressure Washing &amp; Surface Sealing</h3><p>Pressure washing and exterior surface sealing.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec sec--sand" id="about">
+  <div class="wrap about">
+    <div class="about__ph">
+      <img src="assets/lakeside-palm-bed.jpg" alt="Lakeside planting bed with a palm cluster, boulders and agave" loading="lazy" width="880" height="1100">
+      <div class="about__yr"><b>15+</b><span>years of landscaping experience</span></div>
+    </div>
+    <div class="about__c">
+      <p class="eyebrow eyebrow--g">About Arroyo’s</p>
+      <h2 class="disp h2">Local, owner-operated, and <em>hands-on</em></h2>
+      <p class="lede">Arroyo’s Lawn Care LLC is a licensed and insured landscaping company based in Bradenton. When you call, you talk to the owner. One team handles the design, the install, and the upkeep, so nothing gets lost between contractors.</p>
+      <ul class="checks">
+        <li>Licensed and fully insured</li>
+        <li>Owner-operated, with over 15 years of experience</li>
+        <li>Free estimates and same-day communication</li>
+        <li>Commercial and residential properties</li>
+        <li>Trees and palms trimmed for their health, not just their looks</li>
+        <li>Craftsmanship you can count on</li>
+      </ul>
+      <div><a class="btn btn--dark" href="#estimate">Request an Estimate</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--dark" id="work">
+  <div class="wrap">
+    <div class="head">
+      <div class="head__l">
+        <p class="eyebrow">Projects</p>
+        <h2 class="disp h2">Recent <em>projects</em></h2>
+        <p class="lede">A look at landscapes we have designed, installed, and maintained for homes and businesses in the area.</p>
+      </div>
+      <a class="btn btn--lime" href="#estimate">Request an Estimate</a>
+    </div>
+    <div class="work">
+      <figure><img src="assets/driveway-island.jpg" alt="Driveway island planting: palms, agave, and a hedge border" loading="lazy"><figcaption><b>Driveway Island Planting</b><span>Palms and agave on a circular driveway island</span></figcaption></figure>
+      <figure><img src="assets/royal-palm-entry.jpg" alt="Royal palm entry: royal palms and planting beds along a paver driveway" loading="lazy"><figcaption><b>Royal Palm Entry</b><span>Royal palms and planting beds</span></figcaption></figure>
+      <figure><img src="assets/layered-front-beds.jpg" alt="Layered front-yard beds: royal palms, boulders, and tropical plants" loading="lazy"><figcaption><b>Layered Front-Yard Beds</b><span>Royal palms, boulders, and tropical plants</span></figcaption></figure>
+      <figure><img src="assets/circular-driveway-lawn.jpg" alt="Circular driveway lawn: wide lawn and an island bed" loading="lazy"><figcaption><b>Circular Driveway Lawn</b><span>A wide lawn and an island bed</span></figcaption></figure>
+      <figure><img src="assets/bottle-palms-entry.jpg" alt="Entry planting: bottle palms, red ti plants, and black rock" loading="lazy"><figcaption><b>Bottle Palms &amp; Ti Plants</b><span>Bottle palms, red ti plants, and black rock</span></figcaption></figure>
+      <figure><img src="assets/paver-driveway-entry.jpg" alt="Paver driveway entry: palms and planting beds" loading="lazy"><figcaption><b>Palms &amp; Planting Beds</b><span>New planting beds and trimmed palms</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="process">
+  <div class="wrap">
+    <div class="head">
+      <div class="head__l">
+        <p class="eyebrow eyebrow--g">How It Works</p>
+        <h2 class="disp h2">From first call to <em>finished yard</em></h2>
+        <p class="lede">A clear process from your first inquiry, so every step is clear before it starts.</p>
+      </div>
+    </div>
+    <ol class="steps">
+      <li><h3>Free Estimate Request</h3><p>Call, text, or send the estimate form and tell us about your property. You will hear back from us the same day.</p></li>
+      <li><h3>On-Site Walkthrough</h3><p>We meet you at the property, look over the space together, take measurements, and listen to how you want it to look and function.</p></li>
+      <li><h3>Plan &amp; Proposal</h3><p>You receive a clear scope of the work that will be done, so there are no surprises. We adjust it until it fits.</p></li>
+      <li><h3>Build &amp; Installation</h3><p>With the plan approved, our crew follows it closely, treats your property with care, and delivers what we agreed on.</p></li>
+      <li><h3>Property Maintenance</h3><p>Once the work is finished, scheduled maintenance is available to keep your property looking the way it did on day one.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec sec--sand" id="areas">
+  <div class="wrap">
+    <div class="head">
+      <div class="head__l">
+        <p class="eyebrow eyebrow--g">Service Areas</p>
+        <h2 class="disp h2">Serving Manatee &amp; <em>Sarasota counties</em></h2>
+        <p class="lede">Based in Bradenton and working across both counties.</p>
+      </div>
+    </div>
+    <ul class="areas">
+      <li><small>FL</small><h3>Bradenton</h3><p>Our home base. Lawn maintenance, landscape installs, irrigation, and cleanups across Bradenton.</p></li>
+      <li><small>FL</small><h3>Lakewood Ranch</h3><p>Design, installation, and ongoing maintenance for homes and businesses in Lakewood Ranch.</p></li>
+      <li><small>FL</small><h3>Sarasota</h3><p>Full landscape service in Sarasota, from routine maintenance to complete installs.</p></li>
+    </ul>
+    <p class="areas-note">Nearby and not listed? <a href="tel:+19419621124">Call (941) 962-1124</a> and ask.</p>
+  </div>
+</section>
+
+<section class="sec est" id="estimate">
+  <div class="wrap est__g">
+    <div class="est__c">
+      <p class="eyebrow">Free Estimate</p>
+      <h2 class="disp h2">Ready for a landscaper you can <em>count on?</em></h2>
+      <p class="lede">Estimates are free. Tell us what you need and we’ll answer the same day.</p>
+      <div class="ways">
+        <a href="tel:+19419621124"><i><svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.2 2.5h2.3l1.2 3.6-1.6 1.3a9.5 9.5 0 0 0 5.5 5.5l1.3-1.6 3.6 1.2v2.3a1.7 1.7 0 0 1-1.8 1.7A14.3 14.3 0 0 1 3.5 4.3 1.7 1.7 0 0 1 5.2 2.5z"/></svg></i><span><b>Call or text (941) 962-1124</b><span>Call for the quickest response</span></span></a>
+        <a href="mailto:info@arroyoslawncare.com"><i><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="15" height="11" rx="2"/><path d="M3 6l7 5 7-5"/></svg></i><span><b>info@arroyoslawncare.com</b><span>Best for sending photos and project details</span></span></a>
+      </div>
+    </div>
+
+    <div class="form">
+      <form id="est-form" novalidate>
+        <h3>Request an estimate</h3>
+        <p class="form__note">Fields marked <span class="req">*</span> are required.</p>
+
+        <fieldset class="fld" data-group="property_type">
+          <legend>Property type <span class="req">*</span></legend>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="property_type" value="Residential"><span>Residential</span></label>
+            <label class="chip"><input type="radio" name="property_type" value="Commercial"><span>Commercial · Business or HOA</span></label>
+          </div>
+          <p class="err" role="alert">Choose a property type.</p>
+        </fieldset>
+
+        <fieldset class="fld" data-group="services">
+          <legend>What can we help with? <span class="req">*</span></legend>
+          <div class="chips">
+            <label class="chip"><input type="checkbox" name="services" value="Landscape Design & Installation"><span>Landscape Design</span></label>
+            <label class="chip"><input type="checkbox" name="services" value="Landscape Lighting"><span>Lighting</span></label>
+            <label class="chip"><input type="checkbox" name="services" value="Tree & Palm Services"><span>Tree &amp; Palm</span></label>
+            <label class="chip"><input type="checkbox" name="services" value="Pavers, Hardscapes & Fencing"><span>Pavers &amp; Fencing</span></label>
+            <label class="chip"><input type="checkbox" name="services" value="Drainage"><span>Drainage</span></label>
+            <label class="chip"><input type="checkbox" name="services" value="Irrigation & Sprinklers"><span>Irrigation</span></label>
+            <label class="chip"><input type="checkbox" name="services" value="Lawn Maintenance"><span>Lawn Maintenance</span></label>
+            <label class="chip"><input type="checkbox" name="services" value="Property & Storm Cleanup"><span>Cleanup</span></label>
+            <label class="chip"><input type="checkbox" name="services" value="Shrub, Hedge & Bed Care"><span>Shrubs &amp; Beds</span></label>
+            <label class="chip"><input type="checkbox" name="services" value="Pressure Washing & Sealing"><span>Pressure Washing</span></label>
+            <label class="chip"><input type="checkbox" name="services" value="Not sure yet"><span>Not sure yet</span></label>
+          </div>
+          <p class="err" role="alert">Choose at least one service.</p>
+        </fieldset>
+
+        <div class="row">
+          <div class="fld"><label for="f-first">First name <span class="req">*</span></label><input class="inp" id="f-first" name="first_name" autocomplete="given-name" required aria-describedby="f-first-e"><p class="err" id="f-first-e" role="alert">Enter your first name.</p></div>
+          <div class="fld"><label for="f-last">Last name <span class="req">*</span></label><input class="inp" id="f-last" name="last_name" autocomplete="family-name" required aria-describedby="f-last-e"><p class="err" id="f-last-e" role="alert">Enter your last name.</p></div>
+        </div>
+        <div class="row">
+          <div class="fld"><label for="f-phone">Phone <span class="req">*</span></label><input class="inp" id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required aria-describedby="f-phone-e"><p class="err" id="f-phone-e" role="alert">Enter a 10-digit phone number.</p></div>
+          <div class="fld"><label for="f-email">Email <span class="req">*</span></label><input class="inp" id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="f-email-e"><p class="err" id="f-email-e" role="alert">Enter a valid email address.</p></div>
+        </div>
+        <div class="row">
+          <div class="fld"><label for="f-addr">Property address</label><input class="inp" id="f-addr" name="address" autocomplete="street-address"></div>
+          <div class="fld"><label for="f-when">When would you like to start?</label>
+            <select class="inp" id="f-when" name="timeline"><option value="">Select…</option><option>ASAP</option><option>Within a month</option><option>Next few months</option><option>Just exploring</option></select></div>
+        </div>
+        <div class="fld"><label for="f-details">Tell us about your project</label><textarea class="inp" id="f-details" name="details" placeholder="Problem areas, the look you’re going for, or any questions you have for us…"></textarea></div>
+
+        <fieldset class="fld" data-group="contact_by">
+          <legend>Best way to reach you</legend>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="contact_by" value="Call" checked><span>Call</span></label>
+            <label class="chip"><input type="radio" name="contact_by" value="Text"><span>Text</span></label>
+            <label class="chip"><input type="radio" name="contact_by" value="Email"><span>Email</span></label>
+          </div>
+        </fieldset>
+
+        <button class="btn btn--lime btn--lg" type="submit">Send Request</button>
+        <p class="form__fine">Preview mode: this form validates and shows a confirmation, but nothing is sent or stored.</p>
+      </form>
+
+      <div class="done" id="est-done" tabindex="-1" aria-live="polite">
+        <div class="done__ic"><svg viewBox="0 0 20 20" fill="none" stroke="#0c1509" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 10.5l3.5 3.5 7.5-8.5"/></svg></div>
+        <h3>Thanks, <span id="d-name"></span>. Request received.</h3>
+        <p>We’ll reply the same day to confirm what you need and schedule a walkthrough at your property.</p>
+        <dl id="d-list"></dl>
+        <p class="demo-tag">Demo confirmation — no email, notification, or CRM entry was created.</p>
+        <div style="margin-top:1.25rem"><button class="btn btn--dark" type="button" id="d-reset">Start another request</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft__g">
+      <div>
+        <img src="assets/logo.webp" alt="Arroyo’s Lawn Care LLC" width="749" height="306" loading="lazy">
+        <p>Licensed, insured, owner-operated landscaping company with over 15 years of experience serving homes and businesses across Manatee and Sarasota counties.</p>
+      </div>
+      <div><h4>Service Areas</h4><ul><li>Bradenton, FL</li><li>Lakewood Ranch, FL</li><li>Sarasota, FL</li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="tel:+19419621124">(941) 962-1124</a></li><li><a href="mailto:info@arroyoslawncare.com">info@arroyoslawncare.com</a></li><li>Based in Bradenton, Florida</li></ul></div>
+      <div><h4>Follow</h4><ul><li><a href="https://www.facebook.com/profile.php?id=61595224107237" target="_blank" rel="noopener">Facebook ↗</a></li><li><a href="https://www.instagram.com/arroyoslawncare/" target="_blank" rel="noopener">Instagram ↗</a></li></ul></div>
+    </div>
+    <div class="ft__fine"><span>Copyright © 2026 Arroyo’s Lawn Care LLC. All Rights Reserved.</span><span>Website concept by Axiom Systems. V3 sales demo, not published.</span></div>
+  </div>
+</footer>
+
+<nav class="mbar" aria-label="Quick actions">
+  <a class="btn btn--ghost" href="tel:+19419621124">Call Arroyo</a>
+  <a class="btn btn--lime" href="#estimate">Request an Estimate</a>
+</nav>
+</div>
+
+<div class="view-lead" id="lead-view">
+  <header class="ld__top">
+    <div>
+      <p class="ld__kicker">Axiom Systems · simulated · sample data</p>
+      <h1 class="disp">See What Happens to a Lead</h1>
+    </div>
+    <div class="ld__clock" aria-live="polite"><span>Demo clock</span><b id="ld-clock">Tue · 10:41 AM</b></div>
+  </header>
+
+  <div class="ld__steps" role="toolbar" aria-label="Demo controls">
+    <button class="ld__step ld__step--go" type="button" id="ld-start">Start Sample Ad Visit</button>
+    <button class="ld__step" type="button" id="ld-s1" disabled><i>1</i>New estimate request</button>
+    <button class="ld__step" type="button" id="ld-s2" disabled><i>2</i>No reply yet · advance clock</button>
+    <button class="ld__step" type="button" id="ld-s3a" disabled><i>3</i>Homeowner replies</button>
+    <button class="ld__step" type="button" id="ld-s3b" disabled><i>3</i>Homeowner books</button>
+    <button class="ld__step ld__step--reset" type="button" id="ld-reset">Reset demo</button>
+  </div>
+
+  <div class="ld__grid">
+    <!-- homeowner side -->
+    <section class="ld__phone" aria-label="Homeowner’s side">
+      <p class="ld__label">Homeowner’s phone</p>
+      <div class="ph">
+        <div class="ph__bar" id="ph-url">Search results · sample</div>
+
+        <div class="ph__pane" id="ph-ad">
+          <p class="ph__q">landscaper near me</p>
+          <div class="ad">
+            <p class="ad__tag"><b>Sponsored</b> · sample ad</p>
+            <p class="ad__h">Arroyo’s Lawn Care — Landscaping in Bradenton</p>
+            <p class="ad__d">Licensed &amp; insured. Free estimates. Same-day reply. Serving Manatee &amp; Sarasota counties.</p>
+            <button class="btn btn--lime" type="button" id="ph-start">Start Sample Ad Visit</button>
+          </div>
+          <p class="ph__hint">This simulates a homeowner tapping a Google ad. No ad account is touched.</p>
+        </div>
+
+        <form class="ph__pane" id="ph-form" novalidate hidden>
+          <p class="ph__src"><b>Source captured</b> Google Ads · cpc · “landscaper near me”</p>
+          <h2 class="disp">Request a free estimate</h2>
+          <div class="row2">
+            <div class="fld"><label for="l-first">First name</label><input class="inp" id="l-first" name="first" value="Jordan" required><p class="err" role="alert">Enter a first name.</p></div>
+            <div class="fld"><label for="l-last">Last name</label><input class="inp" id="l-last" name="last" value="Sample" required><p class="err" role="alert">Enter a last name.</p></div>
+          </div>
+          <div class="fld"><label for="l-phone">Phone</label><input class="inp" id="l-phone" name="phone" type="tel" inputmode="tel" value="(941) 555-0142" required><p class="err" role="alert">Enter a 10-digit phone number.</p></div>
+          <div class="fld"><label for="l-email">Email</label><input class="inp" id="l-email" name="email" type="email" value="jordan.sample@example.com" required><p class="err" role="alert">Enter a valid email address.</p></div>
+          <div class="fld"><label for="l-svc">Service requested</label>
+            <select class="inp" id="l-svc" name="service">
+              <option>Landscape Design &amp; Installation</option><option>Landscape Lighting Installation &amp; Repair</option><option>Tree &amp; Palm Services</option><option>Pavers, Hardscapes &amp; Fencing</option><option>Drainage Installation &amp; Repair</option><option>Irrigation &amp; Sprinkler Services</option><option selected>Lawn Maintenance</option><option>Property &amp; Storm Cleanup</option><option>Shrub, Hedge &amp; Flower Bed Care</option><option>Pressure Washing &amp; Surface Sealing</option>
+            </select></div>
+          <label class="optin"><input type="checkbox" name="sms" id="l-sms" checked><span>Text me about my estimate. <small>Optional. Uncheck to see the email-only path.</small></span></label>
+          <button class="btn btn--lime" type="submit">Send Sample Request</button>
+          <p class="ph__hint">Sample lead. Nothing is sent, stored, or tracked.</p>
+        </form>
+
+        <div class="ph__pane" id="ph-inbox" hidden>
+          <p class="ph__ok">Request received. Thanks, <span id="ph-name"></span>.</p>
+          <p class="ph__sub">What the homeowner sees next</p>
+          <div id="ph-msgs" class="msgs" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CRM side -->
+    <section class="crm" aria-label="Axiom CRM, sample view">
+      <div class="crm__hd"><b>Axiom CRM</b><span>sample view · Arroyo’s Lawn Care</span><em id="crm-live">Waiting for a visitor</em></div>
+
+      <div class="crm__pipe" id="crm-pipe">
+        <div class="col" data-stage="new"><h3>New Lead</h3><div class="slot"></div></div>
+        <div class="col" data-stage="follow"><h3>Follow-Up</h3><div class="slot"></div></div>
+        <div class="col" data-stage="replied"><h3>Replied</h3><div class="slot"></div></div>
+        <div class="col" data-stage="booked"><h3>Walkthrough Booked</h3><div class="slot"></div></div>
+      </div>
+
+      <div class="crm__empty" id="crm-empty">
+        <p><b>No lead yet.</b> Press <u>Start Sample Ad Visit</u>, then send the sample request. The same lead will appear here with its ad source.</p>
+      </div>
+
+      <div class="crm__body" id="crm-body" hidden>
+        <div class="crm__side">
+          <div class="card">
+            <h3>Lead</h3>
+            <dl id="crm-lead"></dl>
+          </div>
+          <div class="card">
+            <h3>Ad source</h3>
+            <dl id="crm-src"></dl>
+          </div>
+          <div class="card card--auto" id="crm-auto">
+            <h3>Automated follow-up</h3>
+            <p class="auto__state" id="auto-state"></p>
+            <p class="auto__next" id="auto-next"></p>
+          </div>
+          <div class="card card--owner">
+            <h3>Owner’s phone</h3>
+            <div id="crm-owner" class="msgs" aria-live="polite"></div>
+          </div>
+        </div>
+        <div class="card crm__tl">
+          <h3>Activity timeline</h3>
+          <ol id="crm-tl" aria-live="polite"></ol>
+        </div>
+      </div>
+    </section>
+  </div>
+  <p class="ld__fine">Self-contained simulation. Names, numbers, campaign, click ID, times and cadence are sample values. No WordPress, CRM, messaging, ad account or tracking system is contacted.</p>
+</div>
+
+<script>
+(function(){
+  var hd=document.querySelector('.hd'), burger=document.querySelector('.hd__burger'), mbar=document.querySelector('.mbar');
+  function onScroll(){ var y=window.scrollY; hd.classList.toggle('is-solid', y>40); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  function setMenu(open){ hd.classList.toggle('is-open', open); burger.setAttribute('aria-expanded', open); burger.setAttribute('aria-label', open?'Close menu':'Open menu'); }
+  burger.addEventListener('click', function(){ setMenu(!hd.classList.contains('is-open')); });
+  document.querySelectorAll('.mnav a').forEach(function(a){ a.addEventListener('click', function(){ setMenu(false); }); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') setMenu(false); });
+
+  /* hero video: real Arroyo footage, muted inline loop; never loaded when reduced motion is on */
+  var v=document.querySelector('.rv video'), tg=document.querySelector('.vtoggle');
+  var rm=window.matchMedia('(prefers-reduced-motion: reduce)');
+  function startVideo(){
+    if(rm.matches || v.src) return;
+    v.muted=true; v.src=v.dataset.src;
+    v.addEventListener('playing', function(){ v.classList.add('is-on'); tg.classList.add('is-on'); }, {once:true});
+    var p=v.play(); if(p&&p.catch) p.catch(function(){});
+  }
+  if(!rm.matches){ if(document.readyState==='complete') startVideo(); else window.addEventListener('load', startVideo); }
+  (rm.addEventListener?rm.addEventListener.bind(rm,'change'):rm.addListener.bind(rm))(function(){ if(rm.matches){ v.pause(); v.classList.remove('is-on'); tg.classList.remove('is-on'); } });
+  tg.addEventListener('click', function(){
+    if(v.paused){ v.play(); tg.textContent='Pause video'; tg.setAttribute('aria-pressed','false'); }
+    else { v.pause(); tg.textContent='Play video'; tg.setAttribute('aria-pressed','true'); }
+  });
+
+  /* estimate form: validation + demo confirmation only. No fetch, no action, nothing leaves the page. */
+  var form=document.getElementById('est-form'), done=document.getElementById('est-done');
+  function bad(el, on){ var f=el.closest('.fld'); f.classList.toggle('is-bad', on); if(el.classList.contains('inp')) el.setAttribute('aria-invalid', on?'true':'false'); return on; }
+  var rules={
+    first_name:function(x){return x.trim().length>0}, last_name:function(x){return x.trim().length>0},
+    phone:function(x){var d=x.replace(/\D/g,''); return d.length===10||(d.length===11&&d[0]==='1')},
+    email:function(x){return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(x.trim())}
+  };
+  function checkField(n){ var el=form.elements[n]; return !bad(el, !rules[n](el.value)); }
+  function checkGroup(n){ var fs=form.querySelector('[data-group="'+n+'"]'); var ok=!!form.querySelector('input[name="'+n+'"]:checked'); fs.classList.toggle('is-bad', !ok); return ok; }
+  Object.keys(rules).forEach(function(n){ var el=form.elements[n];
+    el.addEventListener('blur', function(){ if(el.value) checkField(n); });
+    el.addEventListener('input', function(){ if(el.closest('.fld').classList.contains('is-bad')) checkField(n); }); });
+  ['property_type','services'].forEach(function(n){ form.querySelectorAll('input[name="'+n+'"]').forEach(function(i){ i.addEventListener('change', function(){ checkGroup(n); }); }); });
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var ok=[checkGroup('property_type'), checkGroup('services')].concat(Object.keys(rules).map(checkField)).every(Boolean);
+    if(!ok){ var first=form.querySelector('.is-bad'); (first.querySelector('.inp')||first.querySelector('input')).focus(); first.scrollIntoView({block:'center'}); return; }
+    var fd=new FormData(form), rows=[['Property',fd.get('property_type')],['Services',fd.getAll('services').join(', ')],['Phone',fd.get('phone')],['Email',fd.get('email')],['Reach me by',fd.get('contact_by')]];
+    if(fd.get('address')) rows.push(['Address',fd.get('address')]);
+    if(fd.get('timeline')) rows.push(['Start',fd.get('timeline')]);
+    document.getElementById('d-name').textContent=fd.get('first_name').trim();
+    var dl=document.getElementById('d-list'); dl.textContent='';
+    rows.forEach(function(r){ var d=document.createElement('div'), dt=document.createElement('dt'), dd=document.createElement('dd'); dt.textContent=r[0]; dd.textContent=r[1]; d.appendChild(dt); d.appendChild(dd); dl.appendChild(d); });
+    form.hidden=true; done.classList.add('is-on'); done.focus({preventScroll:true}); done.closest('.form').scrollIntoView({block:'start'});
+  });
+  document.getElementById('d-reset').addEventListener('click', function(){
+    form.reset(); form.querySelectorAll('.is-bad').forEach(function(f){f.classList.remove('is-bad')}); form.querySelectorAll('[aria-invalid]').forEach(function(i){i.removeAttribute('aria-invalid')});
+    done.classList.remove('is-on'); form.hidden=false; form.elements.first_name.focus();
+  });
+})();
+</script>
+<script>
+/* ===== V3: view switch, scroll reveal, lead simulation. Self-contained: no fetch, no storage, no tracking. ===== */
+(function(){
+  var root=document.documentElement, body=document.body;
+  function $(s,c){return (c||document).querySelector(s)} function $$(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))}
+  function clamp(x){return x<0?0:x>1?1:x} function seg(p,a,b){return clamp((p-a)/(b-a))} function ease(t){return t*t*(3-2*t)}
+
+  /* ---------- view switch ---------- */
+  var tabs=$$('.pbar button');
+  function setView(v, keep){
+    body.setAttribute('data-view', v);
+    tabs.forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.view===v); });
+    try{ history.replaceState(null,'', v==='lead' ? '#lead-demo' : location.pathname+location.search); }catch(e){}
+    if(!keep) window.scrollTo({top:0,left:0,behavior:'instant'});
+    if(v==='home') { setMode(); }
+  }
+  tabs.forEach(function(b){ b.addEventListener('click', function(){ setView(b.dataset.view); }); });
+
+  /* ---------- reveal ---------- */
+  var rv=$('.rv'), bg=$('.rv__bg'), dim=$('.rv__dim'), intro=$('.rv__intro'), lines=$$('.rv__line'), cut=$('.rv__cut'), cutImg=$('.rv__cut img'), cutCap=$('.rv__cut figcaption'),
+      proj=$('.rv__proj'), projImg=$('.rv__proj>img'), card=$('.rv__card'), pill=$('.rv__pill'), rail=$$('.rv__rail li'), toggle=$('.rv .vtoggle');
+  var fxq=window.matchMedia('(min-width: 900px) and (min-height: 540px) and (prefers-reduced-motion: no-preference)');
+  var rmq=window.matchMedia('(prefers-reduced-motion: reduce)');
+  var fx=false, raf=0, scrubbed=[bg,dim,intro,cut,cutImg,cutCap,proj,projImg,card,pill,toggle].concat(lines);
+  function setMode(){
+    fx=fxq.matches;
+    root.classList.toggle('fx', fx); root.classList.toggle('static', rmq.matches); root.classList.toggle('lite', !fx && !rmq.matches);
+    if(!fx) scrubbed.forEach(function(el){ el.removeAttribute('style'); });
+    tick();
+  }
+  function tick(){
+    raf=0; if(!fx || body.getAttribute('data-view')!=='home') return;
+    var r=rv.getBoundingClientRect(), W=window.innerWidth, H=window.innerHeight, p=clamp(-r.top/(r.height-H));
+    /* 01 beginning: headline over the aerial, then it lifts away */
+    var a=ease(seg(p,.05,.15));
+    intro.style.opacity=1-a; intro.style.transform='translate3d(0,'+(-70*a)+'px,0)'; intro.style.visibility=a>=1?'hidden':'visible';
+    /* footage holds, slow push-in, dims a little under the type */
+    bg.style.transform='scale('+(1+.14*seg(p,0,.62))+')';
+    dim.style.opacity=.34*seg(p,.12,.24);
+    /* 02 reveal: three oversized lines cross the frame in alternating directions */
+    lines.forEach(function(l,i){
+      var t=seg(p,.13+.075*i,.47+.075*i), w=l.offsetWidth, dir=+l.dataset.dir;
+      var x = dir>0 ? W - t*(W+w) : -w + t*(W+w);
+      l.style.transform='translate3d('+x+'px,0,0)';
+    });
+    /* montage cut: another property opens from a centre slit */
+    var c=ease(seg(p,.6,.7));
+    cut.style.clipPath='inset(0 '+(50-50*c)+'% 0 '+(50-50*c)+'%)'; cut.style.visibility=c>0?'visible':'hidden';
+    cutImg.style.transform='scale('+(1.22-.14*seg(p,.6,.8))+')';
+    cutCap.style.opacity=seg(p,.66,.71)*(1-seg(p,.76,.8));
+    /* 03 finish: close-up wipes up, settles from a tight crop, details arrive */
+    var d=ease(seg(p,.76,.86));
+    proj.style.clipPath='inset('+(100-100*d)+'% 0 0 0)'; proj.style.visibility=d>0?'visible':'hidden';
+    projImg.style.transform='scale('+(1.34-.34*ease(seg(p,.76,.95)))+')';
+    var e=ease(seg(p,.9,.985));
+    card.style.opacity=e; card.style.transform='translate3d(0,'+(46*(1-e))+'px,0)';
+    /* estimate button stays reachable between the two big ones */
+    var pv=seg(p,.13,.17)*(1-seg(p,.88,.92));
+    pill.style.opacity=pv; pill.style.visibility=pv>0?'visible':'hidden';
+    toggle.style.opacity=1-seg(p,.55,.6); toggle.style.visibility=p>.6?'hidden':'visible';
+    var stage=p<.12?0:p<.82?1:2; rail.forEach(function(li,i){ li.classList.toggle('is-on', i===stage); });
+  }
+  function onScroll(){ if(!raf) raf=requestAnimationFrame(tick); }
+  window.addEventListener('scroll', onScroll, {passive:true}); window.addEventListener('resize', onScroll);
+  [fxq,rmq].forEach(function(q){ (q.addEventListener?q.addEventListener.bind(q,'change'):q.addListener.bind(q))(setMode); });
+  $$('.rv__rail button').forEach(function(b){ b.addEventListener('click', function(){
+    var top=rv.getBoundingClientRect().top+window.scrollY, travel=rv.offsetHeight-window.innerHeight;
+    window.scrollTo({top: top + (+b.dataset.to)*travel, behavior:'smooth'});
+  }); });
+  /* phones: one-shot enter transitions, no scroll scrubbing */
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){ es.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } }); }, {threshold:.35});
+    $$('.io').forEach(function(el){ io.observe(el); });
+  } else $$('.io').forEach(function(el){ el.classList.add('in'); });
+
+  /* ---------- lead simulation ---------- */
+  var S, els={ clock:$('#ld-clock'), start:$('#ld-start'), s1:$('#ld-s1'), s2:$('#ld-s2'), s3a:$('#ld-s3a'), s3b:$('#ld-s3b'), reset:$('#ld-reset'),
+    url:$('#ph-url'), ad:$('#ph-ad'), form:$('#ph-form'), inbox:$('#ph-inbox'), name:$('#ph-name'), msgs:$('#ph-msgs'),
+    live:$('#crm-live'), empty:$('#crm-empty'), bodyEl:$('#crm-body'), lead:$('#crm-lead'), src:$('#crm-src'), auto:$('#crm-auto'), autoS:$('#auto-state'), autoN:$('#auto-next'), owner:$('#crm-owner'), tl:$('#crm-tl') };
+  var SRC={ platform:'Google Ads', medium:'cpc', campaign:'Landscaping – Bradenton (sample)', keyword:'“landscaper near me”', click:'SAMPLE-GCLID-0142', page:'/estimate' };
+  var defaults={}; $$('input,select', els.form).forEach(function(i){ defaults[i.name]= i.type==='checkbox' ? i.checked : i.value; });
+  function el(tag, cls, text){ var n=document.createElement(tag); if(cls) n.className=cls; if(text!=null) n.textContent=text; return n; }
+  function rows(dl, list){ dl.textContent=''; list.forEach(function(r){ var d=el('div'), dd=el('dd'); d.appendChild(el('dt',null,r[0])); if(r[2]){ dd.appendChild(el('span','tag tag--'+r[2], r[1])); } else dd.textContent=r[1]; d.appendChild(dd); dl.appendChild(d); }); }
+  function ev(time, title, text, kind){ var li=el('li','ev is-new'+(kind?' ev--'+kind:'')); li.appendChild(el('time',null,time)); li.appendChild(el('b',null,title)); if(text) li.appendChild(el('p',null,text)); els.tl.insertBefore(li, els.tl.firstChild); }
+  function msg(box, kind, head, when, text){ var m=el('div','msg is-new msg--'+kind), b=el('b'); b.appendChild(el('span',null,head)); b.appendChild(el('span',null,when)); m.appendChild(b); m.appendChild(document.createTextNode(text)); box.appendChild(m); m.scrollIntoView && 0; }
+  function group(box, text){ box.appendChild(el('p','mgroup',text)); }
+  function stage(key, label){
+    $$('.col').forEach(function(c){ c.classList.toggle('is-on', c.dataset.stage===key); $('.slot',c).textContent=''; });
+    var c=el('div','lcard is-new'); c.appendChild(el('b',null,S.lead.first+' '+S.lead.last)); c.appendChild(el('span',null,S.lead.service)); c.appendChild(document.createElement('br')); c.appendChild(el('i',null,'Google Ads'));
+    $('.col[data-stage="'+key+'"] .slot').appendChild(c);
+    S.stageLabel=label; els.live.textContent='Stage: '+label; renderLead();
+  }
+  function renderLead(){
+    var L=S.lead;
+    rows(els.lead, [['Name',L.first+' '+L.last],['Service',L.service],['Phone',L.phone],['Email',L.email],['SMS opt-in', L.sms?'Yes':'No', L.sms?'y':'n'],['Stage',S.stageLabel]]);
+    rows(els.src, [['Platform',SRC.platform+' (simulated)'],['Medium',SRC.medium],['Campaign',SRC.campaign],['Keyword',SRC.keyword],['Click ID',SRC.click],['Landing page',SRC.page]]);
+  }
+  function clock(t){ S.clock=t; els.clock.textContent=t; }
+  function auto(state, next, stopped){ els.autoS.textContent=state; els.autoN.textContent=next; els.auto.classList.toggle('is-stop', !!stopped); }
+  function buttons(){
+    var st=S.step;
+    els.start.disabled = st!==0; els.s1.disabled = st!==1; els.s2.disabled = st!==2; els.s3a.disabled = els.s3b.disabled = !(st===2||st===3);
+    els.start.classList.toggle('is-next', st===0); els.s1.classList.toggle('is-next', st===1); els.s2.classList.toggle('is-next', st===2);
+    els.s3a.classList.toggle('is-next', st===3); els.s3b.classList.toggle('is-next', st===3); els.reset.classList.toggle('is-next', st===4);
+    els.start.classList.toggle('is-done', st>0); els.s1.classList.toggle('is-done', st>1); els.s2.classList.toggle('is-done', S.followed);
+    els.s3a.classList.toggle('is-done', S.outcome==='reply'); els.s3b.classList.toggle('is-done', S.outcome==='book');
+    var bar=$('.ld__steps'), nx=$('.ld__step.is-next', bar); /* keep the next control in view on narrow screens */
+    if(nx) bar.scrollLeft=Math.max(0, nx.offsetLeft - bar.offsetLeft - 12);
+  }
+  function reset(){
+    S={ step:0, lead:null, followed:false, outcome:null, stageLabel:'' };
+    $$('input,select', els.form).forEach(function(i){ if(i.type==='checkbox') i.checked=defaults[i.name]; else i.value=defaults[i.name]; });
+    $$('.is-bad', els.form).forEach(function(f){ f.classList.remove('is-bad'); });
+    els.ad.hidden=false; els.form.hidden=true; els.inbox.hidden=true; els.msgs.textContent=''; els.owner.textContent=''; els.tl.textContent='';
+    els.url.textContent='Search results · sample';
+    els.empty.hidden=false; els.bodyEl.hidden=true; els.live.textContent='Waiting for a visitor'; els.live.classList.remove('is-live');
+    $$('.col').forEach(function(c){ c.classList.remove('is-on'); $('.slot',c).textContent=''; });
+    clock('Tue · 10:41 AM'); buttons();
+  }
+  function startVisit(){
+    if(S.step!==0) return; S.step=1;
+    els.ad.hidden=true; els.form.hidden=false;
+    els.url.textContent='arroyoslawncare.com/estimate?utm_source=google&utm_medium=cpc&gclid='+SRC.click;
+    els.live.textContent='1 visitor on /estimate · source: Google Ads'; els.live.classList.add('is-live');
+    buttons(); els.form.elements.first.focus({preventScroll:true});
+  }
+  function bad(i,on){ i.closest('.fld').classList.toggle('is-bad',on); return !on; }
+  function submit(){
+    if(S.step!==1) return;
+    var f=els.form.elements, digits=f.phone.value.replace(/\D/g,'');
+    var ok=[bad(f.first,!f.first.value.trim()), bad(f.last,!f.last.value.trim()), bad(f.phone,!(digits.length===10||(digits.length===11&&digits[0]==='1'))), bad(f.email,!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(f.email.value.trim()))].every(Boolean);
+    if(!ok){ $('.is-bad .inp', els.form).focus(); return; }
+    S.lead={ first:f.first.value.trim(), last:f.last.value.trim(), phone:f.phone.value.trim(), email:f.email.value.trim(), service:f.service.value, sms:f.sms.checked };
+    var L=S.lead; S.step=2; clock('Tue · 10:42 AM');
+    els.form.hidden=true; els.inbox.hidden=false; els.name.textContent=L.first;
+    els.empty.hidden=true; els.bodyEl.hidden=false; els.live.textContent='New lead · just now'; els.live.classList.add('is-live');
+    ev('Tue 10:41 AM','Ad click captured', SRC.platform+' (simulated) · '+SRC.campaign+' · keyword '+SRC.keyword+' · click ID '+SRC.click, 'mute');
+    ev('Tue 10:42 AM','Estimate request submitted', L.service+' · from '+SRC.page);
+    stage('new','New Lead');
+    ev('Tue 10:42 AM','Lead entered the pipeline: New Lead','Contact created with the ad source attached.');
+    ev('Tue 10:42 AM','Owner notified','Push and email to the owner with the lead’s details.');
+    msg(els.owner,'push','New estimate request','10:42 AM', L.first+' '+L.last+' · '+L.service+' · '+L.phone+' · via Google Ads');
+    ev('Tue 10:42 AM','Acknowledgment email sent','To '+L.email);
+    group(els.msgs,'Tue 10:42 AM');
+    msg(els.msgs,'email','Email · Arroyo’s Lawn Care','10:42 AM','Hi '+L.first+', thanks for reaching out. We got your request for '+L.service+' and will reply today to set up a walkthrough.');
+    if(L.sms){ ev('Tue 10:42 AM','Acknowledgment text sent','To '+L.phone+' · lead opted in to texts');
+      msg(els.msgs,'sms','Text · Arroyo’s Lawn Care','10:42 AM','Arroyo’s Lawn Care: got your estimate request, '+L.first+'. We’ll reach out today. Reply STOP to opt out.'); }
+    else { ev('Tue 10:42 AM','Text not sent','No SMS opt-in on this lead. Email only.','mute');
+      msg(els.msgs,'off','Text','—','No text sent: this lead did not opt in to SMS.'); }
+    ev('Tue 10:42 AM','Follow-up scheduled','If there is no reply: follow-up 1 on Wed 9:00 AM.','warn');
+    auto('Active · waiting for a reply','Next: follow-up 1 · Wed 9:00 AM');
+    buttons(); if(window.innerWidth<1100) $('.crm').scrollIntoView({block:'start'});
+  }
+  function noReply(){
+    if(S.step!==2) return; var L=S.lead; S.step=3; S.followed=true; clock('Wed · 9:00 AM');
+    ev('Wed 9:00 AM','No reply yet','22 hours since the request. Demo clock advanced.','warn');
+    stage('follow','Follow-Up');
+    ev('Wed 9:00 AM','Scheduled follow-up 1 sent', L.sms ? 'Email and text to the homeowner.' : 'Email to the homeowner. No text: no SMS opt-in.');
+    group(els.msgs,'Wed 9:00 AM');
+    msg(els.msgs,'email','Email · Arroyo’s Lawn Care','9:00 AM','Hi '+L.first+', just checking in on your estimate request. Want to pick a time for a quick walkthrough?');
+    if(L.sms) msg(els.msgs,'sms','Text · Arroyo’s Lawn Care','9:00 AM','Hi '+L.first+', still want an estimate for '+L.service+'? Reply here and we’ll set a time.');
+    ev('Wed 9:00 AM','Owner task created','Call '+L.first+' '+L.last+': no reply yet.');
+    msg(els.owner,'push','Task','9:00 AM','Call '+L.first+' '+L.last+' · no reply to the estimate acknowledgment yet');
+    ev('Wed 9:00 AM','Next follow-up scheduled','Follow-up 2 on Fri 9:00 AM if there is still no reply.','warn');
+    auto('Active · follow-up 1 sent','Next: follow-up 2 · Fri 9:00 AM');
+    buttons();
+  }
+  function resolve(kind){
+    if(!(S.step===2||S.step===3)) return; var L=S.lead, day=S.followed?'Wed':'Tue', hm=S.followed?'9:26 AM':'11:08 AM', t=day+' '+hm, via=L.sms?'text':'email';
+    var pending=S.followed?'follow-up 2 (Fri 9:00 AM)':'follow-up 1 (Wed 9:00 AM)';
+    S.step=4; S.outcome=kind; clock(day+' · '+hm); group(els.msgs,t);
+    if(kind==='reply'){
+      msg(els.msgs,'out','Homeowner · '+via,hm,'Yes, still interested. Can you come by Thursday?');
+      ev(t,'Homeowner replied by '+via,'“Yes, still interested. Can you come by Thursday?”');
+      stage('replied','Replied');
+      ev(t,'Stage updated: Replied','Moved automatically when the reply came in.');
+      msg(els.owner,'push','Reply from '+L.first,hm,'“Yes, still interested. Can you come by Thursday?” Tap to answer.');
+    } else {
+      msg(els.msgs,'out','Homeowner · booking link',hm,'Booked: property walkthrough, Thu 2:00 PM');
+      ev(t,'Homeowner booked a walkthrough','Thu 2:00 PM · booked from the link in the follow-up.');
+      stage('booked','Walkthrough Booked');
+      ev(t,'Stage updated: Walkthrough Booked','Moved automatically when the booking came in.');
+      ev(t,'Booking confirmation sent', L.sms?'Email and text to the homeowner.':'Email to the homeowner.');
+      msg(els.msgs, L.sms?'sms':'email', (L.sms?'Text':'Email')+' · Arroyo’s Lawn Care',hm,'You’re booked for a property walkthrough on Thu at 2:00 PM. See you then.');
+      msg(els.owner,'push','Walkthrough booked',hm,L.first+' '+L.last+' · Thu 2:00 PM · '+L.service);
+    }
+    ev(t,'Automated follow-up stopped','1 scheduled message cancelled: '+pending+'. Nothing else goes out automatically.','stop');
+    auto('Stopped · homeowner '+(kind==='reply'?'replied':'booked'),'Cancelled: '+pending, true);
+    buttons();
+  }
+  els.start.addEventListener('click', startVisit); $('#ph-start').addEventListener('click', startVisit);
+  els.form.addEventListener('submit', function(e){ e.preventDefault(); submit(); });
+  els.s1.addEventListener('click', submit); els.s2.addEventListener('click', noReply);
+  els.s3a.addEventListener('click', function(){ resolve('reply'); }); els.s3b.addEventListener('click', function(){ resolve('book'); });
+  els.reset.addEventListener('click', reset);
+
+  reset(); setMode();
+  setView(location.hash==='#lead-demo' ? 'lead' : 'home', true);
+})();
+</script>
+</body>
+</html>

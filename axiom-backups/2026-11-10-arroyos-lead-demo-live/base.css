@@ -1,0 +1,24 @@
+:host{all:initial;--pb:42px;--ink:#0c1509;--forest:#12300f;--green:#23751a;--lime:#8edc1e;--lime-b:#a8f032;--line:#ddd5c3;--on:#f6f2e9;--on-m:#c9cfbf;
+  --disp:"Barlow Condensed","Arial Narrow",Impact,sans-serif;--body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif}
+*,*::before,*::after{box-sizing:border-box}
+h1,h2,h3,p,ol,ul,dl,dd{margin:0;padding:0} ol,ul{list-style:none}
+[hidden]{display:none!important}
+button,input,select{font-family:inherit}
+:focus-visible{outline:3px solid var(--green);outline-offset:2px;border-radius:4px}
+.ov{position:absolute;inset:0;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;background:#eef0ea;font-family:var(--body);-webkit-font-smoothing:antialiased;color:#131a10}
+.bar{position:sticky;top:0;z-index:30;height:var(--pb);display:flex;align-items:center;gap:.7rem;padding:0 clamp(12px,2.5vw,36px);background:#060a04;color:var(--on-m);font-size:.8rem;line-height:1.2}
+.bar b{flex:none;background:#f8981d;color:#0c1509;border-radius:6px;padding:.2rem .55rem;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+.bar span{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar button{margin-left:auto;flex:none;height:28px;padding:0 .8rem;border-radius:999px;border:1px solid rgba(246,242,233,.3);background:transparent;color:var(--on);font-weight:600;font-size:.78rem;cursor:pointer}
+.bar button:hover{background:var(--on);color:var(--ink)}
+.disp{font-family:var(--disp);font-weight:700;text-transform:uppercase;line-height:.98;letter-spacing:.005em}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;min-height:54px;padding:.85rem 1.7rem;border-radius:999px;border:2px solid transparent;font:600 1.04rem/1 var(--body);text-decoration:none;cursor:pointer;transition:background-color .2s}
+.btn--lime{background:var(--lime);border-color:var(--lime);color:var(--ink)}
+.btn--lime:hover{background:var(--lime-b);border-color:var(--lime-b)}
+.fld{display:flex;flex-direction:column;min-width:0}
+.fld>label{font-weight:600}
+.inp{width:100%;border:1.5px solid var(--line);background:#fff;color:var(--ink);font-family:var(--body)}
+.inp:focus{outline:none;border-color:var(--green);box-shadow:0 0 0 3px rgba(35,117,26,.2)}
+.err{display:none;font-size:.78rem;font-weight:600;color:#b3401a}
+.is-bad .err{display:block} .is-bad .inp{border-color:#b3401a}
+@media (max-width:760px){ :host{--pb:40px} .bar span{display:none} }

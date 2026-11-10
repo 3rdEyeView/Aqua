@@ -12,7 +12,7 @@ Elementor, no media was uploaded to Axiom, and the live `#lead-demo` walkthrough
 ## The one change: the hero sequence (`v4.js`, `v4.css`)
 1. Arroyo's own drone footage, last 7.04 s of their clip (real).
 2. A 6.58 s transition generated with Higgsfield (`generate_video`, model `minimax_h3`, 2560×1440, job
-   `1c2ea0d7-7fc4-4b58-bcb8-baaccc067b89`, quoted at 10 credits; the account balance read 110 before and 98 after). Start keyframe = the drone clip's real last frame; end keyframe = Arroyo's real photo `clean-1011`
+   `1c2ea0d7-7fc4-4b58-bcb8-baaccc067b89`, 12 credits: quoted 10 for 5 s, run at 6 s; the account balance read 110 before and 98 after). Start keyframe = the drone clip's real last frame; end keyframe = Arroyo's real photo `clean-1011`
    (bottle palms and ti plants), cropped to 16:9. Everything between those two frames is AI-generated, including the invented
    wider views of both properties and the whip-blur between them.
 3. Cross-fade to the real photo itself, held 6.5 s, then the sequence restarts.

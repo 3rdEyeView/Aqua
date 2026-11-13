@@ -3,30 +3,41 @@
 Business: Comer's Landscaping, LLC, Columbia / Cayce SC, owned and operated by Colin Comer (facebook.com/comerslandscaping).
 Nothing was created or changed in WordPress; no media was uploaded to Axiom.
 
-## v2 (current): Comer's real photos, no AI imagery
-- `comers-landscaping-demo.html`: the deliverable, one self-contained file (13.3 MB), opens offline, no network requests.
-- `src.html` + `assets/` + `fonts/` -> `python3 -I build.py`. `node check.js` -> 29 passed, 0 failed (desktop 1440, iPhone 13,
-  reduced motion). Screenshots in `shots/`.
-- `originals/comers-001..023.jpg`: the 23 photos the user saved from Comer's Facebook page and uploaded in chat, untouched.
-  About 38 more were sent while a reply was in progress and arrived as previews only, not files; they are NOT here
-  (pond clearing set, field clearing set, Mashburn paver pad, highway right-of-way set, fire pit, pool rock border, paver walk,
-  striped lawns, Walker mowers at a dealership sign, sod/irrigation job, Comer's flatbed truck, new CAT 259D3).
+## v3 (current): all 39 saved job photos, filterable gallery, lightbox, equipment and results sections
+- `comers-landscaping-demo.html`: the deliverable, one self-contained file (14.3 MB), opens offline, no network requests.
+  Each image is embedded once and filled into every place it appears at load (see `build.py`).
+- `src.html` + `assets/` (`p-<photo number>.jpg` web copies, 4 hero stills, logos) + `fonts/` -> `python3 -I build.py`.
+  `rebuild_v3.py` is the one-shot script that rewrote the v2 sections into v3 (kept for reference).
+  `node check.js` -> 45 passed, 0 failed (desktop 1440, iPhone 13, reduced motion); screenshots in `shots/`.
+- `originals/comers-001..039.jpg`: the photos, untouched. 001-023 were uploaded in chat; 024-039 came from the user's ZIP
+  (`originals/zip-sources.tsv` maps them to the ZIP's `comer42..61` names; 4 ZIP files were duplicates and were skipped).
 
-### Where each photo is used (each once)
-| Place | Photo |
+### Sections (nav: About, Services, Results, Equipment, Our Work)
+Scroll-driven hero (basin: hydroseed day -> grown in) -> service marquee -> About -> Services (7, photo swaps on hover/focus,
+swipe cards on phones) -> Process -> **Results** (3 before/after rows) -> **Equipment** (4 cards) -> **Our Work** gallery
+(31 photos, 7 filter chips, lightbox with arrows, swipe, Esc, focus return) -> full-bleed call band using Comer's own line ->
+Request a Quote (demo form, sends nothing) -> footer -> phone bar.
+
+### Photo use (35 of 39)
+| Place | Photos |
 |---|---|
-| Hero start / end (scroll cross-fades and eases a slight zoom) | 004 hydroseeded basin at sunset -> 005 basin grown in |
-| Services 1-7 | 009 dealership lot mowing (aerial, Comer's box truck), 008 Walker mower lawn, 022 front beds (cropped: mailbox number and another contractor's truck removed), 021 paver patio, 020 irrigation trench, 006 lawn and beds, 017 silt fence |
-| Process | 018 graded site, 013 excavator, 007 lawn |
-| Our Work pair | 001 roadside hydroseed (cropped) -> 002 roadside grown in |
-| Our Work grid | 015 Comer's trailer + skid steer, 003 basin grown in, 019 rip-rap basin (cropped: third-party trailer branding removed), 016 silt fence trench, 010 / 011 culvert before / after, 012 excavator + pipe, 023 pond bank |
-Not used: 014.
+| Hero | 004 hydroseeded basin at sunset -> 005 grown in |
+| Services 1-7 | 009 dealership mowing (aerial), 034 Walker mower, 028 river rock by a pool, 026 fire pit patio (cropped to the patio), 020 irrigation trench, 021 paver patio and beds, 017 silt fence |
+| Process | 006 lawn and beds, 037 irrigation + sod, 030 striped lawn |
+| Results | 001 -> 002 roadside slope, 010 -> 011 drainage crossing, 039 -> 035 backyard |
+| Equipment | 024 truck + trailer, 025 CAT 259D3, 015 brush cutter, 013 compact excavator |
+| Gallery | all of the above except the hero, plus 003, 007, 008, 012, 014, 016, 018, 019 (cropped), 023, 027, 029, 033, 038 |
+Not used, on purpose: 022 (house number and another contractor's truck with a phone number), 031 (a customer's vintage truck),
+032 (a dealership's logo sign with both mowers), 036 (two customers' faces). All four are in `originals/` if Colin okays them.
 
 ### Things to confirm with Colin
-- The before/after pairings (004->005 basin, 001->002 roadside, 010->011 culvert) are my reading of the photos, not captions from his posts.
-- Permission to use the photos, and whether client sites may be named (none are named on the page).
-- 009 shows a crew member on a mower (small, from above). No other identifiable people are on the page.
+- Permission to use the photos, and whether client names may be shown (none are named on the page).
+- The before/after pairings are my reading of the photos, not his captions: 001/002 (two roadside slopes), 010/011 (two views of a
+  drainage crossing), 039/035 (I believe the same yard: same fence, crepe myrtles and house, but not verified).
+- Equipment captions describe what the photos show (CAT 259D3 is printed on the machine); they make no ownership or capacity claims.
+- 009 and 034 show a crew member on a mower, small or from behind. No other identifiable people are on the page.
 
+## v2 (superseded): 23 real photos, scroll-hero, simple "Our Work" strip
 ### Text
 Comer's own (archived comerslandscaping.com, Wayback 2026-06-07): logo, tagline, H1, About paragraph, seven service names, quote
 paragraph, phone, email, hours, Venmo/CashApp line, social links. Written for the demo: service one-liners, process blurbs, photo

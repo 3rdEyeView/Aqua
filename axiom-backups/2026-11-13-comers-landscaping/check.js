@@ -20,11 +20,11 @@ const results = []; const ok = (name, cond, extra='') => { results.push([cond ? 
       await page.screenshot({ path: `shots/${label}-hero-${String(p).replace('.', '_')}.jpg`, quality: 80, type: 'jpeg' });
     }
     ok(`${label}: no horizontal scroll`, await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1));
-    for (const id of ['about', 'services', 'process', 'work', 'quote']) {
+    for (const id of ['about', 'services', 'process', 'results', 'equipment', 'gallery', 'quote']) {
       await page.evaluate(i => document.getElementById(i).scrollIntoView({ block: 'start', behavior: 'instant' }), id); await page.waitForTimeout(1100);
       await page.screenshot({ path: `shots/${label}-${id}.jpg`, quality: 80, type: 'jpeg' });
     }
-    ok(`${label}: images all decoded`, await page.evaluate(async () => { const im = [...document.images]; im.forEach(i => i.loading = 'eager'); await Promise.all(im.map(i => i.decode().catch(() => 0))); return im.every(i => i.naturalWidth > 0); }));
+    ok(`${label}: images all decoded`, await page.evaluate(async () => { const im = [...document.images].filter(i => !i.closest('.lb')); im.forEach(i => i.loading = 'eager'); await Promise.all(im.map(i => i.decode().catch(() => 0))); return im.every(i => i.naturalWidth > 0); }));
     if (label === 'desktop') {
       await page.evaluate(() => document.getElementById('services').scrollIntoView({ block: 'start', behavior: 'instant' }));
       await page.hover('.svc-item:nth-child(4) .svc-btn'); await page.waitForTimeout(900);
@@ -45,7 +45,22 @@ const results = []; const ok = (name, cond, extra='') => { results.push([cond ? 
     await page.click('#qReset'); ok(`${label}: reset returns form`, await page.locator('#qSend').isVisible());
     ok(`${label}: zero network requests`, reqs.length === 0 && before === 0, reqs.slice(0, 3).join(' '));
     ok(`${label}: no console errors`, errs.length === 0, errs.slice(0, 2).join(' | '));
-    ok(`${label}: 25 images present`, await page.locator("img").count() === 25);
+    ok(`${label}: all images filled from the embedded map`, await page.evaluate(() => [...document.images].filter(i => !i.closest('.lb')).every(i => !i.src.startsWith('data:image/gif') && i.naturalWidth > 1)));
+    // gallery filter + lightbox
+    await page.evaluate(() => document.getElementById('gallery').scrollIntoView({ block: 'start', behavior: 'instant' })); await page.waitForTimeout(500);
+    const total = await page.locator('.gi').count();
+    ok(`${label}: gallery has ${total} photos, 'All' shows all`, total >= 28 && await page.locator('.gi:visible').count() === total);
+    await page.click('.chip[data-f="hard"]'); const hard = await page.locator('.gi:visible').count();
+    ok(`${label}: hardscape filter -> ${hard} photos, counter matches`, hard === (await page.locator('.gi[data-cat="hard"]').count()) && (await page.textContent('#galCount')).startsWith(hard + ' photo'));
+    await page.locator('.gi:visible').first().scrollIntoViewIfNeeded(); await page.locator('.gi:visible').first().click(); await page.waitForTimeout(400);
+    ok(`${label}: lightbox opens with a full image`, await page.evaluate(() => { const l = document.querySelector('.lb'); const i = l.querySelector('img'); return l.classList.contains('is-open') && i.src.startsWith('data:image/jpeg') && i.naturalWidth > 600; }));
+    await page.keyboard.press('ArrowRight'); await page.waitForTimeout(150);
+    ok(`${label}: lightbox next shows 2 of ${hard}`, (await page.textContent('.lb figcaption')).includes('2 of ' + hard));
+    await page.screenshot({ path: `shots/${label}-lightbox.jpg`, quality: 80, type: 'jpeg' });
+    await page.keyboard.press('Escape'); await page.waitForTimeout(150);
+    ok(`${label}: Esc closes the lightbox and returns focus`, await page.evaluate(() => !document.querySelector('.lb').classList.contains('is-open') && document.activeElement.classList.contains('gi')));
+    await page.click('.chip[data-f="all"]');
+    for (const id of ['results', 'equipment', 'gallery']) ok(`${label}: #${id} present`, await page.locator('#' + id).count() === 1);
     ok(`${label}: tel links`, await page.locator('a[href="tel:+18034228031"]').count() >= 4);
     await ctx.close();
   }

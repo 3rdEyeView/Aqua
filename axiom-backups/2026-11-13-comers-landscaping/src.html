@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Comer's Landscaping — Website Concept (demo, not live)</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root{
+  --ink:#060a07; --panel:#0d130e; --panel2:#141c15; --line:rgba(255,255,255,.12);
+  --green:#72be45; --lime:#c4d82e; --paper:#f3f5ec; --paper2:#e7ebdc; --text:#10160f; --mute:#59635a;
+  --disp:"Anton","Arial Narrow",Impact,sans-serif; --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --wrap:1200px; --gut:clamp(16px,4vw,40px); --hh:72px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ink);color:#fff;font:400 17px/1.6 var(--body);overflow-x:hidden}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+button{font:inherit;color:inherit}
+h1,h2,h3,p{margin:0}
+.wrap{width:min(var(--wrap),100% - 2*var(--gut));margin-inline:auto}
+.disp{font-family:var(--disp);font-weight:400;text-transform:uppercase;letter-spacing:.01em;line-height:.95}
+.eyebrow{font:700 13px/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--lime);display:flex;align-items:center;gap:10px}
+.eyebrow::before{content:"";width:28px;height:2px;background:currentColor}
+.on-paper .eyebrow{color:#3f7d1c}
+:focus-visible{outline:3px solid var(--lime);outline-offset:3px;border-radius:4px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:999px;border:2px solid transparent;
+  font:800 15px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:transform .2s,background .2s,color .2s,border-color .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-lime{background:var(--lime);color:#0a1005}
+.btn-lime:hover{background:#d6ea3c}
+.btn-ghost{border-color:rgba(255,255,255,.55);color:#fff;background:rgba(0,0,0,.25);backdrop-filter:blur(6px)}
+.btn-ghost:hover{border-color:#fff;background:rgba(0,0,0,.45)}
+.btn-dark{background:var(--ink);color:#fff}
+.btn-dark:hover{background:#1b271c}
+.ai-chip{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:rgba(0,0,0,.62);color:#fff;
+  font:700 11px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.22)}
+.ai-chip::before{content:"";width:7px;height:7px;border-radius:50%;background:#ff9f2e}
+
+/* demo ribbon */
+.ribbon{background:#ff9f2e;color:#1a1000;font:600 13px/1.4 var(--body);text-align:center;padding:8px var(--gut)}
+.ribbon b{font-weight:800}
+
+/* header */
+.hdr{position:fixed;inset:0 0 auto 0;z-index:50;height:var(--hh);display:flex;align-items:center;transition:background .3s,box-shadow .3s,transform .3s}
+.hdr.is-top{position:absolute;top:auto}
+.hdr.is-solid{background:rgba(6,10,7,.92);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line)}
+.hdr .wrap{display:flex;align-items:center;gap:24px}
+.logo{display:block;flex:none}
+.logo img{height:58px;width:auto;filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))}
+.nav{display:flex;gap:28px;margin-left:auto}
+.nav a{font:700 14px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:#fff;opacity:.88;padding:8px 0;border-bottom:2px solid transparent}
+.nav a:hover{opacity:1;border-color:var(--lime)}
+.hdr .btn{min-height:44px;padding:0 20px;font-size:14px}
+.menu-btn{display:none;margin-left:auto;width:46px;height:46px;border-radius:12px;border:1px solid rgba(255,255,255,.35);background:rgba(0,0,0,.35);cursor:pointer;align-items:center;justify-content:center}
+.menu-btn span,.menu-btn span::before,.menu-btn span::after{display:block;width:20px;height:2px;background:#fff;position:relative;content:""}
+.menu-btn span::before{position:absolute;top:-6px}.menu-btn span::after{position:absolute;top:6px}
+.drawer{position:fixed;inset:0;z-index:60;background:rgba(6,10,7,.97);display:none;flex-direction:column;padding:24px var(--gut)}
+.drawer.is-open{display:flex}
+.drawer a{font-family:var(--disp);text-transform:uppercase;font-size:40px;line-height:1.25;text-decoration:none;color:#fff}
+.drawer a:hover{color:var(--lime)}
+.drawer .x{align-self:flex-end;width:46px;height:46px;border-radius:12px;border:1px solid rgba(255,255,255,.35);background:none;font-size:22px;cursor:pointer;margin-bottom:16px}
+.drawer .btn{margin-top:auto}
+
+/* hero */
+.hero{position:relative;height:340vh;background:#000}
+.hero-pin{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
+.hm{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 62%}
+.hm.after,.hm.vid{opacity:0}
+.hm.vid.is-ready{opacity:1}
+.hero-base{position:absolute;inset:auto 0 0 0;height:34%;background:linear-gradient(0deg,rgba(0,0,0,.9),rgba(0,0,0,0));pointer-events:none}
+.hero-shade{position:absolute;inset:0;background:
+  linear-gradient(180deg,rgba(0,0,0,.55) 0,rgba(0,0,0,0) 26%),
+  linear-gradient(0deg,rgba(0,0,0,.88) 0,rgba(0,0,0,.5) 32%,rgba(0,0,0,0) 62%),
+  linear-gradient(90deg,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 60%)}
+.hero-in{position:absolute;inset:auto 0 0 0;padding-bottom:clamp(20px,4vh,44px)}
+.hero-copy{will-change:opacity,transform}
+.hero-shade{opacity:var(--shade,1)}
+.hero h1{font-size:clamp(42px,6.4vw,96px);max-width:11.5em;text-shadow:0 4px 30px rgba(0,0,0,.45)}
+.hero h1 em{font-style:normal;color:var(--lime)}
+.hero-sub{margin-top:16px;font-size:clamp(17px,1.6vw,21px);max-width:34em;color:rgba(255,255,255,.92)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.stages{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:clamp(22px,4vh,40px)}
+.stage{position:relative;padding-top:14px;opacity:.5;transition:opacity .4s}
+.stage::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:rgba(255,255,255,.28);border-radius:3px}
+.stage i{position:absolute;inset:0 auto auto 0;height:3px;width:calc(var(--p,0)*100%);background:var(--lime);border-radius:3px}
+.stage.is-on{opacity:1}
+.stage b{display:block;font-family:var(--disp);font-weight:400;text-transform:uppercase;font-size:clamp(20px,2.2vw,30px);letter-spacing:.02em;line-height:1.1}
+.stage b small{font:700 12px/1 var(--body);letter-spacing:.14em;color:var(--lime);margin-right:8px;vertical-align:middle}
+.stage span{display:block;font-size:14px;line-height:1.4;color:rgba(255,255,255,.82);margin-top:4px;max-width:24em}
+.hero-chip{position:absolute;top:calc(var(--hh) + 14px);right:var(--gut)}
+.hint{position:absolute;right:var(--gut);bottom:clamp(20px,4vh,44px);writing-mode:vertical-rl;font:700 12px/1 var(--body);letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.8);display:flex;align-items:center;gap:12px;transition:opacity .4s}
+.hint::after{content:"";width:2px;height:56px;background:linear-gradient(var(--lime),transparent);animation:drip 1.8s ease-in-out infinite}
+@keyframes drip{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+.hero.is-moving .hint{opacity:0}
+
+/* marquee band */
+.band{background:var(--lime);color:#0a1005;overflow:hidden;padding:14px 0;border-block:2px solid #0a1005}
+.band-track{display:flex;gap:40px;width:max-content;animation:slide 38s linear infinite}
+.band span{font-family:var(--disp);text-transform:uppercase;font-size:22px;letter-spacing:.04em;white-space:nowrap;display:flex;align-items:center;gap:40px}
+.band span::after{content:"";width:10px;height:10px;background:#0a1005;border-radius:50% 0 50% 50%;transform:rotate(45deg)}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* sections */
+section[id]{scroll-margin-top:calc(var(--hh) - 1px)}
+.sec{padding:clamp(72px,10vw,140px) 0}
+.on-paper{background:var(--paper);color:var(--text)}
+.h2{font-size:clamp(40px,6vw,84px);margin-top:16px}
+.h2 em{font-style:normal;color:var(--green)}
+.on-paper .h2 em{color:#4f9a25}
+.lede{font-size:clamp(18px,1.5vw,21px);line-height:1.65}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.rv.is-in{opacity:1;transform:none}
+
+/* about */
+.about{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,6vw,90px);align-items:start}
+.about .lede{color:#28312a;margin-top:28px}
+.about .btn{margin-top:32px}
+.facts{display:grid;gap:0;border-top:2px solid var(--text)}
+.fact{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:20px 0;border-bottom:1px solid rgba(16,22,15,.2);align-items:baseline}
+.fact dt{font:800 12px/1.3 var(--body);letter-spacing:.14em;text-transform:uppercase;color:#4f6b3d}
+.fact dd{margin:0;font-family:var(--disp);text-transform:uppercase;font-size:clamp(22px,2.4vw,32px);line-height:1.1}
+.fact dd a{text-decoration:none}
+.fact dd a:hover{color:#4f9a25}
+
+/* services */
+.svc-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:clamp(28px,4vw,56px)}
+.svc-head p{max-width:30em;color:rgba(255,255,255,.75)}
+.svc{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);column-gap:clamp(24px,4vw,64px);position:relative}
+.svc-item{display:contents}
+.svc-btn{grid-column:1;display:grid;grid-template-columns:52px 1fr 28px;align-items:center;gap:12px;width:100%;text-align:left;background:none;border:0;border-top:1px solid var(--line);padding:20px 0;cursor:pointer;color:rgba(255,255,255,.62);transition:color .25s,padding .25s}
+.svc-item:last-of-type .svc-btn{border-bottom:1px solid var(--line)}
+.svc-btn .n{font:700 13px/1 var(--body);letter-spacing:.14em;color:var(--lime)}
+.svc-btn .t{font-family:var(--disp);text-transform:uppercase;font-size:clamp(26px,3vw,42px);line-height:1.05}
+.svc-btn .t small{display:block;font:400 15px/1.5 var(--body);text-transform:none;letter-spacing:0;color:rgba(255,255,255,.78);max-height:0;overflow:hidden;opacity:0;transition:max-height .35s,opacity .35s,margin .35s}
+.svc-btn .a{width:28px;height:28px;border-radius:50%;border:1px solid currentColor;display:grid;place-items:center;font-size:14px;transition:transform .25s,background .25s,color .25s}
+.svc-item.is-active .svc-btn{color:#fff}
+.svc-item.is-active .svc-btn .t small{max-height:6em;opacity:1;margin-top:8px}
+.svc-item.is-active .svc-btn .a{background:var(--lime);color:#0a1005;border-color:var(--lime);transform:rotate(-45deg)}
+.svc-fig{grid-column:2;grid-row:1 / span 7;position:sticky;top:calc(var(--hh) + 24px);align-self:start;height:min(640px,calc(100vh - var(--hh) - 48px));margin:0;border-radius:22px;overflow:hidden;opacity:0;transform:scale(1.04);transition:opacity .6s,transform .9s cubic-bezier(.2,.7,.2,1);pointer-events:none}
+.svc-item.is-active .svc-fig{opacity:1;transform:none;pointer-events:auto}
+.svc-fig img{width:100%;height:100%;object-fit:cover}
+.svc-fig figcaption{position:absolute;left:14px;bottom:14px}
+
+/* process */
+.proc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2vw,28px);margin-top:clamp(32px,5vw,64px)}
+.proc{position:relative;border-radius:22px;overflow:hidden;background:#000;color:#fff;aspect-ratio:3/4;display:flex;align-items:flex-end;isolation:isolate}
+.proc img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.proc::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(0,0,0,.9) 0,rgba(0,0,0,.35) 48%,rgba(0,0,0,.1) 100%)}
+.proc:hover img{transform:scale(1.06)}
+.proc-in{padding:clamp(18px,2vw,28px)}
+.proc .num{font-family:var(--disp);font-size:clamp(64px,7vw,104px);line-height:.8;color:var(--lime)}
+.proc h3{font-family:var(--disp);font-weight:400;text-transform:uppercase;font-size:clamp(30px,3.2vw,44px);line-height:1;margin-top:10px}
+.proc p{font-size:15.5px;line-height:1.5;color:rgba(255,255,255,.86);margin-top:10px}
+.proc .ai-chip{position:absolute;top:14px;right:14px}
+
+/* work */
+.work{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,72px);align-items:center}
+.work p{color:rgba(255,255,255,.78);margin-top:22px;max-width:32em}
+.social{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.tile{aspect-ratio:1;border-radius:14px;border:1.5px dashed rgba(196,216,46,.5);background:
+  repeating-linear-gradient(135deg,rgba(196,216,46,.07) 0 12px,transparent 12px 24px);display:grid;place-items:center;color:rgba(255,255,255,.55);font:700 11px/1.3 var(--body);letter-spacing:.12em;text-transform:uppercase;text-align:center;padding:8px}
+.tile svg{width:26px;height:26px;display:block;margin:0 auto 8px;opacity:.8}
+
+/* quote */
+.quote{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(32px,6vw,90px);align-items:start}
+.quote .lede{margin-top:24px;color:#28312a}
+.contact{margin-top:32px;display:grid;gap:4px}
+.contact a.big{font-family:var(--disp);font-size:clamp(44px,6vw,80px);line-height:1;text-decoration:none;color:var(--text)}
+.contact a.big:hover{color:#4f9a25}
+.contact a.mail{font-weight:700;font-size:19px;text-underline-offset:4px}
+.contact .hrs{margin-top:14px;color:var(--mute);font-weight:600}
+.pay{margin-top:18px;display:inline-flex;gap:8px;align-items:center;font:700 13px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:#3b5a27;background:var(--paper2);padding:10px 14px;border-radius:999px}
+.card{background:#fff;border-radius:24px;padding:clamp(22px,3vw,40px);box-shadow:0 30px 80px -40px rgba(10,30,5,.45),0 0 0 1px rgba(16,22,15,.08)}
+.card h3{font-family:var(--disp);font-weight:400;text-transform:uppercase;font-size:30px;line-height:1}
+.card .note{font-size:13.5px;color:var(--mute);margin-top:8px}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+.fld{display:grid;gap:6px}
+.fld.full{grid-column:1/-1}
+.fld label{font:700 12.5px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:#3a443b}
+.fld input,.fld select,.fld textarea{width:100%;min-height:50px;padding:12px 14px;border-radius:12px;border:1.5px solid #c9d0c0;background:#fbfcf7;font:500 16px/1.4 var(--body);color:var(--text)}
+.fld textarea{min-height:110px;resize:vertical}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:none;border-color:#4f9a25;box-shadow:0 0 0 4px rgba(114,190,69,.25)}
+.fld .err{font-size:13px;font-weight:600;color:#b3261e;min-height:0;display:none}
+.fld.bad .err{display:block}
+.fld.bad input,.fld.bad select{border-color:#b3261e}
+.frow{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:20px}
+.link-btn{background:none;border:0;padding:8px 0;font:700 14px/1 var(--body);color:#3b6d1d;text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.done{display:none}
+.card.is-done .fwrap{display:none}
+.card.is-done .done{display:block}
+.done .tick{width:56px;height:56px;border-radius:50%;background:var(--green);display:grid;place-items:center;font-size:28px;color:#fff;margin-bottom:16px}
+.done dl{margin:18px 0 0;display:grid;gap:8px;font-size:15px}
+.done dl div{display:grid;grid-template-columns:110px 1fr;gap:12px}
+.done dt{color:var(--mute);font-weight:600}
+.done dd{margin:0;font-weight:600;overflow-wrap:anywhere}
+.demo-flag{margin-top:18px;padding:12px 14px;border-radius:12px;background:#fff4e0;color:#5a3a00;font-size:14px;font-weight:600}
+
+/* footer */
+.ftr{background:#000;padding:56px 0 110px;color:rgba(255,255,255,.72);font-size:15px}
+.ftr-top{display:flex;flex-wrap:wrap;gap:28px 56px;align-items:center;justify-content:space-between;padding-bottom:32px;border-bottom:1px solid var(--line)}
+.ftr-top img{height:120px;width:auto}
+.ftr-links{display:flex;flex-wrap:wrap;gap:10px 26px}
+.ftr-links a{font:700 13px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;color:#fff;opacity:.85;padding:6px 0}
+.ftr-links a:hover{color:var(--lime);opacity:1}
+.fine{margin-top:24px;font-size:13px;line-height:1.6;color:rgba(255,255,255,.55);max-width:70em}
+.fine b{color:rgba(255,255,255,.8)}
+
+/* mobile bar */
+.mbar{position:fixed;inset:auto 0 0 0;z-index:40;display:none;grid-template-columns:1fr 1fr;gap:8px;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:rgba(6,10,7,.94);backdrop-filter:blur(10px);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .35s}
+.mbar.is-on{transform:none}
+.mbar .btn{min-height:48px;padding:0 10px;font-size:13.5px}
+
+@media (max-width:980px){
+  .nav,.hdr .btn{display:none}
+  .menu-btn{display:flex}
+  .about,.work,.quote{grid-template-columns:1fr}
+  .proc-grid{grid-template-columns:1fr}
+  .proc{aspect-ratio:4/3}
+  .svc{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(-1*var(--gut));padding:0 var(--gut) 14px;scrollbar-width:none}
+  .svc::-webkit-scrollbar{display:none}
+  .svc-item{display:flex;flex-direction:column-reverse;flex:0 0 min(82vw,420px);scroll-snap-align:center;background:var(--panel2);border-radius:20px;overflow:hidden}
+  .svc-btn{grid-template-columns:auto 1fr;border:0!important;padding:16px 18px 20px;color:#fff;cursor:default;align-items:start}
+  .svc-btn .a{display:none}
+  .svc-btn .n{padding-top:8px}
+  .svc-btn .t{font-size:28px}
+  .svc-btn .t small{max-height:none;opacity:1;margin-top:8px}
+  .svc-fig{position:relative;top:auto;height:auto;aspect-ratio:3/2;opacity:1;transform:none;border-radius:0;pointer-events:auto}
+  .swipe{display:block!important}
+  .mbar{display:grid}
+  .hint{display:none}
+}
+.swipe{display:none;margin-top:6px;font:700 12px/1 var(--body);letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55)}
+@media (max-width:640px){
+  :root{--hh:64px}
+  body{font-size:16px}
+  .logo img{height:46px}
+  .hero{height:300vh}
+  .hm{object-position:58% 50%}
+  .hero-shade{background:linear-gradient(180deg,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 22%),linear-gradient(0deg,rgba(0,0,0,.94) 0,rgba(0,0,0,.72) 42%,rgba(0,0,0,0) 74%)}
+  .hero-chip{top:calc(var(--hh) + 8px)}
+  .hero-cta .btn{flex:1 1 100%}
+  .stages{gap:8px}
+  .stage span{display:none}
+  .stage b small{display:block;margin:0 0 4px}
+  .fgrid{grid-template-columns:1fr}
+  .fact{grid-template-columns:1fr;gap:6px;padding:16px 0}
+  .tiles{gap:8px}
+  .band span{font-size:18px}
+  .ftr-top img{height:100px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .hero{height:auto}
+  .hero-pin{position:relative}
+  .hm.after{opacity:1}
+  .hm.vid{display:none}
+  .hint{display:none}
+  .hero-pin{height:100vh;height:100svh}
+  .band-track{animation:none}
+  .rv{opacity:1;transform:none;transition:none}
+  .stage{opacity:1}.stage i{width:100%}
+  .btn:hover{transform:none}
+}
+</style>
+</head>
+<body>
+<div class="ribbon"><b>Website concept by Axiom Systems, not Comer's live site.</b> Logo, copy and contact details are Comer's own. Every photo and the hero video are AI-generated concept imagery (Higgsfield), not Comer's projects.</div>
+
+<header class="hdr is-top" id="hdr">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Comer's Landscaping, back to top"><img src="assets/logo-mark.png" alt="Comer's Landscaping" width="632" height="355"></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#process">Process</a><a href="#work">Our Work</a>
+    </nav>
+    <a class="btn btn-lime" href="#quote">Request a Quote</a>
+    <button class="menu-btn" type="button" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span></button>
+  </div>
+</header>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Menu">
+  <button class="x" type="button" id="menuX" aria-label="Close menu">✕</button>
+  <img src="assets/logo-mark.png" alt="" width="632" height="355" style="height:64px;width:auto;margin:-62px 0 22px">
+  <a href="#about">About</a><a href="#services">Services</a><a href="#process">Process</a><a href="#work">Our Work</a><a href="#quote">Request a Quote</a>
+  <a class="btn btn-lime" href="tel:+18034228031">Call 803.422.8031</a>
+</div>
+
+<main>
+<section class="hero" id="top" aria-label="Introduction">
+  <div class="hero-pin">
+    <img class="hm before" src="assets/hero-before.jpg" alt="" width="1920" height="1080" fetchpriority="high">
+    <img class="hm after" src="assets/hero-after.jpg" alt="AI-generated concept image: a brick ranch home at dusk with a striped lawn, paver walkway, azalea beds and uplit crepe myrtles." width="1920" height="1080">
+    <video class="hm vid" id="heroVid" muted playsinline preload="auto" tabindex="-1" aria-hidden="true" src="assets/hero-grow.mp4"></video>
+    <div class="hero-shade" id="heroShade"></div><div class="hero-base"></div>
+    <span class="ai-chip hero-chip">AI-generated visualization</span>
+    <div class="hero-in">
+      <div class="wrap">
+        <div class="hero-copy" id="heroCopy">
+        <h1 class="disp">Your Commercial &amp; Residential <em>Landscaping</em> Partner</h1>
+        <p class="hero-sub">Reliable year-round landscaping service in Columbia, SC. Owned and operated by Colin Comer.</p>
+        <div class="hero-cta">
+          <a class="btn btn-lime" href="#quote">Request a Quote</a>
+          <a class="btn btn-ghost" href="tel:+18034228031">Call 803.422.8031</a>
+        </div>
+        </div>
+        <div class="stages" id="stages" aria-hidden="true">
+          <div class="stage"><i></i><b><small>01</small>Design</b><span>It starts with a plan for your property.</span></div>
+          <div class="stage"><i></i><b><small>02</small>Install</b><span>Sod, beds, stone, irrigation and lighting go in.</span></div>
+          <div class="stage"><i></i><b><small>03</small>Maintain</b><span>Then it's kept looking this good, all year.</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="hint" aria-hidden="true">Scroll to grow the yard</div>
+  </div>
+</section>
+
+<div class="band" aria-hidden="true"><div class="band-track">
+  <span>Commercial Grounds Maintenance</span><span>Residential Lawn Care</span><span>Decorative Rock</span><span>Hardscaping</span><span>Irrigation</span><span>Landscape Design &amp; Lighting</span><span>Erosion Control</span>
+  <span>Commercial Grounds Maintenance</span><span>Residential Lawn Care</span><span>Decorative Rock</span><span>Hardscaping</span><span>Irrigation</span><span>Landscape Design &amp; Lighting</span><span>Erosion Control</span>
+</div></div>
+
+<section class="sec on-paper" id="about">
+  <div class="wrap about">
+    <div>
+      <p class="eyebrow rv">About Comer's Landscaping</p>
+      <h2 class="disp h2 rv">Design. Install. <em>Maintain.</em></h2>
+      <p class="lede rv">Comer's Landscaping in Columbia, SC provides reliable year-round landscaping services. Owned and operated by Colin Comer, we provide services that meet both commercial and residential needs. Our landscaping services include commercial grounds maintenance, residential lawn care, installation of sod, mulch, and gravel, hardscaping, irrigation installation and repair, landscape design and lighting, and erosion control.</p>
+      <p class="lede rv" style="margin-top:16px;font-weight:700">When it comes to quality work, we are the first you should call.</p>
+      <a class="btn btn-dark rv" href="#quote">Get Started</a>
+    </div>
+    <dl class="facts rv" style="--d:.15s">
+      <div class="fact"><dt>Based in</dt><dd>Columbia, SC</dd></div>
+      <div class="fact"><dt>We serve</dt><dd>Commercial &amp; Residential</dd></div>
+      <div class="fact"><dt>Owner</dt><dd>Colin Comer</dd></div>
+      <div class="fact"><dt>Hours</dt><dd>Mon–Sat · 7 AM – 7 PM</dd></div>
+      <div class="fact"><dt>Call</dt><dd><a href="tel:+18034228031">803.422.8031</a></dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="sec" id="services">
+  <div class="wrap">
+    <div class="svc-head">
+      <div>
+        <p class="eyebrow rv">Our Services</p>
+        <h2 class="disp h2 rv">One crew for the <em>whole property</em></h2>
+      </div>
+      <p class="rv">Seven services, year-round, for homes and commercial sites across the Columbia area.</p>
+    </div>
+    <div class="svc" id="svc">
+      <div class="svc-item is-active">
+        <button class="svc-btn" type="button"><span class="n">01</span><span class="t">Commercial Grounds Maintenance<small>Scheduled mowing, edging, beds and seasonal cleanups that keep a business looking cared for.</small></span><span class="a" aria-hidden="true">→</span></button>
+        <figure class="svc-fig"><img src="assets/commercial.jpg" alt="AI-generated concept image: office entrance with striped lawn, clipped hedges and seasonal flower beds." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+      </div>
+      <div class="svc-item">
+        <button class="svc-btn" type="button"><span class="n">02</span><span class="t">Residential Lawn Care<small>Regular mowing, trimming and clean edges, so the yard is ready whenever you are.</small></span><span class="a" aria-hidden="true">→</span></button>
+        <figure class="svc-fig"><img src="assets/lawn.jpg" alt="AI-generated concept image: freshly mowed striped backyard lawn with a crisp bed edge." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+      </div>
+      <div class="svc-item">
+        <button class="svc-btn" type="button"><span class="n">03</span><span class="t">Installation of Decorative Rock<small>Sod, mulch, gravel and decorative rock installed for clean, low-upkeep beds and borders.</small></span><span class="a" aria-hidden="true">→</span></button>
+        <figure class="svc-fig"><img src="assets/rock.jpg" alt="AI-generated concept image: river rock bed with granite boulders and steel edging beside a brick home." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+      </div>
+      <div class="svc-item">
+        <button class="svc-btn" type="button"><span class="n">04</span><span class="t">Hardscaping<small>Patios, walkways, walls and steps that give the yard structure and a place to gather.</small></span><span class="a" aria-hidden="true">→</span></button>
+        <figure class="svc-fig"><img src="assets/hardscape.jpg" alt="AI-generated concept image: herringbone paver patio with a stone seat wall and fire pit." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+      </div>
+      <div class="svc-item">
+        <button class="svc-btn" type="button"><span class="n">05</span><span class="t">Irrigation Installation &amp; Repair<small>New systems put in and existing ones repaired, so the lawn gets water where it needs it.</small></span><span class="a" aria-hidden="true">→</span></button>
+        <figure class="svc-fig"><img src="assets/irrigation.jpg" alt="AI-generated concept image: lawn sprinklers running at sunrise." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+      </div>
+      <div class="svc-item">
+        <button class="svc-btn" type="button"><span class="n">06</span><span class="t">Landscape Design &amp; Lighting<small>Planting plans and low-voltage lighting that make the property work after dark too.</small></span><span class="a" aria-hidden="true">→</span></button>
+        <figure class="svc-fig"><img src="assets/lighting.jpg" alt="AI-generated concept image: crepe myrtle uplit at dusk with path lights along a stone walkway." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+      </div>
+      <div class="svc-item">
+        <button class="svc-btn" type="button"><span class="n">07</span><span class="t">Erosion Control<small>Grading, walls, stone and groundcover to hold a slope and move water where it should go.</small></span><span class="a" aria-hidden="true">→</span></button>
+        <figure class="svc-fig"><img src="assets/erosion.jpg" alt="AI-generated concept image: terraced retaining walls and a stone drainage channel on a sodded slope." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+      </div>
+    </div>
+    <p class="swipe" aria-hidden="true">Swipe for all seven →</p>
+  </div>
+</section>
+
+<section class="sec on-paper" id="process">
+  <div class="wrap">
+    <p class="eyebrow rv">How it works</p>
+    <h2 class="disp h2 rv">Three words in the logo. <em>One plan</em> for your yard.</h2>
+    <div class="proc-grid">
+      <article class="proc rv">
+        <img src="assets/aerial.jpg" alt="AI-generated concept image: overhead view of a planned backyard with lawn, patio and planting beds." width="1280" height="850" loading="lazy">
+        <span class="ai-chip">AI concept image</span>
+        <div class="proc-in"><div class="num">01</div><h3>Design</h3><p>Tell us what you have in mind. We look at the property and lay out a plan and a quote.</p></div>
+      </article>
+      <article class="proc rv" style="--d:.12s">
+        <img src="assets/sod.jpg" alt="AI-generated concept image: new sod being laid over graded red clay soil." width="1280" height="850" loading="lazy">
+        <span class="ai-chip">AI concept image</span>
+        <div class="proc-in"><div class="num">02</div><h3>Install</h3><p>Sod, mulch, rock, hardscape, irrigation and lighting, installed by the same company that planned it.</p></div>
+      </article>
+      <article class="proc rv" style="--d:.24s">
+        <img src="assets/pinestraw.jpg" alt="AI-generated concept image: fresh pine straw bed with azaleas and boxwoods along a brick home." width="1280" height="850" loading="lazy">
+        <span class="ai-chip">AI concept image</span>
+        <div class="proc-in"><div class="num">03</div><h3>Maintain</h3><p>Reliable, year-round care for lawns and commercial grounds, so the work keeps its shape.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="work">
+  <div class="wrap work">
+    <div>
+      <p class="eyebrow rv">Our Work</p>
+      <h2 class="disp h2 rv">See the latest <em>jobs</em></h2>
+      <p class="lede rv">We post our projects as they're finished. Follow Comer's Landscaping to see recent lawns, installs and hardscapes around Columbia.</p>
+      <div class="social rv">
+        <a class="btn btn-lime" href="https://www.facebook.com/comerslandscaping" target="_blank" rel="noopener">Facebook</a>
+        <a class="btn btn-ghost" href="https://www.instagram.com/comerslandscapingllc/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div class="tiles rv" style="--d:.15s" role="img" aria-label="Placeholder grid: Comer's own project photos go here in the live build.">
+      <div class="tile"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4 4 3 3-2.5 4 3.5"/></svg>Comer's photo</span></div>
+      <div class="tile"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4 4 3 3-2.5 4 3.5"/></svg>Comer's photo</span></div>
+      <div class="tile"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4 4 3 3-2.5 4 3.5"/></svg>Comer's photo</span></div>
+      <div class="tile"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4 4 3 3-2.5 4 3.5"/></svg>Comer's photo</span></div>
+      <div class="tile"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4 4 3 3-2.5 4 3.5"/></svg>Comer's photo</span></div>
+      <div class="tile"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4 4 3 3-2.5 4 3.5"/></svg>Comer's photo</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec on-paper" id="quote">
+  <div class="wrap quote">
+    <div>
+      <p class="eyebrow rv">Request a Quote</p>
+      <h2 class="disp h2 rv">Have a project <em>in mind?</em></h2>
+      <p class="lede rv">If you have a creative project in mind, get in contact with Comer's Landscaping today! When it comes to quality work, we are the first you should call. We are looking forward to hearing from you.</p>
+      <div class="contact rv">
+        <a class="big" href="tel:+18034228031">803.422.8031</a>
+        <a class="mail" href="mailto:comerslandscaping@gmail.com">comerslandscaping@gmail.com</a>
+        <p class="hrs">Hours: Monday–Saturday | 7 AM – 7 PM</p>
+      </div>
+      <p class="pay rv">We accept Venmo and CashApp</p>
+    </div>
+    <div class="card rv" id="qcard" style="--d:.15s">
+      <div class="fwrap" role="group" aria-labelledby="qh">
+        <h3 id="qh">Tell us about the job</h3>
+        <p class="note">Demo form. Nothing you type here is sent or stored.</p>
+        <div class="fgrid">
+          <div class="fld" data-f="who"><label for="q-who">Name</label><input id="q-who" type="text" autocomplete="off"><span class="err">Please enter your name.</span></div>
+          <div class="fld" data-f="tel"><label for="q-tel">Phone</label><input id="q-tel" type="text" inputmode="tel" autocomplete="off" placeholder="(803) 555-0100"><span class="err">Please enter a valid phone number.</span></div>
+          <div class="fld full" data-f="mail"><label for="q-mail">Email</label><input id="q-mail" type="text" inputmode="email" autocomplete="off"><span class="err">Please enter a valid email address.</span></div>
+          <div class="fld full" data-f="svc"><label for="q-svc">Service interested in</label>
+            <select id="q-svc"><option value="">Choose a service</option><option>Commercial Grounds Maintenance</option><option>Residential Lawn Care</option><option>Installation of Decorative Rock</option><option>Hardscaping</option><option>Irrigation Installation &amp; Repair</option><option>Landscape Design &amp; Lighting</option><option>Erosion Control</option></select>
+            <span class="err">Please choose a service.</span></div>
+          <div class="fld full" data-f="msg"><label for="q-msg">Anything else we need to know</label><textarea id="q-msg" maxlength="500"></textarea></div>
+        </div>
+        <div class="frow">
+          <button class="btn btn-dark" type="button" id="qSend">Send</button>
+          <button class="link-btn" type="button" id="qFill">Fill in sample details</button>
+        </div>
+      </div>
+      <div class="done" id="qDone" tabindex="-1" aria-live="polite">
+        <div class="tick" aria-hidden="true">✓</div>
+        <h3>Thanks for your message!</h3>
+        <p class="note" style="font-size:16px">We'll be in touch soon.</p>
+        <dl id="qSum"></dl>
+        <p class="demo-flag">Demo preview: nothing was sent. On the live site this goes straight to Comer's phone and inbox.</p>
+        <div class="frow"><button class="link-btn" type="button" id="qReset">Start a new request</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-top">
+      <img src="assets/logo.png" alt="Comer's Landscaping. Design, install, maintain." width="632" height="425" loading="lazy">
+      <nav class="ftr-links" aria-label="Footer"><a href="#about">About</a><a href="#services">Services</a><a href="#process">Process</a><a href="#work">Our Work</a><a href="#quote">Request a Quote</a><a href="tel:+18034228031">803.422.8031</a></nav>
+    </div>
+    <p class="fine"><b>Demo notice.</b> This page is a website concept prepared by Axiom Systems for Comer's Landscaping, LLC and is not Comer's official site. The logo, wording, services, phone number, email and hours come from Comer's own website. All photographs and the opening video were generated with AI (Higgsfield) to show the intended look; they are not photographs of Comer's projects, properties or customers and would be replaced with Comer's own photos before launch. The quote form is a demonstration and sends nothing.</p>
+  </div>
+</footer>
+
+<div class="mbar" id="mbar"><a class="btn btn-ghost" href="tel:+18034228031">Call</a><a class="btn btn-lime" href="#quote">Request a Quote</a></div>
+
+<script>
+(function(){
+  var d=document, $=function(s,r){return (r||d).querySelector(s)}, $$=function(s,r){return [].slice.call((r||d).querySelectorAll(s))};
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var copy=$('#heroCopy'), shade=$('#heroShade'), hero=$('#top'), hdr=$('#hdr'), mbar=$('#mbar'), vid=$('#heroVid'), after=$('.hm.after'), stages=$$('.stage');
+  var clamp=function(v){return v<0?0:v>1?1:v};
+
+  /* hero: scroll position drives the transformation */
+  var target=0, cur=0, vready=false, raf=0;
+  function paint(p){
+    var f=1-clamp((p-0.04)/0.2); copy.style.opacity=f; copy.style.transform='translateY('+((1-f)*-18)+'px)'; copy.style.visibility=f<=0?'hidden':'visible';
+    shade.style.setProperty('--shade', 0.15+0.85*f);
+    stages.forEach(function(s,i){var q=clamp(p*3-i); s.querySelector('i').style.setProperty('--p',q); s.classList.toggle('is-on', q>0 || (i===0));});
+    if(vready && vid.duration){ var t=Math.min(vid.duration-0.05, p*vid.duration); if(Math.abs(vid.currentTime-t)>0.015){ try{vid.currentTime=t;}catch(e){} } }
+    else { var e=clamp((p-0.12)/0.7); after.style.opacity=e*e*(3-2*e); }
+  }
+  function tick(){ cur+=(target-cur)*0.14; if(Math.abs(target-cur)<0.0006) cur=target; paint(cur); raf = cur===target ? 0 : requestAnimationFrame(tick); }
+  function onScroll(){
+    var y=window.scrollY||d.documentElement.scrollTop, r=hero.getBoundingClientRect(), span=hero.offsetHeight-window.innerHeight;
+    if(!reduce && span>0){ target=clamp(-r.top/span); hero.classList.toggle('is-moving', target>0.03); if(!raf) raf=requestAnimationFrame(tick); }
+    var past = r.bottom < 80;
+    hdr.classList.toggle('is-top', y < 4);
+    hdr.classList.toggle('is-solid', past);
+    mbar.classList.toggle('is-on', past && !nearQuote);
+  }
+  if(!reduce && vid){
+    var ok=function(){ if(vready) return; vready=true; vid.classList.add('is-ready'); paint(cur); };
+    vid.addEventListener('loadeddata', ok); if(vid.readyState>=2) ok();
+    vid.addEventListener('error', function(){ vready=false; vid.remove(); });
+  } else if(vid){ vid.removeAttribute('src'); }
+  if(reduce){ stages.forEach(function(s){s.classList.add('is-on')}); }
+
+  var nearQuote=false;
+  window.addEventListener('scroll', onScroll, {passive:true}); window.addEventListener('resize', onScroll);
+
+  /* reveal */
+  if('IntersectionObserver' in window && !reduce){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){ if(e.isIntersecting){e.target.classList.add('is-in'); io.unobserve(e.target);} });},{rootMargin:'0px 0px -8% 0px',threshold:0.08});
+    $$('.rv').forEach(function(el){io.observe(el)});
+    var qo=new IntersectionObserver(function(es){ nearQuote=es[0].isIntersecting; onScroll(); },{threshold:0.15});
+    qo.observe($('#qcard'));
+  } else { $$('.rv').forEach(function(el){el.classList.add('is-in')}); }
+
+  /* services */
+  var items=$$('.svc-item');
+  function act(it){ items.forEach(function(x){ var on=x===it; x.classList.toggle('is-active',on); x.querySelector('.svc-btn').setAttribute('aria-pressed', on); }); }
+  items.forEach(function(it){ var b=it.querySelector('.svc-btn');
+    b.setAttribute('aria-pressed', it.classList.contains('is-active'));
+    b.addEventListener('click', function(){act(it)}); b.addEventListener('focus', function(){act(it)});
+    b.addEventListener('mouseenter', function(){ if(matchMedia('(hover:hover) and (min-width:981px)').matches) act(it); });
+  });
+
+  /* menu */
+  var drawer=$('#drawer'), mb=$('#menuBtn');
+  function menu(open){ drawer.classList.toggle('is-open',open); mb.setAttribute('aria-expanded',open); d.body.style.overflow=open?'hidden':''; if(open) $('#menuX').focus(); else mb.focus(); }
+  mb.addEventListener('click', function(){menu(true)}); $('#menuX').addEventListener('click', function(){menu(false)});
+  $$('a',drawer).forEach(function(a){a.addEventListener('click', function(){ drawer.classList.remove('is-open'); mb.setAttribute('aria-expanded',false); d.body.style.overflow=''; })});
+  d.addEventListener('keydown', function(e){ if(e.key==='Escape' && drawer.classList.contains('is-open')) menu(false); });
+
+  /* demo quote form: validates and confirms on screen, sends nothing */
+  var card=$('#qcard'), tried=false, F={who:$('#q-who'),tel:$('#q-tel'),mail:$('#q-mail'),svc:$('#q-svc'),msg:$('#q-msg')};
+  var rules={ who:function(v){return v.trim().length>1}, tel:function(v){return v.replace(/\D/g,'').length===10}, mail:function(v){return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim())}, svc:function(v){return !!v} };
+  function check(k){ var okk=rules[k](F[k].value), box=F[k].closest('.fld'); box.classList.toggle('bad', tried && !okk); F[k].setAttribute('aria-invalid', tried && !okk); return okk; }
+  F.tel.addEventListener('input', function(){ var n=F.tel.value.replace(/\D/g,'').slice(0,10), o=n; if(n.length>6) o='('+n.slice(0,3)+') '+n.slice(3,6)+'-'+n.slice(6); else if(n.length>3) o='('+n.slice(0,3)+') '+n.slice(3); F.tel.value=o; });
+  Object.keys(rules).forEach(function(k){ F[k].addEventListener('input', function(){ if(tried) check(k) }); F[k].addEventListener('change', function(){ if(tried) check(k) }); });
+  $('#qFill').addEventListener('click', function(){ F.who.value='Sample Customer'; F.tel.value='(803) 555-0142'; F.mail.value='sample@example.com'; F.svc.selectedIndex=4; F.msg.value='Front and back yard, looking for a paver patio and new sod this spring.'; if(tried) Object.keys(rules).forEach(check); });
+  $('#qSend').addEventListener('click', function(){
+    tried=true; var bad=Object.keys(rules).filter(function(k){return !check(k)});
+    if(bad.length){ F[bad[0]].focus(); return; }
+    var sum=$('#qSum'); sum.textContent='';
+    [['Name',F.who.value],['Phone',F.tel.value],['Email',F.mail.value],['Service',F.svc.value],['Details',F.msg.value||'—']].forEach(function(r){ var w=d.createElement('div'),a=d.createElement('dt'),b=d.createElement('dd'); a.textContent=r[0]; b.textContent=r[1]; w.appendChild(a); w.appendChild(b); sum.appendChild(w); });
+    card.classList.add('is-done'); $('#qDone').focus();
+  });
+  $('#qReset').addEventListener('click', function(){ tried=false; Object.keys(F).forEach(function(k){ F[k].value=''; var b=F[k].closest('.fld'); b.classList.remove('bad'); F[k].removeAttribute('aria-invalid'); }); card.classList.remove('is-done'); F.who.focus(); });
+
+  onScroll();
+})();
+</script>
+</body>
+</html>

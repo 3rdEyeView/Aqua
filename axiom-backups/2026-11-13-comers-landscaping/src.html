@@ -37,7 +37,7 @@ h1,h2,h3,p{margin:0}
 .btn-dark:hover{background:#1b271c}
 .ai-chip{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:rgba(0,0,0,.62);color:#fff;
   font:700 11px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.22)}
-.ai-chip::before{content:"";width:7px;height:7px;border-radius:50%;background:#ff9f2e}
+.ai-chip::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--lime)}
 
 /* demo ribbon */
 .ribbon{background:#ff9f2e;color:#1a1000;font:600 13px/1.4 var(--body);text-align:center;padding:8px var(--gut)}
@@ -68,6 +68,7 @@ h1,h2,h3,p{margin:0}
 .hero{position:relative;height:340vh;background:#000}
 .hero-pin{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
 .hm{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 62%}
+.hm{transform-origin:50% 60%;will-change:transform,opacity}
 .hm.after,.hm.vid{opacity:0}
 .hm.vid.is-ready{opacity:1}
 .hero-base{position:absolute;inset:auto 0 0 0;height:34%;background:linear-gradient(0deg,rgba(0,0,0,.9),rgba(0,0,0,0));pointer-events:none}
@@ -165,6 +166,16 @@ section[id]{scroll-margin-top:calc(var(--hh) - 1px)}
   repeating-linear-gradient(135deg,rgba(196,216,46,.07) 0 12px,transparent 12px 24px);display:grid;place-items:center;color:rgba(255,255,255,.55);font:700 11px/1.3 var(--body);letter-spacing:.12em;text-transform:uppercase;text-align:center;padding:8px}
 .tile svg{width:26px;height:26px;display:block;margin:0 auto 8px;opacity:.8}
 
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:clamp(10px,1.5vw,20px)}
+.pair figure,.gi{margin:0;position:relative;border-radius:18px;overflow:hidden;background:#111}
+.pair img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 90%}
+.pair figcaption,.gi figcaption{position:absolute;inset:auto 0 0 0;padding:40px 16px 14px;background:linear-gradient(0deg,rgba(0,0,0,.85),rgba(0,0,0,0));font:600 14px/1.3 var(--body);color:#fff}
+.pair figcaption b{display:block;font-family:var(--disp);font-weight:400;text-transform:uppercase;font-size:clamp(26px,3vw,40px);line-height:1;color:var(--lime);margin-bottom:4px}
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(10px,1.5vw,20px);margin-top:clamp(10px,1.5vw,20px)}
+.gi img{width:100%;aspect-ratio:1;object-fit:cover;transition:transform 1s cubic-bezier(.2,.7,.2,1)}
+.gi:hover img{transform:scale(1.05)}
+#work .social{margin-top:32px}
+@media (max-width:980px){.gal{grid-template-columns:repeat(2,1fr)}}
 /* quote */
 .quote{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(32px,6vw,90px);align-items:start}
 .quote .lede{margin-top:24px;color:#28312a}
@@ -257,7 +268,6 @@ section[id]{scroll-margin-top:calc(var(--hh) - 1px)}
   .hero{height:auto}
   .hero-pin{position:relative}
   .hm.after{opacity:1}
-  .hm.vid{display:none}
   .hint{display:none}
   .hero-pin{height:100vh;height:100svh}
   .band-track{animation:none}
@@ -268,7 +278,7 @@ section[id]{scroll-margin-top:calc(var(--hh) - 1px)}
 </style>
 </head>
 <body>
-<div class="ribbon"><b>Website concept by Axiom Systems, not Comer's live site.</b> Logo, copy and contact details are Comer's own. Every photo and the hero video are AI-generated concept imagery (Higgsfield), not Comer's projects.</div>
+<div class="ribbon"><b>Website concept by Axiom Systems, not Comer's live site.</b> Logo, copy, contact details and every photo are Comer's own. The quote form is a demo and sends nothing.</div>
 
 <header class="hdr is-top" id="hdr">
   <div class="wrap">
@@ -290,11 +300,10 @@ section[id]{scroll-margin-top:calc(var(--hh) - 1px)}
 <main>
 <section class="hero" id="top" aria-label="Introduction">
   <div class="hero-pin">
-    <img class="hm before" src="assets/hero-before.jpg" alt="" width="1920" height="1080" fetchpriority="high">
-    <img class="hm after" src="assets/hero-after.jpg" alt="AI-generated concept image: a brick ranch home at dusk with a striped lawn, paver walkway, azalea beds and uplit crepe myrtles." width="1920" height="1080">
-    <video class="hm vid" id="heroVid" muted playsinline preload="auto" tabindex="-1" aria-hidden="true" src="assets/hero-grow.mp4"></video>
+    <picture><source media="(max-width:640px)" srcset="assets/hero-hydroseed-tall.jpg"><img class="hm before" src="assets/hero-hydroseed.jpg" alt="A newly graded stormwater basin sprayed green with hydroseed at sunset, with rip-rap at the outlet." width="1920" height="1080" fetchpriority="high"></picture>
+    <picture><source media="(max-width:640px)" srcset="assets/hero-grown-tall.jpg"><img class="hm after" src="assets/hero-grown.jpg" alt="A stormwater basin fully grown in with grass around the outlet structure." width="1920" height="1080"></picture>
     <div class="hero-shade" id="heroShade"></div><div class="hero-base"></div>
-    <span class="ai-chip hero-chip">AI-generated visualization</span>
+    <span class="ai-chip hero-chip" id="heroChip">Comer's job photo · hydroseed day</span>
     <div class="hero-in">
       <div class="wrap">
         <div class="hero-copy" id="heroCopy">
@@ -306,13 +315,13 @@ section[id]{scroll-margin-top:calc(var(--hh) - 1px)}
         </div>
         </div>
         <div class="stages" id="stages" aria-hidden="true">
-          <div class="stage"><i></i><b><small>01</small>Design</b><span>It starts with a plan for your property.</span></div>
-          <div class="stage"><i></i><b><small>02</small>Install</b><span>Sod, beds, stone, irrigation and lighting go in.</span></div>
-          <div class="stage"><i></i><b><small>03</small>Maintain</b><span>Then it's kept looking this good, all year.</span></div>
+          <div class="stage"><i></i><b><small>01</small>Grade</b><span>Basin shaped, outlet and rip-rap set.</span></div>
+          <div class="stage"><i></i><b><small>02</small>Hydroseed</b><span>Slopes sprayed and matted to hold the soil.</span></div>
+          <div class="stage"><i></i><b><small>03</small>Grown in</b><span>Grass established and the bank is stable.</span></div>
         </div>
       </div>
     </div>
-    <div class="hint" aria-hidden="true">Scroll to grow the yard</div>
+    <div class="hint" aria-hidden="true">Scroll to grow it in</div>
   </div>
 </section>
 
@@ -352,31 +361,31 @@ section[id]{scroll-margin-top:calc(var(--hh) - 1px)}
     <div class="svc" id="svc">
       <div class="svc-item is-active">
         <button class="svc-btn" type="button"><span class="n">01</span><span class="t">Commercial Grounds Maintenance<small>Scheduled mowing, edging, beds and seasonal cleanups that keep a business looking cared for.</small></span><span class="a" aria-hidden="true">→</span></button>
-        <figure class="svc-fig"><img src="assets/commercial.jpg" alt="AI-generated concept image: office entrance with striped lawn, clipped hedges and seasonal flower beds." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+        <figure class="svc-fig"><img src="assets/svc-commercial.jpg" alt="Aerial view of a crew member mowing the lawn at a truck dealership, with the Comer's Landscaping box truck in the lot." width="1280" height="720" loading="lazy"><figcaption class="ai-chip">Comer's work</figcaption></figure>
       </div>
       <div class="svc-item">
         <button class="svc-btn" type="button"><span class="n">02</span><span class="t">Residential Lawn Care<small>Regular mowing, trimming and clean edges, so the yard is ready whenever you are.</small></span><span class="a" aria-hidden="true">→</span></button>
-        <figure class="svc-fig"><img src="assets/lawn.jpg" alt="AI-generated concept image: freshly mowed striped backyard lawn with a crisp bed edge." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+        <figure class="svc-fig"><img src="assets/svc-lawn.jpg" alt="A commercial mower on a freshly cut, shaded residential lawn." width="1280" height="1280" loading="lazy"><figcaption class="ai-chip">Comer's work</figcaption></figure>
       </div>
       <div class="svc-item">
         <button class="svc-btn" type="button"><span class="n">03</span><span class="t">Installation of Decorative Rock<small>Sod, mulch, gravel and decorative rock installed for clean, low-upkeep beds and borders.</small></span><span class="a" aria-hidden="true">→</span></button>
-        <figure class="svc-fig"><img src="assets/rock.jpg" alt="AI-generated concept image: river rock bed with granite boulders and steel edging beside a brick home." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+        <figure class="svc-fig"><img src="assets/svc-beds.jpg" alt="A brick home's front yard with pine straw beds, clipped shrubs and a neat lawn." width="965" height="950" loading="lazy"><figcaption class="ai-chip">Comer's work</figcaption></figure>
       </div>
       <div class="svc-item">
         <button class="svc-btn" type="button"><span class="n">04</span><span class="t">Hardscaping<small>Patios, walkways, walls and steps that give the yard structure and a place to gather.</small></span><span class="a" aria-hidden="true">→</span></button>
-        <figure class="svc-fig"><img src="assets/hardscape.jpg" alt="AI-generated concept image: herringbone paver patio with a stone seat wall and fire pit." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+        <figure class="svc-fig"><img src="assets/svc-hardscape.jpg" alt="A curved paver patio beside a striped lawn and stone-edged planting beds." width="1280" height="960" loading="lazy"><figcaption class="ai-chip">Comer's work</figcaption></figure>
       </div>
       <div class="svc-item">
         <button class="svc-btn" type="button"><span class="n">05</span><span class="t">Irrigation Installation &amp; Repair<small>New systems put in and existing ones repaired, so the lawn gets water where it needs it.</small></span><span class="a" aria-hidden="true">→</span></button>
-        <figure class="svc-fig"><img src="assets/irrigation.jpg" alt="AI-generated concept image: lawn sprinklers running at sunrise." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+        <figure class="svc-fig"><img src="assets/svc-irrigation.jpg" alt="An irrigation line laid in a trench across a front lawn." width="1125" height="1125" loading="lazy"><figcaption class="ai-chip">Comer's work</figcaption></figure>
       </div>
       <div class="svc-item">
         <button class="svc-btn" type="button"><span class="n">06</span><span class="t">Landscape Design &amp; Lighting<small>Planting plans and low-voltage lighting that make the property work after dark too.</small></span><span class="a" aria-hidden="true">→</span></button>
-        <figure class="svc-fig"><img src="assets/lighting.jpg" alt="AI-generated concept image: crepe myrtle uplit at dusk with path lights along a stone walkway." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+        <figure class="svc-fig"><img src="assets/svc-design.jpg" alt="A wide green lawn with curved mulch beds beside a white house." width="1201" height="1500" loading="lazy"><figcaption class="ai-chip">Comer's work</figcaption></figure>
       </div>
       <div class="svc-item">
         <button class="svc-btn" type="button"><span class="n">07</span><span class="t">Erosion Control<small>Grading, walls, stone and groundcover to hold a slope and move water where it should go.</small></span><span class="a" aria-hidden="true">→</span></button>
-        <figure class="svc-fig"><img src="assets/erosion.jpg" alt="AI-generated concept image: terraced retaining walls and a stone drainage channel on a sodded slope." width="1280" height="850" loading="lazy"><figcaption class="ai-chip">AI concept image</figcaption></figure>
+        <figure class="svc-fig"><img src="assets/svc-erosion.jpg" alt="A long run of silt fence installed beside a road, with a skid steer in the distance." width="1280" height="1600" loading="lazy"><figcaption class="ai-chip">Comer's work</figcaption></figure>
       </div>
     </div>
     <p class="swipe" aria-hidden="true">Swipe for all seven →</p>
@@ -389,18 +398,15 @@ section[id]{scroll-margin-top:calc(var(--hh) - 1px)}
     <h2 class="disp h2 rv">Three words in the logo. <em>One plan</em> for your yard.</h2>
     <div class="proc-grid">
       <article class="proc rv">
-        <img src="assets/aerial.jpg" alt="AI-generated concept image: overhead view of a planned backyard with lawn, patio and planting beds." width="1280" height="850" loading="lazy">
-        <span class="ai-chip">AI concept image</span>
-        <div class="proc-in"><div class="num">01</div><h3>Design</h3><p>Tell us what you have in mind. We look at the property and lay out a plan and a quote.</p></div>
+        <img src="assets/proc-design.jpg" alt="A graded construction site with silt fence along the tree line." width="1200" height="1500" loading="lazy">
+        <div class="proc-in"><div class="num">01</div><h3>Design</h3><p>Tell us what you have in mind. We look at the site and lay out a plan and a quote.</p></div>
       </article>
       <article class="proc rv" style="--d:.12s">
-        <img src="assets/sod.jpg" alt="AI-generated concept image: new sod being laid over graded red clay soil." width="1280" height="850" loading="lazy">
-        <span class="ai-chip">AI concept image</span>
-        <div class="proc-in"><div class="num">02</div><h3>Install</h3><p>Sod, mulch, rock, hardscape, irrigation and lighting, installed by the same company that planned it.</p></div>
+        <img src="assets/proc-install.jpg" alt="A compact excavator grading a new access path through woods." width="901" height="1125" loading="lazy">
+        <div class="proc-in"><div class="num">02</div><h3>Install</h3><p>Grading, drainage, sod, rock, hardscape and irrigation, installed by the same company that planned it.</p></div>
       </article>
       <article class="proc rv" style="--d:.24s">
-        <img src="assets/pinestraw.jpg" alt="AI-generated concept image: fresh pine straw bed with azaleas and boxwoods along a brick home." width="1280" height="850" loading="lazy">
-        <span class="ai-chip">AI concept image</span>
+        <img src="assets/proc-maintain.jpg" alt="A healthy green lawn with edged mulch beds." width="900" height="1125" loading="lazy">
         <div class="proc-in"><div class="num">03</div><h3>Maintain</h3><p>Reliable, year-round care for lawns and commercial grounds, so the work keeps its shape.</p></div>
       </article>
     </div>
@@ -408,23 +414,31 @@ section[id]{scroll-margin-top:calc(var(--hh) - 1px)}
 </section>
 
 <section class="sec" id="work">
-  <div class="wrap work">
-    <div>
-      <p class="eyebrow rv">Our Work</p>
-      <h2 class="disp h2 rv">See the latest <em>jobs</em></h2>
-      <p class="lede rv">We post our projects as they're finished. Follow Comer's Landscaping to see recent lawns, installs and hardscapes around Columbia.</p>
-      <div class="social rv">
-        <a class="btn btn-lime" href="https://www.facebook.com/comerslandscaping" target="_blank" rel="noopener">Facebook</a>
-        <a class="btn btn-ghost" href="https://www.instagram.com/comerslandscapingllc/" target="_blank" rel="noopener">Instagram</a>
+  <div class="wrap">
+    <div class="svc-head">
+      <div>
+        <p class="eyebrow rv">Our Work</p>
+        <h2 class="disp h2 rv">Real jobs, <em>real results</em></h2>
       </div>
+      <p class="rv">Photos from Comer's own jobs: roadsides, basins, drainage and lawns around the Columbia area.</p>
     </div>
-    <div class="tiles rv" style="--d:.15s" role="img" aria-label="Placeholder grid: Comer's own project photos go here in the live build.">
-      <div class="tile"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4 4 3 3-2.5 4 3.5"/></svg>Comer's photo</span></div>
-      <div class="tile"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4 4 3 3-2.5 4 3.5"/></svg>Comer's photo</span></div>
-      <div class="tile"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4 4 3 3-2.5 4 3.5"/></svg>Comer's photo</span></div>
-      <div class="tile"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4 4 3 3-2.5 4 3.5"/></svg>Comer's photo</span></div>
-      <div class="tile"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4 4 3 3-2.5 4 3.5"/></svg>Comer's photo</span></div>
-      <div class="tile"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4 4 3 3-2.5 4 3.5"/></svg>Comer's photo</span></div>
+    <div class="pair rv">
+      <figure><img src="assets/ba-road-before.jpg" alt="A roadside slope freshly sprayed green with hydroseed." width="1096" height="1473" loading="lazy"><figcaption><b>Sprayed</b> Roadside slope, hydroseed day</figcaption></figure>
+      <figure><img src="assets/ba-road-after.jpg" alt="A roadside slope covered in thick green grass beside a line of pines." width="1280" height="1596" loading="lazy"><figcaption><b>Grown in</b> Roadside slope, established</figcaption></figure>
+    </div>
+    <div class="gal">
+      <figure class="gi rv"><img src="assets/g-trailer.jpg" alt="The Comer's Landscaping trailer and a tracked skid steer with a brush cutter beside a highway." width="1280" height="960" loading="lazy"><figcaption>On site with the skid steer</figcaption></figure>
+      <figure class="gi rv"><img src="assets/g-basin.jpg" alt="A stormwater basin covered in established grass." width="1280" height="960" loading="lazy"><figcaption>Basin grown in</figcaption></figure>
+      <figure class="gi rv"><img src="assets/g-riprap.jpg" alt="A new basin with rip-rap stone and erosion-control check dams." width="1094" height="977" loading="lazy"><figcaption>Rip-rap and check dams</figcaption></figure>
+      <figure class="gi rv"><img src="assets/g-siltfence.jpg" alt="Posts set along a trench for silt fence beside a road." width="1280" height="1600" loading="lazy"><figcaption>Silt fence trenching</figcaption></figure>
+      <figure class="gi rv"><img src="assets/g-culvert-before.jpg" alt="A washed-out drainage crossing in woods with an exposed pipe." width="900" height="1125" loading="lazy"><figcaption>Culvert crossing, before</figcaption></figure>
+      <figure class="gi rv"><img src="assets/g-culvert-after.jpg" alt="The same kind of crossing rebuilt with a culvert pipe and gravel." width="901" height="1125" loading="lazy"><figcaption>Culvert crossing, after</figcaption></figure>
+      <figure class="gi rv"><img src="assets/g-excavator.jpg" alt="A compact excavator beside a length of corrugated drainage pipe." width="901" height="1125" loading="lazy"><figcaption>Drainage pipe going in</figcaption></figure>
+      <figure class="gi rv"><img src="assets/g-pond.jpg" alt="A grassy pond bank with a wooden footbridge." width="960" height="720" loading="lazy"><figcaption>Pond bank</figcaption></figure>
+    </div>
+    <div class="social rv">
+      <a class="btn btn-lime" href="https://www.facebook.com/comerslandscaping" target="_blank" rel="noopener">More on Facebook</a>
+      <a class="btn btn-ghost" href="https://www.instagram.com/comerslandscapingllc/" target="_blank" rel="noopener">Instagram</a>
     </div>
   </div>
 </section>
@@ -479,7 +493,7 @@ section[id]{scroll-margin-top:calc(var(--hh) - 1px)}
       <img src="assets/logo.png" alt="Comer's Landscaping. Design, install, maintain." width="632" height="425" loading="lazy">
       <nav class="ftr-links" aria-label="Footer"><a href="#about">About</a><a href="#services">Services</a><a href="#process">Process</a><a href="#work">Our Work</a><a href="#quote">Request a Quote</a><a href="tel:+18034228031">803.422.8031</a></nav>
     </div>
-    <p class="fine"><b>Demo notice.</b> This page is a website concept prepared by Axiom Systems for Comer's Landscaping, LLC and is not Comer's official site. The logo, wording, services, phone number, email and hours come from Comer's own website. All photographs and the opening video were generated with AI (Higgsfield) to show the intended look; they are not photographs of Comer's projects, properties or customers and would be replaced with Comer's own photos before launch. The quote form is a demonstration and sends nothing.</p>
+    <p class="fine"><b>Demo notice.</b> This page is a website concept prepared by Axiom Systems for Comer's Landscaping, LLC and is not Comer's official site. The logo, wording, services, phone number, email and hours come from Comer's own website, and the photographs are from Comer's own job posts. The quote form is a demonstration and sends nothing.</p>
   </div>
 </footer>
 
@@ -489,7 +503,7 @@ section[id]{scroll-margin-top:calc(var(--hh) - 1px)}
 (function(){
   var d=document, $=function(s,r){return (r||d).querySelector(s)}, $$=function(s,r){return [].slice.call((r||d).querySelectorAll(s))};
   var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var copy=$('#heroCopy'), shade=$('#heroShade'), hero=$('#top'), hdr=$('#hdr'), mbar=$('#mbar'), vid=$('#heroVid'), after=$('.hm.after'), stages=$$('.stage');
+  var copy=$('#heroCopy'), shade=$('#heroShade'), hero=$('#top'), hdr=$('#hdr'), mbar=$('#mbar'), vid=$('#heroVid'), after=$('.hm.after'), before=$('.hm.before'), chip=$('#heroChip'), stages=$$('.stage');
   var clamp=function(v){return v<0?0:v>1?1:v};
 
   /* hero: scroll position drives the transformation */
@@ -499,7 +513,7 @@ section[id]{scroll-margin-top:calc(var(--hh) - 1px)}
     shade.style.setProperty('--shade', 0.15+0.85*f);
     stages.forEach(function(s,i){var q=clamp(p*3-i); s.querySelector('i').style.setProperty('--p',q); s.classList.toggle('is-on', q>0 || (i===0));});
     if(vready && vid.duration){ var t=Math.min(vid.duration-0.05, p*vid.duration); if(Math.abs(vid.currentTime-t)>0.015){ try{vid.currentTime=t;}catch(e){} } }
-    else { var e=clamp((p-0.12)/0.7); after.style.opacity=e*e*(3-2*e); }
+    else { var e=clamp((p-0.12)/0.7); after.style.opacity=e*e*(3-2*e); var z=1.08-0.08*p; before.style.transform=after.style.transform='scale('+z+')'; if(chip) chip.textContent = e>0.5 ? "Comer's job photo · grown in" : "Comer's job photo · hydroseed day"; }
   }
   function tick(){ cur+=(target-cur)*0.14; if(Math.abs(target-cur)<0.0006) cur=target; paint(cur); raf = cur===target ? 0 : requestAnimationFrame(tick); }
   function onScroll(){

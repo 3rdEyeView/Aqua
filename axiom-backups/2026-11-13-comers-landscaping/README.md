@@ -1,54 +1,53 @@
 # Comer's Landscaping, LLC — website concept (2026-11-13), local preview, NOT published
 
-Requested from https://www.facebook.com/comerslandscaping. Business: Comer's Landscaping, LLC, Columbia / Cayce SC, owned and
-operated by Colin Comer. Nothing was created or changed in WordPress; no media was uploaded to Axiom.
+Business: Comer's Landscaping, LLC, Columbia / Cayce SC, owned and operated by Colin Comer (facebook.com/comerslandscaping).
+Nothing was created or changed in WordPress; no media was uploaded to Axiom.
 
-- `comers-landscaping-demo.html`: the deliverable. One self-contained file (12.9 MB), opens offline, makes no network requests.
-- `src.html` + `assets/` + `fonts/` → `python3 -I build.py` → the file above. `node check.js` → 31 passed, 0 failed
-  (desktop 1440, iPhone 13, reduced motion); screenshots in `shots/`.
+## v2 (current): Comer's real photos, no AI imagery
+- `comers-landscaping-demo.html`: the deliverable, one self-contained file (13.3 MB), opens offline, no network requests.
+- `src.html` + `assets/` + `fonts/` -> `python3 -I build.py`. `node check.js` -> 29 passed, 0 failed (desktop 1440, iPhone 13,
+  reduced motion). Screenshots in `shots/`.
+- `originals/comers-001..023.jpg`: the 23 photos the user saved from Comer's Facebook page and uploaded in chat, untouched.
+  About 38 more were sent while a reply was in progress and arrived as previews only, not files; they are NOT here
+  (pond clearing set, field clearing set, Mashburn paver pad, highway right-of-way set, fire pit, pool rock border, paver walk,
+  striped lawns, Walker mowers at a dealership sign, sod/irrigation job, Comer's flatbed truck, new CAT 259D3).
 
-## What is real and what is generated
-**Real (Comer's own, from the archived copy of comerslandscaping.com, Wayback snapshot 2026-06-07):** logo, tagline
-"Design • Install • Maintain", H1 "Your Commercial & Residential Landscaping Partner", the About paragraph, the seven service names,
-the Request a Quote paragraph, 803.422.8031, comerslandscaping@gmail.com, hours Mon–Sat 7 AM – 7 PM, "We accept Venmo and CashApp",
-Facebook and Instagram (@comerslandscapingllc) links. Brand colours sampled from the logo (#72BE45, #C4D82E, black, white).
-
-**Written for the demo:** the one-line description under each service, the three process blurbs and section headings. No reviews,
-ratings, years in business, licence, warranty or job-count claims anywhere.
-
-**AI-generated with Higgsfield (every photo and the hero video):** labelled on the page three ways: an orange ribbon at the top,
-an "AI-generated visualization" / "AI concept image" chip on each image, and the footer notice. They are not Comer's projects.
-- 11 stills, `gpt_image_2_6`, 2K: hero end frame (high), commercial, lawn, rock, hardscape, irrigation, lighting, erosion, sod,
-  pine straw, aerial (medium). Plus the hero "before" frame, an edit of the end frame (high). Originals in `source/`.
-- Hero video: `minimax_h3`, 8 s, 2560×1440, start frame = bare yard, end frame = finished yard at dusk
-  (job `ac72f042-27ca-4228-b85e-50fc7ed839f1`). The 29 MB original is gitignored; the page uses a 1280×720 all-keyframe
-  re-encode (`assets/hero-grow.mp4`, 5.2 MB, no audio) so it can be scrubbed frame by frame.
-- Credits: balance read 98 before. Quoted cost 10 + 2 × 2.75 + 16 for the video ≈ 31.5; the balance was not re-read afterwards
-  because the Higgsfield connector dropped.
-
-## Why there are no real job photos
-| Source | Result |
+### Where each photo is used (each once)
+| Place | Photo |
 |---|---|
-| facebook.com/comerslandscaping | Not scraped. Fetching it with a browser identity was refused by the session's safety check (bot-check circumvention), and a plain fetch returns only the page name behind the login wall. |
-| comerslandscaping.com | Dead: Cloudflare error 1001 on HTTP, TLS handshake failure on HTTPS. |
-| Wayback Machine | Has the page HTML and logo files. Their one hero photo (`IMG_7701-scaled.jpeg`) was never archived, and "Our Work" was an Instagram feed embed with no stored images. |
-| instagram.com/comerslandscapingllc | Host not on the environment allowlist; logged-out Instagram is a login wall anyway (same as Fence It Up). |
+| Hero start / end (scroll cross-fades and eases a slight zoom) | 004 hydroseeded basin at sunset -> 005 basin grown in |
+| Services 1-7 | 009 dealership lot mowing (aerial, Comer's box truck), 008 Walker mower lawn, 022 front beds (cropped: mailbox number and another contractor's truck removed), 021 paver patio, 020 irrigation trench, 006 lawn and beds, 017 silt fence |
+| Process | 018 graded site, 013 excavator, 007 lawn |
+| Our Work pair | 001 roadside hydroseed (cropped) -> 002 roadside grown in |
+| Our Work grid | 015 Comer's trailer + skid steer, 003 basin grown in, 019 rip-rap basin (cropped: third-party trailer branding removed), 016 silt fence trench, 010 / 011 culvert before / after, 012 excavator + pipe, 023 pond bank |
+Not used: 014.
 
-So "Our Work" on the page is six dashed "Comer's photo" slots plus Facebook / Instagram buttons, not generated images posing as jobs.
-**Next step for real photos:** a ZIP of Colin's job photos (or a Facebook/Instagram data export); `../2026-11-08-fenceitup/tools/` has the intake pipeline.
+### Things to confirm with Colin
+- The before/after pairings (004->005 basin, 001->002 roadside, 010->011 culvert) are my reading of the photos, not captions from his posts.
+- Permission to use the photos, and whether client sites may be named (none are named on the page).
+- 009 shows a crew member on a mower (small, from above). No other identifiable people are on the page.
+
+### Text
+Comer's own (archived comerslandscaping.com, Wayback 2026-06-07): logo, tagline, H1, About paragraph, seven service names, quote
+paragraph, phone, email, hours, Venmo/CashApp line, social links. Written for the demo: service one-liners, process blurbs, photo
+captions, section headings. No reviews, ratings, years, licence or warranty claims.
+
+### Higgsfield
+Not used in v2. The plan was a generated transition between the two real basin photos, but the account read 0 credits on a free
+plan (98 on Plus earlier the same day), so nothing was generated. Two keyframe uploads were requested but never sent or confirmed.
+`upload.higgsfield.ai` was added to the Aqua environment's allowed hosts for this.
+
+## v1 (superseded): AI concept imagery — `ai-concept-v1/`
+The first build, made before any real photos were available: 12 Higgsfield stills and an 8 s generated hero video, all labelled
+as AI on the page. Kept for reference only (`ai-concept-v1/comers-landscaping-demo-ai-concept.html`).
+
+## Sources tried before the photos were uploaded
+Facebook: scraping refused by the session safety check, and logged-out fetches return only the page name. comerslandscaping.com: dead (Cloudflare 1001). Wayback: text and logo only. Instagram: host not allowed, login wall.
 
 ## The logo file
 `assets/logo.png` / `logo-mark.png` were rebuilt from a full-resolution (806×514) preview of Comer's own
 `cromerslandscaping_logo-2.png` flattened on grey (`source/logo-preview-on-grey.png`): the grey was removed and edge pixels
 un-blended. Pixel-identical inside the badge; only the outer anti-aliased edge is reconstructed. Swap in the original PNG when convenient.
-
-## Page
-Ribbon → header → **scroll-driven hero** (pinned for 340vh; scroll position sets the video's current time, so the bare clay yard
-is sodded, paved, planted and lit as you scroll; the headline fades out after the first few percent so the yard is unobstructed;
-a Design / Install / Maintain rail fills in thirds) → service marquee → About (their paragraph + facts) → Services (7; hover or
-focus swaps the photo on desktop, swipe cards on phones) → Process (Design / Install / Maintain) → Our Work → Request a Quote
-(demo form: validates, shows a confirmation, sends nothing; no `<form>` element, no fetch) → footer → phone call bar.
-Reduced motion: no pinning or video, the finished still is shown. If the video fails to load, the two stills cross-fade instead.
 
 ## Not done: publishing to axiomsystems.systems
 The Axiom Elementor/WordPress credentials are environment variables on the **Default** cloud environment. This session was moved

@@ -13,11 +13,10 @@ const results = []; const ok = (name, cond, extra='') => { results.push([cond ? 
     await page.goto(url); await page.waitForTimeout(1200);
     const span = await page.evaluate(() => document.querySelector('#top').offsetHeight - window.innerHeight);
     ok(`${label}: fonts loaded`, await page.evaluate(() => document.fonts.check('40px Anton') && document.fonts.check('16px Figtree')));
-    ok(`${label}: video ready`, await page.evaluate(() => document.querySelector('#heroVid').classList.contains('is-ready')));
-    for (const p of [0, 0.3, 0.6, 1]) {
+    for (const p of [0, 0.5, 1]) {
       await page.evaluate(y => window.scrollTo(0, document.querySelector('#top').offsetTop + y), Math.round(span * p)); await page.waitForTimeout(1300);
-      const t = await page.evaluate(() => document.querySelector('#heroVid').currentTime);
-      ok(`${label}: scrub p=${p} -> t=${t.toFixed(2)}s`, Math.abs(t - Math.min(7.95, p * 8)) < 0.25);
+      const o = await page.evaluate(() => +getComputedStyle(document.querySelector('.hm.after')).opacity);
+      ok(`${label}: hero p=${p} -> grown-in opacity ${o.toFixed(2)}`, p === 0 ? o < 0.02 : p === 1 ? o > 0.98 : (o > 0.2 && o < 0.8));
       await page.screenshot({ path: `shots/${label}-hero-${String(p).replace('.', '_')}.jpg`, quality: 80, type: 'jpeg' });
     }
     ok(`${label}: no horizontal scroll`, await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1));
@@ -46,6 +45,7 @@ const results = []; const ok = (name, cond, extra='') => { results.push([cond ? 
     await page.click('#qReset'); ok(`${label}: reset returns form`, await page.locator('#qSend').isVisible());
     ok(`${label}: zero network requests`, reqs.length === 0 && before === 0, reqs.slice(0, 3).join(' '));
     ok(`${label}: no console errors`, errs.length === 0, errs.slice(0, 2).join(' | '));
+    ok(`${label}: 25 images present`, await page.locator("img").count() === 25);
     ok(`${label}: tel links`, await page.locator('a[href="tel:+18034228031"]').count() >= 4);
     await ctx.close();
   }

@@ -1,4 +1,4 @@
-// Verifies the Comer's draft (page 1996) on desktop 1440, iPhone 13 and Pixel 7, logged out, via a signed Elementor
+// Verifies the Comer's draft (page 1996, live at /comers-landscaping-demo/ since 2026-11-14) on desktop 1440, iPhone 13 and Pixel 7, logged out, via a signed Elementor
 // preview link. Usage: node native/verify.js <preview-url> [inject]
 //   inject: before the snippet is deployed, splice snippet/main.php's <style>/<script> into the HTML response
 //           (local test only; nothing is sent to the site).

@@ -1,4 +1,14 @@
-# Comer's Landscaping demo — WordPress DRAFT (2026-11-14), NOT published
+# Comer's Landscaping demo (2026-11-14) — https://axiomsystems.systems/comers-landscaping-demo/
+
+**Published 2026-11-14 on the user's go-ahead** after reviewing the draft: page **1996** published, slug
+`comers-landscaping-demo` (`native/set_slug.py`), Elementor Canvas, Yoast noindex + nofollow, not linked from any menu or
+from Our Work (same as the Branham, Advanced Fence, Arroyo's and Fence It Up demos). Snippet 2010 unchanged (it keys on
+`is_page(1996)`). Live check on the public URL, logged out: **91 passed, 0 failed** (`preview/verify-log.txt`); the page's
+CSS file matches its HTML (395/395 classes); the plain URL is served from the Kinsta cache and that copy is the
+published page (snippet, form card and noindex present).
+Rollback: set page 1996 back to draft (and unpublish snippet 2010 if wanted).
+
+## Before publishing (kept for reference)
 
 Page **1996** "Comer’s Landscaping — Website Concept" on axiomsystems.systems: **draft**, Elementor Canvas, title hidden,
 Yoast noindex + nofollow. Review link (WordPress login as an editor needed):

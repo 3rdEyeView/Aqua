@@ -1,0 +1,61 @@
+PASS desktop: no horizontal scroll
+PASS desktop: robots "noindex, nofollow"
+PASS desktop: snippet CSS/JS + form present
+PASS desktop: anchors present 
+PASS desktop: 20 images, broken: 0
+PASS desktop: alt on all
+PASS desktop: Barlow Condensed + Figtree loaded
+PASS desktop: hero accent rgb(124, 193, 66)
+PASS desktop: 5 tel links
+PASS desktop: header colour rgba(18, 59, 36, 0.96)
+PASS desktop: sticky header (top 0)
+PASS desktop: Pavers card preselects (Pavers) and lands on form (top 88)
+PASS desktop: empty send → 4 errors
+PASS desktop: sample → confirmation
+PASS desktop: reset
+PASS desktop: 0 requests during form flow 
+PASS desktop: no <form> element
+PASS desktop: no page errors Failed to fetch dynamically imported module: https://stcdn.leadconnectorhq.com/intl-tel-input/intlTelInput.min.js
+PASS iphone13: no horizontal scroll
+PASS iphone13: robots "noindex, nofollow"
+PASS iphone13: snippet CSS/JS + form present
+PASS iphone13: anchors present 
+PASS iphone13: 20 images, broken: 0
+PASS iphone13: alt on all
+PASS iphone13: Barlow Condensed + Figtree loaded
+PASS iphone13: hero accent rgb(124, 193, 66)
+PASS iphone13: 5 tel links
+PASS iphone13: header colour rgba(18, 59, 36, 0.96)
+PASS iphone13: sticky header (top 0)
+PASS iphone13: phone bar shown mid-page
+PASS iphone13: phone bar hidden over hero buttons
+PASS iphone13: Pavers card preselects (Pavers) and lands on form (top 76)
+PASS iphone13: phone bar hidden at form
+PASS iphone13: empty send → 4 errors
+PASS iphone13: sample → confirmation
+PASS iphone13: reset
+PASS iphone13: 0 requests during form flow 
+PASS iphone13: no <form> element
+PASS iphone13: no page errors Failed to fetch dynamically imported module: https://stcdn.leadconnectorhq.com/intl-tel-input/intlTelInput.min.js
+PASS pixel7: no horizontal scroll
+PASS pixel7: robots "noindex, nofollow"
+PASS pixel7: snippet CSS/JS + form present
+PASS pixel7: anchors present 
+PASS pixel7: 20 images, broken: 0
+PASS pixel7: alt on all
+PASS pixel7: Barlow Condensed + Figtree loaded
+PASS pixel7: hero accent rgb(124, 193, 66)
+PASS pixel7: 5 tel links
+PASS pixel7: header colour rgba(18, 59, 36, 0.96)
+PASS pixel7: sticky header (top 0)
+PASS pixel7: phone bar shown mid-page
+PASS pixel7: phone bar hidden over hero buttons
+PASS pixel7: Pavers card preselects (Pavers) and lands on form (top 76)
+PASS pixel7: phone bar hidden at form
+PASS pixel7: empty send → 4 errors
+PASS pixel7: sample → confirmation
+PASS pixel7: reset
+PASS pixel7: 0 requests during form flow 
+PASS pixel7: no <form> element
+PASS pixel7: no page errors Failed to fetch dynamically imported module: https://stcdn.leadconnectorhq.com/intl-tel-input/intlTelInput.min.js
+60 passed, 0 failed

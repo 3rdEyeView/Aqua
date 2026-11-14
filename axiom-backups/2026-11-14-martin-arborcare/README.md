@@ -1,4 +1,36 @@
-# Martin Arborcare — website demo, rough draft 1 (2026-11-14), NOT published
+# Martin Arborcare — website demo (2026-11-14) — https://axiomsystems.systems/martin-arborcare-demo/
+
+**Published 2026-11-14 on the user's go-ahead** (to send to Joe). Page **2057** "Martin Arborcare — Website Concept":
+Elementor Canvas, title hidden, Yoast noindex + nofollow, slug `martin-arborcare-demo`, not linked from any menu
+(same as the Branham, Advanced Fence, Arroyo's, Fence It Up and Comer's demos).
+Rollback: set page 2057 back to draft (and unpublish snippet 2049 if wanted).
+
+## Live build (native Elementor V4, same pipeline as Comer's)
+- **Media 2025–2045**: the 20 `site/img/` photos + logo, names `martin-demo-*` (`native/upload.py`, `native/alts.json`,
+  ids in `native/media-ids.json`).
+- **Generator**: `python3 -I native/gen.py` → `native/ALL.json`; `python3 -I native/build.py` (one replace call into 2057).
+  Same copy, palette and photos as the approved local draft; the gallery shows 9 (one large + 8), so the grid has no gap.
+- **Page 2023** (trashed): the first build. After a rebuild its V4 CSS file stayed stale (0 of 189 classes), the same
+  Elementor issue as Comer's 1972, so the build moved to a fresh page. **If you rebuild via the API, build into a new
+  draft** (`MA_PID=<id> python3 -I native/build.py`, update `$pid` in the snippet), or edit in the Elementor editor.
+  `native/csscheck.sh <url>` shows whether the CSS matches.
+- **Snippet 2049** "Axiom Demo – Martin Arborcare Page Enhancements" (`snippet/main.php`), published, read back identical,
+  scoped to page 2057 only (`is_page(2057)` + its previews). Checked: no output on the home page, Comer's or Fence It Up.
+  Adds the demo estimate form (no `<form>`, no field names, no requests), service-card preselect (#q-1..6 → Tree
+  trimming / Tree health / Storm cleanup / Pavers / Artificial turf / Landscaping), heading accents, header colour,
+  the `overflow-x: clip` sticky fix, and the phone bar (hidden over the hero buttons, at the form, and while chat is open).
+
+## Live verification — 60 passed, 0 failed (`preview/verify-live-log.txt`)
+`node native/verify.js https://axiomsystems.systems/martin-arborcare-demo/` (or `auto` for a signed draft preview),
+desktop 1440, iPhone 13, Pixel 7, logged out: no horizontal scroll; `noindex, nofollow`; snippet + form present; all
+anchors; 20 images, 0 broken, alt on all; Barlow Condensed + Figtree loaded; hero accent and header colour; tel links;
+sticky header; phone bar shown mid-page / hidden over hero buttons / hidden at the form; Pavers card preselects and lands
+on the form card; empty send → 4 errors; sample → confirmation ("nothing was sent"); reset; 0 requests during the form
+flow; no page errors. CSS file matches the page (182/182). Screenshots: `preview/*-fold.png`, `*-confirmation.png`,
+`*-overview.jpg`. Known, site-wide (not this page): the Axiom chat greeting covers part of the phone hero until dismissed.
+Known soft spot: WordPress serves the gallery's large tile at 600 px (≈0.9× on desktop at 1×); fine on phones.
+
+## Local draft (the approved concept the live page was ported from)
 
 Business: **Martin Arborcare, LLC** ("Tree & Landscape"), St. Petersburg FL 33714. Facebook `MartinArborcareLLC`
 (page ID 1117986794999567, created 2017-10-05, 762 followers, Landscape Company).

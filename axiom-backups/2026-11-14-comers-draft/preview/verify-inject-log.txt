@@ -1,0 +1,99 @@
+PASS desktop: page snippet present
+PASS desktop: no horizontal scroll (1440/1440)
+PASS desktop: Anton + Figtree loaded
+PASS desktop: all anchors present 
+INFO desktop: robots="noindex, nofollow" images=57
+PASS desktop: hero H1 + both buttons on first screen (buttons end 765px, viewport 900px)
+PASS desktop: phone bar not covering the hero
+PASS desktop: 0 broken page images 
+PASS desktop: header sticks at the top (top=0)
+PASS desktop: nav "Services" lands on #services below the header (section 72px, header ends 77px)
+PASS desktop: nav "Our Work" lands on #gallery below the header (section 72px, header ends 77px)
+PASS desktop: nav "Results" lands on #results below the header (section 72px, header ends 77px)
+PASS desktop: 7 filter chips (7)
+PASS desktop: gallery shows 8 photos first (8)
+INFO desktop: gallery section height collapsed 1092px
+PASS desktop: "Show all" reveals 31 (31)
+PASS desktop: "Show fewer" back to 8
+PASS desktop: Equipment filter shows 4, no Show all
+FAIL desktop: Drainage filter shows 9 (8)
+PASS desktop: lightbox opens full-size photo (Paver fire pit patio1 of 31, 1100px), focus on Close
+PASS desktop: next arrow moves to photo 2 (Commercial mowing2 of 31)
+PASS desktop: Esc closes and focus returns to the tile
+PASS desktop: Hardscaping card preselects "Hardscaping" (Hardscaping)
+PASS desktop: quote buttons land on the form card (3/3; 13 quote links on the page)
+PASS desktop: empty send flags name, phone, service; focus on name (cmz-n-e,cmz-p-e,cmz-s-e)
+PASS desktop: short phone and bad email flagged (cmz-p-e,cmz-m-e,cmz-s-e)
+PASS desktop: sample details -> on-page confirmation, 6 rows, says nothing was sent
+PASS desktop: "Start a new request" resets the form
+PASS desktop: 0 non-asset requests during the form flow (0 total: )
+PASS desktop: no <form> element in the quote card
+INFO desktop: page errors: none
+PASS iphone13: page snippet present
+PASS iphone13: no horizontal scroll (390/390)
+PASS iphone13: Anton + Figtree loaded
+PASS iphone13: all anchors present 
+INFO iphone13: robots="noindex, nofollow" images=57
+PASS iphone13: hero H1 + both buttons on first screen (buttons end 541px, viewport 664px)
+PASS iphone13: phone bar not covering the hero
+PASS iphone13: 0 broken page images 
+PASS iphone13: header sticks at the top (top=0)
+PASS iphone13: phone bar shows mid-page
+PASS iphone13: nav "Services" lands on #services below the header (section 64px, header ends 65px, menu closed)
+PASS iphone13: nav "Our Work" lands on #gallery below the header (section 82px, header ends 65px, menu closed)
+PASS iphone13: nav "Results" lands on #results below the header (section 64px, header ends 65px, menu closed)
+PASS iphone13: 7 filter chips (7)
+PASS iphone13: gallery shows 8 photos first (8)
+INFO iphone13: gallery section height collapsed 1238px
+PASS iphone13: "Show all" reveals 31 (31)
+PASS iphone13: "Show fewer" back to 8
+PASS iphone13: Equipment filter shows 4, no Show all
+FAIL iphone13: Drainage filter shows 9 (8)
+PASS iphone13: lightbox opens full-size photo (Paver fire pit patio1 of 31, 1100px), focus on Close
+PASS iphone13: swipe moves to photo 2 (Commercial mowing2 of 31)
+PASS iphone13: Esc closes and focus returns to the tile
+PASS iphone13: Hardscaping card preselects "Hardscaping" (Hardscaping)
+PASS iphone13: quote buttons land on the form card (4/4; 13 quote links on the page)
+PASS iphone13: phone bar hides at the form
+PASS iphone13: empty send flags name, phone, service; focus on name (cmz-n-e,cmz-p-e,cmz-s-e)
+PASS iphone13: short phone and bad email flagged (cmz-p-e,cmz-m-e,cmz-s-e)
+PASS iphone13: sample details -> on-page confirmation, 6 rows, says nothing was sent
+PASS iphone13: "Start a new request" resets the form
+PASS iphone13: 0 non-asset requests during the form flow (0 total: )
+PASS iphone13: no <form> element in the quote card
+INFO iphone13: page errors: none
+PASS pixel7: page snippet present
+PASS pixel7: no horizontal scroll (412/412)
+PASS pixel7: Anton + Figtree loaded
+PASS pixel7: all anchors present 
+INFO pixel7: robots="noindex, nofollow" images=57
+PASS pixel7: hero H1 + both buttons on first screen (buttons end 541px, viewport 839px)
+PASS pixel7: phone bar not covering the hero
+PASS pixel7: 0 broken page images 
+PASS pixel7: header sticks at the top (top=0)
+PASS pixel7: phone bar shows mid-page
+PASS pixel7: nav "Services" lands on #services below the header (section 64px, header ends 65px, menu closed)
+PASS pixel7: nav "Our Work" lands on #gallery below the header (section 88px, header ends 65px, menu closed)
+PASS pixel7: nav "Results" lands on #results below the header (section 64px, header ends 65px, menu closed)
+PASS pixel7: 7 filter chips (7)
+PASS pixel7: gallery shows 8 photos first (8)
+INFO pixel7: gallery section height collapsed 1282px
+PASS pixel7: "Show all" reveals 31 (31)
+PASS pixel7: "Show fewer" back to 8
+PASS pixel7: Equipment filter shows 4, no Show all
+FAIL pixel7: Drainage filter shows 9 (8)
+PASS pixel7: lightbox opens full-size photo (Paver fire pit patio1 of 31, 1100px), focus on Close
+PASS pixel7: swipe moves to photo 2 (Commercial mowing2 of 31)
+PASS pixel7: Esc closes and focus returns to the tile
+PASS pixel7: Hardscaping card preselects "Hardscaping" (Hardscaping)
+PASS pixel7: quote buttons land on the form card (4/4; 13 quote links on the page)
+PASS pixel7: phone bar hides at the form
+PASS pixel7: empty send flags name, phone, service; focus on name (cmz-n-e,cmz-p-e,cmz-s-e)
+PASS pixel7: short phone and bad email flagged (cmz-p-e,cmz-m-e,cmz-s-e)
+PASS pixel7: sample details -> on-page confirmation, 6 rows, says nothing was sent
+PASS pixel7: "Start a new request" resets the form
+PASS pixel7: 0 non-asset requests during the form flow (0 total: )
+PASS pixel7: no <form> element in the quote card
+INFO pixel7: page errors: none
+
+85 passed, 3 failed

@@ -1,0 +1,606 @@
+{
+ "logo-mark.png": {
+  "id": 1934,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-logo-mark.png",
+  "w": 632,
+  "h": 355,
+  "sizes": [
+   "full",
+   "medium",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "hero-grown.jpg": {
+  "id": 1935,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-hero-grown.jpg",
+  "w": 1920,
+  "h": 1080,
+  "sizes": [
+   "1536x1536",
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "hero-hydroseed.jpg": {
+  "id": 1936,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-hero-hydroseed.jpg",
+  "w": 1920,
+  "h": 1080,
+  "sizes": [
+   "1536x1536",
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "logo.png": {
+  "id": 1937,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-logo.png",
+  "w": 632,
+  "h": 425,
+  "sizes": [
+   "full",
+   "medium",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-001c.jpg": {
+  "id": 1938,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-001c.jpg",
+  "w": 818,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-002.jpg": {
+  "id": 1939,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-002.jpg",
+  "w": 882,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-003.jpg": {
+  "id": 1940,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-003.jpg",
+  "w": 1100,
+  "h": 825,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-006.jpg": {
+  "id": 1941,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-006.jpg",
+  "w": 881,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-007.jpg": {
+  "id": 1942,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-007.jpg",
+  "w": 880,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-008.jpg": {
+  "id": 1943,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-008.jpg",
+  "w": 1100,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-009.jpg": {
+  "id": 1944,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-009.jpg",
+  "w": 1100,
+  "h": 619,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-010.jpg": {
+  "id": 1945,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-010.jpg",
+  "w": 880,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-011.jpg": {
+  "id": 1946,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-011.jpg",
+  "w": 881,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-012.jpg": {
+  "id": 1947,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-012.jpg",
+  "w": 881,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-013.jpg": {
+  "id": 1948,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-013.jpg",
+  "w": 881,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-014.jpg": {
+  "id": 1949,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-014.jpg",
+  "w": 881,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-015.jpg": {
+  "id": 1950,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-015.jpg",
+  "w": 1100,
+  "h": 825,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-016.jpg": {
+  "id": 1951,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-016.jpg",
+  "w": 880,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-017.jpg": {
+  "id": 1952,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-017.jpg",
+  "w": 880,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-018.jpg": {
+  "id": 1953,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-018.jpg",
+  "w": 880,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-019c.jpg": {
+  "id": 1954,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-019c.jpg",
+  "w": 1094,
+  "h": 977,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-020.jpg": {
+  "id": 1955,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-020.jpg",
+  "w": 1100,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-021.jpg": {
+  "id": 1956,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-021.jpg",
+  "w": 1100,
+  "h": 825,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-023.jpg": {
+  "id": 1957,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-023.jpg",
+  "w": 960,
+  "h": 720,
+  "sizes": [
+   "full",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-024.jpg": {
+  "id": 1958,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-024.jpg",
+  "w": 1100,
+  "h": 1099,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-025.jpg": {
+  "id": 1959,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-025.jpg",
+  "w": 1100,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-026.jpg": {
+  "id": 1960,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-026.jpg",
+  "w": 1100,
+  "h": 825,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-026c.jpg": {
+  "id": 1961,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-026c.jpg",
+  "w": 1100,
+  "h": 592,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-027.jpg": {
+  "id": 1962,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-027.jpg",
+  "w": 1100,
+  "h": 829,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-028.jpg": {
+  "id": 1963,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-028.jpg",
+  "w": 1100,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-029.jpg": {
+  "id": 1964,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-029.jpg",
+  "w": 1100,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-030.jpg": {
+  "id": 1965,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-030.jpg",
+  "w": 1100,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-033.jpg": {
+  "id": 1966,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-033.jpg",
+  "w": 1100,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-034.jpg": {
+  "id": 1967,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-034.jpg",
+  "w": 1100,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-035.jpg": {
+  "id": 1968,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-035.jpg",
+  "w": 1100,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-037.jpg": {
+  "id": 1969,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-037.jpg",
+  "w": 1100,
+  "h": 1099,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-038.jpg": {
+  "id": 1970,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-038.jpg",
+  "w": 960,
+  "h": 720,
+  "sizes": [
+   "full",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "p-039.jpg": {
+  "id": 1971,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/comers-demo-p-039.jpg",
+  "w": 1100,
+  "h": 1100,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ }
+}

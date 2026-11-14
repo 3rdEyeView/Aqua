@@ -1,0 +1,222 @@
+[
+ {
+  "n": "128",
+  "role": "hero",
+  "slug": "waterfront-paver-garden",
+  "crop": "",
+  "alt": "Brick paver walkway through a tropical garden on the water",
+  "file": "site/img/martin-demo-waterfront-paver-garden.jpg",
+  "w": 2000,
+  "h": 1506,
+  "kb": 853
+ },
+ {
+  "n": "8",
+  "role": "before",
+  "slug": "front-yard-before",
+  "crop": "",
+  "alt": "Front yard before the landscape project",
+  "file": "site/img/martin-demo-front-yard-before.jpg",
+  "w": 1200,
+  "h": 896,
+  "kb": 292
+ },
+ {
+  "n": "7",
+  "role": "after",
+  "slug": "front-yard-after-lighting",
+  "crop": "",
+  "alt": "The same front yard after: new beds, path lights and an uplit palm",
+  "file": "site/img/martin-demo-front-yard-after-lighting.jpg",
+  "w": 1200,
+  "h": 900,
+  "kb": 205
+ },
+ {
+  "n": "96",
+  "role": "service",
+  "slug": "norfolk-pine-climb",
+  "crop": "",
+  "alt": "Martin Arborcare climber taking down a Norfolk pine",
+  "file": "site/img/martin-demo-norfolk-pine-climb.jpg",
+  "w": 900,
+  "h": 1200,
+  "kb": 108
+ },
+ {
+  "n": "53",
+  "role": "service",
+  "slug": "bucket-lift-pine",
+  "crop": "",
+  "alt": "Spider lift working a tall pine beside a home",
+  "file": "site/img/martin-demo-bucket-lift-pine.jpg",
+  "w": 902,
+  "h": 1200,
+  "kb": 287
+ },
+ {
+  "n": "66",
+  "role": "service",
+  "slug": "storm-tree-on-cars",
+  "crop": "",
+  "alt": "Storm-felled tree across a driveway after the 2024 hurricanes",
+  "file": "site/img/martin-demo-storm-tree-on-cars.jpg",
+  "w": 1200,
+  "h": 900,
+  "kb": 305
+ },
+ {
+  "n": "17",
+  "role": "service",
+  "slug": "paver-side-walk",
+  "crop": "",
+  "alt": "New gray paver walkway along a home",
+  "file": "site/img/martin-demo-paver-side-walk.jpg",
+  "w": 900,
+  "h": 1200,
+  "kb": 286
+ },
+ {
+  "n": "42",
+  "role": "service",
+  "slug": "artificial-turf-side-yard",
+  "crop": "0,0,1,0.86",
+  "alt": "Artificial turf side yard with a white vinyl fence",
+  "file": "site/img/martin-demo-artificial-turf-side-yard.jpg",
+  "w": 1047,
+  "h": 1200,
+  "kb": 272
+ },
+ {
+  "n": "21",
+  "role": "service",
+  "slug": "night-landscape-lighting",
+  "crop": "",
+  "alt": "Landscape lighting along a curved paver path at night",
+  "file": "site/img/martin-demo-night-landscape-lighting.jpg",
+  "w": 640,
+  "h": 960,
+  "kb": 147
+ },
+ {
+  "n": "129",
+  "role": "gallery",
+  "slug": "waterfront-paver-path",
+  "crop": "",
+  "alt": "Paver path leading to the waterfront",
+  "file": "site/img/martin-demo-waterfront-paver-path.jpg",
+  "w": 1200,
+  "h": 904,
+  "kb": 342
+ },
+ {
+  "n": "127",
+  "role": "gallery",
+  "slug": "paver-courtyard-plants",
+  "crop": "",
+  "alt": "Paver courtyard with tropical plantings",
+  "file": "site/img/martin-demo-paver-courtyard-plants.jpg",
+  "w": 1200,
+  "h": 904,
+  "kb": 369
+ },
+ {
+  "n": "131",
+  "role": "gallery",
+  "slug": "paver-garden-walk",
+  "crop": "",
+  "alt": "Curving paver walk through a planted bed",
+  "file": "site/img/martin-demo-paver-garden-walk.jpg",
+  "w": 1200,
+  "h": 904,
+  "kb": 372
+ },
+ {
+  "n": "120",
+  "role": "gallery",
+  "slug": "paver-driveway",
+  "crop": "",
+  "alt": "New paver driveway",
+  "file": "site/img/martin-demo-paver-driveway.jpg",
+  "w": 904,
+  "h": 1200,
+  "kb": 266
+ },
+ {
+  "n": "16",
+  "role": "gallery",
+  "slug": "paver-patio",
+  "crop": "",
+  "alt": "Paver patio beside a home",
+  "file": "site/img/martin-demo-paver-patio.jpg",
+  "w": 901,
+  "h": 1200,
+  "kb": 229
+ },
+ {
+  "n": "41",
+  "role": "gallery",
+  "slug": "turf-backyard",
+  "crop": "0,0,1,0.86",
+  "alt": "Artificial turf backyard",
+  "file": "site/img/martin-demo-turf-backyard.jpg",
+  "w": 1047,
+  "h": 1200,
+  "kb": 278
+ },
+ {
+  "n": "52",
+  "role": "gallery",
+  "slug": "pine-lift-work",
+  "crop": "",
+  "alt": "Arborist in a lift trimming a pine",
+  "file": "site/img/martin-demo-pine-lift-work.jpg",
+  "w": 900,
+  "h": 1200,
+  "kb": 391
+ },
+ {
+  "n": "80",
+  "role": "gallery",
+  "slug": "storm-damaged-oak",
+  "crop": "",
+  "alt": "Climber working a storm-damaged tree",
+  "file": "site/img/martin-demo-storm-damaged-oak.jpg",
+  "w": 902,
+  "h": 1200,
+  "kb": 305
+ },
+ {
+  "n": "169",
+  "role": "gallery",
+  "slug": "crane-truck-palm",
+  "crop": "",
+  "alt": "Martin Arborcare crane truck next to a tall palm",
+  "file": "site/img/martin-demo-crane-truck-palm.jpg",
+  "w": 900,
+  "h": 1200,
+  "kb": 174
+ },
+ {
+  "n": "37",
+  "role": "gallery",
+  "slug": "skid-steer-oak",
+  "crop": "",
+  "alt": "Skid steer and lift on a large oak job",
+  "file": "site/img/martin-demo-skid-steer-oak.jpg",
+  "w": 900,
+  "h": 1200,
+  "kb": 235
+ },
+ {
+  "n": "199",
+  "role": "about",
+  "slug": "lift-banyan-truck",
+  "crop": "",
+  "alt": "Martin Arborcare lift and truck working a large banyan",
+  "file": "site/img/martin-demo-lift-banyan-truck.jpg",
+  "w": 900,
+  "h": 1200,
+  "kb": 392
+ }
+]

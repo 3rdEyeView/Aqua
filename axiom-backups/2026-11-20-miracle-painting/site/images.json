@@ -1,0 +1,87 @@
+{
+ "hero-tan-stucco-home": [
+  1360,
+  1020,
+  279
+ ],
+ "exterior-bungalow": [
+  1360,
+  1020,
+  420
+ ],
+ "interior-navy-room": [
+  765,
+  1020,
+  64
+ ],
+ "commercial-building": [
+  1360,
+  1020,
+  223
+ ],
+ "commercial-stucco-frontage": [
+  860,
+  1020,
+  157
+ ],
+ "deck-pavilion": [
+  765,
+  1020,
+  199
+ ],
+ "deck-stained": [
+  765,
+  1020,
+  190
+ ],
+ "arched-iron-door": [
+  765,
+  1020,
+  133
+ ],
+ "teal-coastal-home": [
+  828,
+  972,
+  186
+ ],
+ "sage-ranch-metal-roof": [
+  1360,
+  1020,
+  411
+ ],
+ "white-ranch-clouds": [
+  1360,
+  1020,
+  366
+ ],
+ "ba1-before": [
+  574,
+  456,
+  52
+ ],
+ "ba1-after": [
+  574,
+  452,
+  53
+ ],
+ "ba2-before": [
+  574,
+  524,
+  46
+ ],
+ "ba2-after": [
+  574,
+  384,
+  48
+ ],
+ "ba3-before": [
+  481,
+  462,
+  47
+ ],
+ "ba3-after": [
+  481,
+  522,
+  49
+ ]
+}

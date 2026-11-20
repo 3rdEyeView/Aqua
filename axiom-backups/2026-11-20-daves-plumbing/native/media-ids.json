@@ -1,0 +1,30 @@
+{
+ "daves-demo-drain-machine.jpg": {
+  "id": 2130,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/daves-demo-drain-machine.jpg",
+  "w": 765,
+  "h": 1020,
+  "sizes": [
+   "full",
+   "medium",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "daves-demo-water-heater-install.jpg": {
+  "id": 2131,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/daves-demo-water-heater-install.jpg",
+  "w": 766,
+  "h": 1020,
+  "sizes": [
+   "full",
+   "medium",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ }
+}

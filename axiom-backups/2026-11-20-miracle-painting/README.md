@@ -1,5 +1,26 @@
-# Miracle Painting LLC — website demo, rough draft 1 (2026-11-20) — local only, NOT published
+# Miracle Painting LLC — website demo (2026-11-20) — https://axiomsystems.systems/miracle-painting-demo/
 
+**Published 2026-11-20 on the user's go-ahead.** Page **2118** "Miracle Painting — Website Concept": Elementor Canvas, title hidden,
+Yoast noindex + nofollow, slug `miracle-painting-demo`, not linked from any menu (same as the other demos).
+Rollback: set page 2118 back to draft (and unpublish snippet 2120 if wanted).
+
+## Live build (native Elementor V4, same pipeline as Martin Arborcare)
+- **Media 2101–2117**: the 17 `site/img/` photos, names `miracle-demo-*` (`native/upload.py`, `native/alts.json`, ids in `native/media-ids.json`).
+- **Generator**: `python3 -I native/gen.py` -> `native/ALL.json`; `python3 -I native/build.py` (one replace call into 2118).
+  Reuses the Branham build helpers. The gallery is 9 tiles in a 3x3 grid, three before/after pairs, a "How it works" section instead of reviews.
+  If you rebuild and the CSS looks stale, check `native/csscheck.sh <url>` and build into a new draft (`MP_PID=<id>`, update `$pid` in the snippet).
+- **Snippet 2120** "Axiom Demo – Miracle Painting Page Enhancements" (`snippet/main.php`), published, read back identical, scoped to page 2118
+  only (`is_page(2118)` + its previews; nothing output on the home page). Adds the demo estimate form (no `<form>`, no field names, no requests),
+  service-card preselect (#q-1..6 -> Exterior / Interior / Commercial / Stucco-coastal / Decks / Doors), heading accents, header colour,
+  the `overflow-x: clip` sticky fix and the phone bar (hidden over the hero buttons, at the form and while chat is open).
+- Draft preview (signed link) passed 57/60 (the 3 were noindex, not yet set); **live, logged out: 60 passed, 0 failed**
+  (`preview/verify-live-log.txt`; desktop 1440, iPhone 13, Pixel 7). CSS file matches the page (198/198). Screenshots in `preview/`.
+- Footer and ribbon state it is a concept by Axiom Systems, that the phone is a placeholder and that the form sends nothing.
+
+## Still placeholders (live page too): phone (727) 555-0100, services/descriptions, service-area towns, no logo, no reviews. Replace
+once the owner's real details are known. See the list below.
+
+## Local draft (what the live page was ported from)
 Deliverable: **`miracle-painting-demo.html`** (one self-contained file, 6.2 MB, opens offline, makes no network requests).
 Source in `site/` (`index.html`, `img/`, `fonts/`); `python3 -I build.py` inlines it; `node check.js` runs desktop 1440 + iPhone 13
 checks (all pass: no horizontal scroll, 24 images / 0 broken / alt on all, fonts, empty submit → 4 errors, sample → confirmation,
@@ -32,5 +53,4 @@ Added `upload.higgsfield.ai` and `d2ol7oe51mr4n9.cloudfront.net` to the **Cyrus*
 not run. Remove them if unwanted.
 
 ## Next
-1. Get real contact details/reviews from the owner (or their Facebook/website) and the rest of their full-size photos.
-2. On go-ahead: native Elementor port at `/miracle-painting-demo/` (noindex, Canvas), same pipeline as Martin Arborcare (`../2026-11-14-martin-arborcare/native/`).
+Get real contact details/reviews from the owner (or their Facebook/website) and more full-size photos, then update `native/gen.py` + the snippet and rebuild.

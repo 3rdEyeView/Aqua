@@ -1,7 +1,7 @@
 <?php
 /**
  * Axiom Demo – Dave's Plumbing Page Enhancements
- * Page 2146 only: is_page(2146), its WordPress/Elementor previews, and signed Elementor preview links for post 2146.
+ * Page 2164 only: is_page(2164), its WordPress/Elementor previews, and signed Elementor preview links for post 2164.
  * It outputs nothing on any other page.
  * The page is native Elementor V4; this adds:
  *  - the demo estimate form in #dp-form: name, phone, service, ZIP, optional details. DEMO MODE: it runs entirely in the
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Closures only (no named functions/constants), so the file can be re-validated while the live copy is loaded.
 $axiom_ma_applies = static function () {
-	$pid = 2146;
+	$pid = 2164;
 	if ( is_admin() || is_feed() || is_embed() || wp_doing_ajax() || ( defined( 'REST_REQUEST' ) && REST_REQUEST ) ) {
 		return false;
 	}
@@ -50,9 +50,9 @@ add_action(
 /* the site sets overflow-x:hidden on html/body, which turns body into a scroll container and breaks the sticky header */
 html:not(#dp-x),body:not(#dp-x){overflow-x:clip!important;overflow-y:visible!important}
 #hero h1 em,#estimate h2 em{font-style:normal;color:#35c3e8}
-#services h2 em,#work h2 em,#process h2 em,#about h2 em{font-style:normal;color:#0b6b8a}
+#services h2 em,#showcase h2 em,#work h2 em,#process h2 em,#about h2 em{font-style:normal;color:#0b6b8a}
 #hero b{color:#35c3e8;font-weight:700}
-#services strong,#process strong,#about strong{color:#12202e}
+#services strong,#showcase strong,#process strong,#about strong{color:#12202e}
 #estimate strong,footer strong{color:#ffffff}
 #top a[href^="tel:"]{white-space:nowrap}
 #dp-ribbon strong{color:#35c3e8}

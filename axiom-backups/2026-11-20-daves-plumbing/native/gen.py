@@ -1,4 +1,4 @@
-"""Elementor V4 build payloads for the Dave's Plumbing demo (axiomsystems.systems page 2146).
+"""Elementor V4 build payloads for the Dave's Plumbing demo (axiomsystems.systems page 2164).
 Native port of the approved local draft (../site/index.html): same copy, palette, photos and sections.
 The page snippet (../snippet/main.php) adds the demo estimate form (#dp-form), service preselect, heading accents,
 the header colour, the sticky fix and the phone bar logic.
@@ -63,7 +63,7 @@ def HEAD(cid, eb, title, lede=None, dark=False, right=None):
 # ---------- ribbon + header ----------
 def ribbon():
     T = f"font-family: {BODY}; font-size: 0.82rem; line-height: 1.35; color: #c4d7ea; text-align: center;"
-    return FX("rb", [P("rb-t", "<strong>Website concept by Axiom Systems</strong>, prepared for Dave’s Plumbing and Mechanical LLC. Not their live site; phone, license number and service area are theirs, photos are from their online listing.", T + " @media(--mobile) { display: none; }"),
+    return FX("rb", [P("rb-t", "<strong>Website concept by Axiom Systems</strong>, prepared for Dave’s Plumbing and Mechanical LLC. Not their live site; phone, license and service area are theirs. Two photos are theirs; other images are AI-generated illustrations.", T + " @media(--mobile) { display: none; }"),
                      P("rb-m", "<strong>Website concept by Axiom Systems.</strong> Not Dave’s Plumbing’s live site.", T + " display: none; font-size: 0.76rem; @media(--mobile) { display: block; }")],
               f"width: 100%; justify-content: center; background-color: {DEEP}; padding-block-start: 8px; padding-block-end: 8px; padding-inline-start: 16px; padding-inline-end: 16px;", _cssid="dp-ribbon")
 
@@ -106,7 +106,8 @@ def hero():
               f"position: absolute; inset-inline-start: 0px; inset-block-end: 6%; z-index: 3; width: auto; flex-direction: column; gap: 2px; background-color: {LEAF}; border-radius: 12px; padding-block-start: 12px; padding-block-end: 12px; padding-inline-start: 16px; padding-inline-end: 16px; box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.3);")
     collage = DV("hr-col", [c1, c2, badge], "position: relative; width: 100%; max-width: 460px; aspect-ratio: 1 / 1.12; margin-inline-start: auto; margin-inline-end: auto; @media(--tablet) { max-width: 420px; }")
     g = GR("hr-g", [copy, collage], WRAP + " position: relative; z-index: 2; grid-template-columns: minmax(0,1.1fr) minmax(0,0.9fr); grid-template-rows: auto; gap: 3rem; align-items: center; padding-block-start: 5.25rem; padding-block-end: 4.5rem; @media(--tablet) { grid-template-columns: minmax(0,1fr); grid-template-rows: auto auto; gap: 2.25rem; padding-block-start: 3.25rem; padding-block-end: 3rem; }")
-    n = FX("hr", [g], f"position: relative; width: 100%; overflow: hidden; flex-direction: column; background-color: {FOREST}; background-image: linear-gradient(165deg, #12507f 0%, #0b2a4a 45%, #06182b 100%);", tag="section")
+    shade = DV("hr-sh", [], "position: absolute; inset: 0px; z-index: 1; background-image: linear-gradient(100deg, rgba(4,22,40,0.94) 0%, rgba(6,32,58,0.86) 55%, rgba(6,32,58,0.7) 100%); @media(--tablet) { background-image: linear-gradient(180deg, rgba(4,22,40,0.9) 0%, rgba(4,22,40,0.88) 100%); }")
+    n = FX("hr", [IMG("hr-bg", "hero-copper-manifold", FILL + " object-position: 50% 50%; z-index: 0;"), shade, g], f"position: relative; width: 100%; overflow: hidden; flex-direction: column; background-color: {FOREST};", tag="section")
     n.cfg["_cssid"] = "hero"; return n
 
 # ---------- services (icon cards; the icons are drawn by the page snippet on #ic-1..6) ----------
@@ -129,6 +130,22 @@ def services():
     also = P("sv-also", "<strong>Also ask about:</strong> new construction rough-ins · remodels · water pressure problems · gas and mechanical work.", f"font-family: {BODY}; font-size: 1rem; color: {MUTED}; margin-block-start: 1.75rem;")
     return SEC("sv", "services", [HEAD("sv-hd", "What we do", "Plumbing and mechanical, <em>handled</em>", "From a clogged drain to a full water heater install, one licensed team across Sarasota and Manatee counties."), g, also])
 
+# ---------- showcase (generated, illustrative images) ----------
+SHOW = [("gen-bathroom-tub", "Bathroom fixtures", "50% 50%", "grid-column: 1; grid-row: 1 / span 2;"), ("gen-tankless-heater", "Tankless water heaters", "50% 30%", "grid-column: 2; grid-row: 1;"),
+        ("gen-under-sink", "Under-sink repairs", "50% 50%", "grid-column: 3; grid-row: 1;"), ("gen-pipe-wrench-hands", "Copper &amp; brass fittings", "50% 50%", "grid-column: 2; grid-row: 2;"),
+        ("gen-florida-home-hose-bib", "Outdoor &amp; irrigation lines", "50% 50%", "grid-column: 3; grid-row: 2;")]
+def showcase():
+    tiles = []
+    for i, (slug, cap, pos, place) in enumerate(SHOW):
+        tablet = " @media(--tablet) { grid-column: auto; grid-row: auto; aspect-ratio: 4 / 3; }" if i else " @media(--tablet) { grid-column: span 2; grid-row: auto; aspect-ratio: 16 / 10; }"
+        tiles.append(DV(f"sh{i}", [IMG(f"sh{i}-i", slug, FILL + f" object-position: {pos}; transition: transform 0.4s; &:hover {{ transform: scale(1.04); }}", size="large"),
+                                   P(f"sh{i}-t", "Illustrative image", f"position: absolute; inset-block-start: 10px; inset-inline-start: 10px; font-family: {BODY}; font-weight: 600; font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: #ffffff; background-color: rgba(4,22,40,0.7); border-radius: 999px; padding-block-start: 5px; padding-block-end: 5px; padding-inline-start: 10px; padding-inline-end: 10px;", tag="span"),
+                                   P(f"sh{i}-c", cap, f"position: absolute; inset-inline-start: 0px; inset-inline-end: 0px; inset-block-end: 0px; padding-block-start: 2rem; padding-block-end: 0.8rem; padding-inline-start: 0.95rem; padding-inline-end: 0.95rem; font-family: {BODY}; font-weight: 600; font-size: 0.95rem; line-height: 1.25; color: {ONDARK}; background-image: linear-gradient(180deg, rgba(4,22,40,0) 0%, rgba(4,22,40,0.85) 100%);")],
+                        f"position: relative; overflow: hidden; border-radius: 14px; min-height: 240px; background-color: #e1eaf2; {place}{tablet}"))
+    g = GR("sh-g", tiles, "grid-template-columns: repeat(3, minmax(0,1fr)); grid-template-rows: repeat(2, minmax(260px, auto)); gap: 1rem; @media(--tablet) { grid-template-columns: repeat(2, minmax(0,1fr)); grid-template-rows: auto; } @media(--mobile) { grid-template-columns: minmax(0,1fr); gap: 0.7rem; }")
+    note = P("sh-note", "Illustrative images of the kinds of work we handle; they are not photos of specific jobs. See Recent work below for jobs from the field.", f"font-family: {BODY}; font-size: 0.92rem; color: {MUTED}; margin-block-start: 1rem;")
+    return SEC("sh", "showcase", [HEAD("sh-hd", "Plumbing, start to finish", "From the water heater <em>to the faucet</em>", "The fixtures, fittings and systems we install, repair and replace every day."), g, note], f"background-color: {PAPER};")
+
 # ---------- recent work (two photos) ----------
 WORK = [("water-heater-install", "Water heater install", "Shelf-mounted tank with recirculation pump and expansion tank"),
         ("drain-machine", "Drain cleaning", "Clearing a stubborn floor drain with a power drain machine")]
@@ -137,7 +154,7 @@ def work():
                           FX(f"wk{i}-cp", [P(f"wk{i}-t", t, f"font-family: {BODY}; font-weight: 600; font-size: 1.05rem; color: {FOREST};"), P(f"wk{i}-s", s, f"font-family: {BODY}; font-size: 0.95rem; color: {MUTED};")], "flex-direction: column; gap: 2px; padding: 1rem 1.25rem;")],
                f"flex-direction: column; background-color: {PAPER}; border-radius: 14px; overflow: hidden; {SHADOW} min-width: 0px;") for i, (slug, t, s) in enumerate(WORK)]
     g = GR("wk-g", figs, "grid-template-columns: repeat(2, minmax(0,1fr)); grid-template-rows: auto; gap: 1.4rem; @media(--mobile) { grid-template-columns: minmax(0,1fr); grid-template-rows: auto auto; }")
-    return SEC("wk", "work", [HEAD("wk-hd", "Recent work", "Clean installs, <em>clear explanations</em>", right=BTN("wk-b", "Start your project", EST)), g], f"background-color: {PAPER};")
+    return SEC("wk", "work", [HEAD("wk-hd", "Recent work", "Clean installs, <em>clear explanations</em>", right=BTN("wk-b", "Start your project", EST)), g])
 
 # ---------- how it works ----------
 STEPS = [("Call or request", "Tell us what is going on and we will set up a time that works."),
@@ -148,17 +165,17 @@ def process():
     cards = [FX(f"pr{i}", [P(f"pr{i}-n", f"0{i + 1}", f"font-family: {DISP}; font-weight: 700; font-size: 2.5rem; line-height: 1; color: {FOREST2};"),
                            P(f"pr{i}-t", t, f"font-family: {DISP}; font-weight: 700; font-size: 1.5rem; line-height: 1.1; color: {FOREST};"),
                            P(f"pr{i}-d", d, f"font-family: {BODY}; font-size: 0.98rem; line-height: 1.55; color: {MUTED};")],
-                f"flex-direction: column; gap: 0.5rem; padding: 1.5rem 1.4rem; background-color: {PAPER}; border-radius: 14px; border-width: 5px 0px 0px 0px; border-style: solid; border-color: {LEAF}; min-width: 0px;")
+                f"flex-direction: column; gap: 0.5rem; padding: 1.5rem 1.4rem; background-color: {CREAM}; border-radius: 14px; border-width: 5px 0px 0px 0px; border-style: solid; border-color: {LEAF}; min-width: 0px;")
              for i, (t, d) in enumerate(STEPS)]
     g = GR("pr-g", cards, "grid-template-columns: repeat(4, minmax(0,1fr)); grid-template-rows: auto; gap: 1.1rem; @media(--tablet) { grid-template-columns: repeat(2, minmax(0,1fr)); grid-template-rows: auto auto; } @media(--mobile) { grid-template-columns: minmax(0,1fr); grid-template-rows: repeat(4, auto); }")
-    return SEC("pr", "process", [HEAD("pr-hd", "How it works", "Simple from <em>call to cleanup</em>"), g])
+    return SEC("pr", "process", [HEAD("pr-hd", "How it works", "Simple from <em>call to cleanup</em>"), g], f"background-color: {PAPER};")
 
 # ---------- about ----------
 CREDS = [("Master Plumber", "License # CFC1434195"), ("Venice, FL", "Locally based"), ("Residential &amp; Commercial", "Plumbing and mechanical"), ("Call or Text", PHONE)]
 def about():
     creds = GR("ab-cr", [FX(f"ab-c{i}", [P(f"ab-c{i}-b", b, f"font-family: {DISP}; font-weight: 700; font-size: 1.45rem; line-height: 1.1; color: {FOREST};"),
                                          P(f"ab-c{i}-s", s, f"font-family: {BODY}; font-size: 0.9rem; color: {MUTED};")],
-                            f"flex-direction: column; gap: 0.2rem; padding-block-start: 1rem; padding-block-end: 1rem; padding-inline-start: 1.1rem; padding-inline-end: 1.1rem; background-color: {CREAM}; border-width: 1px; border-style: solid; border-color: {LINE}; border-radius: 12px; min-width: 0px;")
+                            f"flex-direction: column; gap: 0.2rem; padding-block-start: 1rem; padding-block-end: 1rem; padding-inline-start: 1.1rem; padding-inline-end: 1.1rem; background-color: {PAPER}; border-width: 1px; border-style: solid; border-color: {LINE}; border-radius: 12px; min-width: 0px;")
                          for i, (b, s) in enumerate(CREDS)],
                  "grid-template-columns: repeat(4, minmax(0,1fr)); grid-template-rows: auto; gap: 0.85rem; margin-block-start: 1.6rem; @media(--tablet) { grid-template-columns: repeat(2, minmax(0,1fr)); grid-template-rows: auto auto; } @media(--mobile) { grid-template-columns: minmax(0,1fr); grid-template-rows: repeat(4, auto); }")
     copy = FX("ab-copy", [P("ab-eb", "About us", EB), H("ab-h", "A licensed local plumber <em>you can call</em>", "h2", H2),
@@ -166,7 +183,7 @@ def about():
                           creds,
                           P("ab-area", "<strong>Service area:</strong> Venice · Sarasota · Bradenton · Englewood · North Port · Osprey · Nokomis · surrounding areas", f"font-family: {BODY}; font-size: 0.95rem; line-height: 1.6; color: {MUTED}; margin-block-start: 1.5rem;")],
               "flex-direction: column; gap: 0.75rem; min-width: 0px;")
-    return SEC("ab", "about", [copy], f"background-color: {PAPER};")
+    return SEC("ab", "about", [copy])
 
 # ---------- estimate (form mount #dp-form, rendered by the snippet) ----------
 def estimate():
@@ -194,7 +211,7 @@ def footer():
     row = FX("fo-r", [P("fo-a", "<strong>Dave’s Plumbing and Mechanical LLC</strong> · Master Plumber License # CFC1434195 · Venice, FL", T),
                       FX("fo-l", [P("fo-tel", PHONE, LK, link=L(TEL))], "width: auto; gap: 1.2rem; flex-wrap: wrap;")],
              "flex-wrap: wrap; gap: 1.25rem; justify-content: space-between; align-items: center;")
-    fine = P("fo-fine", "<strong>Demo notice.</strong> This page is a website concept prepared by Axiom Systems for Dave’s Plumbing and Mechanical LLC and is not their official site. The phone number, license number and service area were supplied by the business; services and descriptions are illustrative, and the photographs are from their online listing. The estimate form is a demonstration and sends nothing.",
+    fine = P("fo-fine", "<strong>Demo notice.</strong> This page is a website concept prepared by Axiom Systems for Dave’s Plumbing and Mechanical LLC and is not their official site. The phone number, license number and service area were supplied by the business; services and descriptions are illustrative. The two photos under Recent work are from their online listing; the other images are AI-generated illustrations and do not show specific jobs. The estimate form is a demonstration and sends nothing.",
              T + " font-size: 0.8rem; max-width: 110ch; margin-block-start: 1.5rem; padding-block-start: 1.25rem; border-width: 1px 0px 0px 0px; border-style: solid; border-color: rgba(255,255,255,0.14);")
     return FX("fo", [FX("fo-w", [row, fine], WRAP + " flex-direction: column;")],
               f"width: 100%; background-color: {DEEP}; padding-block-start: 2.75rem; padding-block-end: 2.5rem; flex-direction: column; @media(--tablet) {{ padding-block-end: 6.5rem; }}", tag="footer")
@@ -205,7 +222,7 @@ def mobilebar():
                      BTN("mb-q", "Request Service", EST, css="flex: 1.5 1 0px; min-height: 50px; padding-inline-start: 0.6rem; padding-inline-end: 0.6rem; font-size: 0.95rem;")],
               f"display: none; position: fixed; width: auto; inset-inline-start: 0px; inset-inline-end: 84px; inset-block-end: 0px; z-index: 100000000; flex-direction: row; gap: 8px; padding: 8px; background-color: rgba(6,24,43,0.96); backdrop-filter: blur(10px); border-radius: 0px 14px 0px 0px; @media(--tablet) {{ display: flex; }}", tag="nav", _cssid="dp-bar")
 
-SECTIONS = [ribbon, header, hero, services, work, process, about, estimate, footer, mobilebar]
+SECTIONS = [ribbon, header, hero, services, showcase, work, process, about, estimate, footer, mobilebar]
 if __name__ == "__main__":
     kids = [f() for f in SECTIONS]
     root = N("e-flexbox", "dp", None, f"padding: 0px; width: 100%; max-width: 100%; flex-direction: column; gap: 0px; background-color: {CREAM}; color: {INK}; font-family: {BODY};", kids)

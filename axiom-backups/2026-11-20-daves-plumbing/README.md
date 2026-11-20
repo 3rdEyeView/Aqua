@@ -1,12 +1,12 @@
 # Dave's Plumbing and Mechanical LLC — website demo (2026-11-20) — https://axiomsystems.systems/daves-plumbing-demo/
 
-**Published 2026-11-20 on the user's go-ahead** (to send as a demo). Page **2146** "Dave's Plumbing and Mechanical — Website Concept":
+**Published 2026-11-20 on the user's go-ahead** (to send as a demo). Page **2164** (v2; v1 was 2146, now trashed) "Dave's Plumbing and Mechanical — Website Concept":
 Elementor Canvas, title hidden, Yoast noindex + nofollow, slug `daves-plumbing-demo`, not linked from any menu.
-Rollback: set page 2146 to draft (and unpublish snippet 2134 if wanted).
+Rollback: set page 2164 to draft (and unpublish snippet 2134 if wanted).
 
 ## Live build (native Elementor V4, Miracle Painting pipeline)
 - **Media 2130-2131** (`daves-demo-*`), `native/upload.py`, ids in `native/media-ids.json`. Generator `python3 -I native/gen.py`, build `python3 -I native/build.py`.
-- **Snippet 2134** "Axiom Demo – Dave's Plumbing Page Enhancements" (`snippet/main.php`), read back identical, scoped to page 2146 only. Adds the demo
+- **Snippet 2134** "Axiom Demo – Dave's Plumbing Page Enhancements" (`snippet/main.php`), read back identical, scoped to page 2164 only. Adds the demo
   form (no `<form>`, no requests), service preselect (#q-1..6), the six service icons (drawn as CSS backgrounds on #ic-1..6), accents, header colour,
   sticky fix, phone bar.
 - **Stale-CSS gotcha hit again**: the first build (page 2132) was fine, but a rebuild of the same page left its V4 stylesheet stale (0/141 classes).
@@ -15,7 +15,18 @@ Rollback: set page 2146 to draft (and unpublish snippet 2134 if wanted).
 - Draft preview 57/60 (3 = noindex not yet set); **live, logged out: 60 passed, 0 failed** (`preview/verify-live-log.txt`; desktop, iPhone 13, Pixel 7).
   CSS file matches the page (142/142).
 
-## Local draft (what the live page was ported from)
+## v2 (same day): hero photo + illustrative gallery
+The user asked for more images. Not scraped from other plumbers' sites (copyright and passing off other people's work as Dave's).
+Openverse CC pool was weak (1024 px Flickr, third-party branding), so **6 images were generated with Higgsfield `gpt_image_2_6`** (high, 2k; ~2.75 credits each,
+`originals/generated/g0-g5.jpg`): copper manifold (hero background, with a navy overlay), bathroom tub, tankless heater, under-sink, gloved hands on a pipe wrench,
+Florida home with hose bib. No people's faces, no brand names or text. On the page: hero background + a "Plumbing, start to finish" gallery, each tile tagged
+**"Illustrative image"**, a note under it, and the ribbon/footer say the other images are AI-generated. The two real photos stay under "Recent work".
+Media 2158-2163. Page 2164 built fresh (stale-CSS gotcha); old pages 2132 and 2146 are in the trash.
+**Page cache:** the host caches the page HTML (Kinsta/Cloudflare, `s-maxage` 24 h). A snippet-only fix after publishing (italic accent in the new section's heading)
+reached the origin but the plain URL kept serving the older cached HTML; `?x=` URLs show the fix. Purge the site cache in the host dashboard to show it immediately
+(PHP execution via the MCP is denied, so it could not be purged from here).
+
+## Local draft (older than the live page: it has no hero photo or gallery)
 Deliverable: **`daves-plumbing-demo.html`** (one self-contained file, 0.8 MB, opens offline, no network requests). Source in `site/`;
 `python3 -I build.py` inlines it; `node check.js` runs desktop 1440 + iPhone 13 checks (all pass). Screenshots in `shots/`.
 Built from the Miracle Painting template (`../2026-11-20-miracle-painting/`), recoloured deep blue + aqua, same fonts.
@@ -37,7 +48,7 @@ Services and descriptions, "How it works" steps, the owner name (none used), no 
 Wording about emergency/same-day service is deliberately absent. Logo: a CSS "D" monogram.
 
 ## Environment changes this session (Cyrus allowlist)
-Added `upload.higgsfield.ai`, `d2ol7oe51mr4n9.cloudfront.net` (Higgsfield upscale test, not run) and `www.instagram.com` (reachable now but unusable). Remove if unwanted.
+Added `upload.higgsfield.ai`, `d2ol7oe51mr4n9.cloudfront.net` (Higgsfield upload/upscale test, not run), `d8j0ntlcm91z4.cloudfront.net` (Higgsfield result downloads) and `www.instagram.com` (reachable, but Instagram rate-limits automated clients). Remove if unwanted.
 
 ## Next
 Get full-size photos (esp. the owner and a wide job shot) and confirm services/service-area towns, then rebuild into a NEW draft page (see gotcha above) and swap the slug.

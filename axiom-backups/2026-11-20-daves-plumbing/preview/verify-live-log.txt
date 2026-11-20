@@ -2,7 +2,7 @@ PASS desktop: no horizontal scroll
 PASS desktop: robots "noindex, nofollow"
 PASS desktop: snippet CSS/JS + form present
 PASS desktop: anchors present 
-PASS desktop: 4 images, broken: 0
+PASS desktop: 10 images, broken: 0
 PASS desktop: alt on all
 PASS desktop: Barlow Condensed + Figtree loaded
 PASS desktop: hero accent rgb(53, 195, 232)
@@ -20,7 +20,7 @@ PASS iphone13: no horizontal scroll
 PASS iphone13: robots "noindex, nofollow"
 PASS iphone13: snippet CSS/JS + form present
 PASS iphone13: anchors present 
-PASS iphone13: 4 images, broken: 0
+PASS iphone13: 10 images, broken: 0
 PASS iphone13: alt on all
 PASS iphone13: Barlow Condensed + Figtree loaded
 PASS iphone13: hero accent rgb(53, 195, 232)
@@ -41,7 +41,7 @@ PASS pixel7: no horizontal scroll
 PASS pixel7: robots "noindex, nofollow"
 PASS pixel7: snippet CSS/JS + form present
 PASS pixel7: anchors present 
-PASS pixel7: 4 images, broken: 0
+PASS pixel7: 10 images, broken: 0
 PASS pixel7: alt on all
 PASS pixel7: Barlow Condensed + Figtree loaded
 PASS pixel7: hero accent rgb(53, 195, 232)

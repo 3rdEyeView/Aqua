@@ -26,5 +26,102 @@
    "woocommerce_single",
    "woocommerce_thumbnail"
   ]
+ },
+ "daves-demo-gen-bathroom-tub.jpg": {
+  "id": 2158,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/daves-demo-gen-bathroom-tub.jpg",
+  "w": 960,
+  "h": 1200,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "daves-demo-gen-florida-home-hose-bib.jpg": {
+  "id": 2159,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/daves-demo-gen-florida-home-hose-bib.jpg",
+  "w": 1200,
+  "h": 797,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "daves-demo-gen-pipe-wrench-hands.jpg": {
+  "id": 2160,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/daves-demo-gen-pipe-wrench-hands.jpg",
+  "w": 1200,
+  "h": 797,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "daves-demo-gen-tankless-heater.jpg": {
+  "id": 2161,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/daves-demo-gen-tankless-heater.jpg",
+  "w": 960,
+  "h": 1200,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "daves-demo-gen-under-sink.jpg": {
+  "id": 2162,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/daves-demo-gen-under-sink.jpg",
+  "w": 960,
+  "h": 1200,
+  "sizes": [
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
+ },
+ "daves-demo-hero-copper-manifold.jpg": {
+  "id": 2163,
+  "url": "https://axiomsystems.systems/wp-content/uploads/2026/11/daves-demo-hero-copper-manifold.jpg",
+  "w": 2000,
+  "h": 1131,
+  "sizes": [
+   "1536x1536",
+   "full",
+   "large",
+   "medium",
+   "medium_large",
+   "thumbnail",
+   "woocommerce_gallery_thumbnail",
+   "woocommerce_single",
+   "woocommerce_thumbnail"
+  ]
  }
 }
